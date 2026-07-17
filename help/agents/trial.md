@@ -40,9 +40,9 @@ L’éligibilité du client pour la version d’essai est entièrement à la dis
 Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits d’IA à utiliser pour :
 
 - Conversation avec un collègue : entrées saisies dans la conversation avec un collègue. Pendant une période d’introduction limitée, les entrées consomment des crédits AI à un taux de 25 crédits AI par entrée. Ce tarif est disponible pour une durée limitée uniquement et peut faire l’objet de modifications.
-- Agents Experience Platform : toute combinaison de tâches effectuées à l’aide des agents Experience Platform (en fonction de votre ou vos licences existantes pour les applications d’entreprise CX) répertoriée dans le [Tableau de consommation du crédit d’AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Agents Experience Platform : toute combinaison de tâches effectuées à l’aide des agents Experience Platform (en fonction de votre ou vos licences existantes pour les applications d’entreprise CX) répertoriée dans le [Tableau de consommation du crédit d’AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
 
 Le tableau de bord de surveillance d’Agentic AI vous donne une visibilité claire sur la manière dont l’IA dédiée aux agences est adoptée et utilisée dans votre organisation. Les utilisateurs autorisés peuvent facilement suivre l’engagement, recueillir des commentaires, surveiller l’utilisation du crédit de l’IA et examiner les mesures clés. Utilisez ces informations pour découvrir des opportunités d’optimisation et soutenir vos efforts de gouvernance et d’adoption. Pour en savoir plus, consultez le [Guide de surveillance de l’utilisation de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/monitoring).
 
@@ -102,7 +102,7 @@ L’évaluation est actuellement déployée par phases auprès de certains clien
 
 ### Combien de crédits AI-je et qu’advient-il lorsque ces crédits AI sont utilisés ?
 
-Les clients éligibles reçoivent jusqu’à 10 000 crédits d’IA pour l’évaluation, qui sont consommés lorsque le chat des collègues (ou les agents Experience Platform) exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Les clients éligibles reçoivent jusqu’à 10 000 crédits d’IA pour l’évaluation, qui sont consommés lorsque le chat des collègues (ou les agents Experience Platform) exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Est-ce que ça coûte quelque chose ?
 
@@ -110,7 +110,7 @@ Cette version d’évaluation ne nécessite aucun achat supplémentaire. Il n’
 
 ### Qui peut voir l’utilisation et comment ?
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage). Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
 
 Les clients gardent le contrôle sur qui peut voir l’utilisation et les rapports. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent voir ces informations.
 
