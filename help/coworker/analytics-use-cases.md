@@ -2,9 +2,9 @@
 title: Exécution d’une analyse des données Customer Journey Analytics avec un collègue
 description: Découvrez comment effectuer une analyse des données Customer Journey Analytics avec Coworker.
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1865'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 5%
 >
 >La fonctionnalité décrite dans cet article se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication de Customer Journey Analytics, consultez [Versions des fonctionnalités de Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/releases/latest).
 
-Le Module de conversation des collaborateurs de l’entreprise Adobe CX peut effectuer une analyse avancée des données, auparavant uniquement possible dans Analysis Workspace. Le chat avec collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
+Le Module de conversation des collaborateurs de l’entreprise Adobe CX peut effectuer une analyse avancée des données, auparavant uniquement possible dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
 
-Avant de commencer votre analyse, accédez au chat de Coworker en vous connectant à votre compte CX Enterprise, puis assurez-vous que le serveur Customer Journey Analytics MCP est connecté.
+Avant de commencer votre analyse, accédez au Module de conversation des collaborateurs en vous connectant à votre compte CX Enterprise, puis assurez-vous que le serveur Customer Journey Analytics MCP est connecté.
 
 ## Accéder au chat des collègues
 
@@ -25,29 +25,25 @@ Avant de commencer votre analyse, accédez au chat de Coworker en vous connectan
 
 1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com?lang=fr) à l’aide de vos informations d’identification Adobe ID.
 
-1. Alors quoi ?
+1. Sélectionnez [!UICONTROL **Coworker**] dans le sélecteur de produits CX Enterprise. <!--not sure what this step should say-->
 
-## Connexion au serveur MCP Customer Journey Analytics
+1. Dans Coworker, vérifiez que Coworker est connecté à Customer Journey Analytics :
 
-1. Dans Collègue, sélectionnez l’icône MCP dans le rail de gauche.
+   1. Sélectionnez l’icône MCP dans le rail de gauche, puis assurez-vous que [!UICONTROL **cja-mcp**] est disponible dans la liste des serveurs MCP connectés.
 
-   ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-mcp.png)
+      ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. Assurez-vous que [!UICONTROL **cja-mcp**] est disponible dans la liste des serveurs MCP connectés.
-
-   ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. (Conditionnel) Si [!UICONTROL **cja-mcp**] n’est pas encore connecté, sélectionnez [!UICONTROL **Ajouter le serveur MCP**], spécifiez cja dans le champ [!UICONTROL **Nom du serveur**] et sélectionnez-le lorsqu’il apparaît, puis sélectionnez [!UICONTROL **Ajouter le serveur**].
+   1. (Conditionnel) Si [!UICONTROL **cja-mcp**] n’est pas encore connecté, sélectionnez [!UICONTROL **Ajouter le serveur MCP**], spécifiez cja dans le champ [!UICONTROL **Nom du serveur**] et sélectionnez-le lorsqu’il apparaît, puis sélectionnez [!UICONTROL **Ajouter le serveur**].
 
 ## Se connecter à la vue de données appropriée
-
-<!--I did this. Do users need to?-->
 
 Une vue de données est un conteneur dans Customer Journey Analytics qui détermine la manière dont les données sont interprétées.
 
 Vous pouvez avoir accès à différentes vues de données dans Customer Journey Analytics, chacune contenant des dimensions et des mesures différentes que Coworker peut utiliser lors de l’analyse des données.
 
-Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui quelles vues de données auxquelles vous avez accès seraient les mieux placées pour fournir ces informations.
+### Choix des vues de données à utiliser
+
+Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui quelles vues de données auxquelles vous avez accès seraient les mieux placées pour fournir ces informations. Vous pouvez également [définir votre vue de données comme préférence en mémoire](#add-a-data-view-preference-in-memory).
 
 **Vous:**
 
@@ -80,6 +76,16 @@ Très bien, utilisons cette vue de données.
 D’accord, j’utiliserai la vue de données `Customer lifecycle` pour répondre aux questions futures de cette session de conversation.
 
 >[!ENDSHADEBOX]
+
+### Ajout d’une préférence de vue de données en mémoire
+
+Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui donner accès à des informations qui s’étendent sur toutes les conversations. Il est recommandé d’ajouter vos vues de données préférées en tant que préférences dans la mémoire du collègue.
+
+1. Dans le volet de navigation de gauche de la discussion entre collègues, sélectionnez l’icône Mémoire .
+
+1. Sur la page Mémoire, dans la section Préférences stockées , spécifiez une ou plusieurs vues de données que vous souhaitez que Chat des collaborateurs utilise dans vos conversations.
+
+   ![Section Mémoire du rail de gauche](images/data-validation-aa-cja/coworker-memory.png)
 
 ## Cas pratique : trouver l’endroit où les clients reviennent
 
