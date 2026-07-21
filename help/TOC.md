@@ -6,9 +6,9 @@ description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaiss
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8ea40b596655b02813a75bf5a0dde1d2265f7773
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '211'
 ht-degree: 20%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 20%
   - [IA agentique](./overview/agentic-ai.md)
   - [Surveillance IA agentique](./overview/monitoring.md)
   - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
-  - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Outils agentiques](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
@@ -41,7 +41,7 @@ ht-degree: 20%
   - [Version d&#39;évaluation de CX Enterprise Coworker](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -55,8 +55,8 @@ ht-degree: 20%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collègue {#coworker}
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[Analyse de la chute des conversions](./coworker/analytics-use-cases.md)
+  - [Analyse des données CJA](./coworker/analytics-chat.md)
