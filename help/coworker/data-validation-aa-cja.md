@@ -2,7 +2,7 @@
 title: Valider les données avec un collègue lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics
 description: Découvrez comment les administrateurs et administratrices d’Analytics utilisent la compétence de validation des données CX Enterprise Coworker pour comparer les données Adobe Analytics et Customer Journey Analytics pendant la mise à niveau.
 hide: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Suivez les étapes de cette page uniquement après avoir effectué toutes les étapes de mise à niveau précédentes. Vous pouvez suivre les étapes de mise à niveau recommandées (recommandées pour la plupart des organisations) ou suivre les étapes générées dynamiquement pour votre organisation à l’aide du Guide de mise à niveau de Customer Journey Analytics. <ul><li>**Étapes de mise à niveau recommandées** (recommandée pour la plupart des entreprises)<p>Un ensemble d’étapes qui conduisent à une implémentation Customer Journey Analytics idéale.</p><p>Pour plus d’informations, voir [&#x200B; Mise à niveau d’Adobe Analytics vers Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guide de mise à niveau de Customer Journey Analytics** (étapes personnalisées adaptées aux besoins spécifiques de votre entreprise)<p>Un nouveau guide de mise à niveau est disponible pour générer dynamiquement des étapes de mise à niveau adaptées à votre entreprise et à vos circonstances uniques.</p><p>Pour accéder au guide à partir de Customer Journey Analytics, sélectionnez l’onglet **[!UICONTROL Workspace]**, puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans le panneau de gauche. Suivez les instructions à l’écran.</p></li></ul>
+>Suivez les étapes de cette page uniquement après avoir effectué toutes les étapes de mise à niveau précédentes. Vous pouvez suivre les étapes de mise à niveau recommandées (recommandées pour la plupart des organisations) ou suivre les étapes générées dynamiquement pour votre organisation à l’aide du Guide de mise à niveau de Customer Journey Analytics. <ul><li>**Étapes de mise à niveau recommandées** (recommandée pour la plupart des entreprises)<p>Un ensemble d’étapes qui conduisent à une implémentation Customer Journey Analytics idéale.</p><p>Pour plus d’informations, voir [ Mise à niveau d’Adobe Analytics vers Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guide de mise à niveau de Customer Journey Analytics** (étapes personnalisées adaptées aux besoins spécifiques de votre entreprise)<p>Un nouveau guide de mise à niveau est disponible pour générer dynamiquement des étapes de mise à niveau adaptées à votre entreprise et à vos circonstances uniques.</p><p>Pour accéder au guide à partir de Customer Journey Analytics, sélectionnez l’onglet **[!UICONTROL Workspace]**, puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans le panneau de gauche. Suivez les instructions à l’écran.</p></li></ul>
 
 CX Enterprise Coworker inclut une compétence de validation qui vous permet de valider les données lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. La validation des données s’effectue dans une seule conversation.
 
@@ -89,10 +89,10 @@ Vous pouvez valider des mesures ou des dimensions individuelles, ou valider tout
 
    | Score | Évaluation | Signification |
    |---------|----------|----------|
-   | 97 %-100 % | ![Carré vert](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excellent] | Toutes les propriétés sont fortement alignées. Aucune action requise. |
-   | 90 %-96 % | ![Cercle jaune](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bon] | Des lacunes mineures sont présentes. Surveillez les tendances et déterminez si elles diminuent. |
-   | 75 %-89 % | ![Cercle orange](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL Révision] | Il existe des lacunes importantes. Examinez les causes premières avant de vous fier aux données de Customer Journey Analytics. |
-   | Moins de 75 % | ![Cercle rouge](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pauvre] | Désalignement important. Agissez immédiatement avant d’utiliser les données Customer Journey Analytics. |
+   | 97 %-100 % | ![Carré vert](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excellent] | Toutes les propriétés sont fortement alignées. Aucune action requise. |
+   | 90 %-96 % | ![Cercle jaune](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bon] | Des lacunes mineures sont présentes. Surveillez les tendances et déterminez si elles diminuent. |
+   | 75 %-89 % | ![Cercle orange](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Révision] | Il existe des lacunes importantes. Examinez les causes premières avant de vous fier aux données de Customer Journey Analytics. |
+   | Moins de 75 % | ![Cercle rouge](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pauvre] | Désalignement important. Agissez immédiatement avant d’utiliser les données Customer Journey Analytics. |
 
 1. Sélectionnez l’onglet [!UICONTROL **Informations clés**] pour afficher deux à quatre cases de légendes courtes, chacune résumant un résultat de l’analyse en une seule phrase. Les légendes sont codées par couleur selon la gravité afin que vous puissiez repérer les résultats les plus importants en premier.
 
@@ -102,23 +102,23 @@ Vous pouvez valider des mesures ou des dimensions individuelles, ou valider tout
 
    Pour les mesures, il s’agit d’un graphique linéaire qui compare la tendance quotidienne.
 
-   ![Onglet Tendance quotidienne affichant un graphique linéaire](./images/data-validation-aa-cja/trend-line.png)
+   ![Onglet Tendance quotidienne affichant un graphique linéaire](./assets/data-validation-aa-cja/trend-line.png)
 
    Pour les dimensions, il s’agit d’un graphique à barres qui compare les principales valeurs.
 
-   ![Onglet Tendance quotidienne affichant un graphique à barres horizontales](./images/data-validation-aa-cja/trend-bar.png)
+   ![Onglet Tendance quotidienne affichant un graphique à barres horizontales](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. (Conditionnel) Lors d’une comparaison à une seule dimension ou à une seule mesure, vous pouvez afficher les détails au niveau de la ligne dans l’onglet [!UICONTROL **Détails de la date**]. Ce tableau répertorie la date, la valeur Adobe Analytics, la valeur Customer Journey Analytics, le pourcentage d’écart et un badge d’état pour chaque valeur de mesure ou de dimension comparée.
 
-   ![Onglet Détails de la date affichant un tableau des pourcentages d’écart et des badges de statut](./images/data-validation-aa-cja/date-detail.png)
+   ![Onglet Détails de la date affichant un tableau des pourcentages d’écart et des badges de statut](./assets/data-validation-aa-cja/date-detail.png)
 
    Les colonnes Variance et Statut utilisent l&#39;échelle suivante :
 
    | Variance | État | Signification |
    |---------|----------|----------|
-   | Moins de 3 % | ![Coche verte](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL Réussite] | Les données sont bien alignées. Aucune action requise. |
-   | 3 %-10 % | ![Triangle d’avertissement jaune](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicateur] | Surveillez la différence et déterminez si elle persiste ou s’aggrave. |
-   | Supérieur à 10 % | ![cercle rouge](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL critique] | Enquêtez immédiatement. Cela pointe généralement vers un problème de schéma, d’ingestion ou de mappage. |
+   | Moins de 3 % | ![Coche verte](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Réussite] | Les données sont bien alignées. Aucune action requise. |
+   | 3 %-10 % | ![Triangle d’avertissement jaune](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicateur] | Surveillez la différence et déterminez si elle persiste ou s’aggrave. |
+   | Supérieur à 10 % | ![cercle rouge](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL critique] | Enquêtez immédiatement. Cela pointe généralement vers un problème de schéma, d’ingestion ou de mappage. |
 
 1. (Conditionnel) Lors de l’exécution d’un audit complet de la suite de rapports et de la vue de données, les onglets [!UICONTROL **Tendance quotidienne**] et [!UICONTROL **Détail quotidien**] sont remplacés par une carte de performance présentant les nombres de succès, marqués et critiques, ainsi que des tableaux distincts répertoriant les cinq mesures et dimensions qui correspondent le mieux et les cinq mesures et dimensions qui correspondent le moins bien.
 
@@ -142,5 +142,5 @@ Vous pouvez valider des mesures ou des dimensions individuelles, ou valider tout
 
 1. (Facultatif) Poursuivez votre analyse en analysant une autre mesure ou une autre dimension, ou en exécutant un autre rapport contenant jusqu’à 40 mesures et 20 dimensions, comme décrit dans la section [Choisir les données à valider](#choose-the-data-to-validate). Vous n’avez pas besoin de répéter le processus de configuration pour ce faire ; les sélections de votre entreprise, de la suite de rapports et de la vue de données sont reportées tout au long de la conversation.
 
-1. Continuez à suivre les [étapes de mise à niveau recommandées](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) ou les étapes de mise à niveau générées dynamiquement dans le Guide de mise à niveau de Customer Journey Analytics. Pour accéder au guide à partir de Customer Journey Analytics, sélectionnez l’onglet **[!UICONTROL Workspace]**, puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans le panneau de gauche. Suivez les instructions à l’écran.
+1. Continuez à suivre les [étapes de mise à niveau recommandées](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) ou les étapes de mise à niveau générées dynamiquement dans le Guide de mise à niveau de Customer Journey Analytics. Pour accéder au guide à partir de Customer Journey Analytics, sélectionnez l’onglet **[!UICONTROL Workspace]**, puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans le panneau de gauche. Suivez les instructions à l’écran.
 

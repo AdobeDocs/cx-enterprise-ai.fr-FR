@@ -2,17 +2,10 @@
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
 TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 2%
@@ -38,15 +31,15 @@ Audience Agent vous permet d’obtenir des informations sur les audiences, notam
 L’assistant Audience Agent within AI prend en charge les cas d’utilisation suivants :
 
 - Explorer votre audience par conversation
-   - Rechercher les tailles d’audience des audiences existantes
-   - Recherchez des audiences en fonction d’attributs complets ou partiels nommés
-   - Détecter les audiences en double
-   - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
+  - Rechercher les tailles d’audience des audiences existantes
+  - Recherchez des audiences en fonction d’attributs complets ou partiels nommés
+  - Détecter les audiences en double
+  - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
 - Détecter les modifications importantes de la taille de l’audience
-   - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
+  - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
 - Création d’une audience
-   - Cette compétence vous permet de créer une audience basée sur les attributs et les événements donnés
-   - En outre, cette compétence vous permet d’estimer la taille potentielle d’une audience avant de créer l’audience, ce qui vous permet d’itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
+  - Cette compétence vous permet de créer une audience basée sur les attributs et les événements donnés
+  - En outre, cette compétence vous permet d’estimer la taille potentielle d’une audience avant de créer l’audience, ce qui vous permet d’itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
 
 <!--
   - Find your audience size and detect significant changes in audience size
@@ -62,17 +55,17 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
 Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
 - Exploration des audiences basée sur des objectifs
-   - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
+  - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
 
 En outre, lors de l’utilisation d’Audience Agent, vous devez tenir compte des contraintes suivantes :
 
 - Audience Agent a besoin d’au moins 24 heures pour traiter vos données
-   - Par exemple, vous **pouvez pas** une requête qui recherche des données au cours des dernières 24 heures. Vous devrez vérifier dans les 48 dernières heures, au minimum.
+  - Par exemple, vous **pouvez pas** une requête qui recherche des données au cours des dernières 24 heures. Vous devrez vérifier dans les 48 dernières heures, au minimum.
 - Audience Agent ne prend en charge que les types d’audiences suivants :
-   - Audiences **basées sur les personnes** évaluées à l’aide de la segmentation par lots
-   - Audiences **basées sur un compte** pour les cas d’utilisation suivants :
-      - Exploration des audiences de conversation
-      - Détection des doublons d’audience
+  - Audiences **basées sur les personnes** évaluées à l’aide de la segmentation par lots
+  - Audiences **basées sur un compte** pour les cas d’utilisation suivants :
+    - Exploration des audiences de conversation
+    - Détection des doublons d’audience
 
 ## Exemples d’invites
 
@@ -84,7 +77,7 @@ Afficher les champs pour les acheteurs aisés.
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau présentant les champs pertinents pour les acheteurs aisés.](./images/audience/affluent-buyers.png)
+![L’assistant AI affiche un tableau présentant les champs pertinents pour les acheteurs aisés.](./assets/audience/affluent-buyers.png)
 
 +++
 
@@ -92,7 +85,7 @@ Quelles audiences n’ont été activées ou utilisées dans aucune campagne au 
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau qui affiche les audiences qui n’ont pas été activées ou utilisées dans des campagnes au cours des 30 derniers jours.](./images/audience/not-activated.png)
+![L’assistant AI affiche un tableau qui affiche les audiences qui n’ont pas été activées ou utilisées dans des campagnes au cours des 30 derniers jours.](./assets/audience/not-activated.png)
 
 +++
 
@@ -100,7 +93,7 @@ Répertoriez toutes les audiences qui ont été mappées à de nouvelles destina
 
 +++ Réponse
 
-![L’assistant AI répertorie l’audience qui a été mappée à une nouvelle destination au cours des 3 derniers mois.](./images/audience/new-destination.png)
+![L’assistant AI répertorie l’audience qui a été mappée à une nouvelle destination au cours des 3 derniers mois.](./assets/audience/new-destination.png)
 
 +++
 
@@ -108,7 +101,7 @@ Quelle audience de compte a la plus grande taille d’audience et quelle est cet
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau qui affiche les audiences de compte les plus importantes.](./images/audience/largest-account-audience.png)
+![L’assistant AI affiche un tableau qui affiche les audiences de compte les plus importantes.](./assets/audience/largest-account-audience.png)
 
 +++
 
@@ -118,7 +111,7 @@ Existe-t-il des audiences avec des descriptions identiques ou similaires ?
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau contenant la définition de segment et les noms des audiences avec les mêmes définitions de segment.](./images/audience/similar-descriptions.png)
+![L’assistant AI affiche un tableau contenant la définition de segment et les noms des audiences avec les mêmes définitions de segment.](./assets/audience/similar-descriptions.png)
 
 +++
 
@@ -126,7 +119,7 @@ Identifiez les audiences qui ont les mêmes règles, mais des noms différents.
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau contenant les noms des audiences qui partagent les mêmes règles d’audience.](./images/audience/same-rules-different-names.png)
+![L’assistant AI affiche un tableau contenant les noms des audiences qui partagent les mêmes règles d’audience.](./assets/audience/same-rules-different-names.png)
 
 +++
 
@@ -134,7 +127,7 @@ Montrez-moi toutes les audiences qui ont les mêmes règles, mais des destinatio
 
 +++ Réponse
 
-![L’assistant AI indique qu’il n’existe aucune définition de segment en double vers différentes destinations.](./images/audience/same-rules-different-destinations.png)
+![L’assistant AI indique qu’il n’existe aucune définition de segment en double vers différentes destinations.](./assets/audience/same-rules-different-destinations.png)
 
 +++
 
@@ -142,7 +135,7 @@ Identifiez les audiences de compte qui ont les mêmes règles, mais des noms dif
 
 +++ Réponse
 
-![L’assistant AI affiche un tableau contenant les noms et identifiants des audiences de compte qui partagent les mêmes règles d’audience.](./images/audience/duplicate-account-audience.png)
+![L’assistant AI affiche un tableau contenant les noms et identifiants des audiences de compte qui partagent les mêmes règles d’audience.](./assets/audience/duplicate-account-audience.png)
 
 +++
 
@@ -152,7 +145,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./assets/audience/current-size.png)
 
 +++
 
@@ -160,7 +153,7 @@ Quel est mon public le plus important ?
 
 +++ Réponse
 
-![L’assistant AI fournit des informations sur l’audience qui a le plus de profils, y compris le nom et l’ID d’audience.](./images/audience/largest-audience.png)
+![L’assistant AI fournit des informations sur l’audience qui a le plus de profils, y compris le nom et l’ID d’audience.](./assets/audience/largest-audience.png)
 
 +++
 
@@ -170,7 +163,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./assets/audience/increase-past-week.png)
 
 +++
 
@@ -178,7 +171,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./assets/audience/decrease-month.png)
 
 +++
 
@@ -186,7 +179,7 @@ Quelle est mon audience qui croît le plus rapidement ?
 
 +++ Réponse
 
-![L’assistant d’IA indique le nom de l’audience qui croît le plus rapidement, ainsi que la taille actuelle et le pourcentage de croissance.](./images/audience/fastest-growing.png)
+![L’assistant d’IA indique le nom de l’audience qui croît le plus rapidement, ainsi que la taille actuelle et le pourcentage de croissance.](./assets/audience/fastest-growing.png)
 
 +++
 
@@ -200,7 +193,7 @@ Lorsque vous créez une audience avec Audience Agent, l’assistant AI vous guid
 
 +++ Réponse
 
-![L’assistant AI affiche le plan de création d’une audience.](./images/audience/audience-create-plan.png)
+![L’assistant AI affiche le plan de création d’une audience.](./assets/audience/audience-create-plan.png)
 
 +++
 
@@ -212,13 +205,13 @@ Ce plan se compose de trois étapes :
 
 #### Identifier les caractéristiques de l’audience {#identify}
 
-![Étape 1 du plan, qui consiste à identifier les caractéristiques de l’audience.](./images/audience/plan-step-1.png){align="center" width="80%"}
+![Étape 1 du plan, qui consiste à identifier les caractéristiques de l’audience.](./assets/audience/plan-step-1.png){align="center" width="80%"}
 
 Après avoir accepté le plan, l’assistant AI récupérera les caractéristiques de l’audience en fonction de votre requête initiale.
 
 +++ Réponse
 
-![Définition de l’audience basée sur la requête de l’utilisateur.](./images/audience/audience-create-definition.png)
+![Définition de l’audience basée sur la requête de l’utilisateur.](./assets/audience/audience-create-definition.png)
 
 Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) approprié qui rechercherait les personnes qui vivent en Californie. Dans ce cas d’utilisation, la requête PQL se présenterait comme suit :
 
@@ -226,7 +219,7 @@ Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) a
 homeAddress.state.equals("California", false)
 ```
 
-Pour plus d’informations sur PQL, consultez la présentation de PQL [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/pql/overview).
+Pour plus d’informations sur PQL, consultez la présentation de PQL [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
@@ -234,13 +227,13 @@ Si la définition de l’audience de l’assistant d’IA est correcte, vous pou
 
 #### Estimer la taille de l’audience {#estimate}
 
-![Étape 2 du plan, qui consiste à estimer la taille de l’audience potentielle.](./images/audience/plan-step-2.png){align="center" width="80%"}
+![Étape 2 du plan, qui consiste à estimer la taille de l’audience potentielle.](./assets/audience/plan-step-2.png){align="center" width="80%"}
 
 Après avoir approuvé les caractéristiques d’audience identifiées, l’assistant AI estimera la taille de l’audience potentielle et les détails de la définition de l’audience.
 
 +++ Réponse
 
-![L’exemple d’estimation pour l’audience potentielle s’affiche. La taille estimée et la définition de segment s’affichent.](./images/audience/audience-create-estimate.png)
+![L’exemple d’estimation pour l’audience potentielle s’affiche. La taille estimée et la définition de segment s’affichent.](./assets/audience/audience-create-estimate.png)
 
 +++
 
@@ -248,7 +241,7 @@ Si la taille estimée semble correcte, vous pouvez approuver et passer à l’é
 
 #### Créer et conserver une nouvelle audience {#create}
 
-![Étape 3 du plan, qui consiste à terminer la création de l’audience.](./images/audience/plan-step-3.png){align="center" width="80%"}
+![Étape 3 du plan, qui consiste à terminer la création de l’audience.](./assets/audience/plan-step-3.png){align="center" width="80%"}
 
 Enfin, si les caractéristiques et la taille de l’audience semblent correctes, vous pouvez approuver ou rejeter la création de l’audience.
 
@@ -256,17 +249,17 @@ Enfin, si les caractéristiques et la taille de l’audience semblent correctes,
 
 Tout d’abord, vous pouvez examiner l’audience proposée par le biais de la grille de données fournie.
 
-![L’écran de révision s’affiche.](./images/audience/audience-create-review.png)
+![L’écran de révision s’affiche.](./assets/audience/audience-create-review.png)
 
 Si l’audience semble correcte, vous pouvez accepter la proposition en sélectionnant **[!UICONTROL Créer]** pour terminer la création de l’audience.
 
-![La proposition complète pour l’audience s’affiche.](./images/audience/audience-create-proposal.png)
+![La proposition complète pour l’audience s’affiche.](./assets/audience/audience-create-proposal.png)
 
 +++
 
 L’audience est maintenant créée.
 
-![La proposition d’audience a été acceptée et l’audience a été créée.](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![La proposition d’audience a été acceptée et l’audience a été créée.](./assets/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Étapes suivantes
 

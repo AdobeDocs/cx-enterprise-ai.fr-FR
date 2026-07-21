@@ -4,9 +4,9 @@ description: Recherchez, évaluez et sélectionnez des champs XDM dans Adobe Exp
 keywords: découverte de champs, XDM, assistant AI, agents Experience Platform, liaison d’entités, recommandations de champs, création d’audiences, segmentation
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
+source-wordcount: '3367'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ Pour utiliser l&#39;agent de détection de champ, vérifiez que vous disposez de
 - L’organisation et le sandbox appropriés
 - Accès aux schémas et aux jeux de données sur lesquels vous avez l’intention d’effectuer des requêtes
 
-Une connaissance de base des schémas XDM et de l’utilisation des champs dans la segmentation ou les workflows de données peut vous aider à interpréter les résultats plus efficacement. Pour plus d’informations, consultez la [présentation de XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et la [documentation de l’éditeur de schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Une connaissance de base des schémas XDM et de l’utilisation des champs dans la segmentation ou les workflows de données peut vous aider à interpréter les résultats plus efficacement. Pour plus d’informations, consultez la [présentation de XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et la [documentation de l’éditeur de schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
-Pour obtenir des instructions sur l’activation de l’accès de l’assistant AI et l’octroi des autorisations requises, consultez le [guide d’accès &#x200B;](./agent-orchestrator.md#access).
+Pour obtenir des instructions sur l’activation de l’accès de l’assistant AI et l’octroi des autorisations requises, consultez le [guide d’accès ](./agent-orchestrator.md#access).
 
 ## Fonctions de l’agent de découverte de champ {#field-discovery-agent-functions}
 
@@ -101,7 +101,7 @@ L’agent de découverte de champ renvoie des résultats dans un panneau **[!UIC
 - **[!UICONTROL Pertinence]** — Libellé de pertinence attribué au champ (**[!UICONTROL Très pertinent]**, **[!UICONTROL Modérément pertinent]** ou **[!UICONTROL Pertinent]**)
 - **[!UICONTROL Contextes d’utilisation]** — Liens indiquant où le champ apparaît dans votre écosystème de données. Sélectionnez **[!UICONTROL audience]**, **[!UICONTROL jeu de données]**, **[!UICONTROL destination]** ou **[!UICONTROL schéma]** pour ouvrir un panneau latéral indiquant où le champ est utilisé.
 
-![Panneau Champs identifiés dans l’assistant AI affichant les lignes de champs candidats avec les libellés de pertinence et les liens Contextes d’utilisation.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![Panneau Champs identifiés dans l’assistant AI affichant les lignes de champs candidats avec les libellés de pertinence et les liens Contextes d’utilisation.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 Une section **[!UICONTROL Résultats expliqués]** s’affiche sous le tableau **[!UICONTROL Champs identifiés]** et fournit un contexte supplémentaire au niveau du champ, y compris des explications et des détails annexes pour chaque résultat. Pour obtenir des conseils sur la navigation dans l’interface de l’assistant AI, consultez le guide [IU de l’assistant AI](../ai-assistant/ai-assistant-ui.md).
 
@@ -118,7 +118,7 @@ Pour utiliser l&#39;agent de détection de champ :
 3. Examinez les résultats avec classement dans le panneau **[!UICONTROL Champs identifiés]**. Chaque ligne comprend un libellé de pertinence et un chemin d’accès au champ XDM dans la colonne **[!UICONTROL Nom du champ]**.
 4. Sélectionnez **[!UICONTROL audience]**, **[!UICONTROL jeu de données]**, **[!UICONTROL destination]** ou **[!UICONTROL schéma]** dans la colonne **[!UICONTROL Contextes d’utilisation]** pour ouvrir un panneau latéral indiquant où le champ est utilisé. Pour plus de contexte au niveau du champ, reportez-vous à la section **[!UICONTROL Résultats expliqués]** située sous le tableau des résultats.
 
-   ![Panneau latéral dans l’assistant AI affichant les contextes d’utilisation d’un champ sélectionné, y compris les associations d’audience, de jeu de données, de destination et de schéma.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![Panneau latéral dans l’assistant AI affichant les contextes d’utilisation d’un champ sélectionné, y compris les associations d’audience, de jeu de données, de destination et de schéma.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. Utilisez le chemin d’accès **[!UICONTROL Nom du champ]** dans les outils en aval tels que le créateur de segments, Query Service ou les workflows d’ingestion de données, selon votre cas d’utilisation. L’agent de découverte de champ fournit la référence de champ, mais ne l’insère pas dans d’autres outils.
 
@@ -138,7 +138,9 @@ Les sections suivantes décrivent chacune des trois fonctions de Field Discovery
 
 Lorsque vous décrivez un concept ou un attribut de données spécifique, l’agent de découverte de champs renvoie une liste classée de champs qui correspondent sémantiquement à votre description.
 
-> « Quels champs représentent l’État d’origine ou la province d’un client ? »« Rechercher les champs liés à la date de transaction d&#39;achat. »« Quels champs contiennent des informations sur le consentement de marketing par e-mail ? »
+> « Quels champs représentent l’État d’origine ou la province d’un client ? »
+> « Rechercher les champs liés à la date de transaction d&#39;achat. »
+> « Quels champs contiennent des informations sur le consentement de marketing par e-mail ? »
 
 La réponse répertorie les champs candidats avec leur libellé de pertinence et leur chemin XDM dans le panneau **[!UICONTROL Champs identifiés]**. Les champs libellés **[!UICONTROL Très pertinent]** correspondent le mieux à votre concept déclaré. Si les meilleurs résultats sont intitulés **[!UICONTROL Modérément pertinent]** ou **[!UICONTROL Pertinent]** plutôt que **[!UICONTROL Très pertinent]**, affinez votre requête en utilisant une terminologie plus spécifique ou un contexte au niveau du champ.
 
@@ -146,7 +148,9 @@ La réponse répertorie les champs candidats avec leur libellé de pertinence et
 
 Lorsque vous décrivez un objectif ou un cas d’utilisation de workflow, comme la création d’un segment, l’intégration d’un jeu de données ou la préparation d’une requête, l’agent de découverte de champ recommande des champs alignés sur cet objectif, hiérarchisés par pertinence.
 
-> « Je veux constituer une audience de clients à forte valeur ajoutée. Quels champs dois-je utiliser ? »« Champs recommandés pour la modélisation de la propension à l’achat. »« Quels champs dois-je inclure lors de l’intégration d’un jeu de données de transaction de vente au détail ? »
+> « Je veux constituer une audience de clients à forte valeur ajoutée. Quels champs dois-je utiliser ? »
+>  « Champs recommandés pour la modélisation de la propension à l’achat »
+> « Quels champs dois-je inclure lors de l’intégration d’un jeu de données de transaction de vente au détail ? »
 
 La réponse renvoie une liste de champs prioritaires avec un contexte de pertinence. Examinez le contexte d’utilisation de chaque champ recommandé pour confirmer qu’il est activement utilisé dans votre environnement.
 
@@ -154,13 +158,15 @@ La réponse renvoie une liste de champs prioritaires avec un contexte de pertine
 
 Lorsque vous demandez des informations sur un champ spécifique par nom ou chemin d’accès, l’agent de découverte de champ renvoie un contexte détaillé pour ce champ, y compris des exemples de valeurs, l’emplacement du schéma et l’utilisation dans les jeux de données, les audiences et les destinations.
 
-> « En savoir plus sur le champ `person.name.lastName`. »« Quels exemples de valeurs existent pour `homeAddress.stateProvince` ? »« Où se trouve le champ `commerce.purchases.value` utilisé dans mes jeux de données et mes audiences ? »
+> « En savoir plus sur le champ `person.name.lastName`. »
+> « Quelles sont les exemples de valeurs disponibles pour `homeAddress.stateProvince` ? »
+>  « Où se trouve le champ `commerce.purchases.value` utilisé dans mes jeux de données et mes audiences ? »
 
 La réponse renvoie les exemples de valeurs du champ, l’emplacement du schéma, les jeux de données associés et les audiences ou destinations où le champ apparaît. Examinez ce contexte pour confirmer que le champ contient les données attendues.
 
 ## Dans la portée et hors de la portée {#in-scope-and-out-of-scope}
 
-Cette section résume ce que l&#39;agent de découverte de champs peut et ne peut pas faire. Pour obtenir des conseils détaillés sur les tâches, voir [Cas d’utilisation pris en charge](#supported-use-cases). Pour les contraintes de plateforme, voir [&#x200B; Mécanismes de sécurisation et limitations &#x200B;](#guardrails-and-limitations).
+Cette section résume ce que l&#39;agent de découverte de champs peut et ne peut pas faire. Pour obtenir des conseils détaillés sur les tâches, voir [Cas d’utilisation pris en charge](#supported-use-cases). Pour les contraintes de plateforme, voir [ Mécanismes de sécurisation et limitations ](#guardrails-and-limitations).
 
 ### Dans la portée
 
@@ -235,19 +241,31 @@ Utilisez cette section comme bibliothèque d’invites de référence rapide. Si
 
 Utilisez ces invites lorsque vous connaissez le concept de données dont vous avez besoin, mais pas le champ qui le contient.
 
-> « Quel champ contient l’état ou la région d’un client ? »« Recherchez les champs liés au statut d’abonnement aux e-mails. »« Quel champ contient la date du premier achat d’un client ? »« Identifier les champs qui représentent la valeur de la durée de vie du client. »« Quels champs de mon schéma de profil sont liés à l’appartenance au programme de fidélité ? »
+> « Quel champ contient l’état ou la région d’un client ? »
+> « Rechercher des champs liés au statut d&#39;abonnement par e-mail. »
+> « Quel champ contient la date du premier achat d’un client ? »
+> « Identifier les champs qui représentent la valeur de la durée de vie du client. »
+> « Quels champs de mon schéma de profil se rapportent à l’appartenance au programme de fidélité ? »
 
 ### Invites de recommandation
 
 Utilisez ces invites lorsque vous démarrez un workflow et que vous avez besoin de conseils sur les champs à inclure pour un objectif spécifique.
 
-> « Quels champs dois-je utiliser pour créer une audience de réengagement ? »« Champs recommandés pour une audience ciblant des clients qui n’ont pas effectué d’achats depuis 90 jours. »« Quels champs sont les plus utiles pour modéliser le risque de résiliation ? »« Suggérer des champs à inclure lors de la création d’une segmentation géographique. »« Je suis en train de créer un modèle de propension à acheter. Avec quels champs dois-je commencer ? »
+> « Quels champs dois-je utiliser pour créer une audience de réengagement ? »
+> « Champs recommandés pour une audience ciblant des clients qui n’ont pas effectué d’achats depuis 90 jours. »
+>  « Quels champs sont les plus utiles pour modéliser le risque de perte de clientèle ? »
+>  « Suggérer des champs à inclure lors de la création d’une segmentation géographique. »
+> « Je suis en train de créer un modèle de propension à acheter. Avec quels champs dois-je commencer ? »
 
 ### Invites d’enrichissement
 
 Utilisez ces invites lorsqu&#39;un champ candidat est en attente de vérification avant de l&#39;utiliser dans un segment, une requête ou un mappage.
 
-> « Parlez-moi de `homeAddress.stateProvince`. »« Afficher les exemples de valeurs pour `commerce.purchases.value`. »« Où est-`person.name.lastName` utilisé dans mes jeux de données et mes audiences ? »« Quels jeux de données contiennent les `web.webPageDetails.URL` de champ ? »« Est-`segmentMembership` mappé à des destinations actives ? »
+> « Parlez-moi de `homeAddress.stateProvince`. »
+> « Afficher les exemples de valeurs pour `commerce.purchases.value` ».
+>  « Où est-`person.name.lastName` utilisé dans mes jeux de données et mes audiences ? »
+>  « Quels jeux de données contiennent les `web.webPageDetails.URL` de champ ? »
+> « Est-`segmentMembership` mappé à des destinations actives ? »
 
 ## Résolution des problèmes {#troubleshooting}
 
@@ -255,9 +273,9 @@ Utilisez cette section lorsque des résultats sont manquants, inattendus ou lors
 
 - **Un champ récemment ajouté n’apparaît pas dans les résultats.** La base de connaissances peut ne pas encore refléter le nouveau schéma ou champ. Patientez le temps que la base de connaissances se mette à jour après l’ajout de schémas ou de champs à votre environnement, puis soumettez à nouveau votre requête. Voir [Base de connaissances](#knowledge-base).
 
-- **Tous les résultats sont étiquetés Modérément pertinent ou Pertinent plutôt que Très pertinent.** Votre requête est peut-être trop large ou la terminologie que vous avez utilisée ne correspond peut-être pas à vos métadonnées de champ. Affinez votre invite avec une langue plus spécifique ou des termes qui correspondent à la manière dont vos champs sont nommés dans vos schémas. Voir [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
+- **Tous les résultats sont étiquetés Modérément pertinent ou Pertinent plutôt que Très pertinent.** Votre requête est peut-être trop large ou la terminologie que vous avez utilisée ne correspond peut-être pas à vos métadonnées de champ. Affinez votre invite avec une langue plus spécifique ou des termes qui correspondent à la manière dont vos champs sont nommés dans vos schémas. Voir [ Bonnes pratiques ](#best-practices).
 
-- **L&#39;agent Field Discovery n&#39;a pas été appelé.** Vous avez envoyé une requête dans l’assistant AI, mais le panneau **[!UICONTROL Raisonnement terminé]** n’indique pas l’agent de découverte de champ. Votre requête ne contenait peut-être pas une intention de découverte de champ claire. Reformulez explicitement votre requête, par exemple, « Rechercher le champ qui contient le statut d’opt-out des e-mails du client », puis soumettez-la à nouveau. Voir [&#x200B; Utilisation de l’agent de découverte de champ &#x200B;](#use-field-discovery-agent).
+- **L&#39;agent Field Discovery n&#39;a pas été appelé.** Vous avez envoyé une requête dans l’assistant AI, mais le panneau **[!UICONTROL Raisonnement terminé]** n’indique pas l’agent de découverte de champ. Votre requête ne contenait peut-être pas une intention de découverte de champ claire. Reformulez explicitement votre requête, par exemple, « Rechercher le champ qui contient le statut d’opt-out des e-mails du client », puis soumettez-la à nouveau. Voir [ Utilisation de l’agent de découverte de champ ](#use-field-discovery-agent).
 
 - **Les exemples de valeurs ne s’affichent pas pour un champ.** Le champ peut être vide dans votre sandbox actuel, vos autorisations peuvent ne pas inclure l’accès à son jeu de données sous-jacent ou le champ peut avoir une cardinalité élevée (par exemple un champ d’identifiant) pour lequel les exemples de valeurs ne sont pas affichés. Confirmez vos autorisations d’accès au jeu de données et vérifiez que le champ est rempli de données. Voir [Contraintes d’accès et d’informations d’identification personnelles](#access-and-pii-constraints).
 

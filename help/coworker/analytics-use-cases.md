@@ -2,7 +2,7 @@
 title: Exécution d’une analyse des données Customer Journey Analytics avec un collègue
 description: Découvrez comment effectuer une analyse des données Customer Journey Analytics avec Coworker.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Avant de commencer votre analyse, accédez au Module de conversation des collabo
 
    1. Sélectionnez l’icône MCP dans le rail de gauche, puis assurez-vous que [!UICONTROL **cja-mcp**] est disponible dans la liste des serveurs MCP connectés.
 
-      ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Conditionnel) Si [!UICONTROL **cja-mcp**] n’est pas encore connecté, sélectionnez [!UICONTROL **Ajouter le serveur MCP**], spécifiez cja dans le champ [!UICONTROL **Nom du serveur**] et sélectionnez-le lorsqu’il apparaît, puis sélectionnez [!UICONTROL **Ajouter le serveur**].
 
@@ -85,7 +85,7 @@ Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui
 
 1. Sur la page Mémoire, dans la section Préférences stockées , spécifiez une ou plusieurs vues de données que vous souhaitez que Chat des collaborateurs utilise dans vos conversations.
 
-   ![Section Mémoire du rail de gauche](images/data-validation-aa-cja/coworker-memory.png)
+   ![Section Mémoire du rail de gauche](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Cas pratique : trouver l’endroit où les clients reviennent
 
@@ -125,7 +125,7 @@ Notez que le Module de conversation des collègues sélectionne la visualisation
 
 >[!BEGINSHADEBOX]
 
-![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-funnel-response.png)
+![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Voici une question funnel : laissez-moi exécuter le funnel de conversion pour voir où se produit le déchargement sur le chemin d’accès à l’achat.
 
@@ -176,7 +176,7 @@ D’accord, répartissons par canal marketing
 
 >[!BEGINSHADEBOX]
 
-![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 Il existe une dimension **Canal marketing** personnalisée. Permettez-moi d’extraire le funnel par cela, puis de calculer les taux de conversion par canal et d’identifier où chaque canal fuit.
 
@@ -227,7 +227,7 @@ Intéressant. Essayons de ventiler par type d’appareil.
 
 >[!BEGINSHADEBOX]
 
-![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Trouvé : passage en caisse mobile rompu**
 
