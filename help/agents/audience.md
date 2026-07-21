@@ -2,9 +2,16 @@
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
 TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 1242
@@ -145,7 +152,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./assets/audience/current-size.png)
+![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./assets/audience/current-size.png)
 
 +++
 
@@ -163,7 +170,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./assets/audience/increase-past-week.png)
+![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./assets/audience/increase-past-week.png)
 
 +++
 
@@ -171,7 +178,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./assets/audience/decrease-month.png)
+![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./assets/audience/decrease-month.png)
 
 +++
 
@@ -219,7 +226,7 @@ Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) a
 homeAddress.state.equals("California", false)
 ```
 
-Pour plus d’informations sur PQL, consultez la présentation de PQL [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+Pour plus d’informations sur PQL, consultez la présentation de PQL [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
