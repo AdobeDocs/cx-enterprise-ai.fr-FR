@@ -1,7 +1,7 @@
 ---
 title: Valider vos données dans l’assistant AI
 description: Découvrez comment utiliser la validation des données optimisée par Agent Orchestrator dans l’assistant AI pour effectuer des validations statistiques et sémantiques sur vos jeux de données.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Utilisez l’**assistant AI** dans Adobe CX Enterprise pour valider vos données
 
 ### Démarrer la validation
 
-![Accueil de l’assistant AI avec le champ d’invite affichant une demande de validation de jeu de données, le sélecteur d’environnement Experience Platform et le contrôle d’envoi.](./images/validation/home.png)
+![Accueil de l’assistant AI avec le champ d’invite affichant une demande de validation de jeu de données, le sélecteur d’environnement Experience Platform et le contrôle d’envoi.](./assets/validation/home.png)
 
 Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Assistant IA]**. Ensuite, utilisez le sélecteur d’environnement et choisissez l’organisation Experience Platform ou le sandbox où réside votre jeu de données (par exemple, **[!UICONTROL Experience Platform - Prod]**). Dans le champ d’invite, saisissez une demande de validation (par exemple, demander à de valider un jeu de données par son nom). Sélectionnez **[!UICONTROL Envoyer]** pour envoyer l’invite.
 
@@ -48,7 +48,7 @@ Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Assistant IA]
 
 ### Lire le tableau des champs et du résumé du jeu de données
 
-![Réponse de l’assistant AI avec raisonnement terminé, un résumé de validation et un tableau Récapitulatifs des champs répertoriant les chemins d’accès aux champs, les types et les valeurs valides.](./images/validation/answer.png)
+![Réponse de l’assistant AI avec raisonnement terminé, un résumé de validation et un tableau Récapitulatifs des champs répertoriant les chemins d’accès aux champs, les types et les valeurs valides.](./assets/validation/answer.png)
 
 Patientez quelques instants le temps qu’Agent Orchestrator termine l’exécution (**Raisonnement terminé**). Une fois l’exécution terminée, lisez le résumé relatif au nom du jeu de données, le nombre de champs validés et la taille de l’échantillon (généralement jusqu’à environ 1 000 lignes).
 
@@ -58,7 +58,7 @@ Sélectionnez **[!UICONTROL Afficher tous les résultats]** lorsque vous avez be
 
 ### Travailler en mode partagé
 
-![Vue fractionnée avec narration et statistiques de validation à gauche et visualisation graphique développée des valeurs valides à droite.](./images/validation/split-screen.png)
+![Vue fractionnée avec narration et statistiques de validation à gauche et visualisation graphique développée des valeurs valides à droite.](./assets/validation/split-screen.png)
 
 En mode développé, utilisez la mise en page fractionnée : statistiques et narration détaillées d’un côté et graphique de l’autre.
 
@@ -69,19 +69,19 @@ Utilisez **[!UICONTROL Suggestions associées]** ou le champ d’invite en bas p
 
 ### Utiliser une suggestion associée pour un suivi
 
-![Les suggestions associées s’affichent au-dessus du champ d’invite, avec une suggestion sélectionnée pour valider un champ spécifique sur le jeu de données.](./images/validation/related-suggestion.png)
+![Les suggestions associées s’affichent au-dessus du champ d’invite, avec une suggestion sélectionnée pour valider un champ spécifique sur le jeu de données.](./assets/validation/related-suggestion.png)
 
 Après une réponse, trouvez **[!UICONTROL Suggestions connexes]** sous la conversation. Sélectionnez une suggestion (par exemple, validez un champ spécifique sur le même jeu de données) pour le charger dans le champ d’invite. Ajustez le texte si nécessaire, confirmez l’environnement, puis sélectionnez **[!UICONTROL Envoyer]** pour exécuter la relance.
 
 ### Validation au niveau du champ
 
-![Carte des résultats de validation pour un seul champ en mode graphique, affichant un graphique en anneau de validité et l’action Afficher en mode développé](./images/validation/single-field.png).
+![Carte des résultats de validation pour un seul champ en mode graphique, affichant un graphique en anneau de validité et l’action Afficher en mode développé](./assets/validation/single-field.png).
 
 Ouvrez une vignette **[!UICONTROL Résultats de la validation]** au niveau du champ (par exemple, après la validation d’un seul champ). Utilisez les commandes d&#39;affichage pour passer à **Graphique** (ou à une autre vue) lorsque vous souhaitez un résumé visuel au lieu d&#39;un tableau. Au cours de cette étape, vous pouvez éventuellement sélectionner **[!UICONTROL Propriétés]** pour en savoir plus sur le champ.
 
 Sélectionnez **[!UICONTROL Afficher en mode développé]** pour ouvrir une vue plus grande et plus détaillée de la validation de ce champ.
 
-![Vue développée affichant les statistiques détaillées de validation au niveau du champ et la visualisation sous forme de graphique.](./images/validation/expanded-view.png)
+![Vue développée affichant les statistiques détaillées de validation au niveau du champ et la visualisation sous forme de graphique.](./assets/validation/expanded-view.png)
 
 Grâce à la vue développée, vous pouvez afficher une liste détaillée de l’ensemble du champ, en fonction d’un échantillon de 1 000 enregistrements maximum pour le champ donné. Vous pouvez utiliser cette fonctionnalité pour récupérer des informations sur vos valeurs valides, distinctes et nulles.
 
@@ -161,9 +161,9 @@ Les types de validation suivants sont effectués pour chaque champ et jeu de don
 - **Contrôles de distribution** : valeurs uniques principales et leurs distributions, détection de cardinalité élevée.
 - **Contrôles sémantiques ou schéma** : utilise le nom, le type et la description du champ XDM pour déterminer à quoi ressemble une « valide », puis signale les anomalies.
 - **Vérifications tenant compte du type de données** (le cas échéant) :
-   - E-mail : format et plausibilité du domaine
-   - Téléphone : préparation au format (par exemple, E.164)
-   - Dates/horodatages : intégrité de base du format (par exemple, ISO-8601)
+  - E-mail : format et plausibilité du domaine
+  - Téléphone : préparation au format (par exemple, E.164)
+  - Dates/horodatages : intégrité de base du format (par exemple, ISO-8601)
 - **Contrôles d’identité** (futurs/étendus) : unicité des champs d’identité candidats ou des clés composites.
 
 Ces contrôles associent des statistiques déterministes à une validation sémantique assistée par LLM pour détecter les valeurs qui « semblent fausses » même lorsqu’elles correspondent techniquement au schéma.

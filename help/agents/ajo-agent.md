@@ -29,7 +29,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 3361
 ht-degree: 12%
@@ -297,7 +297,7 @@ Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présenta
 >
 >**Gérer les segments** : pour obtenir l’autorisation, vous pouvez créer de nouvelles audiences directement dans l’assistant AI.
 
-![Exemple pour AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
+![Exemple pour AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)
 
 ## Cas d’utilisation
 
