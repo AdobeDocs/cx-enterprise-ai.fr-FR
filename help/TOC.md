@@ -5,11 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
-source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
+source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 18%
 
 ---
 
@@ -57,6 +56,8 @@ ht-degree: 20%
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collègue {#coworker}
+  - [Campagnes des collègues](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
+  - [Conversation avec un collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
   - [Analyse des données CJA](./coworker/analytics-chat.md)
