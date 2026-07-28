@@ -21,7 +21,7 @@ ht-degree: 18%
   - [IA agentique](./overview/agentic-ai.md)
   - [Surveillance IA agentique](./overview/monitoring.md)
   - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
-  - [Outils agentiques](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
@@ -54,7 +54,7 @@ ht-degree: 18%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Aide de collègue {#coworker}
   - [Aide de collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
