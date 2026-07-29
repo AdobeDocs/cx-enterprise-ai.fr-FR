@@ -1,7 +1,7 @@
 ---
 title: Compétences de l’agent d’outils Sandbox
 description: Découvrez comment utiliser les compétences d’agent des outils Sandbox pour répliquer des métadonnées d’objet dans les environnements Sandbox.
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ Interagissez avec les compétences Agentic Tooling via un collègue CX en utilis
 Pour utiliser les compétences d’agent des outils Sandbox :
 
 1. Accédez à **[!UICONTROL Collègue CX]**.
-2. Saisissez une description claire de ce que vous souhaitez accomplir. Par exemple :
+1. Saisissez une description claire de ce que vous souhaitez accomplir. Par exemple :
 
    *« Déplacez le schéma Loyalty Member Platinum du sandbox actuel vers le sandbox de démonstration Acme. »*
 
-3. Consultez le tableau des résultats qui indique les sandbox source et cible. Lorsque vous êtes prêt à continuer, sélectionnez **[!UICONTROL Continuer]**, puis sélectionnez **[!UICONTROL Envoyer]** pour confirmer.
+1. Consultez le tableau des résultats qui indique les sandbox source et cible. Lorsque vous êtes prêt à continuer, sélectionnez **[!UICONTROL Continuer]**, puis sélectionnez **[!UICONTROL Envoyer]** pour confirmer.
 
-![Les résultats de la requête avec Continuer sélectionné, en surbrillance Envoyer.](./assets/sandbox-tooling/results-proceed.png)
+   ![Les résultats de la requête avec Continuer sélectionné, en surbrillance Envoyer.](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. Sélectionnez un ou plusieurs objets à migrer, puis sélectionnez **[!UICONTROL Envoyer]**.
+1. Sélectionnez un ou plusieurs objets à migrer, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-![Page de sélection d’objets mettant en surbrillance Envoyer.](./assets/sandbox-tooling/object-selection.png)
+   ![Page de sélection d’objets mettant en surbrillance Envoyer.](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. Passez en revue les objets et les dépendances identifiés par l’agent et confirmez les actions d’opération : *Créer* ou *Utiliser existant*. Lorsque vous êtes prêt(e) à commencer la migration, sélectionnez **[!UICONTROL Continuer]**, puis **[!UICONTROL Envoyer]** pour confirmer. La migration peut prendre plusieurs minutes.
+1. Passez en revue les objets et les dépendances identifiés par l’agent et confirmez les actions d’opération : *Créer* ou *Utiliser existant*. Lorsque vous êtes prêt(e) à commencer la migration, sélectionnez **[!UICONTROL Continuer]**, puis **[!UICONTROL Envoyer]** pour confirmer. La migration peut prendre plusieurs minutes.
 
-![Page Confirmer le plan d’action mettant en surbrillance Envoyer.](./assets/sandbox-tooling/action-plan.png)
+   ![Page Confirmer le plan d’action mettant en surbrillance Envoyer.](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. Une fois la migration terminée, les objets sélectionnés sont disponibles dans le sandbox cible.
+1. Une fois la migration terminée, les objets sélectionnés sont disponibles dans le sandbox cible.
 
 ![Page Transfert terminé affichant le statut de la demande.](./assets/sandbox-tooling/transfer-complete.png)
 
@@ -108,4 +108,4 @@ Utilisez ces invites lorsque vous connaissez le nom de l&#39;audience.
 
 Après avoir lu ce guide, vous devriez comprendre comment utiliser les compétences Agentic de l’outil Sandbox pour découvrir, regrouper et migrer les objets pris en charge entre les sandbox.
 
-Pour plus d’informations sur l’outil Sandbox, consultez le [Guide de l’outil Sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Pour plus d’informations sur l’outil Sandbox, consultez le [Guide de l’outil Sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
