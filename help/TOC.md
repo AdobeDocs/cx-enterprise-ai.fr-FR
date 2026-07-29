@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 19%
+source-wordcount: '227'
+ht-degree: 18%
 
 ---
 
@@ -55,8 +55,9 @@ ht-degree: 19%
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Collègue {#coworker}
-  - [Domicile du collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Aide de collègue {#coworker}
+  - [Aide de collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
-
+  - [Analyse des données CJA](./coworker/analytics-chat.md)
+  - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)
