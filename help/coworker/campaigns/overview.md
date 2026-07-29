@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Les campagnes des collaborateurs d’entreprise d’Adobe CX sont une application marketing native IA qui vous fait passer d’une invite unique à une campagne complète prête pour la révision.
 
-Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne](./). D’autres fonctionnalités seront bientôt disponibles.
+Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne] (./). D’autres fonctionnalités seront bientôt disponibles.
 
 ## Accès
 

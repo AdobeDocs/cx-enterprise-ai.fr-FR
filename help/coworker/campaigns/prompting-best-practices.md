@@ -139,4 +139,4 @@ Fournissez toujours du contexte et la proposition de valeur afin que l’IA puis
 
 >[!MORELIKETHIS]
 >
->Parcourez d’autres [modèles d’invite](./) pour les campagnes Coworker.
+>Parcourez d’autres [modèles d’invite] (./) pour les campagnes Coworker.
