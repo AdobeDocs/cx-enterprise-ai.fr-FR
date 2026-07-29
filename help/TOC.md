@@ -5,7 +5,7 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 23%
@@ -21,7 +21,7 @@ ht-degree: 23%
   - [IA agentique](./overview/agentic-ai.md)
   - [Surveillance IA agentique](./overview/monitoring.md)
   - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
-  - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Outils agentiques](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
@@ -40,7 +40,7 @@ ht-degree: 23%
   - [Version d&#39;évaluation de CX Enterprise Coworker](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -54,17 +54,17 @@ ht-degree: 23%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collègue {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
-  - Campagnes {#coworker-campaigns}
+  - Campagnes {#campaigns}
     - [Vue d’ensemble](./coworker/campaigns/overview.md)
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
     - [Connecteurs](./coworker/campaigns/connectors.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
-  - Chat {#coworker-chat}
+  - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Cas d’utilisation](./coworker/chat/use-cases.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
