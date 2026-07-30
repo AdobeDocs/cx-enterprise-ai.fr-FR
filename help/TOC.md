@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 23%
 
 ---
 
@@ -55,9 +55,20 @@ ht-degree: 18%
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Aide de collègue {#coworker}
-  - [Aide de collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Collègue {#coworker}
+  - [À propos de Coworker](./coworker/overview.md)
+  - Campagnes {#campaigns}
+    - [Vue d’ensemble](./coworker/campaigns/overview.md)
+    - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
+    - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
+    - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
+    - [Connecteurs](./coworker/campaigns/connectors.md)
+    - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
+  - Chat {#chat}
+    - [Vue d’ensemble](./coworker/chat/overview.md)
+    - [Cas d’utilisation](./coworker/chat/use-cases.md)
+    - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
+    - [Analyse des données CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
-  - [Analyse des données CJA](./coworker/analytics-chat.md)
   - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)

@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 872
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Les clients éligibles passent progressivement de l’assistant AI et des agents
 
 Pour voir le Chat des collègues en action, [le Chat des collègues dans Playground](./coworker/playground-coworker-chat.md) ou lisez des cas d’utilisation réels tels que [Valider les données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md) et [Analyser les données CJA](./coworker/analytics-chat.md).
 
-Pour consulter la documentation complète du produit sur les conversations, les campagnes et les projets avec les collègues, voir [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
+Pour consulter la documentation complète du produit sur les conversations, les campagnes et les projets avec les collègues, voir [Adobe CX Enterprise Coworker](./coworker/overview.md).
 
 ## MCP
 
@@ -99,3 +99,4 @@ Pour tirer le meilleur parti de votre expérience d’assistant d’IA ou de col
 ## Considérations juridiques
 
 L’assistant AI prend actuellement en charge les réponses en anglais uniquement et les modèles de langue peuvent parfois faire des erreurs. Vérifiez toujours les informations fournies et utilisez les étapes de raisonnement incluses dans chaque réponse pour comprendre comment elles ont été générées. Pour plus de détails, lisez la [clause de non-responsabilité](./ai-assistant/legal-disclaimer.md).
+
