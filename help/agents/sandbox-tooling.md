@@ -33,7 +33,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - Accès aux objets que vous souhaitez découvrir ou migrer.
 - Plug-in CXO Adobe installé dans CX Coworker.
 
-Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Utilisation des compétences d’agent pour les outils Sandbox {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ Pour utiliser les compétences d’agent des outils Sandbox :
 
 ![Page Transfert terminé affichant le statut de la demande.](./assets/sandbox-tooling/transfer-complete.png)
 
-Pour plus d’informations sur l’utilisation de CX Coworker, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Pour plus d’informations sur l’utilisation de CX Coworker, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Cas d’utilisation pris en charge {#supported-use-cases}
 

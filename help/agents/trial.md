@@ -78,7 +78,7 @@ Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Age
 
 Lisez les guides suivants pour plus d’informations sur Coworker, Agent Orchestrator et l’assistant AI :
 
-- [Collaborateur d’entreprise CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [Collaborateur d’entreprise CX](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
 - [Présentation d’Agent Orchestrator](agent-orchestrator.md)
 - [Guide de l’interface utilisateur de l’assistant AI](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothèque d’invites de l’assistant AI](../ai-assistant/prompt-library.md)
