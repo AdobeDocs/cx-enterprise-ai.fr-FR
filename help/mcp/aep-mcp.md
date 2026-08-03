@@ -3,8 +3,8 @@ title: Outils Adobe Experience Platform dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Experience Platform disponibles via la passerelle CX Coworker.
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
