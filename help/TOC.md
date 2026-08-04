@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 - À propos de l’IA dans CX Enterprise {#overview}
   - [IA générative](./overview/generative-ai.md)
   - [IA agentique](./overview/agentic-ai.md)
-  - [Surveillance IA agentique](./overview/monitoring.md)
+  - [Surveillance par IA agentique](./overview/monitoring.md)
   - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
@@ -40,7 +40,7 @@ ht-degree: 28%
   - [Version d&#39;évaluation de CX Enterprise Coworker](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collègue {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
@@ -62,7 +62,7 @@ ht-degree: 28%
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Connecteurs &#x200B;](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[Connecteurs ](./coworker/campaigns/connectors.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
