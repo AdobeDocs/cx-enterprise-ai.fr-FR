@@ -1,7 +1,7 @@
 ---
 title: Collègue d’entreprise Adobe CX
 description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Campagnes collaboratrices est une fonctionnalité modélisée pour que les petit
 
 ## Chat
 
-Le Module de conversation avec les collaborateurs permet aux équipes d’automatiser les tâches des produits Adobe en langage naturel, transformant rapidement les idées en actions grâce à une planification flexible, des compétences personnalisables et une exécution intelligente.
+La discussion entre collègues permet aux équipes d’automatiser les tâches des produits Adobe en langage naturel, transformant rapidement les idées en actions grâce à une planification flexible, des compétences personnalisables et une exécution intelligente.
 
 * [Vue d’ensemble](./chat/overview.md)
 * [Cas d’utilisation](./chat/use-cases.md)
@@ -33,4 +33,3 @@ Le Module de conversation avec les collaborateurs permet aux équipes d’automa
 ## Projets (documents à venir)
 
 La console Projets de collègue est un espace de travail unifié permettant d’automatiser les workflows d’orchestration de l’expérience client de bout en bout. Elle aide les équipes à coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion.
-
