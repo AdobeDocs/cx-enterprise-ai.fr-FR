@@ -29,13 +29,13 @@ Avant d’utiliser la discussion avec des collègues avec vos données Customer 
 * Compétences
 * Et en plus
 
-Pour plus d’informations, consultez le [Guide de l’interface utilisateur de conversation des collègues](./).
+Pour plus d’informations, consultez le [Guide de l’interface utilisateur de conversation des collègues] (./).
 
 ### Cas d’utilisation de Customer Journey Analytics
 
 Vous pouvez voir des cas d’utilisation Customer Journey Analytics et des exemples d’invites que les utilisateurs utilisent dans le chat des collaborateurs en entreprise d’Adobe CX. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
-Pour plus d’informations, voir [Cas d’utilisation](./).
+Pour plus d’informations, voir [Cas d’utilisation] (./).
 
 ## Vérifier que la conversation avec un collègue est connectée à Customer Journey Analytics
 
