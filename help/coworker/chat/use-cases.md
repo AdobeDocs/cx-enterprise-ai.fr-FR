@@ -1,16 +1,16 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas d’utilisation
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 3%
 
 ---
 
 # Cas d’utilisation {#use-cases}
 
-Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collaborateurs d’Adobe CX, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collègues d’Adobe, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
 ## Informations sur les données
 

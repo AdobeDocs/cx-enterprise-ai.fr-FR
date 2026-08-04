@@ -2,16 +2,16 @@
 description: La description va ici.
 title: Connecteurs
 hide: true
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 13%
 
 ---
 
 # Connecteurs {#connectors}
 
-Les campagnes des collaborateurs d’entreprise d’Adobe CX vous permettent de connecter votre compte Marketo Engage ou Hubspot afin d’extraire des contacts, des segments et des activités.
+Les campagnes Adobe Coworker vous permettent de connecter votre compte Marketo Engage ou Hubspot, ce qui vous permet d’extraire des contacts, des segments et des activités.
 
 >[!NOTE]
 >

@@ -1,16 +1,16 @@
 ---
 title: Analyse des données Customer Journey Analytics avec la conversation des collègues
-description: Découvrez comment utiliser le Module de conversation avec les collaborateurs de l’entreprise Adobe CX pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
-source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
+description: Découvrez comment utiliser le Module de conversation des collaborateurs d’Adobe pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients se retrouvent dans le parcours.
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2040'
 ht-degree: 5%
 
 ---
 
 # Analyse des données Customer Journey Analytics avec la conversation des collègues
 
-Le Module de conversation des collaborateurs de l’entreprise Adobe CX peut effectuer une analyse avancée des données, auparavant uniquement possible dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
+Le Module de conversation des collaborateurs d’Adobe peut effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
 
 Avant de commencer votre analyse, découvrez l’interface et les options de configuration du Module de conversation de Coworker, puis assurez-vous que Coworker est connecté à Customer Journey Analytics et à la vue de données contenant les données que vous souhaitez utiliser.
 
@@ -29,13 +29,13 @@ Avant d’utiliser la discussion avec des collègues avec vos données Customer 
 * Compétences
 * Et en plus
 
-Pour plus d’informations, consultez le [Guide de l’interface utilisateur de conversation des collègues] (./).
+Pour plus d’informations, consultez le [Guide de l’interface utilisateur de conversation des collègues](./).
 
 ### Cas d’utilisation de Customer Journey Analytics
 
-Vous pouvez voir des cas d’utilisation Customer Journey Analytics et des exemples d’invites que les utilisateurs utilisent dans le chat des collaborateurs en entreprise d’Adobe CX. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Vous pouvez voir des cas d’utilisation de Customer Journey Analytics et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collègues. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
-Pour plus d’informations, voir [Cas d’utilisation] (./).
+Pour plus d’informations, voir [Cas d’utilisation](./).
 
 ## Vérifier que la conversation avec un collègue est connectée à Customer Journey Analytics
 
