@@ -7,11 +7,10 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
 workflow-type: tm+mt
-source-wordcount: 966
+source-wordcount: 967
 ht-degree: 6%
 
 ---
@@ -75,4 +74,4 @@ Pour connaître les agents AEP et les tâches d’agent disponibles dans vos app
 
 * [GenAI dans CX Enterprise](generative-ai.md)
 * [IA agentique dans CX Enterprise](agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
