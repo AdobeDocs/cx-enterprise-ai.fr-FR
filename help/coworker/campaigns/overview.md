@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Les campagnes collaboratrices sont une application marketing native à l’IA qui vous fait passer d’une invite unique à une campagne complète prête pour la révision.
 
-Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne](./). D’autres fonctionnalités seront bientôt disponibles.
+Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne] (./). D’autres fonctionnalités seront bientôt disponibles.
 
 ## Accès
 
