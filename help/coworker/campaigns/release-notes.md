@@ -1,16 +1,16 @@
 ---
-description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes de collaborateurs d’entreprise Adobe CX.
-title: Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes Adobe Coworker.
+title: Notes de mise à jour des campagnes Adobe Coworker
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX {#release-notes}
+# Notes de mise à jour des campagnes Adobe Coworker {#release-notes}
 
-Les versions des campagnes des collaborateurs d’entreprise Adobe CX fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
+Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 
 ## Juillet 2026 {#july-2026}
 
@@ -130,7 +130,7 @@ Les versions des campagnes des collaborateurs d’entreprise Adobe CX fonctionne
 
 **Date de publication : 10 juin 2026**
 
-* L’application s’appelle désormais Campagnes Entreprise Client CX avec un nom mis à jour dans
+* L’application s’appelle désormais Campagnes collaborateur avec un nom mis à jour dans
 * Une première visite d’intégration vous guide tout au long de la création d’une marque de démonstration
 * Lancez des campagnes à partir d’une boîte de dialogue dédiée lorsque votre plan est prêt à l’emploi.
 * Connectez HubSpot à l’aide d’une clé API du catalogue d’intégrations

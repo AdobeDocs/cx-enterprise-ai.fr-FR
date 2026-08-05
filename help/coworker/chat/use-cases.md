@@ -1,16 +1,16 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas d’utilisation
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # Cas d’utilisation {#use-cases}
 
-Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collaborateurs d’Adobe CX, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collègues d’Adobe, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
 ## Informations sur les données
 
@@ -44,6 +44,8 @@ Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites qu
 | --- | --- | --- | --- | --- |
 | Créer des parcours à partir du langage naturel | Orchestrer la création de parcours dans AJO à partir d’une invite de texte ou d’une image/d’un diagramme de flux chargé | `journey-create` | Adobe Journey Optimizer (AJO) | « Création d’un parcours de bienvenue qui envoie un e-mail après l’inscription, attend 3 jours, puis envoie un suivi » · « Création d’un parcours à partir de cette image de diagramme de flux chargée » |
 | Analyse des conflits de parcours | Détecter les chevauchements d’audience, les collisions planifiées et les problèmes de déduplication entre les parcours actifs | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | « Mon parcours d’abandon de panier est-il en conflit avec d’autres parcours ? » · « Vérifier le chevauchement des audiences entre mes parcours actifs » |
+| Analyse des abandons de parcours | Identifiez où et pourquoi les clients abandonnent au cours d’un parcours et détectez les comportements générateurs de désengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | « Où les gens décrochent-ils dans mon parcours de réengagement ? » · « Quels sont les nœuds du parcours X qui ont les retombées les plus importantes ? » |
+| Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » · « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue ». |
 
 ## Éléments fondamentaux
 

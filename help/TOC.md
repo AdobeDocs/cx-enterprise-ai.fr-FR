@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 28%
+source-wordcount: '235'
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 - À propos de l’IA dans CX Enterprise {#overview}
   - [IA générative](./overview/generative-ai.md)
   - [IA agentique](./overview/agentic-ai.md)
-  - [Surveillance IA agentique](./overview/monitoring.md)
+  - [Surveillance par IA agentique](./overview/monitoring.md)
   - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 28%
   - [Agent du support technique du produit](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agent de notifications](./agents/notifications.md)
-  - [Version d&#39;évaluation de CX Enterprise Coworker](./agents/trial.md)
+  - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
     - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 28%
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
     - [Analyse des données CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
+  - [Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
   - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)

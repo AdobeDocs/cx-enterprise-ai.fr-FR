@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 3%
+source-wordcount: 996
+ht-degree: 2%
 
 ---
 
 # Tableaux de bord de surveillance d’Agentic AI
 
-Le tableau de bord de surveillance de l&#39;IA dédiée aux agences donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
+Le tableau de bord de l&#39;IA dédiée aux agences [!UICONTROL surveillance] donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
 **Disponibilité**
 
@@ -42,7 +42,7 @@ Le tableau de bord [!UICONTROL Surveillance] comprend les vues suivantes :
 | **Commentaires** | Signaux sur la qualité de la réponse et la satisfaction des utilisateurs |
 | **Crédits AI** | Tendances de la consommation de crédit et solde restant |
 
-La documentation [Agentic AI in Adobe CX Enterprise](agentic-ai.md) répertorie les agents concernés par la surveillance de l’utilisation dans les agents [AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table).
+La documentation [Agentic AI in Adobe CX Enterprise](agentic-ai.md) répertorie les agents concernés par la surveillance de l’utilisation dans le tableau [Agents AI dans les applications CX Enterprise existantes](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491870?captions=fre_fr&learn=on)
 
@@ -90,7 +90,7 @@ Accordez l’accès au tableau de bord dans [!DNL Adobe Experience Platform] en 
 
 ## Tableau de bord de présentation
 
-Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. Pour voir ce qui génère ces chiffres, explorez les conversations individuelles à partir de n’importe quelle mesure.
+Le tableau de bord Présentation est l’emplacement central des mesures d’adoption et d’engagement au sein de votre organisation. Il relie les tendances de haut niveau à une analyse plus approfondie. Pour identifier les facteurs qui influencent les mesures, passez en revue les conversations individuelles à partir de n’importe quelle mesure.
 
 ### Mesures dans le tableau de bord de présentation
 

@@ -1,6 +1,6 @@
 ---
-title: Version d'évaluation de CX Enterprise Coworker
-description: Découvrez l'essai gratuit pour CX Enterprise Coworker.
+title: Version d’essai d’Adobe Coworker
+description: Découvrez l’essai gratuit d’Adobe Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# Version d&#39;évaluation de CX Enterprise Coworker
+# Version d’essai d’Adobe Coworker
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Age
 
 Lisez les guides suivants pour plus d’informations sur Coworker, Agent Orchestrator et l’assistant AI :
 
-- [Collaborateur d’entreprise CX](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+- [Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Présentation d’Agent Orchestrator](agent-orchestrator.md)
 - [Guide de l’interface utilisateur de l’assistant AI](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothèque d’invites de l’assistant AI](../ai-assistant/prompt-library.md)
