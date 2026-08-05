@@ -75,4 +75,4 @@ Pour connaître les agents AEP et les tâches d’agent disponibles dans vos app
 
 * [GenAI dans CX Enterprise](generative-ai.md)
 * [IA agentique dans CX Enterprise](agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
