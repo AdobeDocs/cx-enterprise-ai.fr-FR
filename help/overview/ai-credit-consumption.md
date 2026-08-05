@@ -1,40 +1,42 @@
 ---
-title: Tâches d’agent et consommation de crédit d’IA
-description: Découvrez les tâches des agents et les taux de consommation de crédit de l’IA dans les applications CX Enterprise.
+title: Consommation de crédit par l’IA
+description: Découvrez la consommation des crédits AI dans les applications CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 966
+ht-degree: 6%
 
 ---
 
-# Tâches de l’agent Adobe Experience Platform et consommation des crédits d’IA
+# Consommation des crédits AI
 
-Découvrez les tâches d’IA dédiée aux agences et la consommation de crédit d’IA dans les applications CX Enterprise. Pour plus d’informations sur l’activation des fonctionnalités d’IA dédiée aux agents dans les applications CX Enterprise existantes, voir [IA dédiée aux agents dans CX Enterprise](agentic-ai.md#existing-apps).
-
-## Nouveautés
-
-| Fonctionnalité | Description |
-| --- | --- |
-| [Catalogue des fonctionnalités IA d’Enterprise Agentic CX](https://agentic-capability-explorer.entapp.adproto.com/) | Découvrez les tâches d’IA agentique disponibles dans vos applications CX Enterprise sous licence. |
-
-## Traitements de l&#39;agent
-
-Une _tâche d’agent_ est une série de tâches et d’actions qu’un agent exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
-
-À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. Sur la base de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications d’entreprise CX appropriées.
+Découvrez la consommation des crédits AI dans les applications CX Enterprise.
 
 ## Crédits IA
 
-Un _crédit AI_ est une mesure basée sur l’utilisation qui quantifie l’exécution des tâches de l’agent. Les crédits AI ne s’appliquent pas aux [applications AI-first](agentic-ai.md).
+Un _crédit IA_ est une mesure basée sur l’utilisation qui quantifie l’exécution d’actions ou de tâches.
 
-## Consommation de crédit par l’IA
+## Services éligibles utilisant des crédits d’IA
+
+* CX Enterprise Coworker
+* Agents AEP
+
+### Taux de crédit de collaborateur d&#39;entreprise CX
+
+Pendant une période d’introduction limitée, les entrées de collègues consomment des crédits AI à un taux de 25 crédits AI par entrée. Ce tarif est disponible pour une durée limitée uniquement et peut faire l’objet de modifications.
+
+### Taux de crédit des agents AEP
+
+Une _tâche d’agent_ est une série de tâches et d’actions qu’un agent AEP exécute pour obtenir un résultat spécifique, selon les instructions du client ou de la cliente.
+
+À l’aide d’invites en langage naturel via l’assistant AI, vous pouvez demander à des agents d’effectuer des tâches spécifiques. Sur la base de ces entrées, Agent Orchestrator coordonne les agents appropriés pour exécuter chaque étape dans les applications d’entreprise CX appropriées.
 
 L’utilisation du crédit de l’IA peut varier en fonction de la complexité et de la valeur de la tâche exécutée :
 
@@ -42,9 +44,9 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 * Les tâches complexes (souvent à plusieurs étapes) consomment davantage de crédits
 * Les tâches impliquant un raisonnement avancé, la validation, la coordination multi-agent ou l&#39;intégration consomment plus de crédits
 
-**Remarque :** le catalogue des fonctionnalités d’IA agentique pour les entreprises [CX](https://agentic-capability-explorer.entapp.adproto.com/) est également disponible pour vous aider à découvrir les tâches d’IA agentique disponibles dans vos applications d’entreprise CX sous licence.
+Pour connaître les agents AEP et les tâches d’agent disponibles dans vos applications d’entreprise CX sous licence, consultez [Catalogue des fonctionnalités d’IA pour les agents d’entreprise CX](https://agentic-capability-explorer.entapp.adproto.com/).
 
-### Taux estimés de consommation du crédit IA
+#### Taux estimés de crédit pour tâche de l&#39;agent
 
 | Agent | Traitement | Applications prises en charge | Crédits IA estimés | Exemples d’invites |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +74,4 @@ L’utilisation du crédit de l’IA peut varier en fonction de la complexité e
 
 * [GenAI dans CX Enterprise](generative-ai.md)
 * [IA agentique dans CX Enterprise](agentic-ai.md)
-* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Essai des agents Adobe Experience Platform lié à l’utilisation](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
