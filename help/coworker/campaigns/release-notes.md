@@ -1,14 +1,14 @@
 ---
-description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes Adobe Coworker.
-title: Notes de mise à jour des campagnes Adobe Coworker
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes de collaborateurs d’entreprise Adobe CX.
+title: Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Notes de mise à jour des campagnes Adobe Coworker {#release-notes}
+# Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX {#release-notes}
 
 Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 

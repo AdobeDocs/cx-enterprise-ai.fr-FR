@@ -1,25 +1,18 @@
 ---
-title: Version d’essai d’Adobe Coworker
-description: Découvrez l’essai gratuit d’Adobe Coworker.
+title: Version d'évaluation de CX Enterprise Coworker
+description: Découvrez l'essai gratuit pour CX Enterprise Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: 1433
 ht-degree: 1%
 
 ---
 
-# Version d’essai d’Adobe Coworker
+# Version d&#39;évaluation de CX Enterprise Coworker
 
 >[!AVAILABILITY]
 >
@@ -42,7 +35,7 @@ Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 0
 - Conversation avec un collègue : entrées saisies dans la conversation avec un collègue. Pendant une période d’introduction limitée, les entrées consomment des crédits AI à un taux de 25 crédits AI par entrée. Ce tarif est disponible pour une durée limitée uniquement et peut faire l’objet de modifications.
 - Agents Experience Platform : toute combinaison de tâches effectuées à l’aide des agents Experience Platform (en fonction de votre ou vos licences existantes pour les applications d’entreprise CX) répertoriée dans le [Tableau de consommation du crédit d’AI](../overview/ai-credit-consumption.md).
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Le tableau de bord de surveillance d’Agentic AI vous donne une visibilité claire sur la manière dont l’IA dédiée aux agences est adoptée et utilisée dans votre organisation. Les utilisateurs autorisés peuvent facilement suivre l’engagement, recueillir des commentaires, surveiller l’utilisation du crédit de l’IA et examiner les mesures clés. Utilisez ces informations pour découvrir des opportunités d’optimisation et soutenir vos efforts de gouvernance et d’adoption. Pour en savoir plus, consultez le [Guide de surveillance de l’utilisation de l’IA dédiée aux agences](../overview/monitoring.md).
 
@@ -72,13 +65,13 @@ Les utilisateurs des clients éligibles auront un accès par défaut à l’assi
 
 Une fois que vous y avez accès, accédez à la page d’accueil d’Adobe CX Enterprise pour commencer à utiliser l’assistant AI. Vous pouvez utiliser les [invites de découverte](../ai-assistant/ai-assistant-ui.md#discovery-prompts) pour afficher les suggestions des invites et des workflows courants. Utilisez cette fonctionnalité pour accélérer votre intégration à l’aide de l’assistant AI. Lisez également la section [bibliothèque d’invites](../ai-assistant/prompt-library.md) pour découvrir un grand nombre d’invites que vous pouvez utiliser avec différents agents. Pour obtenir des informations plus complètes, consultez le guide de l’interface utilisateur de l’assistant [AI](../ai-assistant/ai-assistant-ui.md).
 
-Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [&#128279;](mailto:cx-coworker-questions@adobe.com).
+Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [](mailto:cx-coworker-questions@adobe.com).
 
 ## Ressources supplémentaires
 
 Lisez les guides suivants pour plus d’informations sur Coworker, Agent Orchestrator et l’assistant AI :
 
-- [Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Présentation d’Agent Orchestrator](agent-orchestrator.md)
 - [Guide de l’interface utilisateur de l’assistant AI](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothèque d’invites de l’assistant AI](../ai-assistant/prompt-library.md)
@@ -110,7 +103,7 @@ Cette version d’évaluation ne nécessite aucun achat supplémentaire. Il n’
 
 ### Qui peut voir l’utilisation et comment ?
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage). Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
 
 Les clients gardent le contrôle sur qui peut voir l’utilisation et les rapports. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent voir ces informations.
 

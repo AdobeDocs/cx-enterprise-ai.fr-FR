@@ -1,14 +1,14 @@
 ---
-title: Collègue Adobe
-description: Découvrez comment booster votre marketing avec Adobe Coworker.
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Collègue d’entreprise Adobe CX
+description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 5%
 
 ---
 
-# À propos d’Adobe Coworker
+# À propos d’Adobe CX Enterprise Coworker
 
 Coworker est un coéquipier optimisé par l’IA qui réimagine la nature du travail pour les organisations, les équipes et les individus. Coworker automatise élégamment l’expérience client et les workflows marketing afin que les entreprises puissent se concentrer sur la réalisation de leurs objectifs commerciaux et la transformation des résultats, plutôt que sur la coordination des tâches. En tant que moteur d&#39;agence, Coworker adopte une nouvelle approche innovante pour automatiser les processus d&#39;entreprise. Il améliore les performances et la précision des modèles d’IA en associant les données, l’intelligence artificielle, la collaboration et l’exécution des compétences de l’agence au contexte de l’entreprise, à la gouvernance et à la supervision humaine intégrés.
 
