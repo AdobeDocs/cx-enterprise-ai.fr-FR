@@ -2,22 +2,12 @@
 title: IA dans les applications d’entreprise CX
 description: Découvrez comment les applications d’entreprise CX utilisent l’IA générative (GenAI), l’assistant IA, l’IA dédiée aux agences, l’expérience client et les outils MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 4%
 
 ---
@@ -30,10 +20,10 @@ Ce guide couvre les fonctionnalités d’IA d’Adobe CX Enterprise : IA génér
 
 Commencez ici pour une introduction sur où et comment l’IA est utilisée dans l’entreprise CX :
 
-- [IA générative](./overview/generative-ai.md) décrit les applications d’entreprise CX qui prennent en charge l’IA générative et l’assistant d’IA, et compare.
-- [Agentic AI](./overview/agentic-ai.md) explique le fonctionnement des agents Experience Platform à la fois dans les applications CX Enterprise et les applications AI-first existantes, et répertorie les agents disponibles dans chacune d’elles.
-- [Surveillance de l’IA dédiée aux agents](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
-- [Tâches d’agent et consommation de crédits AI](./overview/ai-credit-consumption.md) explique comment les tâches d’agent consomment des crédits AI, avec des taux de consommation estimés par agent et type de tâche.
+- [À propos de l’IA générative](./overview/generative-ai.md) décrit les applications d’entreprise CX qui prennent en charge l’IA générative et l’assistant IA, et compare.
+- [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md) explique le fonctionnement des agents Experience Platform à la fois dans les applications CX Enterprise et les applications IA dédiées existantes. Il répertorie également les agents disponibles dans chacun d’eux.
+- [ Surveillance de l’IA ](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
+- [Consommation des crédits AI](./overview/ai-credit-consumption.md) explique comment les tâches de l’agent consomment les crédits AI, avec des taux de consommation estimés par agent et par type de tâche.
 - [Outils d&#39;agentic CX Enterprise](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview) couvrent les compétences et les outils agentic supplémentaires qui étendent les agents d&#39;agentic CX Enterprise (tutoriels vidéo).
 
 ## Assistant IA
@@ -44,7 +34,7 @@ Pour savoir comment naviguer dans l’interface, lisez le guide de l’interface
 
 ## Agents Agent Orchestrator et Experience Platform
 
-[&#128279;](./agents/agent-orchestrator.md) est la couche d’agent qui alimente les agents Experience Platform. Lorsque vous posez une question à l’assistant d’IA, Agent Orchestrator planifie le travail, fait appel aux agents spécialisés nécessaires pour y répondre et renvoie une réponse unifiée, le tout avec une supervision humaine.
+[](./agents/agent-orchestrator.md) est la couche d’agent qui alimente les agents Experience Platform. Lorsque vous posez une question à l’assistant d’IA, Agent Orchestrator planifie le travail, fait appel aux agents spécialisés nécessaires pour y répondre et renvoie une réponse unifiée, le tout avec une supervision humaine.
 
 Les agents Experience Platform suivants sont documentés dans ce guide :
 
@@ -64,8 +54,8 @@ Pour obtenir la liste complète des agents, les applications prises en charge pa
 
 Coworker est une évolution de l’IA Assistant orientée agent-first qui automatise l’expérience client et les workflows marketing, de sorte que votre équipe puisse se concentrer sur les objectifs commerciaux plutôt que sur l’exécution de routine. Au lieu de poser une question à la fois, vous décrivez un objectif. Un collègue planifie, exécute, valide et renvoie le travail terminé pour approbation. Le collaborateur comprend :
 
-- **[Conversation avec un collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)** : interface conversationnelle permettant d’explorer vos données, de valider les audiences et les parcours et d’effectuer des tâches en plusieurs étapes sur l’ensemble des applications d’entreprise CX.
-- **[Campagnes des collègues](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes.
+- **[Conversation avec un collègue](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)** : interface conversationnelle permettant d’explorer vos données, de valider les audiences et les parcours et d’effectuer des tâches en plusieurs étapes sur l’ensemble des applications d’entreprise CX.
+- **[Campagnes des collègues](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes.
 - **Projets de collègues** (bientôt disponible) : espace de travail unifié pour automatiser les workflows d’orchestration de l’expérience client de bout en bout, ce qui permet aux équipes de coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion. La documentation des projets sera bientôt disponible.
 
 Les clients éligibles passent progressivement de l’assistant AI et des agents Experience Platform au chat des collègues. Lisez [Version d’évaluation des collaborateurs](./agents/trial.md) pour en savoir plus sur l’éligibilité des versions d’évaluation, l’utilisation du crédit AI et comment y accéder.
