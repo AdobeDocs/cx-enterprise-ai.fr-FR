@@ -40,7 +40,7 @@ ht-degree: 26%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -62,7 +62,7 @@ ht-degree: 26%
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Connecteurs ](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[Connecteurs &#x200B;](./coworker/campaigns/connectors.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
