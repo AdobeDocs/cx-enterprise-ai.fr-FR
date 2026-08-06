@@ -1,16 +1,16 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas d’utilisation
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
 # Cas d’utilisation {#use-cases}
 
-Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collègues d’Adobe, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collaborateurs d’Adobe CX, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
 ## Informations sur les données
 
@@ -33,10 +33,10 @@ Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites qu
 | Créer des audiences à partir du langage naturel | Orchestrer la création d’audiences étape par étape avec l’approbation de l’utilisateur à chaque phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | « Créer une audience d’utilisateurs qui ont acheté au cours des 30 derniers jours » · « Créer un segment pour les membres du programme de fidélité à forte valeur ajoutée en Californie » |
 | Création de définitions PQL | Assembler les définitions d’audience à partir des propriétés XDM, des événements comportementaux ou des audiences existantes ; prendre en charge l’agrégation et les fenêtres temporelles | `segment-definition-assembly` | Real-Time CDP (RTCDP) | « Création d’un PQL pour les personnes qui ont consulté plus de 3 produits, mais ne les ont pas achetés » · « Ajout d’une période de 7 jours à ma condition d’événement » |
 | Rechercher et trouver des audiences | Rechercher des audiences par identifiant, nom, recherche sémantique ; détecter les doublons et analyser les chevauchements | `audience-search` | Real-Time CDP (RTCDP) | « Rechercher toutes les audiences de fidélité » · « Existe-t-il un doublon de mon segment « Acheteurs de vacances » ? » |
-| Estimer la taille de l’audience | Estimer la portée du profil pour une expression PQL à l’aide de l’API de prévisualisation AEP avec interrogation | `audience-size-estimate` | Real-Time CDP (RTCDP) | « Quelle est la taille de cette audience ? » · « Estimer la portée de cette expression PQL » |
+| Estimer la taille de l’audience | Estimer la portée du profil pour une expression PQL à l’aide de l’API de prévisualisation Adobe Experience Platform avec interrogation | `audience-size-estimate` | Real-Time CDP (RTCDP) | « Quelle est la taille de cette audience ? » · « Estimer la portée de cette expression PQL » |
 | Cascade de taille d’audience | Décomposer un PQL en sous-prédicats et montrer comment chaque condition contribue à la taille finale de l’audience | `audience-size-waterfall` | Real-Time CDP (RTCDP) | « Montrez-moi la cascade pour ce PQL » · « Déterminez comment chaque condition réduit l’audience » |
 | Découvrir les champs XDM pour le ciblage | Rechercher des champs par nom, description ou valeur de données ; voir où ils vivent et où ils sont déjà utilisés | `field-discovery` | Real-Time CDP (RTCDP) | « Quels champs puis-je utiliser pour cibler les clients fidèles ? » · « Rechercher les champs liés à l&#39;historique des achats » |
-| Publier/enregistrer des audiences | Conservez les définitions d’audience dans AEP Segmentation Service avec les conventions de nommage et les contrôles de conformité. | `audience-publish` | Real-Time CDP (RTCDP) | « Enregistrer ceci en tant que brouillon » · « Publier l’audience nommée « Acheteurs de ventes printanières » » |
+| Publier/enregistrer des audiences | Conservez les définitions d’audience dans Experience Platform Segmentation Service avec les conventions de nommage et les contrôles de conformité. | `audience-publish` | Real-Time CDP (RTCDP) | « Enregistrer ceci en tant que brouillon » · « Publier l’audience nommée « Acheteurs de ventes printanières » » |
 
 ## Parcours
 
@@ -52,17 +52,14 @@ Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites qu
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Connaissances et documentation du produit | Répondez à des questions relatives à l’utilisation, à la conception, au dépannage et aux bonnes pratiques à partir de la documentation Adobe officielle | `product-knowledge` | Toutes les applications éligibles | « Comment configurer une destination de diffusion en streaming ? » · « Quelle est la différence entre la segmentation par lots et en flux continu ? » |
-| Requête sur les entités AEP/AJO | Servir de point d’entrée principal pour les questions sur les entités de votre plateforme ; acheminer vers KG, la découverte de champs ou les API selon les besoins | `operational-insights` | Toutes les applications éligibles | « De combien de jeux de données dispose-t-on ? » · « Afficher tous les parcours actifs » · « Répertorier mes destinations » |
+| Requête sur les entités Experience Platform / Journey Optimizer | Servir de point d’entrée principal pour les questions sur les entités de votre plateforme ; acheminer vers KG, la découverte de champs ou les API selon les besoins | `operational-insights` | Toutes les applications éligibles | « De combien de jeux de données dispose-t-on ? » · « Afficher tous les parcours actifs » · « Répertorier mes destinations » |
 | Requêtes du graphique de connaissances | Nombre d’agrégats, jointures d’entités croisées, recherches de relations et exploration des métadonnées via des requêtes SQL uniques | `knowledge-graph` | Toutes les applications éligibles | « Quelles audiences utilisent ce jeu de données ? » · « Afficher les relations entre les schémas et les jeux de données » |
-| Opérations de l’API AEP/AJO/CJA | Fournir une passerelle d’API directe pour les mutations, les contrôles d’état en temps réel et les types d’entités qui ne figurent pas dans le graphique de connaissances | `cxo-api` | Toutes les applications éligibles | « Supprimer le jeu de données X » · « Vérifier le statut de mon traitement d’ingestion par lots » |
-| Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités AEP réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform (AEP) | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
-| Créer un contexte personnel | Générez un profil utilisateur personnalisé à partir de vos journaux d’activité AEP, CJA et/ou Workfront | `build-my-context` | Toutes les applications éligibles | « Créer mon contexte à partir des activités AEP et CJA » · « Qui suis-je dans cette organisation ? » |
-| Distiller le contexte de l’organisation | Extrayez les connaissances de l’ensemble de l’organisation à partir d’un document dans le wiki org-context partagé | `distill-org-context` | Toutes les applications éligibles | « Convertir ce document en wiki d’organisation » · « Ajouter ce fichier au contexte d’organisation » |
-| Distiller le contexte utilisateur | Extraire le contexte de travail personnel d’un document dans votre wiki contextuel utilisateur | `distill-user-context` | Toutes les applications éligibles | « Ajouter ce fichier à mon contexte utilisateur » · « Extraire mon contexte de travail de ce document » |
+| Opérations de l’API Experience Platform / Journey Optimizer / Customer Journey Analytics | Fournir une passerelle d’API directe pour les mutations, les contrôles d’état en temps réel et les types d’entités qui ne figurent pas dans le graphique de connaissances | `cxo-api` | Toutes les applications éligibles | « Supprimer le jeu de données X » · « Vérifier le statut de mon traitement d’ingestion par lots » |
+| Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
 
 ## Outil Sandbox
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| Déplacement de métadonnées d’objets dans des sandbox | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » · « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |
+| Déplacement de métadonnées d’objets dans des sandbox | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » · « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |

@@ -1,14 +1,14 @@
 ---
 description: Découvrez comment la discussion entre collègues utilise une interface conversationnelle pour planifier, exécuter et terminer le travail sur l’expérience client sur Adobe et les systèmes connectés en quelques minutes.
-title: Présentation du chat des collègues Adobe
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
-# Présentation de la conversation des collègues Adobe {#overview}
+# Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX {#overview}
 
 Le Module de conversation des collègues est une interface conversationnelle permettant d’améliorer l’expérience client. Vous décrivez un objectif en langage simple (par exemple, « créer une audience pour la promotion de yoga du printemps » ou « dites-moi pourquoi cette audience a diminué la semaine dernière ») et le Chat des collaborateurs planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et vous ramène le travail terminé pour approbation.
 
@@ -20,7 +20,7 @@ La valeur : le travail qui s’étendait sur plusieurs écrans, équipes et jour
 
 >[!NOTE]
 >
->La conversation avec un collègue est un module d’Adobe Coworker. Deux autres modules étendent la même base : Campagnes des collègues (lancez une campagne complète à partir d’une seule conversation) et Projets des collègues (espace de travail permanent pour des workflows multi-équipes de bout en bout). Cette page couvre le Module de conversation des collègues.
+>La conversation avec un collègue est un module d’Adobe CX Enterprise Coworker. Deux autres modules étendent la même base : Campagnes des collègues (lancez une campagne complète à partir d’une seule conversation) et Projets des collègues (espace de travail permanent pour des workflows multi-équipes de bout en bout). Cette page couvre le Module de conversation des collègues.
 
 ## Une évolution de l’assistant d’IA
 

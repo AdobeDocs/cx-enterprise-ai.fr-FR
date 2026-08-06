@@ -1,23 +1,23 @@
 ---
 title: Analyse des données Customer Journey Analytics avec la conversation des collègues
-description: Découvrez comment utiliser le Module de conversation des collaborateurs d’Adobe pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients se retrouvent dans le parcours.
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+description: Découvrez comment utiliser le Module de conversation avec les collaborateurs de l’entreprise Adobe CX pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3239'
+source-wordcount: '3210'
 ht-degree: 4%
 
 ---
 
 # Analyse des données Customer Journey Analytics avec la conversation des collègues
 
-Le Module de conversation des collaborateurs d’Adobe peut effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
+Le Module de conversation des collaborateurs de l’entreprise Adobe CX peut effectuer une analyse avancée des données, auparavant uniquement possible dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
 
 Vous pouvez utiliser le Module de conversation des collègues de deux manières, selon le niveau d’analyse dont vous avez besoin :
 
 * **Réponses rapides** - Posez une question directe en langage simple et obtenez une réponse immédiate. Les utilisateurs professionnels utilisent souvent le Module de conversation des collaborateurs de cette manière, et les analystes l’utilisent également lorsqu’ils ont besoin d’une réponse rapide pour une partie prenante.
 * **Travail de réflexion approfondi** - Discutez longuement et à plusieurs reprises avec le Module de conversation des collègues pour examiner un problème d’entreprise, en exclure les causes et formuler une recommandation. Les analystes utilisent généralement cette approche pour explorer les données en profondeur avant de formuler une recommandation.
 
-Avant de commencer votre analyse, découvrez l’interface et les options de configuration du Module de conversation de Coworker, puis assurez-vous que Coworker est connecté à Customer Journey Analytics et à la vue de données contenant les données que vous souhaitez utiliser.
+Avant de commencer, découvrez l’interface et les options de configuration de la conversation avec un collègue, puis assurez-vous que ce dernier est connecté à Customer Journey Analytics et à la vue de données appropriée.
 
 ## Prise en main du chat des collègues
 
@@ -54,12 +54,14 @@ Pour plus d’informations, consultez le [Guide de l’interface utilisateur de 
 
 #### Bonnes pratiques au niveau de l’utilisateur
 
-* Utilisez le mode Plan. Cela est particulièrement utile pour les tâches complexes, mais peut également donner de meilleurs résultats pour les tâches simples, car cela permet à Coworker de poser des questions de suivi avant d&#39;agir. Pour plus d’informations, voir [Mode Plan](/help/coworker/chat/ui-guide.md#plan-mode).
+* Utilisez le mode Plan.
+
+  Ce mode est particulièrement utile pour les tâches complexes, mais peut également donner de meilleurs résultats pour les tâches simples, car il permet à Coworker de poser des questions de suivi avant d&#39;agir. Pour plus d’informations, voir [Mode Plan](/help/coworker/chat/ui-guide.md#plan-mode).
 
 * Lors de la création d’une invite, soyez aussi précis que possible :
 
   * Nommez les dimensions, mesures et périodes à analyser.
-  * Référencez les composants de vue de données, tels que les dimensions, les mesures et les segments, en fonction de leur nom exact.
+  * Référencez les composants de la vue de données en fonction de leur nom exact.
   * Spécifiez les segments, audiences, canaux ou appareils que vous souhaitez inclure, exclure ou comparer.
   * Indiquez si vous souhaitez un type de visualisation spécifique, tel qu’un funnel, un tableau de tendance ou un tableau de cohortes.
   * Demandez les étapes suivantes recommandées si vous souhaitez que le Chat des collègues vous suggère des questions de suivi.
@@ -90,7 +92,7 @@ Vous pouvez avoir accès à différentes vues de données dans Customer Journey 
 
 ### Choix des vues de données à utiliser
 
-Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui quelles vues de données auxquelles vous avez accès seraient les mieux placées pour fournir ces informations. Vous pouvez également [définir votre vue de données comme préférence en mémoire](#add-a-data-view-preference-in-memory).
+Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui à quelles vues de données vous avez accès pour obtenir ces informations. Vous pouvez également [définir votre vue de données comme préférence en mémoire](#add-a-data-view-preference-in-memory).
 
 **Vous:**
 
@@ -136,7 +138,7 @@ Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui
 
 ## Analyser dans Customer Journey Analytics
 
-Une fois que Coworker a créé une visualisation, vous pouvez ouvrir la visualisation dans Analysis Workspace sous Customer Journey Analytics pour une analyse plus approfondie avec un contrôle plus granulaire. La visualisation s’ouvre dans un nouveau projet Analysis Workspace dans Customer Journey Analytics.
+Une fois que Coworker a créé une visualisation, vous pouvez l’ouvrir dans Analysis Workspace pour une analyse plus approfondie et un contrôle granulaire. La visualisation s’ouvre dans un nouveau projet Analysis Workspace dans Customer Journey Analytics.
 
 Pour ouvrir une visualisation dans un nouveau projet Analysis Workspace :
 
@@ -265,7 +267,7 @@ Cette compétence (`cja-skill-creator`) transforme une analyse que vous avez dé
 
 #### Autorisations nécessaires
 
-* Gérer les compétences, pour enregistrer une compétence réutilisable
+* Gestion des compétences
 
 #### Cas d’utilisation clés
 
@@ -490,7 +492,7 @@ Voulez-vous que j&#39;enregistre ceci en tant que projet afin que vous puissiez 
 
 >[!ENDSHADEBOX]
 
-### Ce qui vient de se passer
+### Ce qui s&#39;est passé
 
 Dans quatre questions en langage clair, Coworker nous a aidés :
 
