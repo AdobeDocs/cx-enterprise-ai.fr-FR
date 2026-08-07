@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 29%
+source-wordcount: '236'
+ht-degree: 26%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 29%
 
 - [IA dans les applications d’entreprise CX](home.md)
 - À propos de l’IA dans CX Enterprise {#overview}
-  - [IA générative](./overview/generative-ai.md)
-  - [IA agentique](./overview/agentic-ai.md)
-  - [Surveillance par IA agentique](./overview/monitoring.md)
-  - [Tâches de l’agent et consommation du crédit de l’IA](./overview/ai-credit-consumption.md)
+  - [À propos de l’IA générative](./overview/generative-ai.md)
+  - [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md)
+  - [À propos de la consommation des crédits AI](./overview/ai-credit-consumption.md)
+  - [Tableau de bord de surveillance de l’IA dédiée aux agences](./overview/monitoring.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistant IA {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)

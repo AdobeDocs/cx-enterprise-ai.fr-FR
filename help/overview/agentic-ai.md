@@ -12,14 +12,14 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 1142
-ht-degree: 10%
+source-wordcount: 1143
+ht-degree: 12%
 
 ---
 
-# IA dédiée aux agents dans Adobe CX Enterprise
+# À propos de l’IA dédiée aux agents dans Adobe CX Enterprise
 
 Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/home) alimente les fonctionnalités d’IA agentic dans les applications d’entreprise CX.
 

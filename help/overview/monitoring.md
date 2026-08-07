@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 2%
 
 ---
 
-# Tableaux de bord de surveillance d’Agentic AI
+# Tableau de bord de surveillance de l’IA dédiée aux agences
 
 Le tableau de bord de l&#39;IA dédiée aux agences [!UICONTROL surveillance] donne aux membres du Centre d&#39;excellence et aux autres intervenants en matière de gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise des [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec les [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
