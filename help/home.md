@@ -15,7 +15,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 4%
@@ -70,7 +70,7 @@ Coworker est une évolution de l’IA Assistant orientée agent-first qui automa
 
 Les clients éligibles passent progressivement de l’assistant AI et des agents Experience Platform au chat des collègues. Lisez [Version d’évaluation des collaborateurs](./agents/trial.md) pour en savoir plus sur l’éligibilité des versions d’évaluation, l’utilisation du crédit AI et comment y accéder.
 
-Pour voir le Chat des collègues en action, [le Chat des collègues dans Playground](./coworker/playground-coworker-chat.md) ou lisez des cas d’utilisation réels tels que [Valider les données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md) et [Analyser les données CJA](./coworker/chat/analytics-chat.md).
+Pour voir le Chat des collègues en action, [le Chat des collègues dans Playground](./coworker/playground-coworker-chat.md) ou lisez des cas d’utilisation réels tels que [Valider les données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) et [Analyser les données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 Pour consulter la documentation complète sur les produits, les campagnes, les projets et le chat des collègues, voir [Collègue](./coworker/overview.md). Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md).
 

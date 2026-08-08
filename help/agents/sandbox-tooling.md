@@ -1,7 +1,7 @@
 ---
 title: Compétences de l’agent d’outils Sandbox
 description: Découvrez comment utiliser les compétences d’agent des outils Sandbox pour répliquer des métadonnées d’objet dans les environnements Sandbox.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >Vous pouvez actuellement utiliser les compétences d’agent des outils Sandbox pour découvrir, compresser et migrer des objets de schéma et d’audience. La prise en charge de types d’objets supplémentaires sera ajoutée dans les prochaines versions.
 
 Utilisez les compétences techniques des outils Sandbox pour déplacer les métadonnées d’objet (y compris les schémas et les audiences) dans les environnements Adobe Experience Platform en décrivant ce que vous souhaitez accomplir en langage naturel. Grâce à CX Coworker, vous pouvez découvrir les métadonnées requises, identifier automatiquement les dépendances, créer des packages de migration et migrer des objets par le biais d’une expérience de conversation.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496710?captions=fre_fr&learn=on)
 
 ## Conditions préalables {#prerequisites}
 

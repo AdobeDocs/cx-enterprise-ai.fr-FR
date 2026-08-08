@@ -1,9 +1,9 @@
 ---
 title: Collègue d’entreprise Adobe CX
 description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 5%
 
 ---
@@ -26,9 +26,8 @@ Campagnes collaboratrices est une fonctionnalité modélisée pour que les petit
 La discussion entre collègues permet aux équipes d’automatiser les tâches des produits Adobe en langage naturel, transformant rapidement les idées en actions grâce à une planification flexible, des compétences personnalisables et une exécution intelligente.
 
 * [Vue d’ensemble](./chat/overview.md)
-* [Cas d’utilisation](./chat/use-cases.md)
+* [Cas d’utilisation](./chat/use-cases/overview.md)
 * [Guide de l’interface utilisateur du](./chat/ui-guide.md)
-* [Analyse des données Customer Journey Analytics](./chat/analytics-chat.md)
 
 ## Projets (documents à venir)
 

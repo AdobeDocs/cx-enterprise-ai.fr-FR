@@ -1,7 +1,7 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas d’utilisation
-source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
+source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 4%

@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Assistant AI dans Adobe CX Enterprise
-user-guide-description: Découvrez comment utiliser l’Assistant IA pour accélérer votre workflow avec Adobe Experience Platform et Real-Time Customer Data Platform.
-description: Découvrez AI Assistant dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
+user-guide-title: Collègue
+user-guide-description: Découvrez comment créer, configurer, intégrer et étendre l’IA pour les assistants, les collègues, les agents et les points de contact grâce à une documentation pratique, des conseils d’implémentation et des documents de référence.
+description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 26%
+source-wordcount: '238'
+ht-degree: 19%
 
 ---
 
@@ -66,9 +66,12 @@ ht-degree: 26%
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
-    - [Cas d’utilisation](./coworker/chat/use-cases.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
-    - [Analyse des données CJA](./coworker/chat/analytics-chat.md)
+    - Cas d’utilisation {#use-cases}
+      - [Vue d’ensemble](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Validation des données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Outil Sandbox {#sandbox-tooling}
+        - [Déplacement d’objets dans des sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
-  - [Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
-  - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)

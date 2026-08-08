@@ -1,7 +1,7 @@
 ---
 title: Analyse des données Customer Journey Analytics avec la conversation des collègues
 description: Découvrez comment utiliser le Module de conversation avec les collaborateurs de l’entreprise Adobe CX pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Dans la conversation avec un collègue, vérifiez que celui-ci est connecté à 
 
 1. Sélectionnez l’icône MCP dans le rail de gauche, puis assurez-vous que [!UICONTROL **cja-mcp**] est disponible dans la liste des serveurs MCP connectés.
 
-   ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](./assets/coworker-mcp-cja.png)
+   ![Icône MCP mise en surbrillance dans le rail de gauche de Coworker](../../assets/coworker-mcp-cja.png)
 
 1. (Conditionnel) Si [!UICONTROL **cja-mcp**] n’est pas encore connecté, sélectionnez [!UICONTROL **Ajouter le serveur MCP**], spécifiez cja dans le champ [!UICONTROL **Nom du serveur**] et sélectionnez-le lorsqu’il apparaît, puis sélectionnez [!UICONTROL **Ajouter le serveur**].
 
@@ -134,7 +134,7 @@ Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui
 
 1. Sur la page Mémoire, dans la section [!UICONTROL **Préférences stockées**], spécifiez une ou plusieurs vues de données que vous souhaitez que Chat des collaborateurs utilise dans vos conversations.
 
-   ![Section Mémoire du rail de gauche](./assets/coworker-memory.png)
+   ![Section Mémoire du rail de gauche](../../assets/coworker-memory.png)
 
 ## Analyser dans Customer Journey Analytics
 
@@ -152,7 +152,7 @@ Pour ouvrir une visualisation dans un nouveau projet Analysis Workspace :
 
 Vous pouvez consulter les cas d’utilisation de Customer Journey Analytics et les exemples d’invites que les utilisateurs utilisent dans le chat des collaborateurs en entreprise d’Adobe CX, des réponses rapides aux investigations approfondies du travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
-Pour plus d’informations, voir [Cas d’utilisation](/help/coworker/chat/use-cases.md).
+Pour plus d’informations, voir [Cas d’utilisation](/help/coworker/chat/use-cases/overview.md).
 
 ## Compétences Analytics
 
@@ -249,7 +249,7 @@ Cette compétence (`aa-cja-validation`) compare, audite et réconcilie les donn�
 
 | Cas d’utilisation | Fonction | Exemples d’invites |
 |---------|----------|---------|
-| **Valider les données lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics** | Comparer, auditer et réconcilier les données entre [!DNL Adobe Analytics] et Customer Journey Analytics.<p>Pour plus d’informations, consultez [Validation des données avec un collègue lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>« Comparer ma suite de rapports Adobe Analytics à ma vue de données Customer Journey Analytics »</li><li>« Validation des pages vues entre Adobe Analytics et Customer Journey Analytics »</li></ul> |
+| **Valider les données lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics** | Comparer, auditer et réconcilier les données entre [!DNL Adobe Analytics] et Customer Journey Analytics.<p>Pour plus d’informations, consultez [Validation des données avec un collègue lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics](data-validation-aa-cja.md).</p> | <ul><li>« Comparer ma suite de rapports Adobe Analytics à ma vue de données Customer Journey Analytics »</li><li>« Validation des pages vues entre Adobe Analytics et Customer Journey Analytics »</li></ul> |
 
 #### Dans la portée
 
@@ -323,7 +323,7 @@ Notez que le Module de conversation des collègues sélectionne la visualisation
 
 >[!BEGINSHADEBOX]
 
-![Tableau Funnel présentant le nombre de sessions, les taux de conversion et le taux de déperdition à chaque étape entre les sessions et l’achat](./assets/coworker-funnel-response.png)
+![Tableau Funnel présentant le nombre de sessions, les taux de conversion et le taux de déperdition à chaque étape entre les sessions et l’achat](../../assets/coworker-funnel-response.png)
 
 Voici une question funnel : laissez-moi exécuter le funnel de conversion pour voir où se produit le déchargement sur le chemin d’accès à l’achat.
 
@@ -372,7 +372,7 @@ D’accord, répartissons par canal marketing
 
 >[!BEGINSHADEBOX]
 
-Tableau Funnel ![affichant les taux de conversion et de déperdition répartis par canal marketing](./assets/coworker-funnel-response2.png)
+Tableau Funnel ![affichant les taux de conversion et de déperdition répartis par canal marketing](../../assets/coworker-funnel-response2.png)
 
 Il existe une dimension **Canal marketing** personnalisée. Permettez-moi d’extraire le funnel par cela, puis de calculer les taux de conversion par canal et d’identifier où chaque canal fuit.
 
@@ -423,7 +423,7 @@ Intéressant. Essayons de ventiler par type d’appareil.
 
 >[!BEGINSHADEBOX]
 
-![Tableau Funnel affichant les taux de conversion et de déperdition répartis par type d’appareil](./assets/coworker-funnel-response3.png)
+![Tableau Funnel affichant les taux de conversion et de déperdition répartis par type d’appareil](../../assets/coworker-funnel-response3.png)
 
 **Trouvé : passage en caisse mobile rompu**
 
