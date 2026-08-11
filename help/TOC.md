@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment créer, configurer, intégrer et éte
 description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 19%
+source-wordcount: '253'
+ht-degree: 18%
 
 ---
 
@@ -71,7 +71,12 @@ ht-degree: 19%
       - [Vue d’ensemble](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
         - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Analyse des causes premières](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validation des données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Audiences {#audiences}
+        - [Créer des audiences à l’aide du langage naturel](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Parcours {#journeys}
+        - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Outil Sandbox {#sandbox-tooling}
         - [Déplacement d’objets dans des sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
