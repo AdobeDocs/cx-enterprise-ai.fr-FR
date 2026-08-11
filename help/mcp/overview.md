@@ -1,9 +1,9 @@
 ---
-title: Passerelle de collègue Adobe CX
+title: Présentation de la passerelle du collègue Adobe CX
 description: Adobe CX Coworker Gateway est le MCP unifié pour Adobe CX Enterprise, offrant aux clients MCP une connexion unique aux outils de produits pris en charge.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ La passerelle de collaboration Adobe CX est le protocole MCP (Unified Model Cont
 >
 >Votre organisation Adobe doit être activée avant de pouvoir utiliser les outils **CX Coworker Gateway**.
 >
->Si votre organisation n’y a pas encore accès, envoyez un e-mail à [&#128279;](mailto:cx-coworker-gateway-support@adobe.com) pour demander l’activation de votre organisation.
+>Si votre organisation n’y a pas encore accès, envoyez un e-mail à [](mailto:cx-coworker-gateway-support@adobe.com) pour demander l’activation de votre organisation.
 
 Utilisez le point d’entrée CX Coworker Gateway pour toute la configuration du client MCP :
 
@@ -39,12 +39,12 @@ Les outils de produit suivants sont documentés dans ce guide :
 
 | Outils de produit | Ce qu’il expose via le point d’entrée | Disponibilité | Documentation |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time CDP** | Audiences, destinations, sources, espaces de noms d’identité et intégrité de l’activation (lecture seule) | Beta | [Outils &#x200B;](rtcdp-mcp.md) |
-| **Experience Platform** | Schémas, jeux de données, gouvernance des données, Query Service et événements d’audit (lecture seule) | Beta | [Outils &#x200B;](aep-mcp.md) |
-| **Journey Optimizer** | Campagnes et configurations de canal (lecture seule) | Beta | [Outils &#x200B;](ajo-mcp.md) |
-| **Customer Journey Analytics** | Vues de données, dimensions, mesures, rapports, segments, périodes, projets et audiences (lecture et écriture) | Disponible | [Outils &#x200B;](cja-mcp.md) |
-| **Adobe Analytics** | Suites de rapports, dimensions, mesures, rapports, segments, périodes et projets Workspace (lecture et écriture pour les composants pris en charge) | Disponible | [Outils &#x200B;](analytics-mcp.md) |
-| **Workfront** | Outils de gestion du travail pour les projets, les tâches et les processus d&#39;approbation | Prévisualisation | [Serveur Workfront MCP](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Real-Time CDP** | Audiences, destinations, sources, espaces de noms d’identité et intégrité de l’activation (lecture seule) | Beta | [Outils ](rtcdp-mcp.md) |
+| **Experience Platform** | Schémas, jeux de données, gouvernance des données, Query Service et événements d’audit (lecture seule) | Beta | [Outils ](aep-mcp.md) |
+| **Journey Optimizer** | Campagnes et configurations de canal (lecture seule) | Beta | [Outils ](ajo-mcp.md) |
+| **Customer Journey Analytics** | Vues de données, dimensions, mesures, rapports, segments, périodes, projets et audiences (lecture et écriture) | Disponible | [Outils ](cja-mcp.md) |
+| **Adobe Analytics** | Suites de rapports, dimensions, mesures, rapports, segments, périodes et projets Workspace (lecture et écriture pour les composants pris en charge) | Disponible | [Outils ](analytics-mcp.md) |
+| **Workfront** | Outils de gestion du travail pour les projets, les tâches et les processus d&#39;approbation | Prévisualisation | [Serveur Workfront MCP](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

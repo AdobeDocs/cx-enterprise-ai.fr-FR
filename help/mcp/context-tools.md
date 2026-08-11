@@ -1,7 +1,7 @@
 ---
-title: Outils de contexte de session dans CX Coworker Gateway
+title: Outils de contexte de session dans la passerelle de collègue CX
 description: Découvrez les outils principaux qui définissent le contexte de l’organisation, du sandbox et de la vue de données pour tous les appels à l’outil Passerelle des collaborateurs CX.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -17,7 +17,7 @@ La passerelle de collègue Adobe CX comprend un ensemble d’outils de contexte 
 La passerelle de collaborateur CX définit la portée de chaque appel d’outil sur une organisation Adobe active. En outre, les exigences de contexte dépendent du produit :
 
 - **produits basés sur Experience Platform** — les outils [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) et [Journey Optimizer](ajo-mcp.md) fonctionnent dans un sandbox Experience Platform. Définissez le sandbox une fois par session avec `core-set_sandbox` ; les trois le partagent.
-- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [&#128279;](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
+- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
 
 Définition du contexte une fois au début d’une session : les outils de produit individuels ne changent pas d’organisation, de sandbox ou de vues de données en milieu de session.
 

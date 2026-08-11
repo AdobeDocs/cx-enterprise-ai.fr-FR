@@ -1,16 +1,16 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
-title: Cas d’utilisation
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: Cas D’Utilisation De La Conversation Avec Un Collègue
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# Cas d’utilisation {#use-cases}
+# Cas d’utilisation de la conversation avec un collègue{#use-cases}
 
-Vous trouverez ci-dessous des cas d’utilisation et des exemples d’invites que les utilisateurs utilisent dans la discussion entre collaborateurs d’Adobe CX, organisée par zone de travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos données [!DNL Experience Platform] en utilisant un langage naturel au lieu de naviguer entre plusieurs interfaces utilisateur ou d’écrire des requêtes manuellement. Cette page répertorie les cas d’utilisation les plus utilisés par les utilisateurs et les utilisatrices, organisés par domaine de travail : informations sur les données, audiences, parcours, éléments fondamentaux et outils de sandbox. Chaque entrée comprend les compétences qu’elle appelle, les applications avec lesquelles elle fonctionne et des exemples d’invites que vous pouvez copier, adapter à vos propres données et affiner par la conversation.
 
 ## Informations sur les données
 

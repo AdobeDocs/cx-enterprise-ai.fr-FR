@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics et collègues - Explorer les tendances et les causes profondes avec le langage naturel
+title: Customer Journey Analytics et collègues - Analyse des causes premières
 description: Découvrez comment Coworker répond aux questions d’analyse en langage naturel, visualise les tendances, découvre des modèles et effectue une analyse des causes profondes sans requêtes manuelles.
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22082
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---

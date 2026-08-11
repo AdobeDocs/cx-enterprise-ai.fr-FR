@@ -1,10 +1,10 @@
 ---
 description: 'Découvrez les campagnes des collaborateurs qui demandent des bonnes pratiques : le framework CO-STAR, ce qu’il faut faire et ne pas faire, le contenu non pris en charge et une liste de contrôle qualité pour les invites.'
-title: Bonnes pratiques en matière de promotion
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Bonnes pratiques en matière de prompt
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -139,4 +139,4 @@ Fournissez toujours du contexte et la proposition de valeur afin que l’IA puis
 
 >[!MORELIKETHIS]
 >
->Parcourez d’autres [modèles d’invite] (./) pour les campagnes Coworker.
+>Parcourez d’autres [modèles d’invite](./) pour les campagnes Coworker.
