@@ -17,7 +17,7 @@ La passerelle de collègue Adobe CX comprend un ensemble d’outils de contexte 
 La passerelle de collaborateur CX définit la portée de chaque appel d’outil sur une organisation Adobe active. En outre, les exigences de contexte dépendent du produit :
 
 - **produits basés sur Experience Platform** — les outils [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) et [Journey Optimizer](ajo-mcp.md) fonctionnent dans un sandbox Experience Platform. Définissez le sandbox une fois par session avec `core-set_sandbox` ; les trois le partagent.
-- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
+- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [&#128279;](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
 
 Définition du contexte une fois au début d’une session : les outils de produit individuels ne changent pas d’organisation, de sandbox ou de vues de données en milieu de session.
 
