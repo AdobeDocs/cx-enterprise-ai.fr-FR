@@ -1,9 +1,9 @@
 ---
 title: À propos d’Adobe CX Enterprise Coworker
 description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,11 @@ Campagnes collaboratrices est une fonctionnalité modélisée pour que les petit
 * [Créer une campagne par e-mail](./campaigns/create-an-email-campaign.md)
 * [Cas d’utilisation](./campaigns/use-cases.md)
 * [Bonnes pratiques en matière de promotion](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## Chat
 
@@ -29,6 +34,6 @@ La discussion entre collègues permet aux équipes d’automatiser les tâches d
 * [Cas d’utilisation](./chat/use-cases/overview.md)
 * [Guide de l’interface utilisateur du](./chat/ui-guide.md)
 
-## Projets (documents à venir)
+## Projets (bientôt disponibles)
 
 La console Projets de collègue est un espace de travail unifié permettant d’automatiser les workflows d’orchestration de l’expérience client de bout en bout. Elle aide les équipes à coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion.
