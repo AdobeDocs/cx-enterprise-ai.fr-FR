@@ -5,9 +5,10 @@ user-guide-description: Découvrez comment créer, configurer, intégrer et éte
 description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+dummy: true
+source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 18%
 
 ---
@@ -68,15 +69,15 @@ ht-degree: 18%
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
     - Cas d’utilisation {#use-cases}
-      - [Vue d’ensemble](./coworker/chat/use-cases/overview.md)
+      - [Cas d’utilisation de la conversation avec un collègue](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
         - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Analyse des causes premières](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validation des données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
       - Audiences {#audiences}
-        - [Créer des audiences à l’aide du langage naturel](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+        - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
         - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Outil Sandbox {#sandbox-tooling}
-        - [Déplacement d’objets dans des sandbox](./agents/sandbox-tooling.md)
+        - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)

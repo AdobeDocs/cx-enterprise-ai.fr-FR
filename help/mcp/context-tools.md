@@ -1,7 +1,7 @@
 ---
-title: Outils de contexte de session dans CX Coworker Gateway
+title: Outils de contexte de session dans la passerelle de collègue CX
 description: Découvrez les outils principaux qui définissent le contexte de l’organisation, du sandbox et de la vue de données pour tous les appels à l’outil Passerelle des collaborateurs CX.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%

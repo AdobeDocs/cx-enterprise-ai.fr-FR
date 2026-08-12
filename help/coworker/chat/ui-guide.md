@@ -1,10 +1,10 @@
 ---
 description: Guide de référence de l’interface de conversation des collègues, couvrant la navigation, la zone de saisie, les réponses, l’historique de conversation, ainsi que la configuration des compétences, des serveurs MCP et de la mémoire.
-title: Guide de l’interface utilisateur
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Guide de l’interface utilisateur de la conversation avec un collègue
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 2%
+source-wordcount: '1577'
+ht-degree: 3%
 
 ---
 
@@ -105,7 +105,7 @@ La vue de la transcription définit la mesure dans laquelle le raisonnement et l
 | --- | --- |
 | Normal | Une vision équilibrée : les principales étapes de réflexion et l&#39;activité des outils sont résumées. |
 | Focus | Une vue simplifiée qui masque la plupart des étapes intermédiaires afin que vous puissiez voir principalement la réponse. |
-| Verbose | Le détail complet : chaque étape de réflexion, la charge de compétence, la lecture de fichier et la requête. |
+| Détaillé | Le détail complet : chaque étape de réflexion, la charge de compétence, la lecture de fichier et la requête. |
 
 ![Choix de la vue Transcription](./assets/ui-guide-7.png)
 
@@ -154,7 +154,7 @@ Sélectionnez Conversations dans le rail de navigation pour ouvrir votre histori
 | --- | --- |
 | Rechercher par titre | Rechercher une conversation passée par nom. |
 | Afficher épinglé | Afficher uniquement les conversations que vous avez démarrées. |
-| Afficher archivé | Afficher les conversations archivées. |
+| Afficher les archives | Afficher les conversations archivées. |
 | Nouvelle conversation | Démarrer une nouvelle conversation. |
 | Menu des lignes (...) | Dans n’importe quelle conversation, démarrez (épingle), renommez, archivez ou supprimez-la. |
 
@@ -190,7 +190,7 @@ Chaque carte affiche le nom du serveur, son point d’entrée et toute balise d�
 
 ![Onglet Serveurs MCP](./assets/ui-guide-15.png)
 
-### Marketplaces
+### Places de marché
 
 Les Marketplaces sont des registres de plug-ins à partir desquels vous pouvez naviguer et installer. L’onglet Marketplaces vous permet d’ajouter des registres et de les filtrer par groupe.
 

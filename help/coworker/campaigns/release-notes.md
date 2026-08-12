@@ -1,9 +1,9 @@
 ---
 description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes de collaborateurs d’entreprise Adobe CX.
-title: Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: Notes de mise à jour des campagnes des collaborateurs de l’entreprise CX
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---

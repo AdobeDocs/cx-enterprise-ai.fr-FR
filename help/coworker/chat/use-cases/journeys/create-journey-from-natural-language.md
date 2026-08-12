@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer & Coworker - Générer des Parcours avec le langage naturel
+title: Journey Optimizer & Coworker - Générer des Parcours
 description: Découvrez comment Coworker aide les professionnels du marketing à créer des parcours Adobe Journey Optimizer à l’aide d’invites en langage naturel simple.
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22081
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---

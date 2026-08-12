@@ -1,7 +1,7 @@
 ---
 title: Analyse des données Customer Journey Analytics avec la conversation des collègues
 description: Découvrez comment utiliser le Module de conversation avec les collaborateurs de l’entreprise Adobe CX pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
-source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%
