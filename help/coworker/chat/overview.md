@@ -1,9 +1,9 @@
 ---
 description: Découvrez comment la discussion entre collègues utilise une interface conversationnelle pour planifier, exécuter et terminer le travail sur l’expérience client sur Adobe et les systèmes connectés en quelques minutes.
 title: Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,19 @@ Si vous avez utilisé AI Assistant et Adobe Experience Platform Agent Orchestrat
 >[!NOTE]
 >
 >Des captures d’écran de l’interface seront ajoutées au fur et à mesure que l’expérience est finalisée.
+
+## Applications CX Enterprise compatibles
+
+Les applications CX Enterprise suivantes sont compatibles avec Coworker Chat :
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Édition B2C de Customer Journey Analytics
+* _AEM (bientôt disponible)_
+* _Workfront (bientôt disponible)_
+* _Real-Time CDP B2B edition (bientôt disponible)_
+* _Adobe Journey Optimizer B2B edition (bientôt disponible)_
+* _Customer Journey Analytics B2B edition (bientôt disponible)_
 
 ## Blocs de création
 
