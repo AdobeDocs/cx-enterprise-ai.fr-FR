@@ -1,10 +1,10 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: a19e6a17796fbe8d00a6e5559fc664ae469481f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 7%
 
 ---
 
@@ -14,21 +14,22 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 
 ## Informations sur les données
 
-| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | [Extraction des rapports et des mesures CJA](data-insights/analytics-chat.md) | Query CJA en temps réel pour extraire des mesures, des dimensions, des segments et des vues de données | `cja` | Customer Journey Analytics (CJA) | « Afficher les pages vues au cours des 30 derniers jours » · « Répertorier les segments principaux dans la vue de données principale » |
-| Analyse comparative | Comparaison de mesures sur plusieurs canaux, périodes ou segments côte à côte | `cja` | Customer Journey Analytics (CJA) | « Comparer le chiffre d’affaires par canal, mois après mois » · « À quoi ressemble la conversion entre appareils mobiles et ordinateurs de bureau ce trimestre ? » |
+| Analyse comparative | Comparaison de mesures sur plusieurs canaux, périodes ou segments côte à côte | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | « Comparer le chiffre d’affaires par canal, mois après mois » · « À quoi ressemble la conversion entre appareils mobiles et ordinateurs de bureau ce trimestre ? » |
+| Performances de la campagne | Mesurez les performances des campagnes, des canaux et des propriétés web sur une période donnée. | `cja`, `dx-api`, `knowledge-graph` | | « Quelles ont été les performances de nos campagnes web Acrobat le mois dernier ? » |
 | Analyse funnel | Parcourez les entonnoirs de conversion à plusieurs étapes avec une restitution à chaque étape | `cja` | Customer Journey Analytics (CJA) | « Découvrez le funnel de passage en caisse » · « Afficher le funnel de conversion du PDP à l’achat » |
 | Prévision | Prévision des valeurs des mesures futures en fonction des données CJA historiques | `cja` | Customer Journey Analytics (CJA) | « Sessions de prévision pour les 30 prochains jours » · « Sommes-nous sur la bonne voie pour atteindre notre objectif de revenus ? » |
 | [Analyse de la cause première](data-insights/root-cause-analysis.md) | Découvrez pourquoi une mesure a changé : diagnostiquez les abandons, les pics et les anomalies | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | « Pourquoi les conversions ont-elles diminué la semaine dernière ? » · « Qu&#39;est-ce qui a provoqué la hausse des revenus le 15 janvier ? » |
-| Résumés exécutifs et résumés des KPI | Produisez des résumés de performances prêts pour les parties prenantes, des recommandations normatives et des résumés de diapositives. | `cja-executive-summary` | Customer Journey Analytics (CJA) | « Donnez-moi un résumé analytique du mois dernier » · « Créez un diaporama à partir des données de ce trimestre » |
-| [Validation des données AA ↔ CJA](data-insights/data-validation-aa-cja.md) | Comparaison, audit et réconciliation des données entre Adobe Analytics et Customer Journey Analytics | `aa-cja-validation` | ADOBE ANALYTICS + CJA | « Comparer ma suite de rapports AA à ma vue de données CJA » · « Valider les pages vues entre AA et CJA » |
+| Résumés exécutifs et résumés des KPI | Produisez des résumés de performances prêts pour les parties prenantes, des recommandations normatives et des résumés de diapositives. | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | « Donnez-moi un résumé analytique du mois dernier » · « Créez un diaporama à partir des données de ce trimestre » |
+| [Validation des données AA ↔ CJA](data-insights/data-validation-aa-cja.md) | Comparez, auditez et réconciliez les données entre Adobe Analytics et Customer Journey Analytics, en particulier lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | « Comparer ma suite de rapports AA à ma vue de données CJA » · « Valider les pages vues entre AA et CJA » |
 | Séries chronologiques opérationnelles et analyse causale | Interroger et analyser les données historiques de séries temporelles pour les audiences, les jeux de données et les parcours avec attribution causale | `operational-stats-causal-analysis` | Toutes les applications éligibles | « Afficher les tendances de la taille de l’audience au cours des 90 derniers jours » · « Pourquoi ma ligne de jeu de données a-t-elle connu un pic le 3 mars ? » |
 | Création de compétences CJA personnalisées | Transformer les modèles analytiques en compétences réutilisables et répétables qui persistent entre les sessions | `cja-skill-creator` | Customer Journey Analytics (CJA) | « Transformer cette analyse hebdomadaire du chiffre d’affaires en une compétence réutilisable » · « Enregistrer cette compétence en tant que compétence pour le compte rendu des performances mensuel de funnel » |
 
 ## Audiences
 
-| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | [Créer des audiences à partir du langage naturel](audiences/create-audience-from-natural-language.md) | Orchestrer la création d’audiences étape par étape avec l’approbation de l’utilisateur à chaque phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | « Créer une audience d’utilisateurs qui ont acheté au cours des 30 derniers jours » · « Créer un segment pour les membres du programme de fidélité à forte valeur ajoutée en Californie » |
 | Création de définitions PQL | Assembler les définitions d’audience à partir des propriétés XDM, des événements comportementaux ou des audiences existantes ; prendre en charge l’agrégation et les fenêtres temporelles | `segment-definition-assembly` | Real-Time CDP (RTCDP) | « Création d’un PQL pour les personnes qui ont consulté plus de 3 produits, mais ne les ont pas achetés » · « Ajout d’une période de 7 jours à ma condition d’événement » |
@@ -40,7 +41,7 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 
 ## Parcours
 
-| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | [Créer des parcours à partir du langage naturel](journeys/create-journey-from-natural-language.md) | Orchestrer la création de parcours dans AJO à partir d’une invite de texte ou d’une image/d’un diagramme de flux chargé | `journey-create` | Adobe Journey Optimizer (AJO) | « Création d’un parcours de bienvenue qui envoie un e-mail après l’inscription, attend 3 jours, puis envoie un suivi » · « Création d’un parcours à partir de cette image de diagramme de flux chargée » |
 | Analyse des conflits de parcours | Détecter les chevauchements d’audience, les collisions planifiées et les problèmes de déduplication entre les parcours actifs | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | « Mon parcours d’abandon de panier est-il en conflit avec d’autres parcours ? » · « Vérifier le chevauchement des audiences entre mes parcours actifs » |
@@ -50,7 +51,7 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 
 ## Éléments fondamentaux
 
-| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Connaissances et documentation du produit | Répondez à des questions relatives à l’utilisation, à la conception, au dépannage et aux bonnes pratiques à partir de la documentation Adobe officielle | `product-knowledge` | Toutes les applications éligibles | « Comment configurer une destination de diffusion en streaming ? » · « Quelle est la différence entre la segmentation par lots et en flux continu ? » |
 | Requête sur les entités Experience Platform / Journey Optimizer | Servir de point d’entrée principal pour les questions sur les entités de votre plateforme ; acheminer vers KG, la découverte de champs ou les API selon les besoins | `operational-insights` | Toutes les applications éligibles | « De combien de jeux de données dispose-t-on ? » · « Afficher tous les parcours actifs » · « Répertorier mes destinations » |
@@ -61,6 +62,6 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 
 ## Outil Sandbox
 
-| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | [Déplacement d’objets dans des sandbox](/help/agents/sandbox-tooling.md) | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » · « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |
