@@ -6,11 +6,12 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 102
-last-substantial-update: 2026-08-10T00:00:00Z
+last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 97
 ht-degree: 0%
 
 ---
@@ -22,4 +23,4 @@ La création de parcours client nécessite généralement une configuration comp
  
 En automatisant le processus de configuration initial, les équipes peuvent passer moins de temps à créer des parcours à partir de zéro et plus de temps à affiner les expériences client et les résultats commerciaux.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496878/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
