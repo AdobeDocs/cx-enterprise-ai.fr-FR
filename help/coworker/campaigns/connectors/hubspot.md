@@ -1,9 +1,11 @@
 ---
 description: Connectez votre compte HubSpot aux campagnes Collègues à l’aide d’une clé de service pour synchroniser les listes de contacts, puis gérez ou déconnectez l’intégration à tout moment.
 title: Se connecter à HubSpot
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
