@@ -1,17 +1,17 @@
 ---
 title: Outils Experience Platform dans la passerelle de collègue CX
 description: Découvrez les outils Adobe Experience Platform disponibles via la passerelle CX Coworker.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
 
 # Outils Adobe Experience Platform dans la passerelle Adobe CX Coworker {#aep-mcp}
 
-Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [&#128279;](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
+Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
 
 >[!AVAILABILITY]
 >
@@ -29,6 +29,7 @@ Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspec
 | `search_data_lake` | Inspecter les métadonnées du jeu de données et l’intégrité des lots | API du lac de données · jeux de données, lots | obtenir, obtenir la taille, répertorier les lots ayant échoué | Actif |
 | `search_dule` | Étiquettes, politiques et actions de gouvernance des données de requête | Gouvernance des données · libellés, politiques, actions marketing | list, get, list enabled, evaluation | Actif |
 | `search_query_service` | Requête Requêtes SQL, modèles, plannings, alertes | Query Service · requêtes, modèles, plannings, alertes | liste, get, filter, get paramètres de connexion | Actif |
+| `search_sandbox_health_assessment` | Récupérez les derniers résultats de l’évaluation du contrôle de l’intégrité Run and Operate pour le sandbox actuel. | Exécuter et exploiter · les évaluations de contrôle de l’intégrité | liste, obtenir par nom de chèque | Actif |
 | `search_schema_registry` | Schémas XDM de requête, groupes de champs, classes, types | Registre des schémas · schémas, groupes de champs, classes, data_types, descripteurs | lister, obtenir, filtrer par conteneur | Actif |
 
 ## Référence de l&#39;outil
@@ -197,3 +198,18 @@ Outil unifié pour les ressources de Query Service. Répertoriez et récupérez 
 | --- | --- | --- |
 | `entity_type` | Oui | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Oui | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**Ressource :** exécution et fonctionnement · évaluations de contrôle de l’intégrité
+**Statut:** Actif
+
+Récupérez les derniers résultats de l’évaluation du contrôle d’intégrité d’exécution et d’exploitation pour le sandbox actuel. Renvoie les résultats pour chaque catégorie prise en charge, y compris les schémas et les identités, la segmentation, l’ingestion et le profil. Pour identifier la cause première sans effectuer de recherche distincte, chaque résultat inclut les ressources affectées derrière un échec de vérification. Seules les vérifications dont le nom est publié et lisible par l&#39;utilisateur sont renvoyées. Toutes les opérations sont en lecture seule.
+
+>[!NOTE]
+>
+>Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Des conseils de remédiation automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans le [chat des collègues CX](../coworker/chat/overview.md).
+
+**Fonctionnalités :** répertorier tous les résultats des contrôles d’intégrité pour le sandbox actuel et obtenir les résultats d’un contrôle nommé.
+
+Aucun paramètre.
