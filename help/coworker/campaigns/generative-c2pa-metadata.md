@@ -1,10 +1,10 @@
 ---
-description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA (Content Credentials) sur les images générées et modifiées par l’IA, aucune action n’est requise.
+description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA (Content Credentials) sur les images, de la génération à la diffusion par e-mail.
 title: Métadonnées C2PA dans les campagnes Coworker
 hide: true
-source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
+source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '391'
 ht-degree: 6%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 6%
 De nouvelles lois émergent autour de la transparence générative de l’IA, et Adobe s’efforce de répondre aux exigences applicables dans toutes les juridictions. [Métadonnées C2PA](https://c2pa.org/) (également appelées Content Credentials) est l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
 
 Les métadonnées C2PA sont des métadonnées durables et invisibles qui enregistrent la manière dont un élément de contenu a été créé ou modifié. Lorsque vous générez ou modifiez une image à l’aide d’outils d’IA génératifs dans les campagnes Coworker, des métadonnées C2PA sont automatiquement associées à cette image. Aucune action n’est requise de votre part.
+
+>[!BEGINSHADEBOX]
+
+## Content Credentials dans les campagnes par e-mail {#content-credentials-email}
+
+Les images envoyées dans vos campagnes par e-mail conservent leur Content Credentials intact, de sorte que les destinataires puissent vérifier l’origine et l’authenticité de toute image directement à partir de l’e-mail diffusé.
+
+>[!ENDSHADEBOX]
 
 ## Actions qui joignent des métadonnées C2PA {#cc-workflows}
 
@@ -40,4 +48,4 @@ Les campagnes Coworker conservent le Content Credentials associé aux ressources
 
 * [Consignes d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
