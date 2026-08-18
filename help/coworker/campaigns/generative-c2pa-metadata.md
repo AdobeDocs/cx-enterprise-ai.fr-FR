@@ -2,10 +2,10 @@
 description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA (Content Credentials) sur les images générées et modifiées par l’IA, aucune action n’est requise.
 title: Métadonnées C2PA dans les campagnes Coworker
 hide: true
-source-git-commit: cf96ff8bdb16708c6726854b92d0c2d6e681817a
+source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 8%
 
 ---
 
@@ -34,6 +34,10 @@ Les campagnes Coworker conservent le Content Credentials associé aux ressources
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
->[!MORELIKETHIS]
->
->[Instructions d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+## Ressources supplémentaires
+
+* [Consignes d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+
+* [Fonctionnement de Content Credentials sur plusieurs produits Adobe](https://helpx.adobe.com/fr/firefly/using/content-credentials.html){target="_blank"}
+
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
