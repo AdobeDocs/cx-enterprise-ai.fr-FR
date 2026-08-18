@@ -1,17 +1,17 @@
 ---
 title: Outils Experience Platform dans la passerelle de collègue CX
 description: Découvrez les outils Adobe Experience Platform disponibles via la passerelle CX Coworker.
-source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 7%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
 
 # Outils Adobe Experience Platform dans la passerelle Adobe CX Coworker {#aep-mcp}
 
-Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [&#128279;](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
+Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
 
 >[!AVAILABILITY]
 >
@@ -31,6 +31,8 @@ Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspec
 | `search_query_service` | Requête Requêtes SQL, modèles, plannings, alertes | Query Service · requêtes, modèles, plannings, alertes | liste, get, filter, get paramètres de connexion | Actif |
 | `search_sandbox_health_assessment` | Récupérez les derniers résultats de l’évaluation du contrôle de l’intégrité Run and Operate pour le sandbox actuel. | Exécuter et exploiter · les évaluations de contrôle de l’intégrité | liste, obtenir par nom de chèque | Actif |
 | `search_schema_registry` | Schémas XDM de requête, groupes de champs, classes, types | Registre des schémas · schémas, groupes de champs, classes, data_types, descripteurs | lister, obtenir, filtrer par conteneur | Actif |
+| `execute_observability_metrics_query` | Requête [!DNL Observability Insights] mesures pour le sandbox actuel ou pour tous les sandbox | Observability Insights · mesures | requêtes de série temporelle et d’agrégat, requêtes multimesures, filtres de balises, groupBy/exclude, sous-échantillonnage par mesure | Actif |
+| `inspect_observability_breaches` | Détecter [!DNL Observability Insights] intervalles de violation où une mesure dépassait sa ligne de base configurée | Observability Insights · violations | liste des intervalles de violation par série, organisation et étendue du sandbox | Actif |
 
 ## Référence de l&#39;outil
 
@@ -199,6 +201,52 @@ Outil unifié pour les ressources de Query Service. Répertoriez et récupérez 
 | `entity_type` | Oui | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Oui | `list`, `get`, `get_connection_params`, `list_by_u...` |
 
+### execute_observability_metrics_query
+
+**Ressource :** Observability Insights · mesures
+**Statut:** Actif
+
+Requête [!DNL Observability Insights] mesures pour le sandbox actuel ou pour tous les sandbox de votre organisation. Prend en charge plusieurs mesures dans une seule requête, des filtres basés sur les balises et le sous-échantillonnage par mesure. Par `scope=org`, incluez au moins un filtre `groupBy` sur chaque mesure. Toutes les opérations sont en lecture seule.
+
+**Fonctionnalités :** points de données de mesure de requête, série temporelle ou agrégat, requêtes multimesures, filtres de balises, groupBy/exclude, sous-échantillonnage par mesure
+
+**Paramètres:**
+
+| Paramètre | Obligatoire | Description |
+| --- | --- | --- |
+| `metrics` | Oui | Tableau de spécifications de mesure. Chacun comprend `name` (nom de mesure complet), `aggregator` (`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, variantes d’histogramme ou `absent`), `filters` facultatif et `downsample` facultatif |
+| `start` | Oui | Démarrage de la fenêtre, ISO 8601, par exemple `2026-01-15T00:00:00.000Z`. Doit être antérieur à `end`. Fenêtre maximale : 31 jours |
+| `end` | Oui | Bout de fenêtre, ISO 8601. Doit être ultérieur à `start` |
+| `granularity` | Non | Taille de l’intervalle de temps : `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH` ou `ALL` (réduit la fenêtre en un seul agrégat). Omettre pour laisser le serveur choisir |
+| `scope` | Non | `sandbox` (par défaut) interroge le sandbox actuel. `org` interroge tous les sandbox de votre organisation et recommande un filtre `groupBy` sur chaque mesure |
+
+Chaque filtre dans `metrics[].filters` comprend un `name` (nom de balise), un `value` (correspondance exacte, générique ou regex), ainsi que des booléens `groupBy` et `exclude` facultatifs.
+
+### inspect_observability_breaches
+
+**Ressource :** Observability Insights · violations
+**Statut:** Actif
+
+Détecter les intervalles de violation de [!DNL Observability Insights], les fenêtres temporelles pendant lesquelles une mesure a dépassé sa ligne de base configurée, pour le sandbox actuel ou tous les sandbox de votre organisation. Renvoie des intervalles pré-correspondants par série. Les violations ouvertes toujours en cours à la fin de la fenêtre sont renvoyées avec `end: null`. Toutes les opérations sont en lecture seule.
+
+**Fonctionnalités :** répertorie les intervalles de violation par série, organisation et étendue du sandbox
+
+**Paramètres:**
+
+| Paramètre | Obligatoire | Description |
+| --- | --- | --- |
+| `metrics` | Oui | Tableau des spécifications de violation. Chaque inclut des `name` (nom de mesure complet) et des `filters` facultatifs |
+| `start` | Oui | Démarrage de la fenêtre, ISO 8601. Doit être antérieur à `end`. Fenêtre maximale : 31 jours |
+| `end` | Oui | Bout de fenêtre, ISO 8601 |
+| `granularity` | Non | Taille de l’intervalle de temps, mêmes valeurs que `execute_observability_metrics_query` sauf `ALL`. Chaque intervalle est évalué indépendamment par rapport à la ligne de base |
+| `scope` | Non | `sandbox` (par défaut) ou `org`. Sur les `org` sans filtre Sandbox, incluez au moins un filtre avec `groupBy: true` par mesure afin que les résultats soient fractionnés par cette dimension au lieu d’être réduits dans l’organisation |
+
+`inspect_observability_breaches` n’accepte pas les `aggregator` ou les `downsample` sur `metrics[]`. L’outil les définit en interne pour évaluer la condition de violation.
+
+>[!NOTE]
+>
+>Les deux outils Observability Insights sont également limités à environ 10 000 points de données par requête. Réduisez la période, ajoutez des filtres ou utilisez une `granularity` plus grossière si une demande est rejetée pour avoir dépassé cette limite.
+
 ### search_sandbox_health_assessment
 
 **Ressource :** exécution et fonctionnement · évaluations de contrôle de l’intégrité
@@ -208,7 +256,7 @@ Récupérez les derniers résultats de l’évaluation du contrôle d’intégri
 
 >[!NOTE]
 >
->Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks). Des conseils de remédiation automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans le [chat des collègues CX](../coworker/chat/overview.md).
+>Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Des conseils de remédiation automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans le [chat des collègues CX](../coworker/chat/overview.md).
 
 **Fonctionnalités :** répertorier tous les résultats des contrôles d’intégrité pour le sandbox actuel et obtenir les résultats d’un contrôle nommé.
 
