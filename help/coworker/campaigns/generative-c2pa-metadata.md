@@ -40,4 +40,4 @@ Les campagnes Coworker conservent le Content Credentials associé aux ressources
 
 * [Fonctionnement de Content Credentials sur plusieurs produits Adobe](https://helpx.adobe.com/fr/firefly/using/content-credentials.html){target="_blank"}
 
-* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
