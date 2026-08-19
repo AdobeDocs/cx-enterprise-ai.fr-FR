@@ -1,9 +1,9 @@
 ---
 title: Présentation de la passerelle du collègue Adobe CX
 description: Adobe CX Coworker Gateway est le MCP unifié pour Adobe CX Enterprise, offrant aux clients MCP une connexion unique aux outils de produits pris en charge.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '456'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ Les outils de produit suivants sont documentés dans ce guide :
 | Outils de produit | Ce qu’il expose via le point d’entrée | Disponibilité | Documentation |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Audiences, destinations, sources, espaces de noms d’identité et intégrité de l’activation (lecture seule) | Beta | [Outils &#x200B;](rtcdp-mcp.md) |
-| **Experience Platform** | Schémas, jeux de données, gouvernance des données, Query Service et événements d’audit (lecture seule) | Beta | [Outils &#x200B;](aep-mcp.md) |
+| **Experience Platform** | Schémas, jeux de données, gouvernance des données, Query Service, événements d’audit, mesures d’observabilité et évaluations des contrôles d’intégrité des sandbox (lecture seule) | Beta | [Outils &#x200B;](aep-mcp.md) |
 | **Journey Optimizer** | Campagnes et configurations de canal (lecture seule) | Beta | [Outils &#x200B;](ajo-mcp.md) |
 | **Customer Journey Analytics** | Vues de données, dimensions, mesures, rapports, segments, périodes, projets et audiences (lecture et écriture) | Disponible | [Outils &#x200B;](cja-mcp.md) |
 | **Adobe Analytics** | Suites de rapports, dimensions, mesures, rapports, segments, périodes et projets Workspace (lecture et écriture pour les composants pris en charge) | Disponible | [Outils &#x200B;](analytics-mcp.md) |

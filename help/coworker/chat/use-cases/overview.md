@@ -3,9 +3,9 @@ description: Parcourez les cas d’utilisation et les exemples d’invites de co
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1333
 ht-degree: 7%
 
 ---
@@ -61,6 +61,7 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 | Opérations de l’API Experience Platform / Journey Optimizer / Customer Journey Analytics | Fournir une passerelle d’API directe pour les mutations, les contrôles d’état en temps réel et les types d’entités qui ne figurent pas dans le graphique de connaissances | `cxo-api` | Toutes les applications éligibles | « Supprimer le jeu de données X » · « Vérifier le statut de mon traitement d’ingestion par lots » |
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
+| Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » · « Mon sandbox actuel a-t-il dépassé les limites de capacité au cours de la dernière semaine ? » |
 
 ## Outil Sandbox
 
