@@ -1,9 +1,8 @@
 ---
 description: Guide de référence de l’interface de conversation des collègues, couvrant la navigation, la zone de saisie, les réponses, l’historique de conversation, ainsi que la configuration des compétences, des serveurs MCP et de la mémoire.
 title: Guide de l’interface utilisateur de la conversation avec un collègue
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: bf7465398bd73664ebd8911450dfd1173d55d6a4
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -14,9 +13,11 @@ ht-degree: 3%
 
 Familiarisez-vous avec l’interface de conversation des collègues. Ce guide couvre tous les aspects, de l’accès à l’application à la navigation dans l’espace de travail, en passant par la manière de tirer le meilleur parti des conversations, de gérer votre historique et de personnaliser votre configuration.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+
 ## Accéder au chat des collègues
 
-Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
+Accédez au Chat des collaborateurs en accédant à [](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
 Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de l’expérience client.
 
