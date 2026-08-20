@@ -1,25 +1,25 @@
 ---
-description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA (Content Credentials) sur les images, de la génération à la diffusion par e-mail.
+description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA sur les images, de la génération à la diffusion par e-mail.
 title: Métadonnées C2PA dans les campagnes Coworker
 hide: true
-source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
+source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '373'
 ht-degree: 4%
 
 ---
 
 # Métadonnées C2PA dans les campagnes Coworker {#overview}
 
-De nouvelles lois émergent autour de la transparence générative de l’IA, et Adobe s’efforce de répondre aux exigences applicables dans toutes les juridictions. [Métadonnées C2PA](https://c2pa.org/) (également appelées Content Credentials) est l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
+De nouvelles lois émergent autour de la transparence générative de l’IA, et Adobe s’efforce de répondre aux exigences applicables dans toutes les juridictions. [Métadonnées C2PA](https://c2pa.org/) est l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
 
 Les métadonnées C2PA sont des métadonnées durables et invisibles qui enregistrent la manière dont un élément de contenu a été créé ou modifié. Lorsque vous générez ou modifiez une image à l’aide d’outils d’IA génératifs dans les campagnes Coworker, des métadonnées C2PA sont automatiquement associées à cette image. Aucune action n’est requise de votre part.
 
-## Content Credentials dans les campagnes par e-mail {#content-credentials-email}
+## Métadonnées C2PA dans les campagnes par e-mail {#c2pa-metadate-email}
 
-Les images envoyées dans vos campagnes par e-mail conservent leur Content Credentials intact, de sorte que les destinataires puissent vérifier l’origine et l’authenticité de toute image directement à partir de l’e-mail diffusé.
+Les images envoyées dans vos campagnes par e-mail conservent leurs métadonnées C2PA intactes, de sorte que les destinataires puissent vérifier l’origine et l’authenticité de toute image directement à partir de l’e-mail diffusé.
 
-## Actions qui joignent des métadonnées C2PA {#cc-workflows}
+## Actions qui joignent des métadonnées C2PA {#actions}
 
 Le tableau suivant résume le moment où des métadonnées C2PA sont jointes, en fonction de l’action d’image effectuée dans la génération d’images dans les campagnes Coworker.
 
@@ -27,19 +27,19 @@ Le tableau suivant résume le moment où des métadonnées C2PA sont jointes, en
 | --- | --- | --- | --- |
 | **Générer une image** | Créez une image à partir d’une invite de texte ou d’une image de référence, ou générez une image similaire à partir d’une image existante. | Toujours. L’image est générée par l’IA générative, elle transfère donc toujours de nouvelles métadonnées C2PA. | Une image de bannière pour une campagne par e-mail est générée à partir d’une invite de texte décrivant le visuel souhaité. |
 
-## Types de contenu et leur portée {#cc-content-types}
+## Types de contenu et leur portée {#content-types}
 
 * **Images** : Couvert. Les métadonnées C2PA sont jointes lorsque les images sont générées avec l’IA générative et conservées par le biais d’opérations de recadrage, de superposition de texte et de superposition d’image effectuées par la génération d’images dans les campagnes Coworker.
 * **Texte** : sans objet. Les sorties de texte uniquement de la génération d’images dans les campagnes Coworker, telles que la génération de copies, la traduction et les suggestions d’alignement de marque, ne nécessitent pas de métadonnées C2PA.
 
-## Ce qui se passe lorsque le contenu est déplacé {#cc-content-moves}
+## Ce qui se passe lorsque le contenu est déplacé {#content-moves}
 
-Les campagnes Coworker conservent le Content Credentials associé aux ressources d’image prises en charge. Si une image contient du Content Credentials lors de son importation dans les campagnes de collègues, ces informations d’identification sont conservées lorsque la ressource est utilisée dans le contenu de campagne généré et les expériences d’e-mail sortant.
+Les campagnes Coworker conservent les métadonnées C2PA associées aux ressources d’image prises en charge. Si une image contient des métadonnées C2PA lors de l’importation dans les campagnes Coworker, ces informations d’identification sont conservées lorsque la ressource est utilisée dans le contenu de campagne généré et les expériences d’e-mail sortant.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
-## Ressources supplémentaires
+## Ressources supplémentaires {#resources}
 
 * [Consignes d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
