@@ -1,14 +1,12 @@
 ---
 title: À propos d’Adobe CX Enterprise Coworker
 description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 5%
+source-wordcount: 202
+ht-degree: 4%
 
 ---
 
@@ -24,11 +22,8 @@ Campagnes collaboratrices est une fonctionnalité modélisée pour que les petit
 * [Créer une campagne par e-mail](./campaigns/create-an-email-campaign.md)
 * [Cas d’utilisation](./campaigns/use-cases.md)
 * [Bonnes pratiques en matière de promotion](./campaigns/prompting-best-practices.md)
-<!--
-broken links
-* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
--->
+* [Connexion à Marketo Engage](./campaigns/connectors/marketo.md)
+* [Se connecter à Hubspot](./campaigns/connectors/hubspot.md)
 
 ## Chat
 

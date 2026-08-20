@@ -2,9 +2,9 @@
 description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA sur les images, de la génération à la diffusion par e-mail.
 title: Métadonnées C2PA dans les campagnes Coworker
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,16 +30,14 @@ Le tableau suivant résume le moment où des métadonnées C2PA sont jointes, en
 ## Types de contenu et leur portée {#content-types}
 
 * **Images** : Couvert. Les métadonnées C2PA sont jointes lorsque les images sont générées avec l’IA générative et conservées par le biais d’opérations de recadrage, de superposition de texte et de superposition d’image effectuées par la génération d’images dans les campagnes Coworker.
-* **Texte** : sans objet. Les sorties de texte uniquement de la génération d’images dans les campagnes Coworker, telles que la génération de copies, la traduction et les suggestions d’alignement de marque, ne nécessitent pas de métadonnées C2PA.
+* **Texte** : sans objet. Les sorties texte uniquement dans les campagnes Coworker, telles que la génération de copies, la traduction et les suggestions d’alignement de marque, ne nécessitent pas de métadonnées C2PA.
 
 ## Ce qui se passe lorsque le contenu est déplacé {#content-moves}
 
 Les campagnes Coworker conservent les métadonnées C2PA associées aux ressources d’image prises en charge. Si une image contient des métadonnées C2PA lors de l’importation dans les campagnes Coworker, ces informations d’identification sont conservées lorsque la ressource est utilisée dans le contenu de campagne généré et les expériences d’e-mail sortant.
 
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
-
 ## Ressources supplémentaires {#resources}
 
 * [Consignes d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
