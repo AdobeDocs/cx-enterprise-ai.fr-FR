@@ -3,7 +3,8 @@ description: Guide de référence de l’interface de conversation des collègue
 title: Guide de l’interface utilisateur de la conversation avec un collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+jira: KT-22106
+source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +14,8 @@ ht-degree: 3%
 # Guide de l’interface utilisateur du {#ui-guide}
 
 Familiarisez-vous avec l’interface de conversation des collègues. Ce guide couvre tous les aspects, de l’accès à l’application à la navigation dans l’espace de travail, en passant par la manière de tirer le meilleur parti des conversations, de gérer votre historique et de personnaliser votre configuration.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accéder au chat des collègues
 
