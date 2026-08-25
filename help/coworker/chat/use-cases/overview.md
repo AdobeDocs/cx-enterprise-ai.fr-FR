@@ -1,18 +1,92 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 959d2a748bc99462a60f3ecf958db623db0ac941
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
 workflow-type: tm+mt
-source-wordcount: 1466
-ht-degree: 9%
+source-wordcount: 2835
+ht-degree: 8%
 
 ---
 
 # Cas d’utilisation de la conversation avec un collègue{#use-cases}
 
-Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos données [!DNL Experience Platform] en utilisant un langage naturel au lieu de naviguer entre plusieurs interfaces utilisateur ou d’écrire des requêtes manuellement. Cette page répertorie les cas d’utilisation les plus utilisés par les utilisateurs et les utilisatrices, organisés par domaine de travail : informations sur les données, audiences, parcours, éléments fondamentaux et outils de sandbox. Chaque entrée comprend les compétences qu’elle appelle, les applications avec lesquelles elle fonctionne et des exemples d’invites que vous pouvez copier, adapter à vos propres données et affiner par la conversation.
+Le Module de conversation des collègues vous permet d’interroger, d’analyser et d’agir sur vos données [!DNL Experience Platform] en utilisant un langage naturel au lieu de parcourir plusieurs interfaces utilisateur ou d’écrire des requêtes manuellement. Cette page répertorie les cas d’utilisation les plus utilisés par les utilisateurs et les utilisatrices, organisés par domaine de travail : informations sur les données, audiences, parcours, éléments fondamentaux et outils de sandbox. Chaque entrée comprend les compétences qu’elle appelle, les applications avec lesquelles elle fonctionne et des exemples d’invites que vous pouvez copier, adapter à vos propres données et affiner par la conversation.
+
+>[!NOTE]
+>
+>Prochainement :
+>
+>De nouvelles fonctionnalités d’agence AEM via CX Enterprise Coworker, conçues pour vous aider à en faire plus, plus rapidement.
+>
+>Tous les clients éligibles auront accès aux fonctionnalités de l’agence Adobe Experience Manager dans Coworker, de manière progressive.
+>
+>Voir aussi [Présentation de l’IA dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
+
+## Expérience de marque
+
+### Experience Production - Cas D’Utilisation De Sites
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Mise à jour des pages AEM | Effectuez des actions telles que la mise à jour, la suppression, le remplacement ou l’ajout d’éléments de contenu pour que les expériences restent exactes et à jour. Les entrées peuvent être en langage naturel ou des annotations visuelles telles que des PDF ou des captures d’écran. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | Le &lt;URL> mettez à jour le titre en Hello World<br><br>le &lt;URL> modifiez le bouton « Prenez notre quiz du café » en une version plus attrayante<br><br>Mettez à jour &lt;URL> en fonction du fichier joint<br><br>le &lt;URL> Je souhaite ajouter une nouvelle section teaser au bas de la page à propos d’une promotion que nous organisons au mois d’août qui consiste à acheter une machine à café et à obtenir 2 sacs de café gratuits. Retrouvez également l’image d’amis buvant du café et utilisez-la dans le teaser |
+| Mise à jour d’AEM en bloc | exécuter des actions en bloc sur plusieurs pages en même temps, telles que la suppression, le remplacement ou l’ajout d’éléments de contenu, pour que les expériences restent exactes et à jour. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | sur &lt;chemin aem>, mettez à jour toutes les pages qui contiennent la copie « MyBarista\ » vers « BrewPass ». |
+| Passer de Figma au fragment de contenu visuel | Importez des conceptions directement de Figma dans Adobe Experience Manager à l’aide du langage naturel. Cette compétence crée automatiquement le modèle de contenu, le fragment de contenu, les ressources et le modèle de visualisation requis, ce qui permet aux utilisateurs professionnels de passer de la conception au contenu prêt pour le web en quelques minutes, sans configuration manuelle. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Importer depuis &lt;Image_URL> |
+
+### Experience Production - Cas D’Utilisation De Forms
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Créer un formulaire | Générez un nouveau formulaire adaptatif à partir d’une description en langage clair, d’un brief joint, d’une image ou d’un PDF | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM) | « Créer un formulaire d’intégration d’employé »<br><br>« Créez un formulaire à l’aide du brief ci-joint (image ou pdf)« <br><br>« Créez un &lt;type de formulaire> formulaire adaptatif » |
+| Formulaire de modification/mise à jour | Modifier un formulaire existant — ajouter/modifier des champs, ajuster une disposition simple, configurer des actions d’envoi ou appliquer des modifications à partir d’un document de directives joint | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | « Ajouter le champ Deuxième prénom sous le champ Prénom »<br><br>« Placez les champs Prénom et Nom dans une disposition à 2 colonnes, 50/50 »<br><br>« Configurez le formulaire pour envoyer des données à un point d’entrée REST »<br><br>« Mettez à jour ce formulaire pour qu’il corresponde au document d’instructions joint »<br><br>« Ajoutez le champ &lt;nom du champ> sous le champ &lt;champ existant> » |
+| Ajouter une logique commerciale | Créez des règles simples, par exemple pour afficher ou masquer un champ en fonction de la valeur d’un autre champ | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | « Afficher le champ Société uniquement lorsque le type d’employé est Sous-traitant »<br><br>« Afficher le champ &lt;champ> uniquement lorsque &lt;autre champ> est &lt;valeur> » |
+| Formulaire intégré | Placez un formulaire existant ou nouvellement créé sur une page AEM Sites désignée (prise en charge sur les pages Edge Delivery Services uniquement). | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | « Incorporer ce formulaire dans la page d’accueil de notre site »<br><br>« Incorporer ce formulaire dans &lt;page path> » |
+
+### Développement
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Diagnostiquer et corriger les pipelines Cloud Manager défaillants | Enquêter sur l’échec de l’exécution d’un pipeline, identifier la cause première et générer un correctif (avec une diff) à réviser | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | « Pourquoi mon pipeline de création a-t-il échoué ? »<br><br>« Suggérez un correctif pour mon pipeline de production endommagé. » |
+| Gestion des pipelines Cloud Manager | Créer, exécuter et surveiller les pipelines AEM Cloud Manager, y compris les journaux, les artefacts, les variables et les paramètres | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | « Répertorier les pipelines pour les 12345 de programme »<br><br>« Pourquoi l’exécution de mon pipeline de développement a-t-elle échoué ? » |
+| Gestion des environnements Cloud Manager | Création, configuration et maintenance des environnements AEM Cloud Manager, y compris les RDE, les variables d’environnement, les journaux et les sauvegardes | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | « Répertorier mes environnements pour les 12345 de programme »<br><br>« Réinitialiser mon RDE » |
+| Gestion des programmes Cloud Manager | Répertorier, inspecter et supprimer des programmes AEM Cloud Manager, y compris leurs pipelines et environnements | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | « Répertorier mes programmes Cloud Manager« <br><br>« Obtenir des détails sur les 12345 du programme » |
+| Gestion des plannings de mise à jour des versions d’AEM | Configurez des heures creuses quotidiennes et des périodes sans mise à jour pour une maintenance automatisée et affichez les fenêtres de gel de code globales d’Adobe. | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | « Quelle est ma fenêtre d’heures creuses actuelle ? »<br><br>« Planifiez une période sans mise à jour du 20 décembre au 2 janvier » |
+
+### Intégration - Cas D’Utilisation D’AEM Assets
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Intégration guidée de bout en bout | Orchestre le cycle de vie complet de l’intégration, la sélection du référentiel, la délégation au dossier, la balise, les métadonnées, l’importation et la recherche des sous-compétences, si vous ne connaissez pas la tâche d’intégration spécifique dont vous avez besoin. | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) Assets | « Intégration de notre équipe à AEM Assets »<br><br>« Découvrez comment intégrer la gestion des ressources numériques AEM » |
+| Conception et création de hiérarchies de dossiers | Recommande et crée des structures de dossiers évolutives dans AEM Assets (sous `/content/dam`) en fonction des besoins de l’entreprise ou des entrées CSV. | `aem-folder-management` | Adobe Experience Manager (AEM) Assets | « Recommander une structure de dossiers pour vos ressources marketing liées à votre style de vie »<br><br>« Créer des dossiers basés sur ce fichier CSV » |
+| Conception et création de balises | Conçoit et crée des vocabulaires de balises contrôlés sous `/content/cq:tags` : espaces de noms, balises hiérarchiques et opérations de balises par lots. | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | « Concevoir une taxonomie de balises avec des espaces de noms pour nos catégories de produits »<br><br>« Importer des balises à partir de ce fichier CSV »<br><br>« Créer ces balises hiérarchiques dans AEM » |
+| Création et affectation de formulaires de métadonnées | Conçoit et crée des formulaires de métadonnées personnalisés que les auteurs de contenu de l’interface utilisateur de création utilisent à partir d’un fichier CSV, d’un tableau, d’un document d’exigences ou d’une description, puis les affecte éventuellement à des dossiers. | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | « Créer un formulaire de métadonnées à partir de cette liste de champs »<br><br>« Affecter ce formulaire au dossier `campaigns` » |
+
+## Gestionnaire de contenu - Cas d’utilisation AEM Assets
+
+### Découverte de contenu
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Recherche par thème sémantique | Recherchez des ressources par concept, humeur ou thème visuel à l’aide de la correspondance sémantique optimisée par l’IA. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | « Retrouvez-moi des images de style de vie du café du matin » |
+| Recherche par métadonnées personnalisées | Filtrez les ressources en fonction de champs de métadonnées personnalisés (par exemple, mélange de café, marque, niveau de rôti). | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | « Rechercher les ressources où `Coffee Blend` est `Morning Muse`« <br><br>« Obtenez-moi les ressources dont la licence n’a pas expiré »<br><br>« Recherchez les ressources dont le nom de campagne n’est pas défini (la propriété doit être indexée pour obtenir les résultats appropriés). » |
+| Rechercher par statut de validation | Filtrez les ressources en fonction du statut d’approbation. Par exemple, le statut approuvé, en cours de révision, rejeté ou manquant. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | « Afficher toutes les ressources approuvées dans le dossier `Campaign` » |
+| Recherche par dossier/chemin d’accès | Identifiez les ressources en interprétant les invites en langage naturel qui font référence aux noms de dossier dans AEM. Vous pouvez simplement mentionner le dossier dans leur invite, sans avoir à parcourir manuellement le référentiel, ce qui réduit considérablement le nombre de clics nécessaires pour localiser le contenu approprié. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | « Y a-t-il des fichiers svg dans le dossier `WKND` » ?<br><br>« Afficher les ressources modifiées après le 1er novembre 2025 dans le dossier `WKND` » |
+
+### Optimisation du contenu
+
+| Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Création de rendus haute résolution et rendus optimisés pour les canaux | Générer de nouveaux rendus d’une ressource à une résolution et un niveau de qualité spécifiés, ce qui facilite la préparation de variations prêtes pour le canal sans modification manuelle. Vous pouvez également produire des rendus adaptés aux exigences spécifiques de la plateforme, telles que les histoires Instagram, en veillant à ce que les ressources respectent automatiquement les directives de format, de ratio et de qualité. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | « Créer un rendu `2000px` en tant que `JPEG` avec `80% quality` »<br><br>« Créer un rendu pour une histoire Instagram » |
+| Recouvrements de marque et génération composite | Appliquez des graphiques promotionnels, des superpositions ou des badges à des ressources existantes avec un emplacement précis, ce qui permet de créer rapidement des composites prêts pour la campagne. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | « Recouvrez l’image avec des graphiques de remise `30%` sur la bannière promotionnelle, en la plaçant `100px` au centre. » |
+| Améliorations des images, réglages des couleurs d’arrière-plan, transformations d’orientation | Appliquez des améliorations visuelles (accentuation de l’image), remplacez les couleurs d’arrière-plan et effectuez des transformations d’orientation. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | « Changer la couleur d’arrière-plan de l’`PNG` en `#ff8932`« <br><br>« Accentuer l’image »<br><br>« Mettre l’image en miroir horizontalement » |
+
+## Gouvernance de marque
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Règle et recherche de segment | Récupérer des instructions détaillées sur la marque, par segment, marché ou catégorie | enterprise-context | Adobe Experience Manager (AEM) | « Quelles sont les directives relatives au ton de la voix pour cette marque ?« <br>« Énumérez les catégories d&#39;allégations utilisées dans le volet santé » |
+| Évaluer le contenu par rapport aux directives de la marque | Évaluez une page, un bloc de texte ou une image publié/créé par rapport aux contrôles de marque configurés. | aem-gouvernance | Adobe Experience Manager (AEM) | « Évaluez cette page de destination par rapport aux directives de SecurBank »<br>« Ce slogan est-il conforme à nos contrôles de la tonalité ? » |
+| Déboguer les autorisations AEM | Déboguer/comprendre les politiques d’autorisation, les listes de contrôle d’accès et les règles d’héritage. | aem-gouvernance | Adobe Experience Manager (AEM) | « Pourquoi l’administrateur principal peut-il écrire des `/content/folder/us` sur `https://author/` ? »<br>« Pourquoi un exemple d’auteur ne peut-il pas écrire dans `/content/dam` sur `https://author` ? » |
 
 ## Informations sur les données
 
@@ -62,7 +136,7 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » · « Mon sandbox actuel a-t-il dépassé les limites de capacité au cours de la dernière semaine ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » · « Correction des noms de politiques de fusion en double » · « Correction des schémas sans le groupe de champs d’audit » · « Correction des noms de politiques de fusion par défaut » |
 
 ## Outil Sandbox
