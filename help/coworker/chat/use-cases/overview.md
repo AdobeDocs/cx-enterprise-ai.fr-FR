@@ -3,10 +3,10 @@ description: Parcourez les cas d’utilisation et les exemples d’invites de co
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
+source-git-commit: 959d2a748bc99462a60f3ecf958db623db0ac941
 workflow-type: tm+mt
-source-wordcount: 1333
-ht-degree: 7%
+source-wordcount: 1466
+ht-degree: 9%
 
 ---
 
@@ -62,6 +62,8 @@ Le Chat Coworker vous permet d’interroger, d’analyser et d’agir sur vos do
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » · « Mon sandbox actuel a-t-il dépassé les limites de capacité au cours de la dernière semaine ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » · « Correction des noms de politiques de fusion en double » · « Correction des schémas sans le groupe de champs d’audit » · « Correction des noms de politiques de fusion par défaut » |
 
 ## Outil Sandbox
 
