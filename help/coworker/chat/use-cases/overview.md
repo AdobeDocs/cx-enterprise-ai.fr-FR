@@ -1,12 +1,11 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
 workflow-type: tm+mt
-source-wordcount: 2835
-ht-degree: 8%
+source-wordcount: 3050
+ht-degree: 7%
 
 ---
 
@@ -22,11 +21,15 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 >
 >Tous les clients éligibles auront accès aux fonctionnalités de l’agence Adobe Experience Manager dans Coworker, de manière progressive.
 >
->Voir aussi [Présentation de l’IA dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
+>Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Expérience de marque
 
 ### Experience Production - Cas D’Utilisation De Sites
+
+>[!NOTE]
+>
+>Consultez également la section [Fonctionnalités d’AEM dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -35,6 +38,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Passer de Figma au fragment de contenu visuel | Importez des conceptions directement de Figma dans Adobe Experience Manager à l’aide du langage naturel. Cette compétence crée automatiquement le modèle de contenu, le fragment de contenu, les ressources et le modèle de visualisation requis, ce qui permet aux utilisateurs professionnels de passer de la conception au contenu prêt pour le web en quelques minutes, sans configuration manuelle. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Importer depuis &lt;Image_URL> |
 
 ### Experience Production - Cas D’Utilisation De Forms
+
+>[!NOTE]
+>
+>Consultez également la section [Fonctionnalités d’AEM dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -45,6 +52,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 ### Développement
 
+>[!NOTE]
+>
+>Consultez également la section [Fonctionnalités d’AEM dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Diagnostiquer et corriger les pipelines Cloud Manager défaillants | Enquêter sur l’échec de l’exécution d’un pipeline, identifier la cause première et générer un correctif (avec une diff) à réviser | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | « Pourquoi mon pipeline de création a-t-il échoué ? »<br><br>« Suggérez un correctif pour mon pipeline de production endommagé. » |
@@ -54,6 +65,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Gestion des plannings de mise à jour des versions d’AEM | Configurez des heures creuses quotidiennes et des périodes sans mise à jour pour une maintenance automatisée et affichez les fenêtres de gel de code globales d’Adobe. | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | « Quelle est ma fenêtre d’heures creuses actuelle ? »<br><br>« Planifiez une période sans mise à jour du 20 décembre au 2 janvier » |
 
 ### Intégration - Cas D’Utilisation D’AEM Assets
+
+>[!NOTE]
+>
+>Consultez également la section [Fonctionnalités natives d’AEM : Expérience de marque - Intégration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -66,6 +81,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 ### Découverte de contenu
 
+>[!NOTE]
+>
+>Consultez également la section [Fonctionnalités d’AEM dans AEM : Content Advisor - Découverte de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
+
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Recherche par thème sémantique | Recherchez des ressources par concept, humeur ou thème visuel à l’aide de la correspondance sémantique optimisée par l’IA. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | « Retrouvez-moi des images de style de vie du café du matin » |
@@ -75,6 +94,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 ### Optimisation du contenu
 
+>[!NOTE]
+>
+>Voir aussi [Fonctionnalités d’AEM dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Création de rendus haute résolution et rendus optimisés pour les canaux | Générer de nouveaux rendus d’une ressource à une résolution et un niveau de qualité spécifiés, ce qui facilite la préparation de variations prêtes pour le canal sans modification manuelle. Vous pouvez également produire des rendus adaptés aux exigences spécifiques de la plateforme, telles que les histoires Instagram, en veillant à ce que les ressources respectent automatiquement les directives de format, de ratio et de qualité. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | « Créer un rendu `2000px` en tant que `JPEG` avec `80% quality` »<br><br>« Créer un rendu pour une histoire Instagram » |
@@ -82,6 +105,10 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Améliorations des images, réglages des couleurs d’arrière-plan, transformations d’orientation | Appliquez des améliorations visuelles (accentuation de l’image), remplacez les couleurs d’arrière-plan et effectuez des transformations d’orientation. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | « Changer la couleur d’arrière-plan de l’`PNG` en `#ff8932`« <br><br>« Accentuer l’image »<br><br>« Mettre l’image en miroir horizontalement » |
 
 ## Gouvernance de marque
+
+>[!NOTE]
+>
+>Voir aussi [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
 
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -137,7 +164,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » · « Mon sandbox actuel a-t-il dépassé les limites de capacité au cours de la dernière semaine ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » · « Correction des noms de politiques de fusion en double » · « Correction des schémas sans le groupe de champs d’audit » · « Correction des noms de politiques de fusion par défaut » |
 
 ## Outil Sandbox
