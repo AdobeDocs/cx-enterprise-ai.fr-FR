@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: IA dans CX Enterprise
 user-guide-description: Découvrez comment créer, configurer, intégrer et étendre l’IA pour les assistants, les collègues, les agents et les points de contact grâce à une documentation pratique, des conseils d’implémentation et des documents de référence.
 description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 18%
+source-wordcount: '279'
+ht-degree: 19%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 18%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -56,7 +56,7 @@ ht-degree: 18%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
