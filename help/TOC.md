@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b207cc5ff5f53df5bc0684fb48ac98186f23393
+source-git-commit: 1f51191d1f7a00c21d235b647c7e4b7777a9b728
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '292'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 19%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -56,7 +56,7 @@ ht-degree: 19%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
@@ -87,6 +87,8 @@ ht-degree: 19%
       - Parcours {#journeys}
         - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Outil Sandbox {#sandbox-tooling}
+        - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
+      - Alertes {alerts}
+        - [Compétences en alerte client](./agents/customer-alert-skills.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
-    - [Compétences en agent pour l’outillage Sandbox](./agents/sandbox-tooling.md)
-    - [Compétences en alerte client](./agents/customer-alert-skills.md)
