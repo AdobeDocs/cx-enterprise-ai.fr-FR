@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -37,12 +37,13 @@ ht-degree: 19%
   - [Agent de découverte de champ](./agents/field-discovery-agent.md)
   - [Agent Journey](./agents/ajo-agent.md)
   - [Agent du support technique du produit](./agents/product-support.md)
+  - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agent de notifications](./agents/notifications.md)
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -56,7 +57,7 @@ ht-degree: 19%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
@@ -64,7 +65,7 @@ ht-degree: 19%
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Métadonnées C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
     - Connecteurs {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
@@ -86,3 +87,5 @@ ht-degree: 19%
       - Outil Sandbox {#sandbox-tooling}
         - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
+  - [Analyse des données CJA](./coworker/analytics-chat.md)
