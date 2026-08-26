@@ -64,7 +64,7 @@ Adobe ne contrôle pas la manière dont les services externes interprètent, aff
 
 Dans certaines circonstances et dans certaines zones géographiques, les organisations peuvent choisir ou être tenues d’identifier de manière visible le contenu généré ou modifié par GenAI.
 
-Adobe fournit des [conseils](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sur l’utilisation des fonctionnalités d’application de filigrane existantes prises en charge par les applications Adobe. L’utilisation d’un filigrane visible dépend des exigences commerciales d’une organisation et des lois et réglementations en vigueur dans les juridictions où le contenu est publié.
+Adobe fournit des [conseils](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sur l’utilisation des fonctionnalités d’application de filigrane existantes prises en charge par les applications Adobe. L’utilisation d’un filigrane visible dépend des exigences commerciales d’une organisation et des lois et réglementations en vigueur dans les juridictions où le contenu est publié.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Les métadonnées C2PA sont automatiquement associées au contenu généré et m
 
 ### Conseils sur les filigranes
 
-Adobe fournit [documentation](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) décrivant comment utiliser les fonctionnalités d’application d’un filigrane disponibles dans les applications Adobe prises en charge pour les organisations qui choisissent ou doivent appliquer des libellés visibles.
+Adobe fournit [documentation](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) décrivant comment utiliser les fonctionnalités d’application d’un filigrane disponibles dans les applications Adobe prises en charge pour les organisations qui choisissent ou doivent appliquer des libellés visibles.
 
 ## Applications prises en charge dans Adobe CX Enterprise {#supported-applications}
 
@@ -102,7 +102,7 @@ Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX con
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| Assistant AI pour la génération de contenu (fonctionnalité dans Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| Assistant AI pour la génération de contenu (fonctionnalité dans Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -110,11 +110,11 @@ Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX con
 | GenStudio for Performance Marketing | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| Campagnes des collaborateurs des entreprises CX (anciennement HALO) | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| Campagnes des collaborateurs des entreprises CX (anciennement HALO) | <!--[Documentation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## Liens connexes
 
-* [Guide des filigranes visibles](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [Guide des filigranes visibles](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## Questions fréquentes
