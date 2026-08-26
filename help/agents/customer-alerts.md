@@ -31,7 +31,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - Autorisation d’afficher les alertes pertinentes pour votre organisation.
 - Plug-in CXO Adobe installé dans CX Coworker.
 
-Pour obtenir des instructions sur l’installation de modules externes, voir https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide.
+Pour obtenir des instructions sur l’installation de modules externes, voir https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Utilisation des compétences en alertes client {#use-customer-alert-skills}
 
