@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 18%
+source-wordcount: '284'
+ht-degree: 20%
 
 ---
 
@@ -37,13 +37,12 @@ ht-degree: 18%
   - [Agent de découverte de champ](./agents/field-discovery-agent.md)
   - [Agent Journey](./agents/ajo-agent.md)
   - [Agent du support technique du produit](./agents/product-support.md)
-  - [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agent de notifications](./agents/notifications.md)
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -57,7 +56,7 @@ ht-degree: 18%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
@@ -70,6 +69,10 @@ ht-degree: 18%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
+  - Personnalisations {#customizations}
+    - Compétences {#skills}
+      - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
+      - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -86,6 +89,3 @@ ht-degree: 18%
         - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Outil Sandbox {#sandbox-tooling}
         - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validation des données de migration d’AA vers CJA](./coworker/data-validation-aa-cja.md)
-  - [Analyse des données CJA](./coworker/analytics-chat.md)
