@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: IA dans CX Enterprise
 user-guide-description: Découvrez comment créer, configurer, intégrer et étendre l’IA pour les assistants, les collègues, les agents et les points de contact grâce à une documentation pratique, des conseils d’implémentation et des documents de référence.
 description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles grâce à l’IA dans CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 18%
+source-wordcount: '279'
+ht-degree: 19%
 
 ---
 
