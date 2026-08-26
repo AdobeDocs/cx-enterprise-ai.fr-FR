@@ -1,11 +1,10 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -165,7 +164,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » sur une audience réelle » · « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » · « Supprimer ma compétence de rapport hebdomadaire » · « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » · « Mon sandbox actuel a-t-il dépassé les limites de capacité au cours de la dernière semaine ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » · « Me parler de ma dernière évaluation du contrôle de l’intégrité » · « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » · « Correction des noms de politiques de fusion en double » · « Correction des schémas sans le groupe de champs d’audit » · « Correction des noms de politiques de fusion par défaut » |
 
 ## Outil Sandbox
@@ -173,3 +172,15 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | [Déplacement d’objets dans des sandbox](/help/agents/sandbox-tooling.md) | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » · « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |
+
+## Alertes clients
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Gestion des abonnements aux alertes | Affichez et gérez les abonnements aux alertes par le biais de conversations en langage naturel. | `alerts-subscribe` | Adobe Experience Platform | « À quelles alertes suis-je abonné ?« <br><br>« Abonnez-moi à cette alerte.« <br><br>« Supprimez mon abonnement à cette alerte. » |
+| Vérifier l’activité d’alerte | Examinez le statut actuel de l’alerte et l’activité historique de l’alerte pour une période spécifiée. | `alerts-list` | Adobe Experience Platform | « Que s’est-il passé au cours des dernières 24 heures ? »<br><br>« Quelles alertes ont été déclenchées au cours des dernières 24 heures ? »<br><br>« Affichez les alertes actives des sept derniers jours. » |
+| Identification des modèles d’alerte récurrents | Analysez l’historique des alertes pour identifier les types d’alerte fréquemment déclenchés et les tendances opérationnelles. | `alerts-list` | Adobe Experience Platform | « Affichez-moi les trois principaux types d’alerte déclenchés. »<br><br>« Quels types d’alerte se sont produits le plus souvent ce mois-ci ? »<br><br>« Quels modèles d’alerte voyez-vous au cours des sept derniers jours ? » |
+| Se concentrer sur les questions hautement prioritaires | Filtrez l’activité d’alerte par gravité pour donner la priorité aux efforts d’enquête. | `alerts-list` | Adobe Experience Platform | « Afficher uniquement les alertes de gravité élevée. »<br><br>« Quelles alertes critiques ont été déclenchées cette semaine ? »<br><br>« Afficher les alertes critiques des 30 derniers jours. » |
+| Comprendre le rayon d’impact des alertes | Identifiez les objets les plus affectés par les alertes et déterminez où l&#39;enquête doit commencer. | `alerts-list` | Adobe Experience Platform | « Quels sont les 5 objets les plus impactés ? »<br><br>« Quels objets sont associés aux alertes de gravité la plus élevée ? » |
+| Connecter les types d’alerte aux objets concernés | Analysez les relations entre les types d’alerte et les ressources affectées. | `alerts-list` | Adobe Experience Platform | « Quels types d’alerte ont le plus souvent eu un impact sur ce jeu de données ? »<br><br>« Affichez la relation entre les types d’alerte et les objets concernés. »<br><br>« Quel type d’alerte a le plus souvent eu un impact sur l’objet le plus touché ? » |
+| Concentrez-vous sur mes alertes | Analysez les alertes auxquelles vous êtes abonné et qui sont chargées de leur surveillance. | `alerts-list` | Adobe Experience Platform | « Montrez-moi les alertes de niveau de gravité élevé auxquelles je m’abonne. »<br><br>« Quelles alertes provenant de mes alertes ont été déclenchées cette semaine ? »<br><br>« Y a-t-il des alertes auxquelles je me suis abonné qui nécessitent une attention particulière ? » |
