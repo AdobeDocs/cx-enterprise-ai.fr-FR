@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 19%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -64,11 +64,15 @@ ht-degree: 19%
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Métadonnées C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
     - Connecteurs {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
+  - Personnalisations {#customizations}
+    - Compétences {#skills}
+      - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
+      - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -85,4 +89,6 @@ ht-degree: 19%
         - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Outil Sandbox {#sandbox-tooling}
         - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
+      - Alertes {#alerts}
+        - [Compétences en alerte client](./agents/customer-alerts.md)
+

@@ -1,7 +1,7 @@
 ---
 title: Compétences de l’agent d’outils Sandbox
 description: Découvrez comment utiliser les compétences d’agent des outils Sandbox pour répliquer des métadonnées d’objet dans les environnements Sandbox.
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Pour utiliser les compétences d’agent des outils Sandbox :
 
 1. Une fois la migration terminée, les objets sélectionnés sont disponibles dans le sandbox cible.
 
-![Page Transfert terminé affichant le statut de la demande.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Page Transfert terminé affichant le statut de la demande.](./assets/sandbox-tooling/transfer-complete.png)
 
 Pour plus d’informations sur l’utilisation de CX Coworker, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
@@ -78,7 +78,7 @@ Grâce à CX Coworker, vous pouvez migrer des métadonnées d’objet, notamment
 
 Par exemple :
 
-> « Déplacez le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production. »
+- « Déplacez le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production. »
 
 ### Promouvoir les audiences entre les sandbox
 
@@ -86,7 +86,7 @@ En tant qu’administrateur de sandbox, vous pouvez promouvoir des audiences ent
 
 Par exemple :
 
-> « Convertissez l’audience « Nom de l’audience » en sandbox d’évaluation. »
+- « Convertissez l’audience « Nom de l’audience » en sandbox d’évaluation. »
 
 Les compétences Agentic (outils pour sandbox) identifient l’audience spécifiée, valident ses dépendances et migrent tous les objets requis vers la sandbox cible.
 
@@ -111,3 +111,4 @@ Utilisez ces invites lorsque vous connaissez le nom de l&#39;audience.
 Après avoir lu ce guide, vous devriez comprendre comment utiliser les compétences Agentic de l’outil Sandbox pour découvrir, regrouper et migrer les objets pris en charge entre les sandbox.
 
 Pour plus d’informations sur l’outil Sandbox, consultez le [Guide de l’outil Sandbox](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/ui/sandbox-tooling).
+

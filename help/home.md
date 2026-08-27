@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 4%
+source-wordcount: 969
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ Commencez ici pour une introduction sur où et comment l’IA est utilisée dans
 - [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md) explique le fonctionnement des agents Experience Platform à la fois dans les applications CX Enterprise et les applications IA dédiées existantes. Il répertorie également les agents disponibles dans chacun d’eux.
 - [&#x200B; Surveillance de l’IA &#x200B;](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
 - [Consommation des crédits AI](./overview/ai-credit-consumption.md) explique comment les tâches de l’agent consomment les crédits AI, avec des taux de consommation estimés par agent et par type de tâche.
+- [Transparence du contenu Generative AI](./content-transparency.md) explique comment Adobe joint automatiquement les métadonnées C2PA au contenu généré et modifié par GenAI dans les applications d’entreprise CX.
 - [Outils d&#39;agentic CX Enterprise](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview) couvrent les compétences et les outils agentic supplémentaires qui étendent les agents d&#39;agentic CX Enterprise (tutoriels vidéo).
 
 ## Assistant IA
@@ -60,7 +61,7 @@ Les agents Experience Platform suivants sont documentés dans ce guide :
 
 Pour obtenir la liste complète des agents, les applications prises en charge par chacun et les conditions d’éligibilité, consultez [Agentic AI in CX Enterprise](./overview/agentic-ai.md).
 
-## Collègue
+## Coworker
 
 Coworker est une évolution de l’IA Assistant orientée agent-first qui automatise l’expérience client et les workflows marketing, de sorte que votre équipe puisse se concentrer sur les objectifs commerciaux plutôt que sur l’exécution de routine. Au lieu de poser une question à la fois, vous décrivez un objectif. Un collègue planifie, exécute, valide et renvoie le travail terminé pour approbation. Le collaborateur comprend :
 
@@ -76,9 +77,16 @@ Pour consulter la documentation complète sur les produits, les campagnes, les p
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) est le point d’entrée MCP (Model Context Protocol) unifié pour CX Enterprise. Il offre aux clients compatibles avec MCP, tels que [!DNL Claude], [!DNL ChatGPT] et [!DNL Cursor], une connexion unique régie aux outils de produit que votre entreprise est autorisée à utiliser. Ces outils comprennent [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics] et [!DNL Workfront].
+[Adobe CX Coworker Gateway](./mcp/overview.md) est le point d’entrée MCP (Model Context Protocol) unifié pour CX Enterprise. Il offre aux clients compatibles avec MCP, tels que [!DNL Claude], [!DNL ChatGPT] et [!DNL Cursor], une connexion unique régie aux outils de produit que votre entreprise est autorisée à utiliser :
 
-Vous découvrez CX Coworker Gateway ? Voir [Accéder aux outils de la passerelle CX Coworker](./mcp/access.md) et [Installer la passerelle CX Coworker](./mcp/install.md) pour vous connecter.
+- [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
+- [Outils Experience Platform](./mcp/aep-mcp.md)
+- [Outils Journey Optimizer](./mcp/ajo-mcp.md)
+- [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
+- [Outils Adobe Analytics](./mcp/analytics-mcp.md)
+- Outils [!DNL Workfront], documentés dans le guide du serveur MCP [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+
+Vous découvrez CX Coworker Gateway ? Voir [Accéder aux outils de la passerelle CX Coworker](./mcp/access.md) et [Installer la passerelle CX Coworker](./mcp/install.md) pour vous connecter. Une fois connecté, utilisez les [outils de contexte de session](./mcp/context-tools.md) pour définir l’organisation active, le sandbox et la vue de données avant d’appeler les outils du produit.
 
 ## Commencer
 
@@ -103,4 +111,6 @@ Pour tirer le meilleur parti de votre expérience d’assistant d’IA ou de col
 ## Considérations juridiques
 
 L’assistant AI prend actuellement en charge les réponses en anglais uniquement et les modèles de langue peuvent parfois faire des erreurs. Vérifiez toujours les informations fournies et utilisez les étapes de raisonnement incluses dans chaque réponse pour comprendre comment elles ont été générées. Pour plus de détails, lisez la [clause de non-responsabilité](./ai-assistant/legal-disclaimer.md).
+
+Adobe joint automatiquement les métadonnées C2PA au contenu généré par GenAI et modifié par GenAI dans les applications d’entreprise CX, afin de respecter les réglementations de transparence de l’IA générative. Pour plus d’informations, consultez la section [Transparence du contenu de Generative AI](./content-transparency.md).
 
