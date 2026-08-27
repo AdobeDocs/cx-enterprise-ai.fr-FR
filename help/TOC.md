@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
+source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 19%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 19%
 
 - [IA dans les applications d’entreprise CX](home.md)
 - À propos de l’IA dans CX Enterprise {#overview}
+  - [À propos de l’IA dans CX Enterprise](./overview/overview-ai-cxe.md)
   - [À propos de l’IA générative](./overview/generative-ai.md)
   - [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md)
   - [À propos de la consommation des crédits AI](./overview/ai-credit-consumption.md)
@@ -42,7 +43,7 @@ ht-degree: 19%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -56,7 +57,7 @@ ht-degree: 19%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
