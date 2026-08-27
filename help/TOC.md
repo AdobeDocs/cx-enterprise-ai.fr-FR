@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 20%
+source-wordcount: '292'
+ht-degree: 19%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 20%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle de collègue Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -56,7 +56,7 @@ ht-degree: 20%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
   - Campagnes {#campaigns}
@@ -76,6 +76,7 @@ ht-degree: 20%
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
     - Cas d’utilisation {#use-cases}
       - [Cas d’utilisation de la conversation avec un collègue](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
