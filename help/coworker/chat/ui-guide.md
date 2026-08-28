@@ -4,10 +4,10 @@ title: Guide de l’interface utilisateur de la conversation avec un collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1712
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,25 @@ Familiarisez-vous avec l’interface de conversation des collègues. Ce guide co
 >[!VIDEO](https://video.tv.adobe.com/v/3498569?captions=fre_fr&learn=on)
 
 ## Accéder au chat des collègues
+
+Lorsque votre entreprise obtient l’accès à Coworker, vous pouvez utiliser ses fonctionnalités au moyen de l’expérience immersive ou d’une expérience intégrée au produit.
+
+>[!NOTE]
+>
+>L’expérience intégrée au produit est accessible via l’icône Coworker ![icône Coworker](./assets/icon-coworker.png) en haut à droite. Les détails de l’expérience immersive sont [décrits ci-dessous](#immersive).
+
+Le tableau suivant indique quand ces expériences seront disponibles pour chaque application CX Enterprise.
+
+| Application d’entreprise CX | Expérience immersive | Expérience intégrée au produit |
+|---|---|---|
+| RTCDP | Disponible maintenant | Bientôt disponible |
+| AJO | Disponible maintenant | Bientôt disponible |
+| CJA | Disponible maintenant | Bientôt disponible |
+| AEM | Septembre 2026 | Bientôt disponible |
+| Workfront | Septembre 2026 | Prochainement :<br><br>* début septembre 2026 dans l’instance d’aperçu pour certains administrateurs système Workfront<br><br>* mi-septembre 2026 dans l’instance de production pour les clients Workfront à version rapide éligibles<br><br>* mi-octobre 2026 dans l’instance de production pour les clients Workfront à version trimestrielle éligibles |
+| Cible | Septembre 2026 | Bientôt disponible |
+
+### Expérience immersive {#immersive}
 
 Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
