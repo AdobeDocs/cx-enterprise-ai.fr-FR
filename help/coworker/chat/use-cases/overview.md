@@ -3,9 +3,9 @@ description: Parcourez les cas d’utilisation et les exemples d’invites de co
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 81355d5cba84be7290e2e3ee53f01f10fe89c65a
 workflow-type: tm+mt
-source-wordcount: 3344
+source-wordcount: 3297
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 ## Expérience de marque
 
-### Experience Production - Cas D’Utilisation De Sites
+### Production d’expérience - AEM Sites
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -38,7 +38,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 * [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-### Experience Production - Cas D’Utilisation De Forms
+### Production d’expérience - AEM Forms
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -55,8 +55,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| Diagnostiquer et corriger les pipelines Cloud Manager défaillants | Enquêter sur l’échec de l’exécution d’un pipeline, identifier la cause première et générer un correctif (avec une diff) à réviser | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | « Pourquoi mon pipeline de création a-t-il échoué ? »<br><br>« Suggérez un correctif pour mon pipeline de production endommagé. » |
-| Gestion des pipelines Cloud Manager | Créer, exécuter et surveiller les pipelines AEM Cloud Manager, y compris les journaux, les artefacts, les variables et les paramètres | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | « Répertorier les pipelines pour les 12345 de programme »<br><br>« Pourquoi l’exécution de mon pipeline de développement a-t-elle échoué ? » |
+| Gestion des pipelines Cloud Manager | Créer, exécuter et surveiller les pipelines AEM Cloud Manager, y compris les journaux, les artefacts, les variables et les paramètres | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | « Répertorier les pipelines pour les 12345 de programme »<br><br>« Quel est l’état de mon dernier pipeline ? » |
 | Gestion des environnements Cloud Manager | Création, configuration et maintenance des environnements AEM Cloud Manager, y compris les RDE, les variables d’environnement, les journaux et les sauvegardes | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | « Répertorier mes environnements pour les 12345 de programme »<br><br>« Réinitialiser mon RDE » |
 | Gestion des programmes Cloud Manager | Répertorier, inspecter et supprimer des programmes AEM Cloud Manager, y compris leurs pipelines et environnements | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | « Répertorier mes programmes Cloud Manager« <br><br>« Obtenir des détails sur les 12345 du programme » |
 | Gestion des plannings de mise à jour des versions d’AEM | Configurez des heures creuses quotidiennes et des périodes sans mise à jour pour une maintenance automatisée et affichez les fenêtres de gel de code globales d’Adobe. | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | « Quelle est ma fenêtre d’heures creuses actuelle ? »<br><br>« Planifiez une période sans mise à jour du 20 décembre au 2 janvier » |
@@ -65,7 +64,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 * [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### Intégration - Cas D’Utilisation D’AEM Assets
+### Intégration - AEM Assets
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
@@ -78,7 +77,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 * [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
-## Gestionnaire de contenu - Cas d’utilisation AEM Assets
+## Gestionnaire de contenu - AEM Assets
 
 ### Découverte de contenu
 
