@@ -4,9 +4,9 @@ title: Guide de l’interface utilisateur de la conversation avec un collègue
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
+source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1713
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Le tableau suivant indique quand ces expériences seront disponibles pour chaque
 | AJO | Disponible maintenant | Bientôt disponible |
 | CJA | Disponible maintenant | Bientôt disponible |
 | AEM | Septembre 2026 | Bientôt disponible |
-| Workfront | Septembre 2026 | Prochainement :<br><br>* début septembre 2026 dans l’instance d’aperçu pour certains administrateurs système Workfront<br><br>* mi-septembre 2026 dans l’instance de production pour les clients Workfront à version rapide éligibles<br><br>* mi-octobre 2026 dans l’instance de production pour les clients Workfront à version trimestrielle éligibles |
+| Workfront | Septembre 2026 | Prochainement : <br><br>* début septembre 2026 dans l’instance d’aperçu pour certains administrateurs système Workfront éligibles <br><br>* mi-septembre 2026 dans l’instance de production pour les clients Workfront à version rapide éligibles <br><br>* mi-octobre 2026 dans l’instance de production pour les clients Workfront à version trimestrielle éligibles |
 | Cible | Septembre 2026 | Bientôt disponible |
 
 ### Expérience immersive {#immersive}
