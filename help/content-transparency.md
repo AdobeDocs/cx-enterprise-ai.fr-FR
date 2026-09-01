@@ -1,12 +1,10 @@
 ---
 title: Transparence du contenu d’IA générative
 description: Découvrez comment Adobe joint automatiquement les métadonnées C2PA au contenu généré et modifié par GenAI dans les applications d’entreprise Adobe CX.
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
 workflow-type: tm+mt
-source-wordcount: 1745
+source-wordcount: 1743
 ht-degree: 2%
 
 ---
@@ -64,7 +62,7 @@ Adobe ne contrôle pas la manière dont les services externes interprètent, aff
 
 Dans certaines circonstances et dans certaines zones géographiques, les organisations peuvent choisir ou être tenues d’identifier de manière visible le contenu généré ou modifié par GenAI.
 
-Adobe fournit des [conseils](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sur l’utilisation des fonctionnalités d’application de filigrane existantes prises en charge par les applications Adobe. L’utilisation d’un filigrane visible dépend des exigences commerciales d’une organisation et des lois et réglementations en vigueur dans les juridictions où le contenu est publié.
+Adobe fournit des [conseils](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sur l’utilisation des fonctionnalités d’application de filigrane existantes prises en charge par les applications Adobe. L’utilisation d’un filigrane visible dépend des exigences commerciales d’une organisation et des lois et réglementations en vigueur dans les juridictions où le contenu est publié.
 
 >[!NOTE]
 >
@@ -86,7 +84,7 @@ Les métadonnées C2PA sont automatiquement associées au contenu généré et m
 
 ### Conseils sur les filigranes
 
-Adobe fournit [documentation](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) décrivant comment utiliser les fonctionnalités d’application d’un filigrane disponibles dans les applications Adobe prises en charge pour les organisations qui choisissent ou doivent appliquer des libellés visibles.
+Adobe fournit [documentation](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) décrivant comment utiliser les fonctionnalités d’application d’un filigrane disponibles dans les applications Adobe prises en charge pour les organisations qui choisissent ou doivent appliquer des libellés visibles.
 
 ## Applications prises en charge dans Adobe CX Enterprise {#supported-applications}
 
@@ -100,24 +98,24 @@ Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX con
 
 | Application/Solution | Notes de mise à jour/conseils |
 |---|---|
-| Adobe Advertising Cloud | [Documentation](https://experienceleague.adobe.com/fr/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| Adobe Experience Manager (AEM) | [Documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| Assistant AI pour la génération de contenu (fonctionnalité dans Adobe Journey Optimizer/Adobe Campaign) | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
-| Adobe Journey Optimizer B2B Ultimate | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Prime B2B Adobe Journey Optimizer (ou Adobe Marketo Optimizer) | [Documentation](https://experienceleague.adobe.com/fr/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Campaign | [Documentation](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
-| Adobe Commerce | [Documentation](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| GenStudio for Performance Marketing | [Documentation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [Documentation](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [Documentation](https://experienceleague.adobe.com/fr/docs/workfront/using/documents/c2pa-metadata-overview) |
-| Campagnes des collaborateurs des entreprises CX (anciennement HALO) | [Documentation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Advertising Cloud | [Documentation](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager (AEM) | [Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| Générer du contenu (fonctionnalité dans Adobe Journey Optimizer/Adobe Campaign) | [Documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [Documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Prime B2B Adobe Journey Optimizer (ou Adobe Marketo Optimizer) | [Documentation](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2C | [Documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [Documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
+| Adobe Commerce | [Documentation](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| GenStudio for Performance Marketing | [Documentation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [Documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [Documentation](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| Campagnes des collaborateurs des entreprises CX (anciennement HALO) | [Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## Liens connexes
 
-* [Guide des filigranes visibles](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [Guide des filigranes visibles](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
-* [Présentation de l’initiative de conformité à l’étiquetage GenAI d’Adobe](https://helpx.adobe.com/fr/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Présentation de l’initiative de conformité à l’étiquetage GenAI d’Adobe](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## Questions fréquentes
 
