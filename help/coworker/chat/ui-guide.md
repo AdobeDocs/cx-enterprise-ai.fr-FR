@@ -1,10 +1,10 @@
 ---
 description: Guide de référence de l’interface de conversation des collègues, couvrant la navigation, la zone de saisie, les réponses, l’historique de conversation, ainsi que la configuration des compétences, des serveurs MCP et de la mémoire.
 title: Guide de l’interface utilisateur de la conversation avec un collègue
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Familiarisez-vous avec l’interface de conversation des collègues. Ce guide couvre tous les aspects, de l’accès à l’application à la navigation dans l’espace de travail, en passant par la manière de tirer le meilleur parti des conversations, de gérer votre historique et de personnaliser votre configuration.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498569?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accéder au chat des collègues
 
@@ -38,7 +38,7 @@ Le tableau suivant indique quand ces expériences seront disponibles pour chaque
 
 ### Expérience immersive {#immersive}
 
-Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
+Accédez au Chat des collaborateurs en accédant à [](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
 Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de l’expérience client.
 
@@ -63,7 +63,7 @@ Sélectionnez votre nom pour ouvrir le menu du compte, où vous pouvez changer d
 
 ![Le menu Compte avec le sélecteur de sandbox ouvert](./assets/ui-guide-3.png)
 
-## Naviguer dans l’interface
+## Navigation dans l’interface
 
 L’interface CX Coworker comporte deux zones principales : le rail de navigation à gauche et la zone de travail de conversation qui remplit le reste de la fenêtre.
 

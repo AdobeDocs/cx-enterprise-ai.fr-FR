@@ -1,9 +1,9 @@
 ---
 description: Parcourez les modèles d’invite réels pour les campagnes des collaborateurs d’entreprise d’Adobe CX, organisés par cas d’utilisation dans les campagnes d’acquisition, d’engagement, d’événements, de conversion et de rétention.
 title: Cas D’Utilisation Des Campagnes De Collègues
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 508
 ht-degree: 0%
@@ -160,4 +160,4 @@ Idéal pour : toute audience qui s’est arrêtée.
 
 ## Prêt pour la création ?
 
-Sélectionnez un cas d’utilisation ci-dessus, consultez [Création d’une campagne par e-mail] (./) pour obtenir une présentation détaillée et essayez-la.
+Sélectionnez un cas d’utilisation ci-dessus, consultez [Création d’une campagne par e-mail](./) pour obtenir une présentation détaillée et essayez-la.

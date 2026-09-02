@@ -1,9 +1,9 @@
 ---
 description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes de collaborateurs d’entreprise Adobe CX.
 title: Notes de mise à jour des campagnes des collaborateurs de l’entreprise CX
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 2187
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 
-## Juillet 2026 {#july-2026}
+## Juillet 2026 {#july-2026}
 
 **Date de publication : 23 juillet 2026**
 

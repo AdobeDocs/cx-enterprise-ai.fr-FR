@@ -1,9 +1,10 @@
 ---
 description: Découvrez comment les campagnes Coworker joignent et conservent automatiquement les métadonnées C2PA sur les images, de la génération à la diffusion par e-mail.
 title: Métadonnées C2PA dans les campagnes Coworker
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 4%
 
 ---
@@ -37,6 +38,6 @@ Les campagnes Coworker conservent les métadonnées C2PA associées aux ressourc
 
 ## Ressources supplémentaires {#resources}
 
-* [Transparence du contenu d’IA générative](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
+* [Transparence du contenu d’IA générative](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Consignes d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mécanismes de sécurisation et limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
