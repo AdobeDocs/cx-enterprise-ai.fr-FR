@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -93,4 +93,6 @@ ht-degree: 20%
         - [Compétences en agent pour l’outil Sandbox](./agents/sandbox-tooling.md)
       - Alertes {#alerts}
         - [Compétences en alerte client](./agents/customer-alerts.md)
-
+      - Conseiller d’accès {#content-advisor}
+        - [Générer des ressources marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Vérification de la conformité de la marque](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
