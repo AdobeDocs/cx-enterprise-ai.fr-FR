@@ -1,8 +1,10 @@
 ---
 description: Découvrez les campagnes des collaborateurs d’entreprise d’Adobe CX, une application marketing native IA qui transforme une invite unique en campagne prête pour la révision.
 title: Présentation d’Adobe CX Enterprise Coworker
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 950
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Les campagnes collaboratrices sont une application marketing native à l’IA qui vous fait passer d’une invite unique à une campagne complète prête pour la révision.
 
-Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne](./). D’autres fonctionnalités seront bientôt disponibles.
+Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne] (./). D’autres fonctionnalités seront bientôt disponibles.
 
 ## Accès
 
