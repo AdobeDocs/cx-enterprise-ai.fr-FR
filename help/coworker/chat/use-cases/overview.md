@@ -1,8 +1,10 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
 workflow-type: tm+mt
 source-wordcount: 4261
