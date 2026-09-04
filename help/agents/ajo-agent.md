@@ -5,34 +5,15 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
 workflow-type: tm+mt
-source-wordcount: 3361
-ht-degree: 12%
+source-wordcount: 3372
+ht-degree: 11%
 
 ---
 
@@ -41,7 +22,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->Les compétences de création Journey Agent et les compétences de génération de contenu sont disponibles pour les clients qui font partie du programme Agent Orchestrator Explorer. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
+>Les fonctionnalités de création d’IA de Journey Agent et de génération de contenu sont disponibles pour les clients qui font partie du programme Agent Orchestrator Explorer. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
 
 ## Présentation de Journey Agent dans Adobe Journey Optimizer
 
@@ -53,13 +34,13 @@ Journey Agent se compose de quatre tâches principales :
 - **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
 - **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
 
-En outre, la **simulation de Parcours** est une fonctionnalité Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), une compétence agentique intégrée au produit, non conversationnelle, avec trois fonctionnalités :
+En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optimizer qui inclut la [simulation de Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), une fonctionnalité d’IA non conversationnelle intégrée au produit avec trois sous-fonctionnalités :
 
 - Génération d’utilisateurs simulés
 - Génération de valeurs d’événement
 - Simulation rapide
 
-## Parcours Create : cas d’utilisation, compétences en agence et guide de l’utilisateur
+## Parcours Create : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
 
 ## Vue d’ensemble
 
@@ -111,7 +92,7 @@ Parcours Créez des fonctionnalités d’offres qui peuvent être exploitées po
 
 Pour chacun de ces cas d’utilisation, l’agent traduit les exigences en langage naturel en configurations de parcours structurées.
 
-## Compétences incluses et exclues
+## Fonctionnalités d’IA incluses et exclues
 
 ### **Dans la portée**
 
@@ -141,11 +122,11 @@ Voici des exemples d’invites utiles que les utilisateurs peuvent utiliser pour
 
 ### Invites de parcours déclenchées par un événement
 
-parcours de visite de la boutique :**&#x200B;**
+parcours de visite de la boutique :****
 
 « Créez un parcours qui démarre lorsqu’un utilisateur saisit l’emplacement de ma boutique. Envoyez une notification push pour souhaiter la bienvenue aux utilisateurs dans le magasin . Patientez 2 jours et vérifiez si l’utilisateur dispose d’une adresse e-mail valide. Si l’utilisateur dispose d’une adresse e-mail valide, envoyez une enquête par e-mail pour lui demander des informations sur son expérience en magasin. Si l’utilisateur ne dispose pas d’une adresse e-mail valide, envoyez une notification push pour demander l’enregistrement. »
 
-parcours après achat :**&#x200B;**
+parcours après achat :****
 
 « Créez un parcours qui démarre lorsqu’un client effectue un achat en ligne. Envoyez une notification push pour les remercier de leur achat. Ensuite, vérifiez s’il s’agit de membres du programme de fidélité. Si l’utilisateur est membre du programme de récompenses de fidélité, envoyez une seconde notification push avec un code de remise de 10 %. Si l’utilisateur n’est pas membre du programme de récompenses de fidélité, envoyez une notification push l’invitant à s’inscrire au programme de fidélité. Patientez 2 jours et envoyez une notification push de suivi avec une enquête sur leur expérience d’achat. »
 
@@ -195,7 +176,7 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 - **Planifier le contenu du message** : définissez votre stratégie de messagerie avant la création du parcours.
 - **Tenir compte de l’expérience client** : concevez des flux de parcours qui respectent les préférences des clients et évitent la surcommunication.
 
-## Création de contenu de canal : cas d’utilisation, compétences techniques et guide de l’utilisateur
+## Création de contenu de canal : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
 
 >[!AVAILABILITY]
 >
@@ -219,9 +200,9 @@ La création de contenu de canal permet aux utilisateurs de Journey Optimizer de
 
 1. **Affinement et itération du contenu** : générez à nouveau du contenu avec des tons ou des styles différents à l’aide de l’action Régénérer.
 
-1. Intégration de la zone de travail de Parcours **&#x200B;**&#x200B;: sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
+1. Intégration de la zone de travail de Parcours **** : sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
 
-## Compétences incluses et exclues
+## Fonctionnalités d’IA incluses et exclues
 
 ### **Dans la portée**
 
@@ -277,13 +258,13 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 1. **Définir le ton** : spécifiez le ton souhaité (amical, formel, informel, urgent).
 1. **Itérer et affiner** : utilisez l’action de régénération pour affiner le contenu jusqu’à ce qu’il réponde à vos besoins.
 
-## Analyse de parcours : cas d’utilisation, compétences agences et guide de l’utilisateur
+## Analyse de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
 
 ## Vue d’ensemble
 
 Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux personnes professionnelles de prendre des décisions fondées sur des données, d’améliorer l’engagement de la clientèle et de rationaliser l’orchestration de parcours.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -329,7 +310,7 @@ L’analyse de parcours offre un éventail de fonctionnalités qui peuvent être
 
 Pour chacune de ces analyses, l’agent détecte non seulement les problèmes, mais fournit également des recommandations **exploitables pour les résoudre**.
 
-## Compétences incluses dans le champ d’application et hors du champ d’application
+## Fonctionnalités d’IA entrant et sortant de portée
 
 ### **Dans le champ d’application**
 
@@ -422,16 +403,16 @@ Pour optimiser l’efficacité de l’analyse de Parcours, appliquez les bonnes 
 ### Bonnes pratiques de configuration
 
 - **Définir des objectifs clairs** : avant d’analyser les parcours, définissez des objectifs clairs (par exemple, améliorer la fidélisation, augmenter les conversions).
-- **Contrôler régulièrement** : planifiez des vérifications régulières des performances des parcours afin d’identifier les tendances et les anomalies.
+- **régulièrement** : planifiez des vérifications régulières des performances des parcours afin d’identifier les tendances et les anomalies.
 - **Optimiser la segmentation** : veillez à ce que la segmentation de l’audience soit équilibrée afin d’éviter la lassitude et de maximiser l’engagement.
 
-## Parcours Simulate : Cas d&#39;utilisation, compétences et guide de l&#39;utilisateur
+## Simulation de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
 
 ## Vue d’ensemble
 
 >[!BEGINSHADEBOX]
 
-La simulation de parcours est disponible pour tous les clients Journey Optimizer. La simulation de parcours, la compétence agentique intégrée au produit dans la simulation de Parcours, est disponible pour les clients qui font partie du programme Agent Orchestrator Explorer et qui nécessitent au moins l’une des autorisations suivantes :
+La simulation de parcours est disponible pour tous les clients Journey Optimizer. La simulation de parcours, la fonctionnalité d’IA agentic intégrée au produit dans la simulation de Parcours, est disponible pour les clients qui font partie du programme Agent Orchestrator Explorer et qui nécessitent au moins l’une des autorisations suivantes :
 
 - **Simuler des parcours** : permet d’exécuter des workflows de simulation depuis la zone de travail du parcours.
 
@@ -445,7 +426,7 @@ Pour utiliser l’IA dans **[!UICONTROL Simulation]** (**[!UICONTROL Simulation 
 
 >[!ENDSHADEBOX]
 
-La simulation de parcours est une fonctionnalité de Journey Optimizer qui permet aux utilisateurs de Journey Optimizer de tester et de valider en toute sécurité les parcours marketing avant leur activation. Dans la simulation de Parcours, la simulation de Parcours est une compétence agentique intégrée au produit, et non une compétence conversationnelle, qui automatise et assiste le processus de test directement à partir de la zone de travail de parcours.
+La simulation de parcours est une fonctionnalité de Journey Optimizer qui permet aux utilisateurs de Journey Optimizer de tester et de valider en toute sécurité les parcours marketing avant leur activation. Dans la simulation de Parcours, la simulation de Parcours est une fonctionnalité d’IA agentique intégrée au produit, et non une fonctionnalité de conversation, qui automatise et assiste le processus de test directement à partir de la zone de travail de parcours.
 
 La simulation de parcours comprend trois fonctionnalités :
 
@@ -480,7 +461,7 @@ La simulation de parcours offre trois fonctionnalités qui peuvent être exploit
 - Identifiez quel utilisateur simulé circule par quel chemin et pourquoi, avec une traversée détaillée nœud par nœud.
 - Consultez le rapport de simulation à la fin d’une exécution dans l’interface utilisateur de Journey Optimizer pour valider les résultats avant l’activation.
 
-## Compétences et limitations dans la portée
+## Fonctionnalités et limites de l’IA dédiée à l’étendue
 
 ### **Dans la portée**
 
@@ -493,14 +474,14 @@ La fonction Simulation de Parcours prend en charge les fonctionnalités suivante
 - **Rapports de simulation** : affichez les rapports à la fin d’une simulation exécutée dans l’interface utilisateur de Journey Optimizer.
 - **Tests multi-utilisateurs** : exécutez et visualisez des tests pour plusieurs utilisateurs et utilisatrices simulés simultanément, couvrant toutes les branches de parcours.
 
-En outre, les fonctionnalités suivantes sont prises en charge par la compétence Parcours Simuler :
+En outre, les fonctionnalités suivantes sont prises en charge par la fonctionnalité Parcours Simuler l’IA :
 
 - **Génération d’utilisateurs simulée** : créez des utilisateurs simulés en fonction de chemins de parcours, de profils de test existants ou d’attributs spécifiés.
 - **Génération de valeurs d’événement** : générez et affectez des valeurs d’attribut d’événement pour orienter l’exécution du test via des chemins de parcours spécifiques.
-- **Simulation rapide** : exécutez une simulation complète de bout en bout avec une intervention minimale. La compétence génère automatiquement des utilisateurs simulés, des valeurs d’événement et des paramètres de test préremplis, puis exécute le parcours et surfacie les résultats pour révision.
+- **Simulation rapide** : exécutez une simulation complète de bout en bout avec une intervention minimale. Cette fonctionnalité d’IA génère automatiquement des utilisateurs simulés, des valeurs d’événement et des paramètres de test préremplis, puis exécute le parcours et surfacie les résultats pour révision.
 
 ### **Limitations**
 
 La simulation peut ne pas prendre en charge toutes les activités, tous les canaux ou toutes les intégrations pris en charge par le mode Test ou un parcours en direct. Le comportement peut changer à mesure que la fonctionnalité se développe.
 
-➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) dans la documentation de Journey Optimizer.
+➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) dans la documentation de Journey Optimizer.
