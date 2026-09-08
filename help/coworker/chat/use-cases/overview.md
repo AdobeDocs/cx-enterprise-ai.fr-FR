@@ -1,13 +1,11 @@
 ---
 description: Parcourez les cas d’utilisation et les exemples d’invites de conversation des collègues, organisés par zone entre les informations sur les données, les audiences, les parcours et les opérations de la plateforme.
 title: Cas D’Utilisation De La Conversation Avec Un Collègue
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 4260
+source-wordcount: 4624
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 >
 >Tous les clients éligibles auront accès aux fonctionnalités de l’agence Adobe Experience Manager dans Coworker, de manière progressive.
 >
->Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Expérience de marque
 
@@ -43,9 +41,9 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Développement
 
@@ -58,7 +56,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Intégration
 
@@ -71,7 +69,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Conseiller d’accès
 
@@ -86,7 +84,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimisation du contenu
 
@@ -98,7 +96,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gouvernance de marque
 
@@ -110,7 +108,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informations sur les données
 
@@ -149,6 +147,43 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
 | [Créer, modifier et gérer des défis de fidélité](journeys/create-loyalty-challenge.md) | Simplifier et accélérer la gestion des programmes de fidélité | `loyalty` | Adobe Journey Optimizer (AJO) | « Créez un défi pour encourager vos membres à essayer une nouvelle boisson saisonnière » <br> « Montrez-moi les défis de fidélité avec les taux de décrochage les plus élevés. » |
 
+## Optimisation
+
+Utilisez le Module de conversation des collègues pour parcourir, analyser et planifier des expériences, ainsi que pour créer, exécuter et résoudre les problèmes liés aux activités, audiences et recommandations d’Adobe Target.
+
+### Analyse des expériences et stratégie
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Parcourir et explorer les expériences | Rechercher des présentations sur les expériences, des listes, des décomptes, des résultats bruts, des informations et des opportunités | `experiment-explorer` | Experimentation Accelerator | « Afficher mes expériences » · « Liste des tests actifs » · « Combien d’expériences sont en cours d’exécution ? » |
+| Analyse des performances de l’expérience | Obtenez des tableaux de portefeuilles, des contrôles d’intégrité pour une seule expérience, des notes de synthèse et des rapports d’expériences croisées avec des mesures, éventuellement enrichis de données CJA | `experiment-analysis` | Experimentation Accelerator | « Comment se portent mes tests A/B ? » · « Générer un rapport pour mes activités avec les mesures CJA » · « Ce test est-il sain ? » |
+| Planifier et concevoir des expériences | Obtenez le test suivant ayant l’impact le plus élevé à exécuter, une conception pour une rubrique nommée, une traduction objectif-mesure, des conseils de récupération pour un test échoué ou une feuille de route séquencée à plusieurs expériences | `experiment-strategist` | Experimentation Accelerator | « Que dois-je tester ensuite ? » · « Aidez-moi à concevoir une expérience pour améliorer les conversions de passage en caisse » · « Créez une feuille de route de test pour le 3e trimestre » |
+| Rechercher l’historique de l’expérience | Récupérez les hypothèses, les apprentissages, les résultats et les traitements des expériences passées, trouvez les expériences antérieures par sujet ou ingérez un fichier CSV externe pour enrichir les résultats | `experiment-knowledge-base` | Experimentation Accelerator | « Que savons-nous de l’expérience X ? » · « Avons-nous déjà vérifié cette hypothèse ? » · « Ingérer ce fichier CSV » |
+
+### Activités et audiences cibles
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Parcourir les entités Target | Découvrez, inspectez et comptez les activités, les offres, les audiences, les mbox, les propriétés, les espaces de travail, la configuration d’AT.js, les jetons de réponse et l’historique des révisions. Peut également capturer une capture d’écran des expériences forcées d’une activité | `target-browse` | Adobe Target | « Répertorier mes tests A/B » · « Combien d’activités ont été lancées ce mois-ci ? » · « Afficher les détails de l&#39;activité 12345 » |
+| Analyse des performances des activités | Obtenez les taux de conversion, l’effet élévateur, les intervalles de confiance, les chiffres d’affaires et d’exposition pour une seule activité. Ne déclare que les faits et ne déclare jamais un gagnant | `target-analyze` | Adobe Target | « Comment se porte l’activité X ? » · « Montrez-moi l’effet élévateur de conversion » · « Quel est le VTA pour le test de passage en caisse ? » |
+| Obtenir un verdict ou arrêter | Obtenez une recommandation SHIP, WAIT, STOP ou FIX pour une activité, calculée à partir de l’importance à deux proportions sur les nombres bruts et des contrôles de configuration et de défauts | `target-activity-verdict` | Adobe Target | « Dois-je expédier ce test ? » · « Quelle variante a gagné ? » · « Est-ce déjà important ? » |
+| Création et configuration d’activités | Créez, mettez à jour et configurez des activités, des offres et des jetons de réponse, générez des URL d’aperçu d’assurance qualité et créez ou optimisez du contenu d’offre | `target-design` | Adobe Target | « Créer un test A/B pour la page d’accueil » · « Mettre à jour la répartition du trafic » · « Optimiser le JS de cette offre » |
+| Créer des activités du compositeur d’expérience visuelle | Créez et modifiez des activités du compositeur d’expérience visuelle (VEC), en créant des variantes en tant que modifications DOM par rapport à une URL de page active, avec l’audience de diffusion de page qui les couvre | `target-vec` | Adobe Target | « Créer un test A/B VEC pour la page d’accueil » · « Modifier le titre de héros dans l’éditeur visuel » |
+| Configurer un test complet à partir de zéro | Bénéficiez d’une création d’activités guidées et de bout en bout pour les tests A/B, XT et VEC, couvrant la collecte des exigences, les conditions préalables, la création, la planification et la priorité, les liens d’assurance qualité et l’activation facultative. | `target-setup` | Adobe Target | « Comment configurer un test A/B complet ? » · « Je suis nouveau dans Target, aidez-moi à créer mon premier test. » |
+| Audit de l’intégrité du programme | Bénéficiez d’un audit de l’intégrité à l’échelle du programme couvrant la détection des risques et des collisions, les résultats des erreurs de configuration, l’hygiène des audiences et des offres et les recommandations rapides | `target-intelligence` | Adobe Target | « Contrôler mes activités Target » · « Rechercher des tests risqués ou mal configurés » · « Que dois-je nettoyer ? » |
+| Rechercher des modèles gagnants | Explorez l’historique de Target pour trouver des modèles gagnants, des stratégies efficaces et des audiences ou du contenu hautement performants, puis obtenez des recommandations sur les prochaines étapes à tester, en vous appuyant sur vos propres données | `target-strategist` | Adobe Target | « Qu&#39;est-ce qui marche pour nous ? » · « Montrez-moi mes modèles gagnants » · « Que dois-je tester ensuite en fonction des résultats antérieurs ? » |
+| Calculer la taille et la durée de l’échantillon | Planifiez la taille de l’échantillon A/B/n, la durée du test et l’effet élévateur détectable pour les mesures de taux de conversion et de recettes par visiteur, avec la correction de Bonferroni. | `target-test-calculator` | Adobe Target | « Quelle doit être la durée d’exécution de mon test A/B ? » · « De quelle taille d&#39;échantillon ai-je besoin ? » · « Mon test est-il déjà alimenté ? » |
+| Obtention d’un cumul des performances au niveau du programme | Obtenez un panneau d’aperçu, un tableau de lancement récent et un recensement agrégé des gains/pertes/augmentations pour toutes les activités, ainsi que des lectures de tendance et d’impulsion pour une seule activité | `target-portfolio-report` | Adobe Target | « Faites-moi un bilan de santé de mon programme Target » · « Quels sont mes tests les plus performants et les moins performants ? » · « L’activité X tend-elle vers une victoire ? » |
+| Créer des audiences à partir du langage naturel | Créez ou modifiez des audiences natives à Target à partir d’une description en langage naturel, d’une condition de règle explicite ou d’une liste de valeurs intégrée ou téléchargée. Mappe la requête à la grammaire de la règle et valide l’arborescence de la règle avant d’écrire. | `target-audience-composer` | Adobe Target | « Créer une audience composée de visiteurs fidèles originaires de Californie » · « Créer une audience à partir de ces codes postaux » · « Limiter l’audience X aux visiteurs fidèles » |
+
+### Recommandations
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| Parcourir les entités Recommendations | Parcourez et examinez les critères, collections, conceptions, promotions, exclusions, catalogues et flux de Recommendations, et obtenez des conseils de nettoyage et des conseils sur les attributs de catalogue | `target-recs` | Adobe Target | « Répertorier mes critères de recommandations » · « Quelles conceptions ai-je ? » · « Quelles recommandations pouvons-nous nettoyer ? » |
+| Diagnostiquer les problèmes liés à Recommendations | Suivez l’activité, les critères, le flux, la collection et la chaîne de conception pour expliquer pourquoi les recommandations sont vides, obsolètes ou non affichées | `target-recs-diagnose` | Adobe Target | « Pourquoi mes recommandations sont-elles vides ? » · « Pourquoi mon activité des recommandations a-t-elle été « résultats non prêts » pendant 48 heures ? |
+| Recommandations de création | Créez et mettez à jour les activités relatives aux critères, aux collections, aux conceptions, aux exclusions, aux promotions, aux flux et aux recommandations , y compris les opérations en bloc contrôlées sur de nombreuses activités à la fois | `target-recs-design` | Adobe Target | « Créer un critère « les plus consultés » » · « Créer une collection de produits en stock de moins de 50 $ » · « Appliquer les dates du Black Friday à toutes les activités de vente » |
+
 ## Éléments fondamentaux
 
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
@@ -160,7 +195,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » en une audience réelle » <br> « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » <br> « Supprimer ma compétence de rapport hebdomadaire » <br> « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » <br> « Mon sandbox actuel a-t-il dépassé les limites de capacité la semaine dernière ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » <br> « Correction des noms de politiques de fusion en double » <br> « Correction des schémas sans le groupe de champs d’audit » <br> « Correction de la dénomination des politiques de fusion par défaut » |
 
 ## Outil Sandbox
@@ -193,19 +228,3 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Informations sur le travail de surface | Posez des questions exploratoires pour identifier le travail à risque, les tâches non affectées, les problèmes ouverts et le statut dans tous les projets | `query-workfront` | Workflow Workfront | « Rechercher des tâches incomplètes sur des projets actuels qui ne sont affectées à personne et qui sont dues cette semaine » <br> « Combien y a-t-il de problèmes en cours dans les projets actuels ? » |
 | Résumé des projets et tâches | Extraire des listes, tableaux et nombres de projets, tâches, événements et affectations | `query-workfront` | Workflow Workfront | « Afficher un tableau de mes tâches prêtes à démarrer, avec le nom du projet, la date d&#39;échéance de la tâche et l&#39;utilisateur affecté » <br> « Obtenir toutes les tâches affectées à [nom d&#39;utilisateur] » |
 | Suivi des validations et du statut du portefeuille | Vérifier le statut de vos approbations et cumuler le travail incomplet par portefeuille | `query-workfront` | Workflow Workfront | « Afficher le statut de mes approbations » <br> « Afficher un tableau avec les problèmes incomplets qui font partie du portfolio [Portfolio name] » |
-
-## Expérimentation et optimisation
-
-| Domaine | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
-| --- | --- | --- | --- | --- | --- |
-| **Expérimentation et optimisation** | Parcourir et trouver les entités Target | Découvrez, inspectez, recherchez et répertoriez des entités Target : activités (A/B, XT, AP, affectation automatique, MVT), audiences et offres. Commencez ici pour la découverte. | `target-browse` | Adobe Target | « Afficher toutes mes activités A/B actives »<br>« Quelles audiences ai-je ?« <br>« Rechercher une activité \&lt;nom ou ID> » |
-| **Expérimentation et optimisation, analyse d’audience, intelligence des performances du contenu** | Rapport sur les performances des activités | Rapports de performances et de commandes sur tous les types d’activité (y compris Recommendations) : effet élévateur de conversion, chiffre d’affaires et commandes. | `target-analyze` | Adobe Target | « Quelles sont les performances de l’activité \&lt;name/ID> ?« <br>« Afficher l’effet élévateur de conversion et le chiffre d’affaires pour l’activité \&lt;activity>« <br>« Quelles sont les activités qui ont généré le plus de commandes le mois dernier ? » |
-| **Expérimentation et optimisation, Gestion de l’audience** | Créer des activités, des offres et des audiences | Créez et configurez des activités, des offres (HTML/JSON/redirection), des audiences et des jetons de réponse. Compétences de création de base. | `target-design` | Adobe Target | « Créer une activité A/B ciblant \&lt;audience>« <br>« Créez une offre JSON pour \&lt;cas d’utilisation>« <br>« Ajoutez un jeton de réponse pour \&lt;attribut> » |
-| **Expérimentation et optimisation, création de contenu** | Créer des activités visuelles (WYSIWYG) | Création du compositeur d’expérience visuelle : créez et modifiez des activités A/B et XT visuelles par rapport à une URL de page active à l’aide de modifications du sélecteur CSS. | `target-vec` | Adobe Target | « Créer un test A/B visuel sur \&lt;page URL>« <br>« Modifiez le titre principal sur \&lt;page URL> en \&lt;text>« <br>« Configurez une activité XT avec des modifications visuelles sur \&lt;page URL> » |
-| **Expérimentation et optimisation** | Parcourir et inspecter Recommendations | Parcourez et examinez en lecture seule les critères, les collections, les conceptions, les promotions, les exclusions, les catalogues et les flux ; inclut des conseils de nettoyage et des informations sur les attributs de catalogue. | `target-recs` | Adobe Target | « Afficher mes critères et collections Recommendations »<br>« Inspectez la conception de l’activité \&lt;recs>« <br>« Examinez mes flux de catalogues et exclusions » |
-| **Expérimentation et optimisation** | Résolution des problèmes liés à Recommendations | Résolution des problèmes en lecture seule pour les recommandations telles que les résultats non prêts, les résultats vides et les recommandations en échec. | `target-recs-diagnose` | Adobe Target | « Pourquoi mes résultats de recommandation ne sont-ils pas prêts ?« <br>« Mes recommandations sont de retour vides, quel est le problème ?« <br>« Diagnostiquez l’échec de \&lt;recs activity> » |
-| **Expérimentation et optimisation** | Créer et automatiser des recommandations | Création de recommandations : créez, mettez à jour et supprimez des critères, des collections, des conceptions, des exclusions, des promotions et des flux ; créez des activités de recommandations ; et utilisez en bloc/automatisez de nombreuses activités. | `target-recs-design` | Adobe Target | « Créer un critère &#39;récemment consulté&#39;« <br>« Créez une activité Recommendations à l’aide de \&lt;criteria>« <br>« Mettez à jour en bloc la conception pour toutes mes activités recommandations » |
-| **Expérimentation et optimisation** | Parcourir et rechercher des expériences | Navigation et recherches génériques dans les expériences : répertoriez, affichez et extrayez les résultats et les insights. | `experiment-explorer` | Experimentation Accelerator | « Show me my experiments »<br>« List active experiments »<br>« Show results for \&lt;experiment>« <br>« Quels sont les insights de \&lt;experiment> ? » |
-| **Expérimentation et optimisation, analyse d’audience, intelligence des performances du contenu** | Analyser et décider des expériences | Synthèse guidée et aide à la décision pour les différentes expériences : contrôles sanitaires, décisions concernant les navires et résumés exécutifs. | `experiment-analysis` | Experimentation Accelerator | « Comment se passent mes expériences ?« <br>« Dois-je livrer \&lt;expérience>?« <br>« Mon expérience est-elle saine ?« <br>« Rédigez un résumé de nos expériences » |
-| **Expérimentation et optimisation** | Concevoir et planifier des expériences | Conception et planification d’expériences prospectives : que tester ensuite, comment concevoir un test et comment créer une feuille de route. | `experiment-strategist` | Experimentation Accelerator | « Quelle est la prochaine étape des tests ? »<br>« Aidez-moi à concevoir une expérience pour \&lt;goal>« <br>« Mon expérience a échoué, quelle est la prochaine étape ?« <br>« Créez une feuille de route des tests » |
-| **Expérimentation et optimisation ; intelligence du Parcours client et de compte** | Recherche de connaissances et ingestion de données | Récupérez et recherchez des connaissances sur le contexte de l’expérience ou ingérez des données CSV externes pour analyse. | `experiment-knowledge-base` | Experimentation Accelerator | « Que savons-nous de l’expérience \&lt;nom> ?« <br>« Avons-nous déjà testé cette hypothèse ?« <br>« Téléchargez un fichier CSV et analysez ce fichier » |
