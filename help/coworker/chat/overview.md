@@ -1,13 +1,11 @@
 ---
 description: Découvrez comment la discussion entre collègues utilise une interface conversationnelle pour planifier, exécuter et terminer le travail sur l’expérience client sur Adobe et les systèmes connectés en quelques minutes.
 title: Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: 739
 ht-degree: 0%
 
 ---
@@ -50,8 +48,9 @@ Les applications CX Enterprise suivantes sont compatibles avec Coworker Chat :
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Édition B2C de Customer Journey Analytics
-* _AEM (bientôt disponible)_
-* _Workfront (bientôt disponible)_
+* AEM
+* Workfront
+* Marketo Engage
 * _Real-Time CDP B2B edition (bientôt disponible)_
 * _Adobe Journey Optimizer B2B edition (bientôt disponible)_
 * _Customer Journey Analytics B2B edition (bientôt disponible)_
@@ -68,4 +67,4 @@ Le Chat Coworker est optimisé par les blocs de création Coworker. Les blocs de
 
 ## Vue d’ensemble des vidéos
 
->[!VIDEO](https://video.tv.adobe.com/v/3495969?captions=fre_fr&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
