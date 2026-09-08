@@ -6,10 +6,9 @@ level: Beginner
 doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00.000Z
-jira: KT-22377
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+jira: KT-22378
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 0%
@@ -32,7 +31,7 @@ Plutôt que de créer manuellement des rapports et d’interpréter des mesures,
 
 Le résultat est un workflow répétable qui peut être exécuté à la demande avec une simple invite.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502334/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
 
 ## Transformer l’analyse en compétence réutilisable
 
