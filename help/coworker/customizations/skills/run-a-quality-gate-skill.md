@@ -80,8 +80,9 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
----
+&#x200B;---
  
+
 ## Porte 1 : Suppression/Consentement
  
 > Modifiez cette section pour qu’elle corresponde aux exigences de suppression et de consentement de votre organisation.
@@ -109,8 +110,9 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
+&#x200B;---
  
+
 ## Porte 2 : Limite De Fréquence
 
 > Modifiez cette section pour qu’elle corresponde aux exigences de fréquence de diffusion de votre organisation.
@@ -135,7 +137,7 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
 
----
+&#x200B;---
 
 ## Porte 3 : convention d’affectation des noms
  
@@ -178,7 +180,7 @@ When blocked on naming, always propose a compliant replacement name.
 
  
 
----
+&#x200B;---
 
 ## Instructions
 
@@ -195,7 +197,7 @@ Tout le reste doit rester inchangé :
 - Rendu de la carte de score
 - Logique de verdict
 
----
+&#x200B;---
 
 
 ### &#x200B;2. Vérifier les conditions préalables
@@ -213,7 +215,7 @@ Cette compétence dépend des éléments suivants :
 
 Si ces fonctionnalités ne sont pas disponibles dans l’environnement du client, la compétence ne peut pas s’exécuter comme prévu.
 
----
+&#x200B;---
 
 ### &#x200B;3. Conserver la compétence en lecture seule
 
