@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 20%
+source-wordcount: '311'
+ht-degree: 19%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 20%
     - Compétences {#skills}
       - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
       - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Créer et exécuter une compétence de point de contrôle qualité](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)

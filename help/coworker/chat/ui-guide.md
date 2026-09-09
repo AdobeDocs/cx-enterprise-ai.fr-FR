@@ -6,9 +6,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1719
 ht-degree: 4%
 
 ---
@@ -36,7 +36,8 @@ Le tableau suivant indique quand ces expériences seront disponibles pour chaque
 | CJA | Disponible maintenant | Bientôt disponible |
 | Workfront | Disponible maintenant | Prochainement : <br><br>* début septembre 2026 dans l’instance d’aperçu pour certains administrateurs système Workfront éligibles <br><br>* mi-septembre 2026 dans l’instance de production pour les clients Workfront à version rapide éligibles <br><br>* mi-octobre 2026 dans l’instance de production pour les clients Workfront à version trimestrielle éligibles |
 | Cible | Disponible maintenant | Disponible maintenant |
-| AEM | Septembre 2026 | Bientôt disponible |
+| AEM | Disponible maintenant | Bientôt disponible |
+| Marketo Engage | Disponible maintenant | Bientôt disponible |
 
 ### Expérience immersive {#immersive}
 
