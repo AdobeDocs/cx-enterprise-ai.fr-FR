@@ -41,7 +41,7 @@ Agent Orchestrator est constitué de plusieurs composants essentiels, notamment 
 
 ### Interface conversationnelle de l’Assistant IA {#ai-assistant}
 
-L’assistant AI est une expérience de conversation intelligente en langage naturel qui permet aux utilisateurs d’applications d’entreprise CX activées d’exploiter les fonctionnalités de GenAI et d’IA agentique, dont l’ampleur dépend des applications d’entreprise CX sous licence des clients. Pour déverrouiller l’accès, lisez [le guide sur l’accès à l’assistant AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+L’assistant AI est une expérience de conversation intelligente en langage naturel qui permet aux utilisateurs d’applications d’entreprise CX activées d’exploiter les fonctionnalités de GenAI et d’IA agentique, dont l’ampleur dépend des applications d’entreprise CX sous licence des clients. Pour déverrouiller l’accès, lisez [le guide sur l’accès à l’assistant AI](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/access).
 
 Pour plus d’informations, consultez le [guide de l’interface d’utilisation de l’Assistant IA](../ai-assistant/ai-assistant-ui.md).
 
