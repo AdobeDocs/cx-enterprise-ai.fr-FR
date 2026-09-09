@@ -1,8 +1,10 @@
 ---
 description: 'Découvrez les campagnes des collaborateurs qui demandent des bonnes pratiques : le framework CO-STAR, ce qu’il faut faire et ne pas faire, le contenu non pris en charge et une liste de contrôle qualité pour les invites.'
 title: Bonnes pratiques en matière de prompt
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 532

@@ -2,8 +2,10 @@
 description: Guide de référence de l’interface de conversation des collègues, couvrant la navigation, la zone de saisie, les réponses, l’historique de conversation, ainsi que la configuration des compétences, des serveurs MCP et de la mémoire.
 title: Guide de l’interface utilisateur de la conversation avec un collègue
 jira: KT-22106
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 1719
@@ -39,7 +41,7 @@ Le tableau suivant indique quand ces expériences seront disponibles pour chaque
 
 ### Expérience immersive {#immersive}
 
-Accédez au Chat des collaborateurs en accédant à [](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
+Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
 Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de l’expérience client.
 

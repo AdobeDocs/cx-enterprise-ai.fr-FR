@@ -1,8 +1,10 @@
 ---
 description: Guide détaillé sur la génération d’une campagne par e-mail dans les campagnes de collaborateurs d’entreprise Adobe CX, de la rédaction d’invites à la révision et l’exportation de votre campagne.
 title: Création d’une campagne par e-mail
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 976
