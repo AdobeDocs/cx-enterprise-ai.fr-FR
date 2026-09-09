@@ -1,11 +1,9 @@
 ---
 description: Découvrez comment la discussion entre collègues utilise une interface conversationnelle pour planifier, exécuter et terminer le travail sur l’expérience client sur Adobe et les systèmes connectés en quelques minutes.
 title: Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 1%
@@ -70,4 +68,4 @@ Le Chat Coworker est optimisé par les blocs de création Coworker. Les blocs de
 
 ## Vue d’ensemble des vidéos
 
->[!VIDEO](https://video.tv.adobe.com/v/3495969?captions=fre_fr&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

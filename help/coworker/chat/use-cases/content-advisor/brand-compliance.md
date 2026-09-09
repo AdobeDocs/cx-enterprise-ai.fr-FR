@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 76
 last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 134
 ht-degree: 0%
@@ -28,4 +26,4 @@ Par exemple, un collègue peut passer en revue le contenu généré automatiquem
 
 Coworker n’identifie pas seulement les problèmes ; il propose des suggestions exploitables. Par exemple, si une légende est trop générique ou ne comporte pas de call to action, elle fournit une version révisée conforme aux normes de votre marque, avec les balises appropriées. Ce processus simplifie la création de contenu et garantit la conformité de la marque avec un effort minimal.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502704/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)
