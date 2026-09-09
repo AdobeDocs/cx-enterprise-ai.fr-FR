@@ -1,21 +1,13 @@
 ---
 title: Agent Experimentation
 description: Découvrez comment utiliser Experimentation Agent
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 555
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +25,7 @@ TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53p
 
 ## Vue d’ensemble
 
-**&#x200B;**&#x200B;est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences digitales sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, **Experimentation Agent** vous aide à exécuter plus efficacement les expériences, à organiser les objectifs commerciaux et à générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.
+**** est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences digitales sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, **Experimentation Agent** vous aide à exécuter plus efficacement les expériences, à organiser les objectifs commerciaux et à générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.
 
 Les autorisations ci-dessous permettent d’utiliser pleinement les fonctions d’Experimentation Agent.
 
@@ -41,7 +33,7 @@ Les autorisations ci-dessous permettent d’utiliser pleinement les fonctions d�
 
 * **Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser Experimentation Agent pour créer de nouvelles expériences directement dans l’assistant AI.
 
-➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fournit :
 
@@ -51,7 +43,7 @@ Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fourn
 
 * **Opportunités** : conseils sur les prochaines actions à entreprendre
 
-![Exemple pour Experimentation Agent &#x200B;](./assets/experiment/experiment-agent.png)
+![Exemple pour Experimentation Agent ](./assets/experiment/experiment-agent.png)
 
 ## Cas d’utilisation
 
@@ -102,7 +94,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions générales
 
-| Invites |
+| Prompts |
 |-|
 | Quelles sont les expériences en cours d’exécution ? |
 | Quelles expériences sont en cours d’exécution pour le `<campaign name>` ? |
@@ -114,7 +106,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions relatives aux performances
 
-| Invites |
+| Prompts |
 |-|
 | Pour ma `<experiment name>`, quel traitement mène-t-on? |
 | Quel est l&#39;ascenseur du `<experiment name>` ? |
@@ -123,7 +115,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions sur Insights
 
-| Invites |
+| Prompts |
 |-|
 | Qu’est-ce que le test `<experiment name>` ? ? |
 | Qu&#39;avons-nous appris de l&#39;`<experiment name>` ? |
@@ -134,7 +126,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions relatives aux opportunités
 
-| Invites |
+| Prompts |
 |-|
 | Que me recommandez-vous de faire ensuite après cette expérience ? |
 | Y a-t-il un moyen d&#39;améliorer la `<experiment name>` ? |

@@ -2,21 +2,13 @@
 title: Bibliothèque d’invites de l’assistant AI
 description: Découvrez les différents types d’invites et de modèles d’invites que vous pouvez utiliser lors de l’interrogation de l’assistant AI.
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 813
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -69,7 +61,7 @@ Les exemples d’invites ci-dessous peuvent être utilisés avec Data Insights A
 - « Proportion des achats par mois de l’année. »
 - « Bénéfice total en septembre. »
 
-## Journey Agent
+## Agent Journey
 
 Les exemples d’invites ci-dessous peuvent être utilisés avec Journey Agent pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l’audience et le parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
 
