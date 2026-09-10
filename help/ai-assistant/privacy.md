@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +30,7 @@ Lisez ce document pour en savoir plus sur les fonctionnalités axées sur la con
 * Aucune donnée personnelle n&#39;est actuellement utilisée par AI Assistant, même à des fins de formation.
 * L’assistant AI ne connaît pas les données des consommateurs.
 * Toutes les politiques [de contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) existantes seront respectées par l’assistant AI.
-   * Toutes les nouvelles politiques de contrôle d’accès basé sur les attributs sont répercutées dans l’assistant AI après un maximum de 24 heures&ast;
+  * Toutes les nouvelles politiques de contrôle d’accès basé sur les attributs sont répercutées dans l’assistant AI après un maximum de 24 heures&ast;
 * L’assistant AI est une fonctionnalité conforme à la loi HIPAA lorsqu’il est utilisé en combinaison avec Adobe Experience Platform Healthcare Shield.
 * Vous pouvez consulter un journal de vos interactions précédentes avec l’assistant AI avec une politique de conservation de 30 jours.
 * L’assistant AI repose sur des données spécifiques aux sandbox et sur la documentation publique d’Adobe lorsqu’il répond aux invites des utilisateurs. Les données ne sont pas partagées entre les sandbox.

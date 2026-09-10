@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 555
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -102,7 +102,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions générales
 
-| Invites |
+| Prompts |
 |-|
 | Quelles sont les expériences en cours d’exécution ? |
 | Quelles expériences sont en cours d’exécution pour le `<campaign name>` ? |
@@ -114,7 +114,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions relatives aux performances
 
-| Invites |
+| Prompts |
 |-|
 | Pour ma `<experiment name>`, quel traitement mène-t-on? |
 | Quel est l&#39;ascenseur du `<experiment name>` ? |
@@ -123,7 +123,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions sur Insights
 
-| Invites |
+| Prompts |
 |-|
 | Qu’est-ce que le test `<experiment name>` ? ? |
 | Qu&#39;avons-nous appris de l&#39;`<experiment name>` ? |
@@ -134,7 +134,7 @@ Voici une liste d’exemples d’invites pour vous aider à commencer à utilise
 
 ### Questions relatives aux opportunités
 
-| Invites |
+| Prompts |
 |-|
 | Que me recommandez-vous de faire ensuite après cette expérience ? |
 | Y a-t-il un moyen d&#39;améliorer la `<experiment name>` ? |

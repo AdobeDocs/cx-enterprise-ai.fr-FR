@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +35,33 @@ L’agent du support produit comprend les fonctionnalités de solution suivantes
 Obtenez des réponses instantanées aux questions d’assistance les plus courantes, qui proviennent de la documentation gérée par des experts, telles que :
 
 * **articles de connaissances** organisés par les équipes d’assistance Adobe.
-   * Exemples de questions :
-      * « Pourquoi le nombre de profils diffère-t-il sur le tableau de bord d’utilisation des licences et la page d’accueil d’Experience Platform ? »
-      * « Quelles sont les raisons pour lesquelles un parcours ne se déclenche pas ? »
+  * Exemples de questions :
+    * « Pourquoi le nombre de profils diffère-t-il sur le tableau de bord d’utilisation des licences et la page d’accueil d’Experience Platform ? »
+    * « Quelles sont les raisons pour lesquelles un parcours ne se déclenche pas ? »
 * **Tutoriels produits** pour l’apprentissage autoguidé et le renforcement des compétences.
-   * Exemples de questions :
-      * « Comment Adobe Experience Platform crée-t-il des expériences en temps réel ? »
-      * « Comment configurer et utiliser les alertes dans Adobe Experience Platform ? »
+  * Exemples de questions :
+    * « Comment Adobe Experience Platform crée-t-il des expériences en temps réel ? »
+    * « Comment configurer et utiliser les alertes dans Adobe Experience Platform ? »
 * **Documentation juridique du produit** qui fournit des informations précises et axées sur les licences.
-   * Exemples de questions :
-      * « Quelle est la limite pour les tâches de segmentation par lots dans l’activation de Adobe Experience Platform ? »
-      * « Quelle est la limite de richesse moyenne des profils dans l’activation de Adobe Experience Platform ? »
+  * Exemples de questions :
+    * « Quelle est la limite pour les tâches de segmentation par lots dans l’activation de Adobe Experience Platform ? »
+    * « Quelle est la limite de richesse moyenne des profils dans l’activation de Adobe Experience Platform ? »
 
 ## Création de dossier d’assistance {#support-case-creation}
 
 Lancer les cas d’assistance directement à partir de l’agent de support produit, qui capture automatiquement les informations contextuelles pour accélérer la résolution des cas.
 
 * Exemples de questions :
-   * « Créez un ticket d’assistance. »
-   * « Pouvez-vous m’aider à créer un ticket d’assistance ? »
+  * « Créez un ticket d’assistance. »
+  * « Pouvez-vous m’aider à créer un ticket d’assistance ? »
 
 ## Suivre la progression du cas {#track-case-progress}
 
 Suivez de manière transparente le statut des problèmes d’assistance.
 
 * Exemples de questions et de commandes :
-   * « Quelles sont les dernières informations sur mon dossier E-12345 ? »
-   * « Quelle est la mise à jour sur le ticket E-67890 ? »
+  * « Quelles sont les dernières informations sur mon dossier E-12345 ? »
+  * « Quelle est la mise à jour sur le ticket E-67890 ? »
 
 ## Accéder à l’agent du support produit
 

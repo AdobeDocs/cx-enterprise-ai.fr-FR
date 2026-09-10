@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 3291
 ht-degree: 0%
 
 ---
@@ -16,7 +16,124 @@ ht-degree: 0%
 
 Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 
+## Septembre 2026 {#sep-2026}
+
+**Date de publication : 3 septembre 2026**
+
+* Copiez n’importe quel message de conversation et notez les réponses de l’IA avec les pouces vers le haut ou vers le bas, directement à partir du message lui-même
+* La liste des tâches du plan de campagne reste désormais épinglée au-dessus de l’entrée de conversation pendant l’exécution de votre campagne, afin que vous puissiez suivre la progression sans faire défiler l’écran
+* Connecter un entrepôt de données SQL Databricks comme nouvelle source de données pour vos campagnes
+* L’ancien éditeur d’e-mail basé sur les conversations a été remplacé par le nouvel éditeur de ressources d’e-mail
+* L’administration des utilisateurs d’évaluation vous permet désormais d’exclure les utilisateurs d’Adobe, ce qui facilite la consultation des inscriptions à des évaluations réelles
+* Correction d’un problème en raison duquel les suggestions de campagnes similaires ne se chargeaient pas
+* Les messages de conversation ont désormais un espacement plus étroit et plus cohérent
+
+**Date de publication : 1er septembre 2026**
+
+* Les e-mails de campagne volumineux s’affichent désormais entièrement dans l’éditeur au lieu d’être coupés
+* Pour plus de clarté, le bouton de lancement du tableau de campagne est désormais intitulé « Vérifier et lancer »
+* La connexion à un compte Salesforce n’affiche plus de message d’erreur Marketo incorrect
+* Salesforce a désormais son propre logo dans la liste des connecteurs
+* Les connecteurs disponibles sont désormais répertoriés avant ceux à venir
+* L’intégration affiche désormais un indicateur de progression au chargement de votre kit de marque
+* Les aperçus d’audience et de source de connaissances disposent désormais d’un bouton de fermeture et peuvent s’ouvrir en plein écran
+* Les cartes de plan de campagne ne sont plus bloquées et affichent « création » une fois que votre campagne commence à s’exécuter
+* Le chat ne conserve plus de messages de progression temporaires (comme « Exploration... ») dans votre historique de conversation
+* Les commandes de barre d’outils se verrouillent désormais correctement lorsque des suggestions d’image ou de texte d’IA sont appliquées
+* Correction d’un problème qui entraînait le remplacement incorrect d’une image dans l’éditeur de ressources
+
+## Août 2026 {#aug-2026}
+
+**Date de publication : 26 août 2026**
+
+* Cliquer n’importe où sur une carte de modèle de campagne ouvre désormais son aperçu, pas seulement son titre
+* L’espace réservé de la barre d’invite de campagne réapparaît correctement après avoir effacé votre entrée, avec une prise en charge plus claire des lecteurs d’écran
+* La suggestion « Aide pour m’inviter » remplace désormais correctement le texte existant dans la barre d’invite de la campagne
+* Le téléchargement des désabonnements au format CSV reflète désormais uniquement l’exécution de la campagne que vous visionnez
+* La comparaison des plans d’évaluation affiche désormais les campagnes Launch et les informations sur les campagnes en tant que fonctionnalités incluses
+* Les audiences créées sans workflow complet s’affichent désormais correctement sur la carte Audience du tableau de campagne
+* Les commentaires à l’état vide invitent à lire plus naturellement dans l’application
+
+**Date de publication : 25 août 2026**
+
+* La connexion à un onglet du navigateur synchronise désormais automatiquement les autres, ce qui corrige les erreurs de compte entre les onglets
+* Cliquez sur Générer maintenant pour faire avancer votre plan de manière fiable au lieu de le générer à nouveau de temps à autre
+* Les diagrammes de workflow dans la conversation affichent davantage de zones de travail afin que les commandes de zoom ne couvrent plus les étapes
+* L’aspect des onglets Détails de la campagne est actualisé et plus cohérent
+* L’enregistrement ou la suppression d’un domaine d’envoi dans Domaines et expéditeurs est désormais plus rapide et plus fiable
+
+**Date de publication : 24 août 2026**
+
+* Afficher la stratégie de campagne générée directement sur le tableau de campagne
+* Remplacer votre audience directement à partir de la boîte de dialogue de validation de la campagne
+* Les exports PDF et Word de Campaign incluent désormais votre vrai diagramme de workflow
+* L’onglet Insights reste visible avec un état vide utile juste après le lancement
+* Ajouter ou supprimer des points de contact lors de la vérification des champs de votre campagne
+* La barre d’outils du panorama Campaign est plus simple et les boutons inutiles sont supprimés
+* L’assistant Domaines et expéditeurs nettoie les sous-domaines et guide la première configuration avec un coachmark
+* L’assistant Domaines et expéditeurs affiche les erreurs de validation de sous-domaine en ligne lorsque vous saisissez du texte
+* Le call-to-action de campagne post-épreuve a été supprimé pour un flux plus épuré
+* Les noms des langues chinoises s’affichent désormais correctement dans le sélecteur de langue
+* Les miniatures de variantes générées par l’IA se chargent de manière fiable sans libellés en double
+* Les campagnes nouvellement créées s’affichent désormais immédiatement dans votre liste de campagnes récentes sur l’Accueil
+* Les informations sur toutes les campagnes incluent désormais un résumé généré par l’IA des performances de la campagne de votre organisation
+* Le fait de fournir l’entrée demandée dans une conversation de workflow ne la laisse plus bloquée
+* L’intégration d’évaluation ne fait plus clignoter un écran de chargement supplémentaire lors de la recherche d’un kit de marque existant
+* Les exemples de sources d’audience obsolètes sont maintenant effacés automatiquement de votre workflow
+* La disposition, le thème et les polices s’affichent désormais correctement dans le shell Experience Cloud unifié
+* Les suggestions de campagne similaires n’affichent plus de champ de canal inutile
+
+**Date de publication : 14 août 2026**
+
+* Supprimer les brouillons de domaines dont vous n’avez plus besoin dans Domaines et expéditeurs
+* Voir Statut de vérification DNS pour chaque enregistrement lors de la configuration du domaine
+* Les détails du domaine affichent désormais l’expéditeur d’e-mail configuré
+* Les valeurs d’enregistrement DNS sont parfaitement tronquées avec une info-bulle pour le texte intégral
+* Formater plusieurs blocs de texte d’e-mail à la fois avec une sélection multiple
+* Obtenez des suggestions de campagne similaires lors de la création d’une campagne
+* Portée des informations de campagne à une seule exécution d’une campagne récurrente
+* Choisissez la langue de votre choix dans le menu de profil
+* Obtenir un coup de pouce lorsque les descriptions des modèles de campagne nécessitent plus de détails
+* Les notes de mise à jour sont plus faciles à parcourir avec une navigation et une pagination améliorées
+* Réduisez la liste des campagnes récentes de la barre latérale pour gagner de l’espace
+* La vue d’inventaire de votre campagne reste maintenant telle que vous l’avez laissée
+* Réorganiser les filtres d’exécution et accéder à une période à partir d’un sélecteur de calendrier
+* Prévisualiser les détails de l’audience même sur les cartes d’audience en lecture seule
+* Correction de flashs d’écran de flux d’évaluation de l’intégration et d’un problème de délai de connexion
+* La poignée de redimensionnement du rail de conversation ne bloque plus la barre de défilement de la liste de messages
+* La création du kit de marque indique désormais la véritable raison de l’échec d’un enregistrement
+
+**Date de publication : 6 août 2026**
+
+* Campaign Insights affiche désormais les désabonnements avec un fichier CSV téléchargeable indiquant qui s’est désabonné
+* Un tableau de répartition des performances par e-mail se trouve désormais dans l’onglet Insights
+* Voir votre carte des parcours de campagne directement sur l’onglet Insights
+* Les étapes d’attente basées sur la durée sont désormais visibles dans la vue de workflow du parcours
+* Les branches de parcours pondérées s’affichent dans la vue d’édition du workflow
+* Les listes de contacts sont désormais connectées aux données actives
+* Les campagnes récurrentes affichent 0 envoi immédiat au lieu de « insights en attente »
+* Modifier le texte d’invite de remix directement autour des puces d’espace réservé
+* Amélioration du coachmark et des puces d&#39;espace réservé plus propres dans l&#39;éditeur de remix
+* Les cartes des workflows Campaign affichent désormais un état vide utile lorsque rien n’est en cours d’exécution
+* Le bouton Plan de mise à niveau n’encombre plus l’en-tête des détails de la campagne
+* Les cartes de workflow ont une disposition plus simple, sans nom ni description de parcours
+
 ## Juillet 2026 {#july-2026}
+
+**Date de publication : 30 juillet 2026**
+
+* Les informations sur toutes les campagnes correspondent désormais à la disposition des informations sur chaque campagne, ainsi qu’à un nouveau graphique de performances quotidiennes
+* Arrêter une campagne active directement à partir de la page de campagne
+* La duplication d’une campagne ne demande désormais qu’un nouveau nom
+* Modifier des modèles d’e-mail directement à partir de la liste des modèles
+* Filtrer la vue du parcours de la campagne récurrente par exécution
+* Ajouter une image de marque directement à partir du tableau de campagne
+* La table d’administration d’évaluation prend désormais en charge la recherche d’e-mails, la pagination et l’exportation CSV complète
+* Le bouton « Surprenez-moi » répond désormais instantanément, sans délai d&#39;animation
+* Suppression des paramètres de désabonnement des e-mails de la campagne pendant que nous retravaillons cette fonctionnalité
+* Modifier le planning d’une campagne une fois qu’il a été défini, sans recommencer
+* Ouvrez l’éditeur de style d’écriture dans le menu de débordement pour accélérer l’accès
+* Appuyer sur Entrée entraîne désormais une soumission cohérente dans chaque barre d’invite de l’application
 
 **Date de publication : 23 juillet 2026**
 
