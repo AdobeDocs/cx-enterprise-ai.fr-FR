@@ -1,10 +1,10 @@
 ---
 title: Accéder aux outils de passerelle de collègue CX
 description: Vérifiez la disponibilité du produit, l’activation de l’organisation et les autorisations avant d’utiliser les outils Adobe CX Coworker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 3%
+source-wordcount: '583'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,9 @@ Adobe CX Enterprise présente les outils de produit par le biais d’un MCP uniq
 | Journey Optimizer | Beta | Licence Journey Optimizer active, activation de Beta pour votre organisation Adobe et autorisations d’affichage des campagnes et des configurations de canal. |
 | Customer Journey Analytics | Disponible | Licence Customer Journey Analytics active et profil de produit comprenant l’élément d’autorisation **Accès MCP** dans Adobe Admin Console. Les autorisations de produit gouvernent toujours les vues de données, les composants, les rapports, les projets et les audiences auxquels vous pouvez accéder ou que vous pouvez modifier. |
 | Adobe Analytics | Disponible | Licence Adobe Analytics active et profil de produit incluant l’élément d’autorisation **Accès MCP** dans Adobe Admin Console. Les autorisations de produit gouvernent toujours les suites de rapports, les composants, les rapports, les segments, les périodes et les projets auxquels vous pouvez accéder ou que vous pouvez modifier. |
-| Workfront | Prévisualisation | Licence Workfront active et activation de Workfront MCP. Voir la documentation sur le MCP de Workfront [&#128279;](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Workfront | Prévisualisation | Licence Workfront active et activation de Workfront MCP. Voir la documentation sur le MCP de Workfront [](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Cible | Beta | Licence Target active associée à une organisation Adobe Experience Platform. Voir la [documentation de Target MCP](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started). |
+
 
 
 >[!NOTE]
