@@ -1,6 +1,6 @@
 ---
 title: IA dans les applications d’entreprise CX
-description: Découvrez comment les applications d’entreprise CX utilisent l’IA générative (GenAI), CX Enterprise Coworker, AI Assistant, l’IA agentique et les outils MCP.
+description: Découvrez comment les applications d’entreprise CX utilisent les outils d’IA générative (GenAI), de CX Enterprise Coworker, d’assistant IA, d’IA dédiée aux agences et de MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 4%
 
 ---
 
 # IA dans CX Enterprise
 
-Ce guide couvre les fonctionnalités d’IA d’Adobe CX Enterprise : IA générative, collègue d’entreprise CX, assistant d’IA, Agent Orchestrator, agents Experience Platform et MCP.
+Ce guide couvre les fonctionnalités d’IA d’Adobe CX Enterprise : IA générative, CX Enterprise Coworker, assistant d’IA, Agent Orchestrator, agents Experience Platform et MCP.
 
 ## Présentation des fonctionnalités de l’IA
 
@@ -85,6 +85,7 @@ Pour obtenir la liste complète des agents, les applications prises en charge pa
 - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
 - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
 - Outils [!DNL Workfront], documentés dans le guide du serveur MCP [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- Outils [!DNL Target], présentés dans le guide [Guide du serveur MCP Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
 
 Vous découvrez CX Coworker Gateway ? Voir [Accéder aux outils de la passerelle CX Coworker](./mcp/access.md) et [Installer la passerelle CX Coworker](./mcp/install.md) pour vous connecter. Une fois connecté, utilisez les [outils de contexte de session](./mcp/context-tools.md) pour définir l’organisation active, le sandbox et la vue de données avant d’appeler les outils du produit.
 
