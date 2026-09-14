@@ -3,76 +3,64 @@ description: La description est ici.
 title: Lancement d’une campagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 0%
-
+source-wordcount: '254'
+ht-degree: 1%
 ---
-
 # Lancement d’une campagne {#launch-campaign}
 
-Le lancement d’une campagne est l’action qui la fait passer du statut de brouillon à celui d’envoi actif. Avant que la boîte de dialogue de lancement ne s’ouvre, Halo vérifie que la campagne est prête et bloque le lancement jusqu’à ce que la configuration requise soit terminée. La boîte de dialogue de lancement affiche un aperçu de l’e-mail et de l’audience, permet à l’utilisateur de vérifier ou de modifier le planning d’envoi en ligne et indique si le lancement a réussi. Cette section couvre l’expérience de lancement de bout en bout. Pour connaître les options de planification proposées au lancement, voir [Planifier une campagne](/help/coworker/campaigns/schedule-campaign.md).
+Une fois votre campagne créée et planifiée, apprenez à la lancer.
 
-## Conditions préalables
+>[!AVAILABILITY]
+>
+>Actuellement, la campagne Launch n’est disponible que pour les utilisateurs des régions d’Amérique du Nord.
 
-- La campagne doit avoir le statut Brouillon . <!-- The Launch action isn't available once a campaign is already live. -->
-<!-- - The campaign must pass a readiness check: sending settings configured, at least one test email sent, and a real (non-sample) audience uploaded. -->
-- [ENTRÉES NÉCESSAIRES — à confirmer auprès de l’ingénieur : certains utilisateurs peuvent voir une expérience « bientôt disponible » au lieu d’un vrai bouton de lancement, qui ne propose que de télécharger la campagne ou d’envoyer un BAT par e-mail plutôt que de lancer l’application. Confirmez ce qui détermine l’expérience obtenue par un utilisateur ou une campagne donnée.]
+## Lancement
 
-## Fonctionnement de cette fonctionnalité
+1. Dans la campagne terminée, cliquez sur **Vérifier et lancer**.
 
-Lorsqu’un utilisateur ou une utilisatrice lance une campagne, Halo commence par valider que la campagne est prête. Si des éléments requis sont manquants, une boîte de dialogue répertorie les éléments à corriger avant que le lancement puisse se poursuivre. Une fois la validation réussie, la boîte de dialogue de lancement affiche un aperçu de l’e-mail et de l’audience/du workflow, permet à l’utilisateur ou à l’utilisatrice de consulter ou de modifier le planning d’envoi sans quitter le flux et, pour les envois volumineux, affiche un avis de volume d’envoi estimé. La confirmation déclenche le lancement et Halo signale l’un des trois résultats suivants : lancé, déjà lancé ou en échec.
+CAPTURE D’ÉCRAN
 
-### Comportements clés
+>[!NOTE]
+>
+>S’il manque des éléments, une boîte de dialogue s’affiche, répertoriant les éléments à compléter. Apportez les correctifs nécessaires et sélectionnez à nouveau **Vérifier et lancer**.
 
-- Le lancement n’est disponible que pour les campagnes au statut Brouillon. Une campagne déjà active ne peut pas être relancée.
-- Une vérification de préparation s’exécute automatiquement avant l’ouverture de la boîte de dialogue de lancement. Les problèmes non résolus bloquent le lancement et sont répertoriés avec un moyen de les résoudre.
-- La boîte de dialogue de lancement affiche un aperçu d’e-mail (objet, pré-titre, expéditeur) et un aperçu d’audience/workflow.
-- Le planning d’envoi peut être examiné ou modifié dans la boîte de dialogue de lancement.
-- Pour les envois volumineux, la boîte de dialogue affiche une estimation de l’impact sur le volume d’envoi. [ENTRÉES NÉCESSAIRES — le libellé exact de cet avis n&#39;était pas disponible à partir du code]
-- Une fois la campagne réussie, son statut passe à « Planifié » ou « Actif » (selon le planning choisi), et un message de confirmation indique que les informations sur la campagne seront disponibles dans les 2 heures.
-- Si la campagne a déjà été lancée (par exemple, à partir d’un double clic), Halo affiche un message « déjà lancée » plutôt qu’une erreur.
-- Si le lancement échoue, un message d’erreur s’affiche et la campagne reste dans l’état Brouillon ; l’utilisateur peut réessayer.
-- Une fois qu’une campagne est arrêtée <!--(see [Stop a live campaign](./stop-live-campaign.md))-->, elle ne peut plus être relancée à partir du même enregistrement de campagne. L’arrêt est un état distinct et permanent.
+1. Une fois que la campagne a passé le contrôle de préparation, la boîte de dialogue de lancement s’ouvre, affichant un aperçu de l’e-mail et de l’audience.
 
-## Accès
+CAPTURE D’ÉCRAN
 
-**Pour lancer une campagne, procédez comme suit**
+1. Examinez le planning affiché dans la boîte de dialogue. Pour le modifier, utilisez les options de planning décrites dans [Planifier au lancement d’une campagne](/help/coworker/campaigns/schedule-campaign.md) puis cliquez sur **Enregistrer**.
 
-1. Dans la campagne, cliquez sur **Lancer** (indiqué comme « Prêt à démarrer » lorsque vous êtes encore en version brouillon).
-2. S’il manque quelque chose, une boîte de dialogue intitulée « Quelques éléments nécessitent encore une attention » répertorie les éléments à compléter :
-   - **Configurer les paramètres d’e-mail** — les paramètres d’envoi (expéditeur/domaine) n’ont pas encore été configurés.
-   - **E-mails non testés** — Envoyez au moins un e-mail de test pour tester l’e-mail avant le lancement.
-   - **Audience réelle requise pour le lancement** — la campagne utilise toujours un exemple d’audience ; chargez un CSV d’audience réelle.
-     Résolvez chaque élément, puis réessayez de lancer.
-3. Une fois que la campagne a réussi le contrôle de préparation, la boîte de dialogue de lancement s’ouvre, affichant un aperçu de l’e-mail et de l’audience.
-4. Examinez le planning affiché dans la boîte de dialogue. Pour le modifier, utilisez les options de planning décrites dans [Planifier au lancement d’une campagne](/help/coworker/campaigns/schedule-campaign.md), puis enregistrez.
-5. Confirmez pour lancer. Une fois l’opération réussie, un message de confirmation s’affiche et le statut de la campagne est mis à jour (défini sur « Planifié » ou « Actif »).
+CAPTURE D’ÉCRAN
 
-<!-- 
-## Input fields / parameters
+1. Cliquez sur **Lancer la campagne** lorsque vous avez terminé.
 
-Not applicable beyond the schedule fields already documented in [Schedule when a campaign launches](/help/coworker/campaigns/schedule-campaign.md) — launching itself doesn't require any additional input. 
--->
+CAPTURE D’ÉCRAN
 
-## Légendes de l’interface utilisateur
+>>
+>
+Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des brouillons d’e-mails qui n’ont pas été vérifiés ou des paramètres d’envoi non configurés
 
-> **Note du rédacteur technique** : des captures d’écran sont nécessaires pour les éléments suivants :
+### Éléments à noter
 
-- [ ] Point d’entrée/bouton Launch dans l’en-tête des détails de la campagne
-- [ ] Boîte de dialogue de préparation/validation répertoriant les éléments incomplets
-- [ ] Boîte de dialogue de lancement affichant l’aperçu e-mail + audience et la section de planning
-- [ ] Avis d&#39;impact sur le volume estimé d&#39;envoi (pour les audiences importantes)
-- [ ] Message de confirmation de réussite après le lancement
-- [ ] Le message « déjà lancé »
-- [ ] Message d’erreur générique « launch-failure »
 
-## Ce que cette fonctionnalité ne fait pas
+Si vous planifiez une campagne, vous pouvez toujours la modifier avant son lancement. Il n’est pas nécessaire de passer en mode brouillon. L’état « planifié » est modifiable.
 
-- Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des e-mails non testés ou des paramètres d’envoi non configurés. Ces trois problèmes doivent d’abord être résolus.
-- Le lancement n’accepte pas un planning comme faisant partie de la même action. Le planning est enregistré séparément (à partir de la même boîte de dialogue) avant ou dans le cadre de la confirmation du lancement.
-- Il ne prend pas en charge le redémarrage d’une campagne qui a été arrêtée. L’arrêt est <!--(see [Stop a live campaign](./stop-live-campaign.md))-->.
-- [ENTRÉES NÉCESSAIRES — à confirmer auprès de l’ingénieur/du chef de projet : pour certains utilisateurs, Launch peut être remplacé par une expérience « à venir » offrant uniquement un téléchargement de campagne (PDF/DOCX) ou un envoi d’e-mail de BAT, sans lancement en libre-service in-app. Confirmez l’audience à laquelle cela s’applique avant de publier, car cela modifie les étapes de procédure pour cette cohorte.]
+## Arrêter une campagne
+
+Blurb va ici
+
+>[!CAUTION]
+>
+>À l’heure actuelle, l’arrêt d’une campagne active est permanent et ne peut pas être relancé. Vous devez créer une campagne et la lancer.
+
+1. Ouvrez une campagne actuellement active (envoi actif).
+2. Dans l’en-tête des détails de la campagne, cliquez sur **Arrêter la campagne**.
+3. Dans la boîte de dialogue de confirmation, passez en revue l’avertissement : « L’arrêt de la campagne est permanent. Tous les destinataires cesseront de progresser et la campagne ne pourra pas reprendre. »
+4. Cliquez sur **Arrêter** pour confirmer.
+5. Une « campagne arrêtée ». Un message de confirmation apparaît et le statut de la campagne est mis à jour sur « Arrêté ».

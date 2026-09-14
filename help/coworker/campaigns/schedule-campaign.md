@@ -3,15 +3,15 @@ description: La description est ici.
 title: Planifier une campagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 1%
-
+source-wordcount: '589'
+ht-degree: 2%
 ---
-
 # Planifier une campagne {#schedule-campaign}
 
 Lors du lancement d’une campagne, les utilisateurs peuvent désormais choisir le moment exact de son lancement : immédiatement, à une date et une heure futures spécifiques ou selon un planning récurrent (récurrent). Les utilisateurs peuvent également revenir ultérieurement et modifier le planning d’une campagne qui a déjà été lancée ou planifiée.
@@ -39,7 +39,7 @@ Lorsque l’utilisateur lance une campagne, il choisit l’un des trois modes de
 
 **Pour planifier une campagne au lancement :**
 
-1. Dans la campagne, cliquez sur **Prêt pour le lancement**.
+1. Dans la campagne, cliquez sur **Vérifier et lancer**.
 2. Dans la boîte de dialogue de lancement, choisissez une option de planification :
    - **Maintenant** — la campagne commence à envoyer immédiatement après le lancement.
    - **Planifier une fois** — choisissez une future **Date de début** (date et heure confondues).
@@ -66,17 +66,7 @@ Lorsque l’utilisateur lance une campagne, il choisit l’un des trois modes de
 | Jour du mois | Le jour du mois où la campagne se répète | Oui, pour la fréquence mensuelle |
 | Terminer la campagne | Jamais, ou à une date de fin spécifique | Oui, pour récurrent |
 
-## Légendes de l’interface utilisateur
 
-> **Note du rédacteur technique** : des captures d’écran sont nécessaires pour les éléments suivants :
-
-- [ ] Boîte de dialogue de lancement affichant les options Maintenant / Planifier une fois / Récurrent
-- [ ] le sélecteur de date et d’heure Planifier une seule fois
-- [ ] les options récurrentes : sélecteur de fréquence, bascule des jours hebdomadaires, grille mensuelle des jours du mois
-- [ ] La « Fin de la campagne » Jamais / Sur un choix de date
-- [ ] Le badge de statut « Planifié » sur une campagne en attente de son heure de début
-- [ ] Le badge de statut « Actif » avec un résumé de la périodicité (par exemple « Hebdomadaire le mardi, jeudi à 9:00 »)
-- [ ] la section Planning des paramètres de la campagne, affichant le point d’entrée de modification
 
 ## Ce que cette fonctionnalité ne fait pas
 
