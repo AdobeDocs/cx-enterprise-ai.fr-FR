@@ -1,24 +1,22 @@
 ---
-title: Présentation de la passerelle du collègue Adobe CX
-description: Adobe CX Coworker Gateway est le MCP unifié pour Adobe CX Enterprise, offrant aux clients MCP une connexion unique aux outils de produits pris en charge.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+title: Présentation de la passerelle CX Coworker Adobe
+description: La passerelle Adobe CX Coworker est le MCP unifié d’Adobe CX Enterprise. Elle permet aux clients MCP de se connecter une seule fois aux outils de produits pris en charge.
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 5%
-
+source-wordcount: '469'
+ht-degree: 4%
 ---
-
 # Passerelle de collègue Adobe CX {#mcp-overview}
 
-La passerelle de collaboration Adobe CX est le protocole MCP (Unified Model Context Protocol) pour Adobe CX Enterprise. Avec une seule connexion, les clients compatibles avec MCP peuvent accéder aux outils de produit Adobe que votre organisation et votre compte sont autorisés à utiliser.
+La passerelle Adobe CX Coworker est le protocole MCP (Unified Model Context Protocol) pour Adobe CX Enterprise. Avec une seule connexion, les clients compatibles avec MCP peuvent accéder aux outils de produit Adobe que votre organisation et votre compte sont autorisés à utiliser.
 
 >[!IMPORTANT]
 >
->Votre organisation Adobe doit être activée avant de pouvoir utiliser les outils **CX Coworker Gateway**.
+>Votre organisation Adobe doit être activée pour pouvoir utiliser les outils de la passerelle **CX Coworker**.
 >
 >Si votre organisation n’y a pas encore accès, envoyez un e-mail à [&#128279;](mailto:cx-coworker-gateway-support@adobe.com) pour demander l’activation de votre organisation.
 
-Utilisez le point d’entrée CX Coworker Gateway pour toute la configuration du client MCP :
+Utilisez le point d’entrée de la passerelle CX Coworker pour toute la configuration du client MCP :
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -41,7 +39,7 @@ Les outils de produit suivants sont documentés dans ce guide :
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Audiences, destinations, sources, espaces de noms d’identité et intégrité de l’activation (lecture seule) | Beta | [Outils &#x200B;](rtcdp-mcp.md) |
 | **Experience Platform** | Schémas, jeux de données, gouvernance des données, Query Service, événements d’audit, mesures d’observabilité et évaluations des contrôles d’intégrité des sandbox (lecture seule) | Beta | [Outils &#x200B;](aep-mcp.md) |
-| **Journey Optimizer** | Campagnes et configurations de canal (lecture seule) | Beta | [Outils &#x200B;](ajo-mcp.md) |
+| **Journey Optimizer** | Campagnes, parcours et configurations de canal (lecture seule) ; modèles de contenu, fragments, pages de destination et contenu de message intégré (lecture et écriture) | Beta | [Outils &#x200B;](ajo-mcp.md) |
 | **Customer Journey Analytics** | Vues de données, dimensions, mesures, rapports, segments, périodes, projets et audiences (lecture et écriture) | Disponible | [Outils &#x200B;](cja-mcp.md) |
 | **Adobe Analytics** | Suites de rapports, dimensions, mesures, rapports, segments, périodes et projets Workspace (lecture et écriture pour les composants pris en charge) | Disponible | [Outils &#x200B;](analytics-mcp.md) |
 | **Workfront** | Outils de gestion du travail pour les projets, les tâches et les processus d&#39;approbation | Prévisualisation | [Serveur Workfront MCP](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
@@ -55,7 +53,7 @@ Les outils de produit suivants sont documentés dans ce guide :
 
 ## Commencer {#mcp-get-started}
 
-1. Consultez [Accéder aux outils de passerelle de collègue CX](access.md) pour confirmer la disponibilité, l’activation et les autorisations du produit.
-2. Suivez [Installation d’Adobe pour la passerelle CX Coworker](install.md) pour connecter votre client MCP au point d’entrée .
+1. Consultez [Accéder aux outils de la passerelle CX Coworker](access.md) pour confirmer la disponibilité, l’activation et les autorisations du produit.
+2. Suivez [Installation de la passerelle Adobe for CX Coworker](install.md) pour connecter votre client MCP au point d’entrée .
 3. Consultez la page produit pour chaque outil de produit que vous prévoyez d’utiliser.
 

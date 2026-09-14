@@ -4,22 +4,28 @@ description: Découvrez les différents types d’invites et de modèles d’inv
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Privacy
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 813
-ht-degree: 18%
-
+source-wordcount: '841'
+ht-degree: 17%
 ---
-
 # Bibliothèque d’invites de l’assistant AI
 
 Lisez ce guide pour connaître les différents types d’invites que vous pouvez utiliser sur l’assistant AI.
@@ -71,7 +77,9 @@ Les exemples d’invites ci-dessous peuvent être utilisés avec Data Insights A
 
 ## Agent Journey
 
-Les exemples d’invites ci-dessous peuvent être utilisés avec Journey Agent pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l’audience et le parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
+Les exemples d&#39;invites ci-dessous peuvent être utilisés avec [&#128279;](../agents/ajo-agent.md) pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l&#39;audience et les parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
+
+Pour obtenir des exemples d’invites couvrant la création de parcours, la génération de contenu de canal et l’analyse des abandons, consultez les sections [Création de Parcours &#x200B;](../agents/ajo-agent.md#journey-create), [Création de contenu de canal](../agents/ajo-agent.md#channel-content-create) et [Analyse de Parcours &#x200B;](../agents/ajo-agent.md#journey-analyze) du guide Journey Agent.
 
 ### Questions sur le cycle de vie des parcours
 
