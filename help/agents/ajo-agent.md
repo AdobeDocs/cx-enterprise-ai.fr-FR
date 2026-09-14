@@ -310,7 +310,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 L’analyse des parcours permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Grâce à l’analyse de Parcours, les utilisateurs et les utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et d’audience, détecter les points d’abandon d’utilisateurs et d’utilisatrices dans un parcours et afficher des informations ou des recommandations pour améliorer les performances.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
 
 Pour plus d’informations, voir [Analyse de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
