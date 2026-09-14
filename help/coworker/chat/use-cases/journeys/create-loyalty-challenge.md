@@ -29,6 +29,6 @@ La vidéo présente le plug-in de fidélité et ses compétences de gestion des 
 
 ## Voir également
 
-- [](../../../../agents/ajo-agent.md), pour d’autres fonctionnalités de l’IA d’AJO disponibles via le Module de conversation des collègues, telles que la création, l’analyse et la simulation de parcours.
+- [&#128279;](../../../../agents/ajo-agent.md), pour d’autres fonctionnalités de l’IA d’AJO disponibles via le Module de conversation des collègues, telles que la création, l’analyse et la simulation de parcours.
 - [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 - [Plus de cas d’utilisation de la conversation avec un collègue](../overview.md#journeys)

@@ -77,9 +77,9 @@ Les exemples d’invites ci-dessous peuvent être utilisés avec Data Insights A
 
 ## Agent Journey
 
-Les exemples d&#39;invites ci-dessous peuvent être utilisés avec [](../agents/ajo-agent.md) pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l&#39;audience et les parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
+Les exemples d&#39;invites ci-dessous peuvent être utilisés avec [&#128279;](../agents/ajo-agent.md) pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l&#39;audience et les parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
 
-Pour obtenir des exemples d’invites couvrant la création de parcours, la génération de contenu de canal et l’analyse des abandons, consultez les sections [Création de Parcours ](../agents/ajo-agent.md#journey-create), [Création de contenu de canal](../agents/ajo-agent.md#channel-content-create) et [Analyse de Parcours ](../agents/ajo-agent.md#journey-analyze) du guide Journey Agent.
+Pour obtenir des exemples d’invites couvrant la création de parcours, la génération de contenu de canal et l’analyse des abandons, consultez les sections [Création de Parcours &#x200B;](../agents/ajo-agent.md#journey-create), [Création de contenu de canal](../agents/ajo-agent.md#channel-content-create) et [Analyse de Parcours &#x200B;](../agents/ajo-agent.md#journey-analyze) du guide Journey Agent.
 
 ### Questions sur le cycle de vie des parcours
 
