@@ -1,13 +1,11 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Découvrez comment utiliser Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
-
 ---
-
 # Adobe Marketing Agent pour [!DNL Microsoft 365 Copilot]
 
 Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] est un outil optimisé par l’IA qui connecte Adobe Experience Platform directement à [!DNL Microsoft 365 Copilot]. Avec cet agent, vous pouvez poser des questions en langage naturel dans [!DNL Microsoft 365] applications telles que [!DNL Teams], [!DNL Word], [!DNL Powerpoint] et [!DNL Excel] pour récupérer instantanément des informations marketing d’Experience Platform sans interrompre votre workflow. Le même agent est disponible sur toutes ces applications, et votre historique de conversation avec Adobe Marketing Agent est reporté. Vous pouvez donc commencer à effectuer des recherches dans [!DNL Copilot] en [!DNL Teams], par exemple, et poursuivre la conversation en [!DNL Word] ou en [!DNL Powerpoint] pendant que vous rédigez un résumé de campagne ou passez en revue une présentation.
@@ -22,7 +20,7 @@ Avec Adobe Marketing Agent for [!DNL Microsoft 365 Copilot], les responsables ma
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] prend actuellement en charge Experience Platform Operational Insights, Customer Journey Analytics Data Insights, Audience Agent et Journey Agent.
+>Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] prend actuellement en charge Experience Platform Operational Insights, Customer Journey Analytics Data Insights, [Audience Agent](./audience.md) et [Journey Agent](./ajo-agent.md).
 
 Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] offre une expérience intégrée entre Experience Platform et les applications [!DNL Microsoft 365] :
 
@@ -99,7 +97,7 @@ Une fois connecté, vous pouvez utiliser les invites fournies dans la page princ
 
 Patientez quelques instants le temps que l’agent calcule, puis il répond avec une représentation visualisée de vos données. Vous pouvez utiliser le graphique à barres présenté ou sélectionner **[!DNL View data]** pour afficher les données dans les tableaux.
 
-![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données &#x200B;](../agents/assets/ama/response.png).
+![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données ](../agents/assets/ama/response.png).
 
 ![Mêmes informations affichées qu’un tableau de données après avoir sélectionné Afficher les données.](../agents/assets/ama/tables.png)
 

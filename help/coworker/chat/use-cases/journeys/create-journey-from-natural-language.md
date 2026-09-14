@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # Génération de Parcours Adobe Journey Optimizer à partir d’invites de langage naturel
 
@@ -26,4 +26,9 @@ La création de parcours client nécessite généralement une configuration comp
  
 En automatisant le processus de configuration initial, les équipes peuvent passer moins de temps à créer des parcours à partir de zéro et plus de temps à affiner les expériences client et les résultats commerciaux.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496878/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## Voir également
+
+- [](../../../../agents/ajo-agent.md#journey-create), la fonctionnalité d’IA sous-jacente qui alimente la création de parcours dans le chat des collègues.
+- [Plus de cas d’utilisation de la conversation avec un collègue](../overview.md#journeys)

@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3801'
+ht-degree: 10%
 ---
 
-
 # Journey Agent : présentation et guide de l’utilisateur
-
->[!AVAILABILITY]
->
->Les fonctionnalités de création d’IA de Journey Agent et de génération de contenu sont disponibles pour les clients qui font partie du programme Agent Orchestrator Explorer. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
 
 ## Présentation de Journey Agent dans Adobe Journey Optimizer
 
@@ -53,21 +66,23 @@ Journey Agent se compose de quatre tâches principales :
 - **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
 - **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
 
-En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), une fonctionnalité d’IA non conversationnelle intégrée au produit avec trois sous-fonctionnalités :
+En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optimizer qui inclut la [simulation de Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, une fonctionnalité d’IA non conversationnelle intégrée au produit avec trois sous-fonctionnalités :
 
 - Génération d’utilisateurs simulés
 - Génération de valeurs d’événement
 - Simulation rapide
 
-## Parcours Create : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
+## Parcours Create : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur {#journey-create}
 
 ## Vue d’ensemble
 
 Parcours Create permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec la fonction Création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
 
+Pour plus d’informations, consultez [Création de Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+
 >[!AVAILABILITY]
 >
->La fonction Créer un parcours est disponible pour les clients qui font partie du programme Agent Orchestrator Explorer. Vous aurez également besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création de Parcours :
+>Vous avez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création de Parcours :
 >
 >**Gérer les Parcours** : cette autorisation vous permet de créer des parcours directement dans l’assistant AI.
 >
@@ -109,6 +124,11 @@ Parcours Créez des fonctionnalités d’offres qui peuvent être exploitées po
    - Créez des branches de décision en fonction des attributs du client.
    - Concevez des chemins de division qui s’adaptent aux préférences des clients.
 
+1. **Créer un parcours à partir d’une image**
+
+   - Chargez une image de référence et demandez à l’agent de créer un parcours en utilisant l’image comme référence.
+   - L’agent extrait une invite modifiable de l’image de référence.
+
 Pour chacun de ces cas d’utilisation, l’agent traduit les exigences en langage naturel en configurations de parcours structurées.
 
 ## Fonctionnalités d’IA incluses et exclues
@@ -128,9 +148,14 @@ Les fonctionnalités suivantes sont prises en charge par Parcours Create :
 Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 - **Analyses de parcours avancées**
-- **Modifications du parcours en temps réel**
 - **Orchestration entre parcours**
 - **Configuration des tests A/B**
+- **Génération de l’expression InAudience**
+- **nœuds de recherche de jeu de données**
+- **Enregistrer les paramètres d’envoi**
+- **Options de planification de la périodicité**
+- **Sélection d’un espace de noms pour les audiences**
+- **Mappage de champs d’action personnalisée**
 - **Transformations de données complexes**
 
 ## Exemples d’invites
@@ -141,11 +166,11 @@ Voici des exemples d’invites utiles que les utilisateurs peuvent utiliser pour
 
 ### Invites de parcours déclenchées par un événement
 
-parcours de visite de la boutique :**&#x200B;**
+parcours de visite de la boutique :****
 
 « Créez un parcours qui démarre lorsqu’un utilisateur saisit l’emplacement de ma boutique. Envoyez une notification push pour souhaiter la bienvenue aux utilisateurs dans le magasin . Patientez 2 jours et vérifiez si l’utilisateur dispose d’une adresse e-mail valide. Si l’utilisateur dispose d’une adresse e-mail valide, envoyez une enquête par e-mail pour lui demander des informations sur son expérience en magasin. Si l’utilisateur ne dispose pas d’une adresse e-mail valide, envoyez une notification push pour demander l’enregistrement. »
 
-parcours après achat :**&#x200B;**
+parcours après achat :****
 
 « Créez un parcours qui démarre lorsqu’un client effectue un achat en ligne. Envoyez une notification push pour les remercier de leur achat. Ensuite, vérifiez s’il s’agit de membres du programme de fidélité. Si l’utilisateur est membre du programme de récompenses de fidélité, envoyez une seconde notification push avec un code de remise de 10 %. Si l’utilisateur n’est pas membre du programme de récompenses de fidélité, envoyez une notification push l’invitant à s’inscrire au programme de fidélité. Patientez 2 jours et envoyez une notification push de suivi avec une enquête sur leur expérience d’achat. »
 
@@ -195,7 +220,7 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 - **Planifier le contenu du message** : définissez votre stratégie de messagerie avant la création du parcours.
 - **Tenir compte de l’expérience client** : concevez des flux de parcours qui respectent les préférences des clients et évitent la surcommunication.
 
-## Création de contenu de canal : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
+## Création de contenu de canal : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 ## Vue d’ensemble
 
 La création de contenu de canal permet aux utilisateurs de Journey Optimizer de générer, modifier et gérer du contenu spécifique au canal pour les parcours à l’aide de la génération de contenu optimisée par l’IA.
+
+Pour plus d’informations, voir [Création de contenu de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 ## Cas d’utilisation
 
@@ -219,7 +246,7 @@ La création de contenu de canal permet aux utilisateurs de Journey Optimizer de
 
 1. **Affinement et itération du contenu** : générez à nouveau du contenu avec des tons ou des styles différents à l’aide de l’action Régénérer.
 
-1. Intégration de la zone de travail de Parcours **&#x200B;**&#x200B;: sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
+1. Intégration de la zone de travail de Parcours **** : sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
 
 ## Fonctionnalités d’IA incluses et exclues
 
@@ -277,13 +304,15 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 1. **Définir le ton** : spécifiez le ton souhaité (amical, formel, informel, urgent).
 1. **Itérer et affiner** : utilisez l’action de régénération pour affiner le contenu jusqu’à ce qu’il réponde à vos besoins.
 
-## Analyse de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
+## Analyse de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur {#journey-analyze}
 
 ## Vue d’ensemble
 
-Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux personnes professionnelles de prendre des décisions fondées sur des données, d’améliorer l’engagement de la clientèle et de rationaliser l’orchestration de parcours.
+L’analyse des parcours permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Grâce à l’analyse de Parcours, les utilisateurs et les utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et d’audience, détecter les points d’abandon d’utilisateurs et d’utilisatrices dans un parcours et afficher des informations ou des recommandations pour améliorer les performances.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
+Pour plus d’informations, voir [Analyse de Parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ L’analyse de parcours offre un éventail de fonctionnalités qui peuvent être
 
    - Informations sur les Parcours basés sur des invites - Informations opérationnelles de surface sur les parcours , c’est-à-dire « Afficher tous les parcours en direct ».
 
+1. Analyse d&#39;erreur d&#39;action personnalisée de Parcours ****
+
+   - Identifiez le moment où les actions personnalisées échouent ou le pic de taux d’erreur dans un parcours.
+   - Diagnostiquer les causes premières avant que les pannes ne se répercutent sur une perturbation plus large du parcours.
+   - Utilisez des étapes de correction spécifiques pour restaurer rapidement la fiabilité d&#39;une action personnalisée.
+
+1. **Analyse des anomalies de Parcours**
+
+   - Détecter des pics, des abandons ou des lignes plates inattendus dans les nombres d’entrée, de sortie ou d’envoi de messages d’un parcours par rapport aux lignes de base historiques, y compris lorsque la question est formulée autour du nombre de profils qui entrent, quittent ou terminent le parcours.
+   - Vérifiez si une modification signalée est une véritable anomalie à l’aide d’un contrôle statistique déterministe, plutôt que de vous fier uniquement à l’indicateur d’anomalie brut.
+   - Exécutez des diagnostics limités en lecture seule par rapport aux données d’exécution du parcours pour identifier une cause principale probable, en faisant apparaître ce que chaque contrôle recherchait et trouvait avec la recommandation.
+   - Examiner les alertes d’anomalies qui font référence à une version de parcours et à un horodatage spécifiques.
+
 Pour chacune de ces analyses, l’agent détecte non seulement les problèmes, mais fournit également des recommandations **exploitables pour les résoudre**.
 
 ## Fonctionnalités d’IA entrant et sortant de portée
@@ -338,13 +380,14 @@ Parcours Analyze prend en charge les fonctionnalités suivantes :
 - **Requêtes réactives** : permet aux utilisateurs et aux utilisatrices de poser des questions spécifiques sur les performances du parcours, l’utilisation de l’audience et les conflits de planning.
 - **Intégration à d’autres agents** : collabore avec l’agent Audience et l’agent Data Insights pour une analyse plus approfondie.
 - **Structuration de la réponse de l’agent** : raisonnement (expliquer la logique), résumé de l’analyse (mettre en évidence les points clés), détails du problème (décrire le problème) et recommandation (proposer les étapes suivantes).
+- **Analyse des erreurs d’action personnalisée** : détectez et diagnostiquez les échecs et les pics d’erreur des actions personnalisées dans un parcours.
+- **Détection des anomalies** : détectez et confirmez les pics, les chutes ou les aplatissements statistiquement significatifs dans le nombre d’entrées, de sorties ou d’envois d’un parcours, et identifiez une cause principale probable.
 
 ### **Hors du champ d’application**
 
 Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 - **Création automatisée de parcours**
-- **Détection des anomalies en temps réel**
 - **Chevauchement des canaux**
 - **Analyse de l’entrée de parcours**
 - **Analyse des problèmes techniques**
@@ -409,6 +452,22 @@ Utilisez ces prompts pour analyser les conflits potentiels entre les parcours, y
 - « Analyse du risque de conflit pour le parcours [Nom du Parcours ]. »
 - « Fournissez des diagnostics de conflit pour [Nom du Parcours ]. »
 
+### Analyse des erreurs d’action personnalisée
+
+- « Pourquoi les actions personnalisées échouent-elles dans le parcours [Nom du Parcours ] ? »
+- « Quel est le taux d’erreur de l’action personnalisée [Nom de l’action personnalisée] dans le parcours [Nom du Parcours ] ? »
+- « Montrez-moi la cause principale des échecs d’action personnalisée dans le parcours [Nom du Parcours ]. »
+- « Existe-t-il des erreurs d’action personnalisée affectant le parcours [Nom du Parcours ] en ce moment ? »
+
+### analyse des anomalies du parcours
+
+- « Pourquoi les entrées ont-elles été abandonnées pour mon parcours de bienvenue hier ? »
+- « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? »
+- « Les envois paraissent bas pour le parcours de rappel de renouvellement aujourd’hui - que s’est-il passé ? »
+- « Pourquoi y a-t-il eu une baisse soudaine du nombre de profils qui ont participé à mon parcours d’anniversaire de membre au cours des 30 derniers jours ? »
+- « Moins de profils que d’habitude effectuent mon parcours de rappel de renouvellement ce mois-ci - pourquoi ? »
+- « Une alerte d’anomalie a été déclenchée pour l’ID de version de Parcours [] du parcours à [horodatage] — vérifiez. »
+
 ## Bonnes pratiques
 
 ### Bonnes pratiques en matière de prompt
@@ -425,7 +484,7 @@ Pour optimiser l’efficacité de l’analyse de Parcours, appliquez les bonnes 
 - **régulièrement** : planifiez des vérifications régulières des performances des parcours afin d’identifier les tendances et les anomalies.
 - **Optimiser la segmentation** : veillez à ce que la segmentation de l’audience soit équilibrée afin d’éviter la lassitude et de maximiser l’engagement.
 
-## Simulation de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur
+## Simulation de parcours : cas d’utilisation, fonctionnalités d’IA et guide de l’utilisateur {#journey-simulate}
 
 ## Vue d’ensemble
 
@@ -503,4 +562,11 @@ En outre, les fonctionnalités suivantes sont prises en charge par la fonctionna
 
 La simulation peut ne pas prendre en charge toutes les activités, tous les canaux ou toutes les intégrations pris en charge par le mode Test ou un parcours en direct. Le comportement peut changer à mesure que la fonctionnalité se développe.
 
-➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) dans la documentation de Journey Optimizer.
+➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} dans la documentation de Journey Optimizer.
+
+## Voir également
+
+- [](./agent-orchestrator.md), la couche d’agent qui alimente Journey Agent et d’autres agents Experience Platform.
+- [Outils Journey Optimizer dans la passerelle CX Coworker](../mcp/ajo-mcp.md), une surface MCP en lecture seule pour la révision de la configuration des campagnes et des canaux.
+- [Créer des parcours en langage naturel](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) et [Créer, modifier et gérer des défis de fidélité](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), les cas d’utilisation du Chat des collègues qui s’appuient sur la création de Parcours.
+- [Agent du support produit](./product-support.md), pour le dépannage des problèmes Journey Optimizer, a été présenté via l’assistant AI.
