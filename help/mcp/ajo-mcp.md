@@ -10,7 +10,7 @@ ht-degree: 5%
 
 Utilisez les outils de produit Adobe Journey Optimizer pour inspecter les configurations des campagnes, des parcours et des canaux à partir d’un client compatible MCP. Ces outils sont disponibles via la passerelle [&#128279;](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Journey Optimizer requises.
 
-Pour plus d’informations, voir [Utilisation des clients MCP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Utilisation des clients MCP](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 Pour une expérience de conversation et d’analyse permettant de créer, de simuler et d’analyser des parcours, reportez-vous au [Journey Agent](../agents/ajo-agent.md) à la place.
 
@@ -66,7 +66,7 @@ Les outils Journey Optimizer fournissent une surface en lecture seule pour la r�
 
 Outre les outils de produit en lecture seule ci-dessus, les utilisateurs de Journey Optimizer peuvent découvrir et gérer des ressources de contenu (modèles de contenu, fragments, pages de destination et contenu de message intégré de parcours ou de campagne) directement depuis CX Coworker à l’aide d’invites de langage naturel. Cette fonctionnalité s’appuie sur un ensemble distinct d’outils MCP compatibles en lecture et écriture pour le contenu Journey Optimizer et est disponible pour tous les clients qui ont accès à CX Coworker.
 
-Pour plus d’informations, voir [Outils de gestion de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Outils de gestion de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 Les outils de gestion de contenu vous permettent d’effectuer les opérations suivantes :
 
