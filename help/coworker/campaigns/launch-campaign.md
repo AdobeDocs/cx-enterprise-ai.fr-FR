@@ -42,9 +42,9 @@ CAPTURE D’ÉCRAN
 
 CAPTURE D’ÉCRAN
 
->>
+&#x200B;>>
 >
-Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des brouillons d’e-mails qui n’ont pas été vérifiés ou des paramètres d’envoi non configurés
+>Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des brouillons d’e-mails qui n’ont pas été vérifiés ou des paramètres d’envoi non configurés
 
 ### Éléments à noter
 
