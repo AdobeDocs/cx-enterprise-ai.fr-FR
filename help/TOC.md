@@ -6,13 +6,11 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 20%
-
 ---
-
 
 # IA dans CX Enterprise {#experience-cloud-ai}
 
@@ -56,6 +54,7 @@ ht-degree: 20%
         - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
         - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Fidélité {#loyalty}
         - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Optimisation {#optimization}
         - [Activités de Launch Target](./coworker/chat/use-cases/optimization/target.md)
@@ -84,20 +83,20 @@ ht-degree: 20%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Passerelle de collègue Adobe CX](./mcp/overview.md)
+  - [Passerelle CX Coworker Adobe](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
   - Commencer {#mcp-get-started}
-    - [Accéder aux outils de passerelle de collaborateur CX](./mcp/access.md)
-    - [Installer la passerelle CX Coworker](./mcp/install.md)
-    - [Outils de contexte de session dans CX Coworker Gateway](./mcp/context-tools.md)
+    - [Accès aux outils de la passerelle CX Coworker](./mcp/access.md)
+    - [Installation de la passerelle CX Coworker](./mcp/install.md)
+    - [Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
     - [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
     - [Outils Experience Platform](./mcp/aep-mcp.md)
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
