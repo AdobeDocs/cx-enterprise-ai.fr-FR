@@ -3,15 +3,15 @@ description: La description est ici.
 title: Arrêter une campagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
-ht-degree: 1%
-
+source-wordcount: '349'
+ht-degree: 0%
 ---
-
 # Arrêter une campagne {#stop-campaign}
 
 Les utilisateurs peuvent désormais arrêter une campagne qui envoie activement (une campagne « active ») directement à partir de la page des détails de la campagne. L’arrêt d’une campagne est permanent : les destinataires arrêtent immédiatement de progresser dans la campagne et la campagne ne peut pas reprendre ni redémarrer par la suite.
@@ -33,13 +33,7 @@ Une action « Arrêter la campagne » s’affiche dans l’en-tête des détails
 - Après l’arrêt, le badge d’état de la campagne est mis à jour sur « Arrêté ».
 - Si la demande d’arrêt échoue, un message d’erreur s’affiche et la campagne reste active.
 
-## Comment l’utiliser
 
-1. Ouvrez une campagne actuellement active (envoi actif).
-2. Dans l’en-tête des détails de la campagne, cliquez sur **Arrêter la campagne**.
-3. Dans la boîte de dialogue de confirmation, passez en revue l’avertissement : « L’arrêt de la campagne est permanent. Tous les destinataires cesseront de progresser et la campagne ne pourra pas reprendre. »
-4. Cliquez sur **Arrêter** pour confirmer.
-5. Une « campagne arrêtée ». Un message de confirmation apparaît et le statut de la campagne est mis à jour sur « Arrêté ».
 
 ### Champs/paramètres de saisie
 
