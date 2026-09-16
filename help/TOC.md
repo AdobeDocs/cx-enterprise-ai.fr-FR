@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 21%
+source-wordcount: '339'
+ht-degree: 20%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -51,6 +51,7 @@ ht-degree: 21%
         - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Audiences {#audiences}
         - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
@@ -84,7 +85,7 @@ ht-degree: 21%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - [Passerelle CX Coworker Adobe](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -98,6 +99,6 @@ ht-degree: 21%
     - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
     - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
