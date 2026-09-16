@@ -6,13 +6,11 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 20%
-
+source-wordcount: '333'
+ht-degree: 21%
 ---
-
 
 # IA dans CX Enterprise {#experience-cloud-ai}
 
@@ -42,6 +40,7 @@ ht-degree: 20%
       - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
       - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
       - [Créer et exécuter une compétence de point de contrôle qualité](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gestion et itération sur les compétences](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -56,6 +55,7 @@ ht-degree: 20%
         - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
         - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Fidélité {#loyalty}
         - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Optimisation {#optimization}
         - [Activités de Launch Target](./coworker/chat/use-cases/optimization/target.md)
@@ -86,12 +86,12 @@ ht-degree: 20%
   - Ingénierie des données {#data-engineering}
     - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Passerelle de collègue Adobe CX](./mcp/overview.md)
+  - [Passerelle CX Coworker Adobe](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
   - Commencer {#mcp-get-started}
-    - [Accéder aux outils de passerelle de collaborateur CX](./mcp/access.md)
-    - [Installer la passerelle CX Coworker](./mcp/install.md)
-    - [Outils de contexte de session dans CX Coworker Gateway](./mcp/context-tools.md)
+    - [Accès aux outils de la passerelle CX Coworker](./mcp/access.md)
+    - [Installation de la passerelle CX Coworker](./mcp/install.md)
+    - [Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
     - [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
     - [Outils Experience Platform](./mcp/aep-mcp.md)
