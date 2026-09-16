@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # Créer et exécuter une compétence de point de contrôle qualité à l’aide de compétences d’IA personnalisées
 
@@ -23,7 +21,7 @@ Le problème est que ces contrôles dépendent souvent des connaissances tribale
 
 Dans cette vidéo, vous découvrirez comment une compétence de collègue personnalisée agit comme un point d’activation, validant automatiquement les audiences par rapport aux normes d’activation de votre entreprise avant qu’elles ne soient déplacées en aval.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503167/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## Exemple de compétence de point de contrôle de qualité d’activation
  
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## Porte 1 : Suppression/Consentement
  
 > Modifiez cette section pour qu’elle corresponde aux exigences de suppression et de consentement de votre organisation.
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## Porte 2 : Limite De Fréquence
 
 > Modifiez cette section pour qu’elle corresponde aux exigences de fréquence de diffusion de votre organisation.
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## Porte 3 : convention d’affectation des noms
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## Instructions
 
 ### &#x200B;1. Personnaliser uniquement les sections entre crochets
@@ -196,8 +182,6 @@ Tout le reste doit rester inchangé :
 - Évaluation du point de contrôle
 - Rendu de la carte de score
 - Logique de verdict
-
-&#x200B;---
 
 
 ### &#x200B;2. Vérifier les conditions préalables
@@ -214,8 +198,6 @@ Cette compétence dépend des éléments suivants :
 - Rendu du tableau de données
 
 Si ces fonctionnalités ne sont pas disponibles dans l’environnement du client, la compétence ne peut pas s’exécuter comme prévu.
-
-&#x200B;---
 
 ### &#x200B;3. Conserver la compétence en lecture seule
 
