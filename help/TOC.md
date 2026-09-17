@@ -6,7 +6,7 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 20%
@@ -85,20 +85,20 @@ ht-degree: 20%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Passerelle CX Coworker Adobe](./mcp/overview.md)
+  - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
   - Commencer {#mcp-get-started}
-    - [Accès aux outils de la passerelle CX Coworker](./mcp/access.md)
-    - [Installation de la passerelle CX Coworker](./mcp/install.md)
-    - [Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
+    - {hide-from-toc}[Accéder aux outils de la passerelle CX Coworker](./mcp/access.md)
+    - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
+    - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
-    - [Outils Experience Platform](./mcp/aep-mcp.md)
-    - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
-    - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
-    - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

@@ -1,22 +1,23 @@
 ---
 title: Outils Journey Optimizer dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Journey Optimizer disponibles via la passerelle CX Coworker.
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 5%
 ---
 # Outils Adobe Journey Optimizer dans la passerelle CX Coworker {#ajo-mcp}
 
-Utilisez les outils de produit Adobe Journey Optimizer pour inspecter les configurations des campagnes, des parcours et des canaux à partir d’un client compatible MCP. Ces outils sont disponibles via la passerelle [&#128279;](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Journey Optimizer requises.
+Utilisez les outils de produit Adobe Journey Optimizer pour inspecter les configurations des campagnes, des parcours et des canaux à partir d’un client compatible MCP. Ces outils sont disponibles via la passerelle [](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Journey Optimizer requises.
 
-Pour plus d’informations, voir [Utilisation des clients MCP](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Utilisation des clients MCP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 Pour une expérience de conversation et d’analyse permettant de créer, de simuler et d’analyser des parcours, reportez-vous au [Journey Agent](../agents/ajo-agent.md) à la place.
 
 >[!AVAILABILITY]
 >
->Les outils du produit Journey Optimizer se trouvent dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+>Les outils du produit Journey Optimizer se trouvent dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 ## Fonctionnalités principales {#mcp-capabilities}
 
@@ -66,7 +67,7 @@ Les outils Journey Optimizer fournissent une surface en lecture seule pour la r�
 
 Outre les outils de produit en lecture seule ci-dessus, les utilisateurs de Journey Optimizer peuvent découvrir et gérer des ressources de contenu (modèles de contenu, fragments, pages de destination et contenu de message intégré de parcours ou de campagne) directement depuis CX Coworker à l’aide d’invites de langage naturel. Cette fonctionnalité s’appuie sur un ensemble distinct d’outils MCP compatibles en lecture et écriture pour le contenu Journey Optimizer et est disponible pour tous les clients qui ont accès à CX Coworker.
 
-Pour plus d’informations, voir [Outils de gestion de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Outils de gestion de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 Les outils de gestion de contenu vous permettent d’effectuer les opérations suivantes :
 
@@ -94,4 +95,4 @@ Si votre organisation utilise plusieurs sandbox, spécifiez le sandbox ou le con
 | Aucune mesure d’engagement ou de performances | Les outils ne renvoient pas de données de rapport telles que les impressions, les taux de clic publicitaire, les conversions ou les statistiques de diffusion. | Utilisez les rapports Journey Optimizer, les outils Customer Journey Analytics ou les outils Adobe Analytics pour les mesures de performances. |
 | La pagination de la liste des campagnes est limitée | La liste des campagnes renvoie la première page de résultats, avec un maximum de 50 campagnes triées par ordre alphabétique. Les valeurs de décalage et de limite ne sont pas appliquées. | Utilisez `Get Campaign` directement si l’identifiant de campagne est connu. Utilisez l’interface utilisateur de Journey Optimizer pour une navigation et un filtrage complets. |
 | Aucun filtrage côté serveur par date, canal ou planning | Les listes Campaign prennent en charge le filtrage du statut, mais pas le filtrage par date de publication, date de planning, canal ou type de campagne. | Utilisez la liste des campagnes de l’interface utilisateur de Journey Optimizer pour le filtrage de date et de canal natif. |
-| Récupération du contenu du message non disponible via les outils du produit | Les outils de produit en lecture seule ci-dessus ne permettent pas de trouver des messages HTML, des objets, des jetons de personnalisation ni du contenu d’offre. | Utilisez les [&#x200B; outils de gestion de contenu &#x200B;](#mcp-content-management) pour récupérer et mettre à jour le contenu des messages intégrés ou pour l’afficher directement dans l’interface utilisateur de Journey Optimizer. |
+| Récupération du contenu du message non disponible via les outils du produit | Les outils de produit en lecture seule ci-dessus ne permettent pas de trouver des messages HTML, des objets, des jetons de personnalisation ni du contenu d’offre. | Utilisez les [ outils de gestion de contenu ](#mcp-content-management) pour récupérer et mettre à jour le contenu des messages intégrés ou pour l’afficher directement dans l’interface utilisateur de Journey Optimizer. |

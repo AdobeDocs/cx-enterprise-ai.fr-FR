@@ -1,21 +1,20 @@
 ---
-title: Outils Customer Journey Analytics dans la passerelle de collègue CX
+title: Outils Customer Journey Analytics dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Customer Journey Analytics disponibles via la passerelle Adobe CX Coworker.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 
 # Outils Customer Journey Analytics dans la passerelle Adobe CX Coworker {#cja-mcp}
 
-Utilisez les outils du produit Customer Journey Analytics pour explorer les vues de données, découvrir les dimensions et les mesures, exécuter des rapports et gérer les composants d’analyse sélectionnés à partir d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle [CX Coworker](overview.md) lorsque votre compte dispose de la licence et des autorisations Customer Journey Analytics requises.
+Utilisez les outils du produit Customer Journey Analytics pour explorer les vues de données, découvrir les dimensions et les mesures, exécuter des rapports et gérer les composants d’analyse sélectionnés à partir d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle [](overview.md) lorsque votre compte dispose de la licence et des autorisations Customer Journey Analytics requises.
 
 >[!AVAILABILITY]
 >
->Les outils de Customer Journey Analytics sont disponibles pour les clients disposant d’une licence Customer Journey Analytics. L’accès est contrôlé par l’autorisation **Accès MCP** dans Adobe Admin Console. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+>Les outils de Customer Journey Analytics sont disponibles pour les clients disposant d’une licence Customer Journey Analytics. L’accès est contrôlé par l’autorisation **Accès MCP** dans Adobe Admin Console. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 ## Fonctionnalités principales {#mcp-capabilities}
 
@@ -29,7 +28,7 @@ Les outils Customer Journey Analytics prennent en charge les workflows d’analy
 
 >[!IMPORTANT]
 >
->Contrairement aux outils de produit en lecture seule [&#128279;](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) et [Journey Optimizer](ajo-mcp.md), les outils de Customer Journey Analytics incluent des opérations d’écriture. Ils peuvent créer et mettre à jour des segments, des mesures calculées, des périodes, des projets et des audiences. Examinez et validez toutes les modifications initiées par MCP avant de vous y fier.
+>Contrairement aux outils de produit en lecture seule [](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) et [Journey Optimizer](ajo-mcp.md), les outils de Customer Journey Analytics incluent des opérations d’écriture. Ils peuvent créer et mettre à jour des segments, des mesures calculées, des périodes, des projets et des audiences. Examinez et validez toutes les modifications initiées par MCP avant de vous y fier.
 
 ## Outils disponibles {#mcp-tools}
 
@@ -64,7 +63,7 @@ Les outils Customer Journey Analytics prennent en charge les workflows d’analy
 
 ## Exemples d’invites {#mcp-use-cases}
 
-| Objectif | Exemple d’invite |
+| Objectif | Exemple de prompt |
 | --- | --- |
 | Liste des vues de données | « Répertorier les vues de données disponibles dans Customer Journey Analytics. » |
 | Découvrir les composants | « Recherche de mesures liées au chiffre d’affaires dans la vue de données `[data view name]`. » |
@@ -84,12 +83,12 @@ Les autorisations de produit s’appliquent toujours. Votre compte doit être en
 
 **Vue d’ensemble**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486316/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **En action**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486327/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## Informations supplémentaires {#mcp-more}
 
-Pour consulter la référence complète de l’outil et le guide de prise en main, consultez la [documentation du MCP &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}.
+Pour consulter la référence complète de l’outil et le guide de prise en main, consultez la [documentation du MCP ](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}.

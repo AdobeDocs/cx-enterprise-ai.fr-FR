@@ -1,14 +1,13 @@
 ---
-title: Installation de la passerelle de collaboration Adobe CX
-description: Découvrez comment connecter des clients compatibles avec MCP à la passerelle Adobe CX Coworker.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+title: Installation de la passerelle CX Coworker Adobe
+description: Découvrez comment connecter des clients compatibles MCP à la passerelle Adobe CX Coworker.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
-# Installation de la passerelle de collaboration Adobe CX {#mcp-install}
+# Installation de la passerelle CX Coworker Adobe {#mcp-install}
 
 Lisez ce guide pour savoir comment connecter un client compatible MCP à la passerelle Adobe CX Coworker.  La passerelle CX Coworker utilise un point d’entrée pour tous les outils de produit documentés :
 
@@ -16,11 +15,11 @@ Lisez ce guide pour savoir comment connecter un client compatible MCP à la pass
 https://cx-coworker-gateway.adobe.io/mcp
 ```
 
-Avant l’installation, vérifiez que votre organisation et votre compte utilisateur peuvent accéder aux outils de produit dont vous avez besoin. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+Avant l’installation, vérifiez que votre organisation et votre compte utilisateur peuvent accéder aux outils de produit dont vous avez besoin. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 ## Fonctionnement de l’installation {#mcp-install-how}
 
-La passerelle CX Coworker utilise un transport HTTP à distance avec un flux de connexion Adobe basé sur un navigateur. Pour chaque client pris en charge, le modèle de configuration est le même :
+La passerelle CX Coworker utilise un transport HTTP distant avec un flux de connexion Adobe basé sur un navigateur. Pour chaque client pris en charge, le modèle de configuration est le même :
 
 1. Ajoutez l’URL du point d’entrée : `https://cx-coworker-gateway.adobe.io/mcp`.
 2. Enregistrez ou activez la connexion.
@@ -35,7 +34,7 @@ La passerelle CX Coworker utilise un transport HTTP à distance avec un flux de 
 
 La plupart des plans client MCP d’équipe et d’entreprise nécessitent qu’un administrateur ajoute des connecteurs personnalisés pour l’organisation. Dans ces environnements, l’installation se fait en deux étapes :
 
-1. Un administrateur ajoute le point d’entrée CX Coworker Gateway une fois pour l’organisation.
+1. Un administrateur ajoute le point d’entrée de la passerelle CX Coworker une fois pour l’organisation.
 2. Chaque utilisateur active le connecteur et se connecte avec ses propres informations d’identification Adobe.
 
 ### Étape 1 : un administrateur ajoute le point d’entrée {#mcp-install-enterprise-admin}
@@ -49,7 +48,7 @@ Dans [!DNL Claude] plans Équipe et Entreprise, les connecteurs au niveau de l�
 1. Connectez-vous à [!DNL Claude] en tant que **Propriétaire** ou **Propriétaire du Principal**.
 2. Accédez à **Paramètres** > **Administration** > **Connecteurs**. Sur certains plans, il s’affiche sous la forme **Paramètres de l’organisation** > **Connecteurs**.
 3. Sélectionnez **Ajouter un connecteur personnalisé**.
-4. Saisissez `https://cx-coworker-gateway.adobe.io/mcp` comme URL du serveur et utilisez un nom reconnaissable, tel que « Adobe for CX Coworker Gateway ».
+4. Saisissez `https://cx-coworker-gateway.adobe.io/mcp` comme URL du serveur et utilisez un nom reconnaissable, par exemple « Adobe for CX Coworker Gateway ».
 5. Enregistrez le connecteur.
 
 #### Équipe et entreprise ChatGPT {#mcp-install-enterprise-chatgpt}
@@ -64,14 +63,14 @@ Dans les espaces de travail [!DNL ChatGPT] Équipe et Entreprise, les connecteur
 
 #### Autres clients gérés par l&#39;organisation {#mcp-install-enterprise-other}
 
-Pour les autres clients qui prennent en charge les connecteurs distants gérés par l’entreprise, ajoutez la passerelle CX Coworker Gateway en tant que serveur HTTP MCP distant à l’aide de `https://cx-coworker-gateway.adobe.io/mcp`. Laissez les en-têtes facultatifs, les champs de jeton porteur, les champs d’ID client et les champs secrets client vides, sauf si votre client nécessite une valeur d’espace réservé.
+Pour les autres clients qui prennent en charge les connecteurs distants gérés par l’organisation, ajoutez la passerelle CX Coworker en tant que serveur HTTP MCP distant à l’aide de `https://cx-coworker-gateway.adobe.io/mcp`. Laissez les en-têtes facultatifs, les champs de jeton porteur, les champs d’ID client et les champs secrets client vides, sauf si votre client nécessite une valeur d’espace réservé.
 
 ### Étape 2 : les utilisateurs activent le connecteur {#mcp-install-enterprise-user}
 
-Lorsqu’un administrateur ajoute la passerelle de collaborateur CX, chaque utilisateur l’active pour son propre compte :
+Lorsqu’un administrateur ajoute la passerelle CX Coworker, chaque utilisateur l’active pour son propre compte :
 
 1. Ouvrez les paramètres du connecteur personnel, de l’application ou du MCP dans le client.
-2. Recherchez le connecteur de passerelle CX Coworker et activez-le.
+2. Recherchez et activez le connecteur de passerelle CX Coworker.
 3. Démarrez une conversation, appelez l’un des outils Adobe et terminez la connexion à Adobe à l’aide du navigateur lorsque vous y êtes invité.
 4. Définissez le contexte du produit pour la session si vos outils le demandent : organisation pour tous les produits, sandbox pour les outils basés sur Experience Platform et vue de données pour Customer Journey Analytics. Voir [Product Context pour les appels d’outils](#mcp-connect-params).
 
@@ -184,7 +183,7 @@ Pour les clients qui acceptent une configuration de serveur MCP basée sur JSON,
 
 ### Autres clients {#mcp-install-individual-other}
 
-Pour les autres clients de bureau ou web avec prise en charge de MCP à distance, ajoutez Adobe pour la passerelle de collaborateur CX en tant que serveur HTTP à distance à l’aide de `https://cx-coworker-gateway.adobe.io/mcp`. Laissez les en-têtes facultatifs, les champs de jeton porteur, les champs d’ID client et les champs secrets client vides, sauf si votre client nécessite une valeur d’espace réservé.
+Pour les autres clients de bureau ou web avec prise en charge de MCP à distance, ajoutez Adobe for CX Coworker Gateway en tant que serveur HTTP à distance à l’aide de `https://cx-coworker-gateway.adobe.io/mcp`. Laissez les en-têtes facultatifs, les champs de jeton porteur, les champs d’ID client et les champs secrets client vides, sauf si votre client nécessite une valeur d’espace réservé.
 
 ## Contexte de produit pour les appels d’outils {#mcp-connect-params}
 
@@ -195,7 +194,7 @@ Le MCP étend chaque appel d’outil à une organisation Adobe active. En outre,
 
 Définition du contexte une fois au début d’une session : les outils de produit individuels ne changent pas d’organisation, de sandbox ou de vues de données en milieu de session. Voir [Outils de contexte de session](context-tools.md) pour les outils qui définissent le contexte de l’organisation, du sandbox et de la vue de données.
 
-Exemple :
+Exemple:
 
 > « Utilisez des `1234ABCD@AdobeOrg` d’organisation, des `prod` de sandbox et des `My Company — Global` de vue de données pour cette session. »
 

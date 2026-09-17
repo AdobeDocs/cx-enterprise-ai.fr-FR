@@ -1,23 +1,22 @@
 ---
-title: Outils de contexte de session dans la passerelle de collègue CX
-description: Découvrez les outils principaux qui définissent le contexte de l’organisation, du sandbox et de la vue de données pour tous les appels à l’outil Passerelle des collaborateurs CX.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Outils de contexte de session dans la passerelle CX Coworker
+description: Découvrez les outils principaux qui définissent le contexte de l’organisation, du sandbox et de la vue de données pour tous les appels à l’outil Passerelle CX Coworker.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
+# Outils de contexte de session dans la passerelle CX Coworker Adobe {#mcp-core}
 
-# Outils de contexte de session dans la passerelle Adobe CX Coworker {#mcp-core}
-
-La passerelle de collègue Adobe CX comprend un ensemble d’outils de contexte de session qui établissent l’organisation Adobe, le sandbox Adobe Experience Platform et la vue de données Customer Journey Analytics dans laquelle opèrent tous les autres outils de produit. Aucune licence ou activation supplémentaire n’est requise ; ces outils sont disponibles pour chaque utilisateur authentifié après la connexion au serveur de passerelle [CX Coworker](overview.md).
+La passerelle CX Coworker Adobe comprend un ensemble d’outils de contexte de session qui définissent l’organisation Adobe, le sandbox Adobe Experience Platform et la vue de données Customer Journey Analytics dans laquelle tous les autres outils de produit fonctionnent. Aucune licence ou activation supplémentaire n&#39;est requise ; ces outils sont disponibles pour chaque utilisateur authentifié après la connexion au serveur de passerelle [](overview.md).
 
 ## Fonctionnement du contexte {#mcp-core-how}
 
-La passerelle de collaborateur CX définit la portée de chaque appel d’outil sur une organisation Adobe active. En outre, les exigences de contexte dépendent du produit :
+La passerelle CX Coworker couvre chaque appel d’outil auprès d’une organisation Adobe active. En outre, les exigences de contexte dépendent du produit :
 
 - **produits basés sur Experience Platform** — les outils [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) et [Journey Optimizer](ajo-mcp.md) fonctionnent dans un sandbox Experience Platform. Définissez le sandbox une fois par session avec `core-set_sandbox` ; les trois le partagent.
-- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [&#128279;](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
+- **Autres produits** — Les produits non créés sur Experience Platform n’utilisent pas le contexte sandbox. Par exemple, les outils [](cja-mcp.md) sont résolus par rapport à une vue de données et les outils [Adobe Analytics](analytics-mcp.md) sont résolus par rapport aux suites de rapports.
 
 Définition du contexte une fois au début d’une session : les outils de produit individuels ne changent pas d’organisation, de sandbox ou de vues de données en milieu de session.
 
@@ -52,7 +51,7 @@ Le client appelle les outils appropriés et confirme une fois le contexte défin
 
 ## Exemples d’invites {#mcp-core-examples}
 
-| Objectif | Exemple d’invite |
+| Objectif | Exemple de prompt |
 | --- | --- |
 | Découvrir les organisations disponibles | « À quelles organisations Adobe ai-je accès ? » |
 | Définir le contexte de l’organisation | « Basculer vers le `My Org (1234ABCD@AdobeOrg)` d’organisation. » |
@@ -64,5 +63,5 @@ Le client appelle les outils appropriés et confirme une fois le contexte défin
 
 ## Pages associées {#mcp-core-related}
 
-- [Installation de la passerelle Adobe CX Coworker](install.md) — Comment connecter votre client MCP, y compris la section de configuration du contexte du produit.
-- [Accéder aux outils de passerelle de collègue CX](access.md) — exigences d’accès par produit.
+- [Installation de la passerelle Adobe CX Coworker](install.md) — Découvrez comment connecter votre client MCP, y compris la section de configuration du contexte du produit.
+- [Accéder aux outils de la passerelle CX Coworker](access.md) — Conditions d’accès par produit.

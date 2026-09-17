@@ -1,20 +1,19 @@
 ---
-title: Outils Real-Time CDP dans la passerelle de collègue CX
+title: Outils Real-Time CDP dans la passerelle CX Coworker
 description: Découvrez comment connecter Adobe Real-Time CDP aux clients MCP à l’aide du serveur MCP.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 4%
-
 ---
-
 # Outils Real-Time CDP dans la passerelle CX Coworker {#rtcdp-mcp}
 
-Vous pouvez utiliser les outils de produit Real-Time CDP MCP pour inspecter les audiences, les destinations, les sources, les espaces de noms d’identité et l’intégrité de l’activation à partir d’un client compatible MCP. Ces outils sont disponibles via la passerelle [CX Coworker Gateway](overview.md) unifiée lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Real-Time CDP requises.
+Vous pouvez utiliser les outils de produit Real-Time CDP MCP pour inspecter les audiences, les destinations, les sources, les espaces de noms d’identité et l’intégrité de l’activation à partir d’un client compatible MCP. Ces outils sont disponibles via la passerelle unifiée [](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Real-Time CDP requises.
 
 >[!AVAILABILITY]
 >
->L’outil de produit Real-Time CDP se trouve dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+>L’outil de produit Real-Time CDP se trouve dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 ## Fonctionnalités principales {#mcp-capabilities}
 
@@ -54,7 +53,7 @@ Les outils Real-Time CDP fournissent une surface de surveillance et de triage en
 
 ## Exemples d’invites {#mcp-use-cases}
 
-| Objectif | Exemple d’invite |
+| Objectif | Exemple de prompt |
 | --- | --- |
 | Liste des audiences | « Répertorier mes audiences dans le sandbox `prod`. » |
 | Inspection d’une audience | « Afficher les détails et l’état du cycle de vie pour l’ID d’audience `abc123`. » |
