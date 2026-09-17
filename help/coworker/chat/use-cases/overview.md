@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
+source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
 workflow-type: tm+mt
-source-wordcount: '4802'
+source-wordcount: '4800'
 ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue{#use-cases}
@@ -149,7 +149,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
 | Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
 
-Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Fidélité
 
@@ -158,7 +158,7 @@ Pour plus d’informations sur les compétences CX Coworker pour parcours, consu
 | Créer, modifier et gérer des défis de fidélité | Simplifier et accélérer la gestion des programmes de fidélité | `loyalty` | Adobe Journey Optimizer (AJO) | « Créez un défi pour encourager vos membres à essayer une nouvelle boisson saisonnière » <br> « Montrez-moi les défis de fidélité avec les taux de décrochage les plus élevés. » |
 | Analyse des performances du programme de fidélité | Interrogez et analysez les points de fidélité, les niveaux de membre, les remboursements et les mesures de chiffre d’affaires en langage naturel | `loyalty-insights` | Adobe Journey Optimizer (AJO) | « Combien de points de fidélité ont été accordés en août 2026 ? » <br> « Affichez le chiffre d’affaires total du programme de fidélité ventilé par jour au cours du mois d’août 2026. » |
 
-Pour plus d’informations sur les compétences CX Coworker en matière de fidélité, consultez la [documentation sur la fidélité à Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker en matière de fidélité, consultez la [documentation sur la fidélité à Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimisation
 

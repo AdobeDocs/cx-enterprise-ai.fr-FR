@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 21%
+source-wordcount: '339'
+ht-degree: 20%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -25,22 +25,6 @@ ht-degree: 21%
   - [Transparence du contenu d’IA générative](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [À propos de Coworker](./coworker/overview.md)
-  - Campagnes {#campaigns}
-    - [Vue d’ensemble](./coworker/campaigns/overview.md)
-    - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
-    - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
-    - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
-    - Connecteurs {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
-    - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
-  - Personnalisations {#customizations}
-    - Compétences {#skills}
-      - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
-      - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Créer et exécuter une compétence de point de contrôle qualité](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Gestion et itération sur les compétences](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -51,6 +35,7 @@ ht-degree: 21%
         - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Audiences {#audiences}
         - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
@@ -66,6 +51,22 @@ ht-degree: 21%
       - Conseiller d’accès {#content-advisor}
         - [Générer des ressources marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Vérification de la conformité de la marque](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - Personnalisations {#customizations}
+    - Compétences {#skills}
+      - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
+      - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Créer et exécuter une compétence de point de contrôle qualité](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gestion et itération sur les compétences](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - Campagnes {#campaigns}
+    - [Vue d’ensemble](./coworker/campaigns/overview.md)
+    - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
+    - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
+    - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
+    - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
+    - Connecteurs {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
+    - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
 - Assistant IA {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
@@ -86,18 +87,18 @@ ht-degree: 21%
   - Ingénierie des données {#data-engineering}
     - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Passerelle CX Coworker Adobe](./mcp/overview.md)
+  - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
   - Commencer {#mcp-get-started}
-    - [Accès aux outils de la passerelle CX Coworker](./mcp/access.md)
-    - [Installation de la passerelle CX Coworker](./mcp/install.md)
-    - [Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
+    - {hide-from-toc}[Accéder aux outils de la passerelle CX Coworker](./mcp/access.md)
+    - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
+    - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
-    - [Outils Experience Platform](./mcp/aep-mcp.md)
-    - [Outils Journey Optimizer](./mcp/ajo-mcp.md)
-    - [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
-    - [Outils Adobe Analytics](./mcp/analytics-mcp.md)
+    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
 

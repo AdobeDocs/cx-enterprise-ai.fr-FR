@@ -1,13 +1,12 @@
 ---
-title: Outils Experience Platform dans la passerelle de collègue CX
+title: Outils Experience Platform dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Experience Platform disponibles via la passerelle CX Coworker.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
-
 
 # Outils Adobe Experience Platform dans la passerelle Adobe CX Coworker {#aep-mcp}
 
@@ -15,7 +14,7 @@ Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspec
 
 >[!AVAILABILITY]
 >
->L’outil de produit Experience Platform se trouve dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+>L’outil de produit Experience Platform se trouve dans Beta. L’accès se fait sur invitation uniquement et nécessite l’activation de l’organisation Adobe. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 ## Résumé
 
@@ -256,7 +255,7 @@ Récupérez les derniers résultats de l’évaluation du contrôle d’intégri
 
 >[!NOTE]
 >
->Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks). Des conseils de remédiation automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans le [chat des collègues CX](../coworker/chat/overview.md).
+>Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks). Des conseils de correction automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans la conversation [&#128279;](../coworker/chat/overview.md).
 
 **Fonctionnalités :** répertorier tous les résultats des contrôles d’intégrité pour le sandbox actuel et obtenir les résultats d’un contrôle nommé.
 

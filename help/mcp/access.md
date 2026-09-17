@@ -1,18 +1,19 @@
 ---
-title: Accéder aux outils de passerelle de collègue CX
-description: Vérifiez la disponibilité du produit, l’activation de l’organisation et les autorisations avant d’utiliser les outils Adobe CX Coworker Gateway.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+title: Accès aux outils de la passerelle CX Coworker
+description: Vérifiez la disponibilité du produit, l’activation de l’organisation et les autorisations avant d’utiliser les outils de la passerelle CX Coworker d’Adobe.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%
 ---
-# Accéder aux outils de passerelle de collaborateur CX {#mcp-access}
+# Accès aux outils de la passerelle CX Coworker {#mcp-access}
 
 Adobe CX Enterprise présente les outils de produit par le biais d’un MCP unique. L’accès est évalué par les outils de produit : votre organisation Adobe doit être activée pour les outils de produit appropriés, et votre compte utilisateur doit disposer des autorisations de produit requises pour afficher ou modifier les données de produit exposées par ces outils.
 
 >[!IMPORTANT]
 >
->Votre organisation Adobe doit être activée avant de pouvoir utiliser les outils de passerelle de collègue CX. Si votre organisation n’y a pas encore accès, contactez l’équipe chargée de votre compte Adobe pour demander l’activation de votre organisation.
+>Votre organisation Adobe doit être activée avant de pouvoir utiliser les outils de la passerelle CX Coworker. Si votre organisation n’y a pas encore accès, contactez l’équipe chargée de votre compte Adobe pour demander l’activation de votre organisation.
 
 ## Exigences d’accès {#mcp-requirements}
 
@@ -58,4 +59,4 @@ Avant de connecter votre client MCP, vérifiez les points suivants :
 - Vous avez accès à un client MCP pris en charge, tel que [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] ou [!DNL VS Code].
 - Pour l’installation d’entreprise, vous ou un collègue pouvez gérer les connecteurs ou les applications personnalisées dans les paramètres d’organisation de votre client MCP.
 
-Suite : [Installation de la passerelle Adobe CX Coworker](install.md).
+Suite : [Installation de la passerelle CX Coworker Adobe](install.md).

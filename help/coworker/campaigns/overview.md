@@ -1,28 +1,28 @@
 ---
-description: Découvrez les campagnes des collaborateurs d’entreprise d’Adobe CX, une application marketing native IA qui transforme une invite unique en campagne prête pour la révision.
+description: Découvrez les campagnes Adobe CX Enterprise Coworker, une application marketing native IA qui transforme une invite unique en campagne prête pour la révision.
 title: Présentation d’Adobe CX Enterprise Coworker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
-# Présentation des campagnes des collaborateurs d’entreprise d’Adobe CX {#overview}
+# Présentation des campagnes Adobe CX Enterprise Coworker {#overview}
 
 Les campagnes collaboratrices sont une application marketing native à l’IA qui vous fait passer d’une invite unique à une campagne complète prête pour la révision.
 
-Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne] (./). D’autres fonctionnalités seront bientôt disponibles.
+Actuellement, toutes les interactions avec l’IA vous dirigent vers [génération de campagne](/help/coworker/campaigns/create-an-email-campaign.md). D’autres fonctionnalités seront bientôt disponibles.
 
 ## Accès
 
 >[!NOTE]
 >
->Les campagnes des collaborateurs sont disponibles gratuitement jusqu’au 1er octobre 2026. Pendant la période d’évaluation, toutes les ressources et activités sont spécifiques à l’utilisateur.
+>Les campagnes des collaborateurs sont disponibles gratuitement jusqu’au 31 décembre 2026. Pendant la période d’évaluation, toutes les ressources et activités sont spécifiques à l’utilisateur.
 
 1. Accédez à coworker-campaigns.experience.adobe.com.
 
@@ -104,7 +104,7 @@ Les utilisateurs initiaux ont découvert quelques éléments qui font une réell
 
 Campagnes collaboratrices est un produit en développement actif. Voici ce qu’il faut savoir à ce sujet :
 
-- **Période d’essai** : jusqu’au 1er octobre 2026.
+- **Période d’essai** : du 31 décembre 2026 au plus tard.
 - **Acceptation requise** : vous devrez vérifier et accepter les conditions d’évaluation avant d’accéder au produit.
 - **Région** : l’essai gratuit n’est actuellement disponible que pour les utilisateurs d’Amérique du Nord.
 - **Audiences** : les audiences sont chargées au moyen d’un fichier CSV. Toutes les audiences sont spécifiques à leurs campagnes respectives (elles ne sont pas stockées ailleurs dans votre environnement pour le moment).

@@ -1,20 +1,19 @@
 ---
-title: Outils Adobe Analytics dans la passerelle de collègue CX
+title: Outils Adobe Analytics dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Analytics disponibles via la passerelle Adobe CX Coworker.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # Outils Adobe Analytics dans la passerelle Adobe CX Coworker {#aa-mcp}
 
-Vous pouvez utiliser les outils Adobe Analytics pour explorer les suites de rapports, découvrir les dimensions et les mesures, exécuter des rapports et gérer les composants d’analyse sélectionnés à partir d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle de collègue Adobe CX [unifiée](overview.md) lorsque votre compte dispose de la licence et des autorisations Adobe Analytics requises.
+Vous pouvez utiliser les outils Adobe Analytics pour explorer les suites de rapports, découvrir les dimensions et les mesures, exécuter des rapports et gérer les composants d’analyse sélectionnés à partir d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [unifiée](overview.md) lorsque votre compte dispose de la licence et des autorisations Adobe Analytics requises.
 
 >[!AVAILABILITY]
 >
->Les outils Analytics sont disponibles pour les clients disposant d’une licence Adobe Analytics. L’accès est contrôlé par l’autorisation **Accès MCP** dans Adobe Admin Console. Lisez les [outils Access CX Coworker Gateway](access.md) pour plus d’informations.
+>Les outils Analytics sont disponibles pour les clients disposant d’une licence Adobe Analytics. L’accès est contrôlé par l’autorisation **Accès MCP** dans Adobe Admin Console. Lisez le [Accéder aux outils de passerelle CX Coworker](access.md) pour plus d’informations.
 
 ## Fonctionnalités principales {#mcp-capabilities}
 
@@ -44,7 +43,7 @@ Pour obtenir la liste complète et actuelle des outils, consultez la référence
 
 ## Exemples d’invites {#mcp-use-cases}
 
-| Objectif | Exemple d’invite |
+| Objectif | Exemple de prompt |
 | --- | --- |
 | Découverte de suites de rapports | « Répertorier les suites de rapports auxquelles je peux accéder. » |
 | Rechercher des composants | « Rechercher des mesures liées au chiffre d’affaires. » |

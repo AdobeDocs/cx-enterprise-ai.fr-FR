@@ -1,12 +1,13 @@
 ---
 title: Présentation de la passerelle CX Coworker Adobe
 description: La passerelle Adobe CX Coworker est le MCP unifié d’Adobe CX Enterprise. Elle permet aux clients MCP de se connecter une seule fois aux outils de produits pris en charge.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
 ---
-# Passerelle de collègue Adobe CX {#mcp-overview}
+# Passerelle CX Coworker Adobe {#mcp-overview}
 
 La passerelle Adobe CX Coworker est le protocole MCP (Unified Model Context Protocol) pour Adobe CX Enterprise. Avec une seule connexion, les clients compatibles avec MCP peuvent accéder aux outils de produit Adobe que votre organisation et votre compte sont autorisés à utiliser.
 
@@ -47,7 +48,7 @@ Les outils de produit suivants sont documentés dans ce guide :
 
 >[!NOTE]
 >
->La disponibilité des outils dépend de vos licences de produit, de l’activation de l’organisation, des autorisations de produit et des informations d’identification Adobe utilisées pour l’authentification. Le MCP ne fait apparaître que les outils auxquels votre organisation et votre compte utilisateur ont droit d’accès. Voir [Accéder aux outils de passerelle de collègue CX](access.md).
+>La disponibilité des outils dépend de vos licences de produit, de l’activation de l’organisation, des autorisations de produit et des informations d’identification Adobe utilisées pour l’authentification. Le MCP ne fait apparaître que les outils auxquels votre organisation et votre compte utilisateur ont droit d’accès. Voir [Accès aux outils de la passerelle CX Coworker](access.md).
 
 
 
