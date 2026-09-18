@@ -3,18 +3,22 @@ description: 'Découvrez les campagnes des collaborateurs qui demandent des bonn
 title: Bonnes pratiques en matière de prompt
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 37%
-
+source-wordcount: '687'
+ht-degree: 27%
 ---
-
 # Bonnes pratiques en matière de promotion {#best-practices}
 
 Pour tirer le meilleur parti des campagnes Coworker, commencez par afficher l’invite suivante. Découvrez les pratiques qui produisent les meilleurs résultats : le cadre CO-STAR pour structurer vos invites, ce qu&#39;il faut inclure et ce qu&#39;il faut éviter, ainsi que des exemples basés sur des scénarios qui donnent à l&#39;IA le contexte dont elle a besoin pour générer du contenu pertinent et ciblé.
+
+>[!NOTE]
+>
+>Actuellement, vous pouvez uniquement vous connecter aux intégrations prises en charge par Campaign.  Si vous disposez déjà d&#39;applications d&#39;entreprise Adobe, dans lesquelles vous stockez des audiences ou créez des parcours, nous vous encourageons à utiliser [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) à la place.
 
 ## Utiliser le framework CO-STAR {#costar-framework}
 
@@ -56,9 +60,21 @@ Pour de meilleurs résultats, organisez vos invites à l&#39;aide du framework C
 </tbody>
 </table>
 
+### Contenu pris en charge dans les invites
+
+Utilisez l’**éditeur d’e-mail** ou **Adobe Express** pour apporter des modifications visuelles ou d’image. Les types de requêtes suivants sont pris en charge.
+
+- **Spécifiez la fréquence et la cadence de votre campagne** : « Créez une campagne par e-mail qui est envoyée chaque semaine... »
+
+- **Ciblez une audience spécifique à partir d’une liste plus longue** : « Créez une campagne uniquement pour les participants avec des chiens pour l’événement _Écorce dans le parc_ à partir de &#39;tous les participants.csv&#39; »
+
+- **Charger un fichier HTML** : « Utilisez mon fichier HTML joint comme base pour créer une campagne par e-mail. »
+
+- **Effectuer des modifications en cours de conversation** : « Faites passer de deux à trois le nombre de jours avant la fin de cette campagne. »
+
 ### Contenu non pris en charge dans les prompts
 
-Utilisez l’**éditeur d’e-mail** ou **Adobe Express** pour apporter des modifications visuelles ou d’image. Ces requêtes ne sont pas prises en charge et doivent être traitées par d’autres outils :
+Ces requêtes ne sont **pas** prises en charge et doivent être traitées par d’autres outils :
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -114,6 +130,10 @@ Avant de générer du contenu, vérifiez les points suivants :
 
 Fournissez toujours du contexte et la proposition de valeur afin que l’IA puisse générer du contenu pertinent.
 
+>[!NOTE]
+>
+>Bien que vous ne puissiez actuellement générer et lancer que des campagnes par e-mail, vous pouvez toujours demander à Coworker de générer une copie pour les médias sociaux, WhatsApp ou SMS.
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -124,19 +144,19 @@ Fournissez toujours du contexte et la proposition de valeur afin que l’IA puis
 <tbody>
 <tr>
 <td><strong>Technologie B2B</strong></td>
-<td>« Générez une campagne pour démontrer le retour sur investissement et les spécifications techniques tout en répondant aux préoccupations de sécurité des décideurs informatiques qui évaluent notre solution d’infrastructure cloud, en mettant l’accent sur la disponibilité de SLA à 99,9 %, la conformité au SOC 2 et les économies de coûts à 40 %. »</td>
+<td>« Générez une campagne par e-mail à quatre contacts pour démontrer le retour sur investissement et les spécifications techniques tout en répondant aux préoccupations de sécurité des décideurs informatiques qui évaluent notre solution d’infrastructure cloud, en mettant l’accent sur la disponibilité de SLA à 99,9 %, la conformité au SOC 2 et des économies de coûts à 40 %. »</td>
 </tr>
 <tr>
 <td><strong>Vente au détail - e-commerce</strong></td>
-<td>« Générez une campagne pour créer une urgence autour des articles de vacances en stock limité tout en soulignant la livraison gratuite et les retours faciles pour les acheteurs de dernière minute, en soulignant les quantités limitées (moins de 50 restantes) et la coupure de livraison de 24 heures. »</td>
+<td>« Générez une campagne à contact unique pour créer une urgence autour des articles de vacances en stock limité tout en mettant en évidence l’expédition gratuite et les retours faciles pour les acheteurs de dernière minute, en soulignant les quantités limitées (moins de 50 restantes) et la coupure d’expédition de 24 heures. »</td>
 </tr>
 <tr>
 <td><strong>Formation</strong></td>
-<td>« Générez une campagne qui met l'accent sur les résultats d'avancement professionnel et les certifications du secteur tout en mettant en valeur l'expertise des instructeurs, en soulignant le taux de placement de 92 % et le programme axé sur les projets. »</td>
+<td>« Générez une campagne en deux temps qui met l'accent sur les résultats d'avancement professionnel et les certifications du secteur tout en mettant en valeur l'expertise des instructeurs, en soulignant le taux de placement de 92 % et le programme axé sur le projet. »</td>
 </tr>
 <tr>
 <td><strong>Conseil</strong></td>
-<td>« Générez une campagne pour favoriser les perspectives d’entreprise en présentant trois témoignages de clients avec des mesures de retour sur investissement détaillées (IBM : réduction des coûts de 45 %, Accenture : augmentation de 200 % des prospects, Microsoft : économie de temps de 60 %), ciblant les directeurs informatiques des entreprises de plus de 1 000 employés. »</td>
+<td>« Générez une campagne en trois temps pour favoriser les perspectives d’entreprise en présentant trois témoignages de clients avec des mesures de retour sur investissement détaillées (IBM : réduction des coûts de 45 %, Accenture : augmentation de 200 % des prospects, Microsoft : économie de temps de 60 %), ciblant les directeurs informatiques des sociétés comptant plus de 1 000 employés. »</td>
 </tr>
 </tbody>
 </table>

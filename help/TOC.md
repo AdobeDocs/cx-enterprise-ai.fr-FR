@@ -6,7 +6,7 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 20%
@@ -60,7 +60,7 @@ ht-degree: 20%
   - Campagnes {#campaigns}
     - [Vue d’ensemble](./coworker/campaigns/overview.md)
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
-    - {hide-from-toc}[Lancer et gérer une campagne](./coworker/campaigns/launch-manage-campaign.md)
+    - [Lancement et gestion d’une campagne](./coworker/campaigns/launch-manage-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
     - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
@@ -86,7 +86,7 @@ ht-degree: 20%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -95,11 +95,11 @@ ht-degree: 20%
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

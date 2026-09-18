@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment lancer une campagne, planifier son envoi immédiat, unique ou récurrent, et arrêter définitivement une campagne active qui est activement envoyée.
+description: Découvrez comment lancer une campagne, planifier son lancement et sa fréquence, et arrêter définitivement une campagne active qui est activement envoyée.
 title: Lancement et gestion d’une campagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '610'
 ht-degree: 2%
 ---
 # Lancement et gestion d’une campagne {#launch-campaign}
@@ -24,23 +24,15 @@ Une fois votre campagne créée, apprenez à la lancer, à planifier son lanceme
 
 1. Dans la campagne terminée, cliquez sur **Vérifier et lancer**.
 
-   CAPTURE D’ÉCRAN
-
    >[!NOTE]
    >
    >S’il manque des éléments, une boîte de dialogue s’affiche, répertoriant les éléments à compléter. Apportez les correctifs nécessaires et sélectionnez à nouveau **Vérifier et lancer**.
 
 1. Une fois que la campagne a passé le contrôle de préparation, la boîte de dialogue de lancement s’ouvre, affichant un aperçu de l’e-mail et de l’audience.
 
-   CAPTURE D’ÉCRAN
-
 1. Examinez le planning affiché dans la boîte de dialogue. Pour le modifier, utilisez les options de planning décrites dans [Planifier au lancement d’une campagne](#schedule-when-a-campaign-launches) puis cliquez sur **Enregistrer**.
 
-   CAPTURE D’ÉCRAN
-
 1. Cliquez sur **Lancer la campagne** lorsque vous avez terminé.
-
-   CAPTURE D’ÉCRAN
 
 >[!NOTE]
 >
@@ -60,18 +52,12 @@ La campagne doit être prête à être lancée (toute configuration requise est 
 
 1. Dans la campagne, cliquez sur **Vérifier et lancer**.
 
-   CAPTURE D’ÉCRAN
-
 1. Dans la boîte de dialogue de lancement, choisissez une option de planification :
-   - **Maintenant** — la campagne commence à envoyer immédiatement après le lancement.
-   - **Planifier une fois** — choisissez une future **Date de début** (date et heure confondues).
-   - **Récurrent** — choisissez une **Fréquence** (Quotidienne, Hebdomadaire ou Mensuelle) et une heure de début, puis définissez la périodicité (voir les champs ci-dessous).
-
-   CAPTURE D’ÉCRAN
+   - **Maintenant** : la campagne commence à envoyer immédiatement après le lancement.
+   - **Planifier une fois** : sélectionnez une date ultérieure **Date de début** (date et heure confondues).
+   - **Récurrent** : choisissez une **Fréquence** (Quotidienne, Hebdomadaire ou Mensuelle) et une heure de début, puis définissez le modèle de périodicité (voir les champs ci-dessous).
 
 1. Si Récurrent est sélectionné, choisissez si la campagne se termine **Jamais** ou **À une date**, puis choisissez une date de fin, le cas échéant.
-
-   CAPTURE D’ÉCRAN
 
 1. Confirmez pour lancer la campagne avec le planning sélectionné.
 
@@ -79,15 +65,9 @@ La campagne doit être prête à être lancée (toute configuration requise est 
 
 1. Ouvrez la campagne et accédez à ses paramètres.
 
-   CAPTURE D’ÉCRAN
-
 1. Recherchez la section Planning et sélectionnez la synthèse du planning actuel.
 
-   CAPTURE D’ÉCRAN
-
 1. Mettez à jour le planning à l’aide des mêmes options que celles décrites ci-dessus.
-
-   CAPTURE D’ÉCRAN
 
 1. Enregistrez la modification.
 
@@ -116,24 +96,18 @@ Vous pouvez arrêter une campagne qui envoie activement (une campagne « active 
 >
 >L’arrêt d’une campagne est permanent. Les destinataires cessent immédiatement de progresser dans la campagne et la campagne ne peut pas reprendre ni redémarrer par la suite. Pour envoyer à nouveau, vous devez créer une campagne et la lancer.
 
-### Conditions préalables
+<!--
 
-- [ENTRÉES NÉCESSAIRES — à confirmer auprès de l’ingénieur : l’arrêt d’une campagne nécessite-t-il un rôle ou une autorisation spécifique, ou un utilisateur disposant d’un accès à la campagne peut-il le faire ?]
+### Prerequisites
+
+- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+
+-->
 
 ### Comment arrêter une campagne
 
 1. Ouvrez une campagne actuellement active.
 
-   CAPTURE D’ÉCRAN
-
 1. Dans l’en-tête des détails de la campagne, cliquez sur **Arrêter la campagne**.
 
-   CAPTURE D’ÉCRAN
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur VIDE.
-
-   CAPTURE D’ÉCRAN
-
 1. Cliquez sur **Arrêter** pour confirmer.
-
-   CAPTURE D’ÉCRAN
