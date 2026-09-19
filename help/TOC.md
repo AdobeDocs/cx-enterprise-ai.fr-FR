@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 20%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 20%
   - Campagnes {#campaigns}
     - [Vue d’ensemble](./coworker/campaigns/overview.md)
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
+    - [Lancement et gestion d’une campagne](./coworker/campaigns/launch-manage-campaign.md)
     - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
     - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
     - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
