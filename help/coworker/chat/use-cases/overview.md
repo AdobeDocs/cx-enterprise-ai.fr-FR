@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue{#use-cases}
@@ -24,7 +24,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 >
 >Tous les clients éligibles auront accès aux fonctionnalités de l’agence Adobe Experience Manager dans Coworker, de manière progressive.
 >
->Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Expérience de marque
 
@@ -43,9 +43,9 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Développement
 
@@ -58,7 +58,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Intégration
 
@@ -71,7 +71,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Conseiller d’accès
 
@@ -86,7 +86,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimisation du contenu
 
@@ -98,7 +98,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gouvernance de marque
 
@@ -110,7 +110,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informations sur les données
 
@@ -149,7 +149,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
 | Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
 
-Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Programmes marketing
 
@@ -164,7 +164,7 @@ Pour plus d’informations sur les compétences CX Coworker pour parcours, consu
 | Créer, modifier et gérer des défis de fidélité | Simplifier et accélérer la gestion des programmes de fidélité | `loyalty` | Adobe Journey Optimizer (AJO) | « Créez un défi pour encourager vos membres à essayer une nouvelle boisson saisonnière » <br> « Montrez-moi les défis de fidélité avec les taux de décrochage les plus élevés. » |
 | Analyse des performances du programme de fidélité | Interrogez et analysez les points de fidélité, les niveaux de membre, les remboursements et les mesures de chiffre d’affaires en langage naturel | `loyalty-insights` | Adobe Journey Optimizer (AJO) | « Combien de points de fidélité ont été accordés en août 2026 ? » <br> « Affichez le chiffre d’affaires total du programme de fidélité ventilé par jour au cours du mois d’août 2026. » |
 
-Pour plus d’informations sur les compétences CX Coworker en matière de fidélité, consultez la [documentation sur la fidélité à Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker en matière de fidélité, consultez la [documentation sur la fidélité à Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimisation
 
@@ -214,8 +214,15 @@ Utilisez le Module de conversation des collègues pour parcourir, analyser et pl
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » en une audience réelle » <br> « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » <br> « Supprimer ma compétence de rapport hebdomadaire » <br> « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » <br> « Mon sandbox actuel a-t-il dépassé les limites de capacité la semaine dernière ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » <br> « Correction des noms de politiques de fusion en double » <br> « Correction des schémas sans le groupe de champs d’audit » <br> « Correction de la dénomination des politiques de fusion par défaut » |
+
+## Gestion des données
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| [Rechercher des données qui méritent d’être optimisées ou nettoyées](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Déterminez si vos données d’événement d’expérience peuvent être optimisées en faisant apparaître vos jeux de données les plus volumineux, les moins utilisés ou oubliés comme candidats au nettoyage ou à une politique de conservation du lac de données | `List datasets` | Adobe Experience Platform | « J’ai le sentiment que mes données peuvent être optimisées » <br> « M’aider à comprendre la valeur de mes données » <br> « Optimiser mes données de sandbox » <br> « Nettoyer mes jeux de données sandbox » |
+| [Étude de l’utilisation et gestion de la conservation d’un jeu de données](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Une fois que vous avez trouvé un jeu de données qui mérite d’être examiné de plus près, découvrez dans quelle mesure il est utilisé, modélisez l’impact d’une politique potentielle de rétention du lac de données et définissez, modifiez ou supprimez cette politique lorsque vous êtes prêt, avec votre examen et votre approbation avant toute modification | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | « Dans quelle mesure mon jeu de données d’événements web est-il utilisé ? » <br> « Quel serait l’impact si je définissais une période de conservation de 60 jours sur ce jeu de données ? » |
 
 ## Outil Sandbox
 
