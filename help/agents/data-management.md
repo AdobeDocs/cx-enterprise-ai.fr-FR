@@ -62,7 +62,7 @@ Interagissez avec l’agent de gestion des données via CX Coworker à l’aide 
 
 Pour utiliser l’agent de gestion des données :
 
-1. Accédez à ****. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Accédez à **&#x200B;**. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Saisissez une demande qui décrit ce que vous souhaitez accomplir.
 1. Passez en revue les résultats et utilisez les questions de suivi pour poursuivre votre enquête.
 
@@ -80,6 +80,6 @@ L’agent de gestion des données peut identifier les jeux de données qui peuve
 
 ## Étapes suivantes {#next-steps}
 
-Pour obtenir des conseils sur l’utilisation de chaque compétence pour rechercher, analyser et gérer la rétention du lac de données sur vos jeux de données d’événements d’expérience, voir [ Gérer la rétention du lac de données ](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Pour obtenir des conseils sur l’utilisation de chaque compétence pour rechercher, analyser et gérer la rétention du lac de données sur vos jeux de données d’événements d’expérience, voir [&#x200B; Gérer la rétention du lac de données &#x200B;](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
 Pour plus d’informations sur le fonctionnement des politiques de rétention du lac de données dans Adobe Experience Platform, notamment le comportement et la configuration de la rétention, consultez le guide [Conservation des jeux de données d’événements d’expérience (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
