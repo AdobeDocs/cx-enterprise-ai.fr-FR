@@ -33,14 +33,14 @@ Data Management Agent offre quatre compétences.
 
 Utilisez l’agent de gestion des données lorsque vous devez rechercher et analyser des jeux de données d’événements d’expérience et définir, modifier ou supprimer une politique de conservation du lac de données.
 
-Si vous ne savez pas si une politique de conservation du lac de données est la bonne option pour votre objectif, consultez [Choisir la fonctionnalité de gestion du cycle de vie des données appropriée](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability) pour comparer les options de conservation et de suppression disponibles.
+Si vous ne savez pas si une politique de conservation du lac de données est la bonne option pour votre objectif, consultez [Choisir la fonctionnalité de gestion du cycle de vie des données appropriée](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/choose-a-capability) pour comparer les options de conservation et de suppression disponibles.
 
 Ces compétences ne gèrent pas les fonctionnalités associées suivantes :
 
 - **Politique de rétention du magasin de profils.** Pour gérer la durée pendant laquelle les événements d’expérience restent dans la banque de profils, configurez une politique d’expiration d’événement d’expérience sur les jeux de données d’événements d’expérience activés pour le profil. Voir [Expiration d’un événement d’expérience](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/event-expirations).
 - **Expiration des données de profil pseudonymes à l’échelle du sandbox.** Pour supprimer automatiquement les données de profil pseudonymes dans un sandbox une fois qu’elles remplissent les conditions configurées, consultez la section [Profils pseudonymes](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/pseudonymous-profiles).
-- **Expiration du jeu de données.** Pour planifier la suppression d’un jeu de données complet à une date ultérieure, voir [Expiration du jeu de données](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
-- **Suppression d’enregistrement.** Pour supprimer des enregistrements de profil individuels pour des raisons de confidentialité ou d’hygiène, voir [Suppression d’enregistrements](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
+- **Expiration du jeu de données.** Pour planifier la suppression d’un jeu de données complet à une date ultérieure, voir [Expiration du jeu de données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
+- **Suppression d’enregistrement.** Pour supprimer des enregistrements de profil individuels pour des raisons de confidentialité ou d’hygiène, voir [Suppression d’enregistrements](https://experienceleague.adobe.com/fr/docs/experience-platform/data-lifecycle/ui/record-delete).
 
 ## Conditions préalables {#prerequisites}
 
@@ -50,7 +50,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - Les autorisations Adobe Experience Platform requises pour les jeux de données et les actions de conservation que vous souhaitez utiliser. L’agent de gestion des données utilise vos autorisations Experience Platform existantes et n’accorde pas d’accès supplémentaire. Consultez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) pour en savoir plus sur le fonctionnement des autorisations et des rôles Adobe Experience Platform.
 - Plug-in Adobe CXO installé dans CX Coworker.
 
-Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Utilisation de l’agent Data Management {#use-the-data-management-agent}
 
@@ -62,7 +62,7 @@ Interagissez avec l’agent de gestion des données via CX Coworker à l’aide 
 
 Pour utiliser l’agent de gestion des données :
 
-1. Accédez à **&#x200B;**. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Accédez à **&#x200B;**. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Saisissez une demande qui décrit ce que vous souhaitez accomplir.
 1. Passez en revue les résultats et utilisez les questions de suivi pour poursuivre votre enquête.
 
@@ -82,4 +82,4 @@ L’agent de gestion des données peut identifier les jeux de données qui peuve
 
 Pour obtenir des conseils sur l’utilisation de chaque compétence pour rechercher, analyser et gérer la rétention du lac de données sur vos jeux de données d’événements d’expérience, voir [&#x200B; Gérer la rétention du lac de données &#x200B;](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
-Pour plus d’informations sur le fonctionnement des politiques de rétention du lac de données dans Adobe Experience Platform, notamment le comportement et la configuration de la rétention, consultez le guide [Conservation des jeux de données d’événements d’expérience (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
+Pour plus d’informations sur le fonctionnement des politiques de rétention du lac de données dans Adobe Experience Platform, notamment le comportement et la configuration de la rétention, consultez le guide [Conservation des jeux de données d’événements d’expérience (TTL)](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
