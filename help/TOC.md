@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 20%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 20%
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - Data Management {#data-management}
+        - [Gestion de la rétention du lac de données](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
         - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Parcours {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 20%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Agent Audience](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Agent de gestion des données](./agents/data-management.md)
   - [Agent d’expérience](./agents/agent-experiment.md)
   - [Agent de découverte de champ](./agents/field-discovery-agent.md)
   - [Agent Journey](./agents/ajo-agent.md)
