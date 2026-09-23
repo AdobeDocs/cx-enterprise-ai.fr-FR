@@ -8,12 +8,12 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
 ---
-# Valider des données Customer Journey Analytics à l’aide de la compétence Validation des données dans [!DNL Coworker]
+# Validez les données Customer Journey Analytics avec les compétences en validation de données dans [!DNL Coworker]
 
 La qualité des données est la base de rapports précis dans Adobe Customer Journey Analytics (CJA). Avant de créer des mesures, des tableaux de bord, des segments ou des parcours client, il est essentiel de déterminer si les données Adobe Experience Platform sous-jacentes (AEP) sont dignes de confiance.
 
@@ -110,3 +110,4 @@ La validation des jeux de données avant la création de rapports aide les équi
 - Résolution plus efficace des problèmes liés aux mesures inattendues
 
 Avec Coworker, ces vérifications peuvent être lancées à l’aide d’invites de langage naturel, ce qui rend la validation des données plus accessible aux utilisateurs et utilisatrices techniques et non techniques.
+
