@@ -150,7 +150,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
 | Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
 
-Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Programmes marketing
 
