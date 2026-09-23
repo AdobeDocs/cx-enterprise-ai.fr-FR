@@ -1,13 +1,11 @@
 ---
 title: Valider vos données dans l’assistant AI
 description: Découvrez comment utiliser la validation des données optimisée par Agent Orchestrator dans l’assistant AI pour effectuer des validations statistiques et sémantiques sur vos jeux de données.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # Valider vos données dans l’assistant d’IA
 
 Vous pouvez utiliser l’assistant AI pour valider la qualité des données de vos jeux de données Adobe Experience Platform. Optimisée par Agent Orchestrator, la fonctionnalité de validation des données peut effectuer des validations statistiques et sémantiques sur les jeux de données, analyser les champs des jeux de données, identifier les problèmes de qualité des données et renvoyer des résumés en langage naturel avec des informations exploitables. Les ingénieurs de données, les analystes et les gestionnaires de données peuvent utiliser cette fonctionnalité par le biais de l’assistant AI pour exécuter des évaluations rapides de la qualité des données sans écrire de requêtes SQL ou parcourir des hiérarchies de schémas complexes.
@@ -23,6 +21,10 @@ Lisez cette documentation pour savoir comment valider vos données dans l’assi
 >[!NOTE]
 >
 >L’assistant AI est l’interface de conversation de ce workflow. Agent Orchestrator effectue le raisonnement et coordonne les étapes de validation en arrière-plan.
+
+>[!NOTE]
+>
+>La validation des données est également disponible en tant que compétence Collègue. Voir [Valider vos données Experience Platform avec un collègue](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
 
 ## Cas d’utilisation
 
