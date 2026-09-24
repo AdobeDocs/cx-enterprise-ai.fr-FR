@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 20%
+source-wordcount: '373'
+ht-degree: 19%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 20%
   - [Tableau de bord de surveillance de l’IA dédiée aux agences](./overview/monitoring.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparence du contenu d’IA générative](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [À propos de Coworker](./coworker/overview.md)
+- Guide de CX Enterprise Coworker {#coworker}
+  - [Présentation des collègues](./coworker/overview.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -77,12 +77,12 @@ ht-degree: 20%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
-- Assistant IA {#ai-assistant}
+- Guide de l’assistant AI {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
   - [Confidentialité](./ai-assistant/privacy.md)
   - [Clause de non-responsabilité](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- IA dédiée à l’agent {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Agent Audience](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
@@ -96,7 +96,7 @@ ht-degree: 20%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -105,10 +105,10 @@ ht-degree: 20%
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
