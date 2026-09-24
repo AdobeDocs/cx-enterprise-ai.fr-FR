@@ -151,7 +151,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
 | Comparaison de versions de parcours | Comparez deux versions de parcours et passez en revue une comparaison structurée des modifications des propriétés au niveau du nœud, de la connexion et du parcours | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | « Comparez les versions 2 et 3 de mon parcours de bienvenue » <br> « Qu’est-ce qui a changé entre ces deux versions de parcours ? » |
 
-Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Programmes marketing
 

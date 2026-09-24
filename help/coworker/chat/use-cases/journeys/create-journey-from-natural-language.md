@@ -30,5 +30,5 @@ En automatisant le processus de configuration initial, les équipes peuvent pass
 
 ## Voir également
 
-- [](../../../../agents/ajo-agent.md#journey-create), la fonctionnalité d’IA sous-jacente qui alimente la création de parcours dans le chat des collègues.
+- [&#128279;](../../../../agents/ajo-agent.md#journey-create), la fonctionnalité d’IA sous-jacente qui alimente la création de parcours dans le chat des collègues.
 - [Plus de cas d’utilisation de la conversation avec un collègue](../overview.md#journeys)
