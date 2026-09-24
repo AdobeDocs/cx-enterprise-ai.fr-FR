@@ -111,5 +111,5 @@ ht-degree: 19%
     - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
     - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
