@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '370'
 ht-degree: 20%
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 20%
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validation des données Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - Data Management {#data-management}
         - [Gestion de la rétention du lac de données](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
@@ -111,4 +112,3 @@ ht-degree: 20%
     - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
-
