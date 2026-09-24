@@ -1,6 +1,6 @@
 ---
 title: Target et ses collaborateurs - Analyser, diagnostiquer et lancer des activités Adobe Target
-description: Découvrez la valeur apportée par CX Enterprise Coworker à votre programme d’optimisation.
+description: Découvrez comment Coworker apporte l’IA dédiée aux agences à Adobe Target, ce qui vous permet d’analyser les performances, de diagnostiquer les problèmes et de lancer des activités pour votre programme d’optimisation.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate, Experienced
@@ -15,9 +15,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 0%
 ---
 

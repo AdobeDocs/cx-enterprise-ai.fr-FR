@@ -1,6 +1,6 @@
 ---
 title: Vérification de la marque du collègue
-description: Découvrez comment Coworker s’assure que votre contenu reste sur la marque avec des vérifications automatisées dans vos workflows marketing.
+description: Découvrez comment vérifier la conformité du contenu avec la marque grâce au Module de conversation des collègues, à l’aide de contrôles automatisés intégrés à vos workflows marketing.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Vérifier le contenu pour la conformité de la marque avec le Chat des collègues
 
@@ -28,4 +28,4 @@ Par exemple, un collègue peut passer en revue le contenu généré automatiquem
 
 Coworker n’identifie pas seulement les problèmes ; il propose des suggestions exploitables. Par exemple, si une légende est trop générique ou ne comporte pas de call to action, elle fournit une version révisée conforme aux normes de votre marque, avec les balises appropriées. Ce processus simplifie la création de contenu et garantit la conformité de la marque avec un effort minimal.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502704/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)

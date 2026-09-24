@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics et collègues - Analyse des causes premières
-description: Découvrez comment Coworker répond aux questions d’analyse en langage naturel, visualise les tendances, découvre des modèles et effectue une analyse des causes profondes sans requêtes manuelles.
+description: Découvrez comment explorer les tendances et les causes profondes dans vos données Analytics à l’aide du langage naturel et de Coworker, sans écrire de requêtes manuelles.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics et collègues - explorez les tendances et les causes profondes avec le langage naturel
 
@@ -26,4 +26,4 @@ Comprendre pourquoi les mesures changent nécessite souvent de parcourir plusieu
  
 En utilisant le langage naturel, les analystes et les spécialistes du marketing peuvent poser des questions sur leurs données, recevoir des résultats visualisés, identifier des tendances significatives et découvrir les facteurs de performance, le tout dans une seule conversation.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496853/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
