@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
 workflow-type: tm+mt
-source-wordcount: '5301'
-ht-degree: 5%
+source-wordcount: '5341'
+ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue{#use-cases}
 
@@ -149,6 +149,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Analyse des abandons de parcours | Identifiez où et pourquoi les clients abandonnent au cours d’un parcours et détectez les comportements générateurs de désengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | « Où sont les gens qui décrochent dans mon parcours de réengagement ? » <br> « Quels nœuds du parcours X ont la plus forte incidence ? » |
 | Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
 | Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
+| Comparaison de versions de parcours | Comparez deux versions de parcours et passez en revue une comparaison structurée des modifications des propriétés au niveau du nœud, de la connexion et du parcours | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | « Comparez les versions 2 et 3 de mon parcours de bienvenue » <br> « Qu’est-ce qui a changé entre ces deux versions de parcours ? » |
 
 Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
