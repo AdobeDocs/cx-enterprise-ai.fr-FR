@@ -30,4 +30,4 @@ Dans cette vidéo, Coworker ajoute une nouvelle promotion à la page d’accueil
 >
 >Cette vidéo montre la création d’une page par un collègue sur un site basé sur l’éditeur de page. Coworker fonctionne de la même manière sur les sites diffusés avec Edge Delivery Services.
 
-Consultez [Présentation du Chat des collègues](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) pour commencer à utiliser le Chat des collègues.
+Consultez [Présentation du Chat des collègues](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) pour commencer à utiliser le Chat des collègues.
