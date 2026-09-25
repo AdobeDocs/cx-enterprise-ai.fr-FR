@@ -13,16 +13,14 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 93cccf40d67507df59e07ed016253dbf1d6b3b2e
+source-git-commit: a599e1533e586b256ffc4d3253b51e3c3fafabce
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '103'
 ht-degree: 0%
 ---
 # Créer des pages AEM Sites avec des collègues
 
-Utilisez [Coworker](./overview.md), l’IA conversationnelle d’Adobe, pour créer des pages AEM Sites en décrivant ce que vous souhaitez en langage clair au lieu de cliquer dans l’éditeur de page.
-
-Dans cette vidéo, Coworker ajoute une nouvelle promotion à la page d’accueil WKND, créée à partir d’un fragment de contenu visuel, à l’aide d’une invite de conversation.
+Utilisez Adobe CX Enterprise Coworker pour créer des pages AEM Sites en décrivant ce que vous souhaitez en langage clair. Dans cette vidéo, Coworker ajoute une nouvelle promotion à la page d’accueil WKND, créée à partir d’un fragment de contenu visuel, à l’aide d’une invite de conversation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
@@ -30,4 +28,3 @@ Dans cette vidéo, Coworker ajoute une nouvelle promotion à la page d’accueil
 >
 >Cette vidéo montre la création d’une page par un collègue sur un site basé sur l’éditeur de page. Coworker fonctionne de la même manière sur les sites diffusés avec Edge Delivery Services.
 
-Consultez [Présentation du Chat des collègues](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) pour commencer à utiliser le Chat des collègues.
