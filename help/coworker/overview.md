@@ -1,18 +1,18 @@
 ---
 title: À propos d’Adobe CX Enterprise Coworker
-description: Découvrez comment booster votre marketing avec Adobe CX Enterprise Coworker.
+description: Découvrez Adobe CX Enterprise Coworker, un coéquipier optimisé par l’IA qui automatise l’expérience client et les workflows marketing à l’échelle de votre organisation.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 14da4b0adb24ef6ebea3ebcd0a88ac7856b35a1c
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 20%
+source-wordcount: '499'
+ht-degree: 18%
 ---
-# À propos d’Adobe CX Enterprise Coworker
+# Présentation de CX Enterprise Coworker {#overview}
 
 Coworker est un coéquipier optimisé par l’IA qui réimagine la nature du travail pour les organisations, les équipes et les individus. Coworker automatise élégamment l’expérience client et les workflows marketing afin que les entreprises puissent se concentrer sur la réalisation de leurs objectifs commerciaux et la transformation des résultats, plutôt que sur la coordination des tâches. En tant que moteur d&#39;agence, Coworker adopte une nouvelle approche innovante pour automatiser les processus d&#39;entreprise. Il améliore les performances et la précision des modèles d’IA en associant les données, l’intelligence artificielle, la collaboration et l’exécution des compétences de l’agence au contexte de l’entreprise, à la gouvernance et à la supervision humaine intégrés.
 
@@ -84,15 +84,17 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-**Dans ce guide**
+## Personnalisations
 
-* [Vue d’ensemble](./chat/overview.md)
-* [Cas d’utilisation](./chat/use-cases/overview.md)
-* [Guide de l’interface utilisateur du](./chat/ui-guide.md)
+Les personnalisations vous permettent d’étendre et de personnaliser les compétences, les intégrations, les modules externes et la mémoire de vos collaborateurs.
 
-## Projets (bientôt disponibles)
-
-La console Projets de collègue est un espace de travail unifié permettant d’automatiser les workflows d’orchestration de l’expérience client de bout en bout. Elle aide les équipes à coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion.
+* [Que sont les compétences ?](./customizations/skills/what-are-skills.md)
+* [Créer votre première compétence](./customizations/skills/create-your-first-skill.md)
+* [Créer et exécuter une compétence de point de contrôle qualité](./customizations/skills/run-a-quality-gate-skill.md)
+* [Gestion et itération sur les compétences](./customizations/skills/manage-and-iterate-on-skills.md)
+* [Que sont les intégrations ?](./customizations/integrations/understanding-integrations-in-coworker.md)
+* [Que sont les plug-ins ?](./customizations/plugins/what-are-plugins.md)
+* [Qu&#39;est-ce que la mémoire ?](./customizations/memory/what-is-memory.md)
 
 ## Campagnes
 
@@ -104,3 +106,7 @@ Campagnes collaboratrices est une fonctionnalité modélisée pour que les petit
 * [Bonnes pratiques en matière de promotion](./campaigns/prompting-best-practices.md)
 * [Connexion à Marketo Engage](./campaigns/connectors/marketo.md)
 * [Se connecter à Hubspot](./campaigns/connectors/hubspot.md)
+
+## Projets (bientôt disponibles)
+
+La console Projets de collègue est un espace de travail unifié permettant d’automatiser les workflows d’orchestration de l’expérience client de bout en bout. Elle aide les équipes à coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion.

@@ -1,23 +1,21 @@
 ---
 title: Compétences en alertes client
-description: Découvrez comment utiliser les compétences en matière d’alertes client dans CX Coworker pour examiner les alertes, analyser l’activité des alertes, gérer les abonnements et hiérarchiser les problèmes opérationnels grâce à des conversations en langage naturel.
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: Découvrez comment utiliser les compétences en alertes client dans CX Coworker pour examiner, analyser et classer par priorité les activités d’alerte au moyen de conversations en langage naturel.
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
 
-
-# Compétences en alertes client
+# Compétences en alerte client
 
 >[!AVAILABILITY]
 >
-> Les compétences en alertes clients sont disponibles pour tous les clients ayant accès à Adobe CX Enterprise Coworker.
+> Les compétences en matière d’alertes clients sont disponibles pour tous les clients ayant accès à Adobe CX Enterprise Coworker.
 >
 > Pour utiliser les compétences en matière d’alertes clients, vous devez avoir accès aux alertes Adobe Experience Platform et aux ressources associées à ces alertes.
 
-Utilisez les compétences en alerte client de CX Coworker pour transformer l’activité d’alerte en un briefing opérationnel personnalisé. Passez en revue les alertes récentes, identifiez les problèmes hautement prioritaires, comprenez quelles ressources sont affectées et concentrez les efforts d&#39;enquête grâce à des conversations en langage naturel.
+Utilisez les compétences en alertes client dans CX Coworker pour transformer l’activité d’alerte en un briefing opérationnel personnalisé. Passez en revue les alertes récentes, identifiez les problèmes hautement prioritaires, comprenez quelles ressources sont affectées et concentrez les efforts d&#39;enquête grâce à des conversations en langage naturel.
 
 Les compétences en alertes clients vous permettent de passer des signaux d’alerte aux informations exploitables sans passer manuellement en revue les vues d’alerte ou mettre en corrélation les informations sur plusieurs interfaces. Commencez par une question générale sur l’activité d’alerte récente, puis utilisez les questions de suivi pour identifier les modèles d’alerte récurrents, analyser les objets affectés et vous concentrer sur les alertes que vous possédez.
 
@@ -29,17 +27,17 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 
 - Accès à Adobe Experience Platform.
 - Autorisation d’afficher les alertes pertinentes pour votre organisation.
-- Plug-in CXO Adobe installé dans CX Coworker.
+- Plug-in Adobe CXO installé dans CX Coworker.
 
 Pour obtenir des instructions sur l’installation de modules externes, voir https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Utilisation des compétences en alertes client {#use-customer-alert-skills}
 
-Interagissez avec les compétences en alerte client via un collègue CX à l’aide de requêtes en langage naturel. Posez des questions sur l’activité d’alerte, les abonnements, les tendances d’alerte ou les objets affectés. Poursuivez la conversation avec des questions de suivi pour affiner les résultats et concentrer votre analyse.
+Interagissez avec les compétences en alertes client via CX Coworker à l’aide de requêtes en langage naturel. Posez des questions sur l’activité d’alerte, les abonnements, les tendances d’alerte ou les objets affectés. Poursuivez la conversation avec des questions de suivi pour affiner les résultats et concentrer votre analyse.
 
 Pour utiliser les compétences en matière d’alertes client :
 
-1. Accédez à **[!UICONTROL Collègue CX]**.
+1. Accédez à **&#x200B;**.
 
 1. Saisissez une question ou une demande concernant vos alertes. Par exemple :
 
@@ -186,6 +184,6 @@ Utilisez les invites suivantes comme exemples lors de l&#39;interaction avec les
 
 ## Étapes suivantes {#next-steps}
 
-Après avoir lu ce guide, vous devriez comprendre comment utiliser les compétences en alertes client dans CX Coworker pour examiner l’activité des alertes, analyser les tendances des alertes, gérer les abonnements aux alertes et enquêter sur les problèmes opérationnels par le biais de conversations en langage naturel.
+Vous êtes arrivé au bout de ce guide. À présent, vous devez apprendre à utiliser les compétences en alertes clients dans CX Coworker pour examiner l’activité des alertes, analyser les tendances des alertes, gérer les abonnements aux alertes et étudier les problèmes opérationnels au moyen de conversations en langage naturel.
 
 Pour plus d’informations sur les alertes, consultez la [présentation des alertes client](https://experienceleague.adobe.com/fr/docs/experience-platform/observability/alerts/overview).

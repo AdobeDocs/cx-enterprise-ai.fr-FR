@@ -6,10 +6,10 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 20%
+source-wordcount: '374'
+ht-degree: 19%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 20%
   - [Tableau de bord de surveillance de l’IA dédiée aux agences](./overview/monitoring.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparence du contenu d’IA générative](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [À propos de Coworker](./coworker/overview.md)
+- Guide de CX Enterprise Coworker {#coworker}
+  - [Présentation des collègues](./coworker/overview.md)
   - Chat {#chat}
     - [Vue d’ensemble](./coworker/chat/overview.md)
     - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
@@ -55,6 +55,7 @@ ht-degree: 20%
         - [Générer des ressources marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Vérification de la conformité de la marque](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - Personnalisations {#customizations}
+    - [Vue d’ensemble](./coworker/customizations/overview.md)
     - Compétences {#skills}
       - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
       - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
@@ -77,12 +78,12 @@ ht-degree: 20%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
     - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
-- Assistant IA {#ai-assistant}
+- Guide de l’assistant AI {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
   - [Confidentialité](./ai-assistant/privacy.md)
   - [Clause de non-responsabilité](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- IA dédiée à l’agent {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Agent Audience](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)

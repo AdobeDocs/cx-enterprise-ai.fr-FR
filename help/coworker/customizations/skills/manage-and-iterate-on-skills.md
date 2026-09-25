@@ -1,19 +1,19 @@
 ---
 title: Gérer et itérer sur les compétences dans un collègue
-description: Découvrez comment gérer les compétences d’IA réutilisables avec un workflow de gouvernance éprouvé. Découvrez comment établir une référence, effectuer des mises à jour contrôlées des compétences, comparer les résultats, valider les améliorations et supprimer en toute sécurité les compétences obsolètes tout en conservant des résultats cohérents et fiables.
+description: Découvrez comment gérer les compétences d’IA réutilisables avec un workflow de gouvernance, établir une ligne de base, effectuer des mises à jour contrôlées, valider les améliorations et supprimer les compétences obsolètes.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
-# Gérer et itérer sur les compétences dans [!DNL Coworker]
+# Gestion et itération sur les compétences dans [!DNL Coworker]
 
 Les compétences en IA réutilisables aident les équipes à effectuer des tâches cohérentes et répétables. Toutefois, à mesure que les besoins de l’entreprise évoluent, ces compétences doivent également évoluer. Cette vidéo présente une approche pratique de la gestion du cycle de vie complet des compétences en IA axées sur la gouvernance, de l&#39;évaluation et de l&#39;amélioration à la validation et à la retraite.
 
