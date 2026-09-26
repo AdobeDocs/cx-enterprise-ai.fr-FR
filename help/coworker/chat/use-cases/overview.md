@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| Mise à jour des pages AEM | Effectuez des actions telles que la mise à jour, la suppression, le remplacement ou l’ajout d’éléments de contenu pour que les expériences restent exactes et à jour. Les entrées peuvent être en langage naturel ou des annotations visuelles telles que des PDF ou des captures d’écran. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Le &lt;URL> mettez à jour le titre en Hello World<br><br>le &lt;URL> modifiez le bouton « Prenez notre quiz du café » en une version plus attrayante<br><br>Mettez à jour &lt;URL> en fonction du fichier joint<br><br>le &lt;URL> Je souhaite ajouter une nouvelle section teaser au bas de la page à propos d’une promotion que nous organisons au mois d’août qui consiste à acheter une machine à café et à obtenir 2 sacs de café gratuits. Retrouvez également l’image d’amis buvant du café et utilisez-la dans le teaser |
+| [Mettre à jour des pages AEM](content-advisor/author-web-pages.md) | Effectuez des actions telles que la mise à jour, la suppression, le remplacement ou l’ajout d’éléments de contenu pour que les expériences restent exactes et à jour. Les entrées peuvent être en langage naturel ou des annotations visuelles telles que des PDF ou des captures d’écran. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Le &lt;URL> mettez à jour le titre en Hello World<br><br>le &lt;URL> modifiez le bouton « Prenez notre quiz du café » en une version plus attrayante<br><br>Mettez à jour &lt;URL> en fonction du fichier joint<br><br>le &lt;URL> Je souhaite ajouter une nouvelle section teaser au bas de la page à propos d’une promotion que nous organisons au mois d’août qui consiste à acheter une machine à café et à obtenir 2 sacs de café gratuits. Retrouvez également l’image d’amis buvant du café et utilisez-la dans le teaser |
 | Mise à jour d’AEM en bloc | exécuter des actions en bloc sur plusieurs pages en même temps, telles que la suppression, le remplacement ou l’ajout d’éléments de contenu, pour que les expériences restent exactes et à jour. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | sur &lt;chemin aem>, mettez à jour toutes les pages qui contiennent la copie « MyBarista\ » vers « BrewPass ». |
 | Passer de Figma au fragment de contenu visuel | Importez des conceptions directement de Figma dans Adobe Experience Manager à l’aide du langage naturel. Cette compétence crée automatiquement le modèle de contenu, le fragment de contenu, les ressources et le modèle de visualisation requis, ce qui permet aux utilisateurs professionnels de passer de la conception au contenu prêt pour le web en quelques minutes, sans configuration manuelle. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Importer depuis &lt;Image_URL> |
 

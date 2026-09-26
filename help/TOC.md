@@ -6,9 +6,9 @@ description: Découvrez les outils d’IA dans CX Enterprise. Améliorez vos con
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 19%
 ---
 
@@ -54,6 +54,9 @@ ht-degree: 19%
       - Conseiller d’accès {#content-advisor}
         - [Générer des ressources marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Vérification de la conformité de la marque](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Workflow et planification {#workflow-and-planning}
+        - [Planifier le lancement d’une campagne numérique](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [Créer des pages AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personnalisations {#customizations}
     - [Vue d’ensemble](./coworker/customizations/overview.md)
     - Compétences {#skills}
