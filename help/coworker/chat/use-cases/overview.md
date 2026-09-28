@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
-source-wordcount: '5341'
+source-wordcount: '6113'
 ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue {#use-cases}
@@ -24,13 +24,13 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 >
 >Tous les clients éligibles auront accès aux fonctionnalités de l’agence Adobe Experience Manager dans Coworker, de manière progressive.
 >
->Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consultez également la section [IA dans AEM - Présentation des fonctionnalités d’agent dans AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Expérience de marque
 
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| [Mettre à jour des pages AEM](content-advisor/author-web-pages.md) | Effectuez des actions telles que la mise à jour, la suppression, le remplacement ou l’ajout d’éléments de contenu pour que les expériences restent exactes et à jour. Les entrées peuvent être en langage naturel ou des annotations visuelles telles que des PDF ou des captures d’écran. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Le &lt;URL> mettez à jour le titre en Hello World<br><br>le &lt;URL> modifiez le bouton « Prenez notre quiz du café » en une version plus attrayante<br><br>Mettez à jour &lt;URL> en fonction du fichier joint<br><br>le &lt;URL> Je souhaite ajouter une nouvelle section teaser au bas de la page à propos d’une promotion que nous organisons au mois d’août qui consiste à acheter une machine à café et à obtenir 2 sacs de café gratuits. Retrouvez également l’image d’amis buvant du café et utilisez-la dans le teaser |
+| [Mettre à jour des pages AEM](brand-visibility/author-web-pages.md) | Effectuez des actions telles que la mise à jour, la suppression, le remplacement ou l’ajout d’éléments de contenu pour que les expériences restent exactes et à jour. Les entrées peuvent être en langage naturel ou des annotations visuelles telles que des PDF ou des captures d’écran. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Le &lt;URL> mettez à jour le titre en Hello World<br><br>le &lt;URL> modifiez le bouton « Prenez notre quiz du café » en une version plus attrayante<br><br>Mettez à jour &lt;URL> en fonction du fichier joint<br><br>le &lt;URL> Je souhaite ajouter une nouvelle section teaser au bas de la page à propos d’une promotion que nous organisons au mois d’août qui consiste à acheter une machine à café et à obtenir 2 sacs de café gratuits. Retrouvez également l’image d’amis buvant du café et utilisez-la dans le teaser |
 | Mise à jour d’AEM en bloc | exécuter des actions en bloc sur plusieurs pages en même temps, telles que la suppression, le remplacement ou l’ajout d’éléments de contenu, pour que les expériences restent exactes et à jour. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | sur &lt;chemin aem>, mettez à jour toutes les pages qui contiennent la copie « MyBarista\ » vers « BrewPass ». |
 | Passer de Figma au fragment de contenu visuel | Importez des conceptions directement de Figma dans Adobe Experience Manager à l’aide du langage naturel. Cette compétence crée automatiquement le modèle de contenu, le fragment de contenu, les ressources et le modèle de visualisation requis, ce qui permet aux utilisateurs professionnels de passer de la conception au contenu prêt pour le web en quelques minutes, sans configuration manuelle. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Importer depuis &lt;Image_URL> |
 
@@ -43,9 +43,9 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Fonctionnalités d’agent dans AEM : Expérience de marque - Production d’expérience - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Développement
 
@@ -58,7 +58,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Fonctionnalités des agents dans AEM : Expérience de marque - Développement](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Intégration
 
@@ -71,7 +71,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Fonctionnalités d’agent dans AEM : expérience de marque - intégration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Conseiller d’accès
 
@@ -86,7 +86,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Fonctionnalités d’agent dans AEM : conseiller d’accès - découverte de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimisation du contenu
 
@@ -98,7 +98,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Fonctionnalités d’agent dans AEM : gestionnaire de contenu - Optimisation du contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gouvernance de marque
 
@@ -110,7 +110,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 **Informations connexes**
 
-* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Fonctionnalités d’agent dans AEM : gouvernance de marque](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informations sur les données
 
@@ -144,14 +144,37 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| Créer des parcours à partir du langage naturel | Orchestrer la création de parcours dans AJO à partir d’une invite de texte ou d’une image/d’un diagramme de flux chargé | `journey-create` | Adobe Journey Optimizer (AJO) | « Création d’un parcours de bienvenue qui envoie un e-mail après l’inscription, attend 3 jours, puis envoie un suivi » <br> « Création d’un parcours à partir de cette image de diagramme de flux chargée » |
-| Analyse des conflits de parcours | Détecter les chevauchements d’audience, les collisions planifiées et les problèmes de déduplication entre les parcours actifs | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | « Mon parcours d’abandon de panier entre-t-il en conflit avec d’autres parcours ? » <br> « Vérifier s’il y a chevauchement des audiences entre mes parcours actifs » |
-| Analyse des abandons de parcours | Identifiez où et pourquoi les clients abandonnent au cours d’un parcours et détectez les comportements générateurs de désengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | « Où sont les gens qui décrochent dans mon parcours de réengagement ? » <br> « Quels nœuds du parcours X ont la plus forte incidence ? » |
-| Analyse des erreurs d’action personnalisée | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
-| Détection des anomalies de parcours | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
-| Comparaison de versions de parcours | Comparez deux versions de parcours et passez en revue une comparaison structurée des modifications des propriétés au niveau du nœud, de la connexion et du parcours | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | « Comparez les versions 2 et 3 de mon parcours de bienvenue » <br> « Qu’est-ce qui a changé entre ces deux versions de parcours ? » |
+| [Créer des parcours à partir du langage naturel](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | Orchestrer la création de parcours dans AJO à partir d’une invite de texte ou d’une image/d’un diagramme de flux chargé | `journey-create` | Adobe Journey Optimizer (AJO) | « Création d’un parcours de bienvenue qui envoie un e-mail après l’inscription, attend 3 jours, puis envoie un suivi » <br> « Création d’un parcours à partir de cette image de diagramme de flux chargée » |
+| [Analyse des conflits de parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Détecter les chevauchements d’audience, les collisions planifiées et les problèmes de déduplication entre les parcours actifs | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | « Mon parcours d’abandon de panier entre-t-il en conflit avec d’autres parcours ? » <br> « Vérifier s’il y a chevauchement des audiences entre mes parcours actifs » |
+| [Analyse des abandons de parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Identifiez où et pourquoi les clients abandonnent au cours d’un parcours et détectez les comportements générateurs de désengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | « Où sont les gens qui décrochent dans mon parcours de réengagement ? » <br> « Quels nœuds du parcours X ont la plus forte incidence ? » |
+| [Analyse des erreurs d’action personnalisée](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Identifiez le moment où les actions personnalisées échouent ou le pic des taux d’erreur dans un parcours, et diagnostiquez les causes profondes avant que les échecs ne se transforment en perturbations plus larges | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | « Pourquoi les actions personnalisées échouent-elles dans mon parcours d’inscription à la fidélité ? » <br> « Afficher le taux d’erreur de l’action personnalisée ExternalPush dans mon parcours de bienvenue. » |
+| [Détection des anomalies de parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Détecter et confirmer les pics, les chutes ou les aplatissements inattendus dans les décomptes d’entrée, de sortie ou d’envoi d’un parcours par rapport aux lignes de base historiques, et faire apparaître une cause principale probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | « Pourquoi les entrées ont-elles été abandonnées hier pour mon parcours de bienvenue ? » <br> « Le nombre de sorties a-t-il augmenté cette semaine pour le parcours d’abandon de panier ? » |
+| [Comparer les versions de parcours ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Comparez deux versions de parcours et passez en revue une comparaison structurée des modifications des propriétés au niveau du nœud, de la connexion et du parcours | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | « Comparez les versions 2 et 3 de mon parcours de bienvenue » <br> « Qu’est-ce qui a changé entre ces deux versions de parcours ? » |
 
-Pour plus d’informations sur les compétences CX Coworker pour parcours, consultez la documentation de Adobe Journey Optimizer parcours [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+**Informations connexes**
+
+* [Utiliser l’IA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} donne un aperçu de Coworker et des compétences disponibles dans Adobe Journey Optimizer.
+
+## Gestion de contenu Journey Optimizer
+
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| [Appliquer des conseils de marque](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Recherchez, sélectionnez et appliquez des directives de marque approuvées pour la voix, l’écriture, l’imagerie, la terminologie et les conseils juridiques de la campagne. | `brand-lookup` | Adobe Journey Optimizer (AJO) | « Tirez les consignes d&#39;écriture et visuelles pour notre marque Acme. » |
+| [Vérifier la préparation du contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Examinez le contenu de la campagne pour connaître la voix de la marque, la qualité éditoriale, l’engagement, la clarté et la préparation. | `check-content-readiness` | Adobe Journey Optimizer (AJO) | « Cette copie d’e-mail est-elle prête à être envoyée ? Vérifiez la voix de la marque, la clarté, l’accessibilité et la conformité. » |
+| [Orchestrer la création de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Planifiez, créez, examinez, analysez et enregistrez le contenu de campagne sur les canaux pris en charge. | `orchestrate-content-authoring` | Adobe Journey Optimizer (AJO) | « Exécutez la création complète de contenu pour notre campagne de vente d’automne par e-mail à partir de ce résumé, puis examinez et enregistrez la version finale d’HTML. » |
+| [Évaluation de la conception du contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Analysez l’implémentation visuelle, identifiez les lacunes de mise en page et de conception, et recommandez des améliorations de la hiérarchie, de l’espacement, des images et des appels à l’action. | `assess-content-design` | Adobe Journey Optimizer (AJO) | « À quoi ressemble cet e-mail visuellement ? Vérifiez la hiérarchie, l’espacement, la densité, l’imagerie et le CTA. » |
+| [Créer un e-mail à partir de Figma](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Produisez l’e-mail HTML final à partir d’un cadre Figma actif lorsque sa copie est prête à être envoyée ; un plan de mise en page distinct n’est pas nécessaire. | `build-email-from-figma` | Adobe Journey Optimizer (AJO) | « Créez l’e-mail HTML final à partir de ce cadre Figma ; la copie dans la conception est ce qui doit être envoyé. » |
+| [Explorer la stratégie de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Comparez les stratégies de campagne sur les points de contact, les canaux, les audiences et les thèmes des messages, et planifiez chaque message avant de le rédiger. | `explore-content-strategy` | Adobe Journey Optimizer (AJO) | « Comparez un seul e-mail de reconquête à un programme d’e-mail et de SMS à trois contacts. » |
+| [Générer le contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Rédigez ou rédigez un nouveau message marketing limité pour les canaux pris en charge, notamment les e-mails, SMS, notifications push, WhatsApp et les landing pages. | `generate-content` | Adobe Journey Optimizer (AJO) | « Créez une copie de lancement sur la marque pour les e-mails, les notifications push et les SMS à partir de la direction de campagne approuvée. » |
+| [Créer un résumé de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Transformer un sens de campagne approuvé en exigences pour l’offre, le ton, les messages clés, le canal, les paramètres régionaux, les variantes et le contenu requis. | `content-brief` | Adobe Journey Optimizer (AJO) | « Transformez ce résumé en conditions d’écriture pour un e-mail de reconquête à chaud destiné aux abonnés américains obsolètes : 20 % de réduction jusqu’au dimanche, avec CTR comme indicateur de performance clé. » |
+| [Générer des images](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Créez ou transformez des visuels de campagne pour les emplacements approuvés, y compris des images principales, des recadrages, des superpositions, des variantes et des ressources signées. | `generate-image` | Adobe Journey Optimizer (AJO) | « Générez une image de héros premium pour cet e-mail de vente de printemps à l’aide de la direction de marque approuvée. » |
+| [Enregistrer le contenu du canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Enregistrez le contenu de campagne approuvé en tant que brouillon de ressource ou remplissez-le dans un modèle source dans AJO ou une autre solution d’action prise en charge. | `save-channel-content` | Adobe Journey Optimizer (AJO) | « Renseignez le contenu approuvé dans le modèle source et préparez-le pour révision. » |
+| [Révision et régénération du contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Appliquez les modifications confirmées au contenu de la campagne existante, y compris la formulation, le ton, la traduction, les objets, les appels à l’action et les résultats de la révision. | `revise-regenerate-content` | Adobe Journey Optimizer (AJO) | « Réchauffez le ton tout en préservant l’offre approuvée et le CTA. » |
+
+**Informations connexes**
+
+* [Utiliser l’IA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} donne un aperçu de Coworker et des compétences disponibles dans Adobe Journey Optimizer.
 
 ## Programmes marketing
 
@@ -166,10 +189,12 @@ Pour plus d’informations sur les compétences CX Coworker pour parcours, consu
 
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| Créer, modifier et gérer des défis de fidélité | Simplifier et accélérer la gestion des programmes de fidélité | `loyalty` | Adobe Journey Optimizer (AJO) | « Créez un défi pour encourager vos membres à essayer une nouvelle boisson saisonnière » <br> « Montrez-moi les défis de fidélité avec les taux de décrochage les plus élevés. » |
-| Analyse des performances du programme de fidélité | Interrogez et analysez les points de fidélité, les niveaux de membre, les remboursements et les mesures de chiffre d’affaires en langage naturel | `loyalty-insights` | Adobe Journey Optimizer (AJO) | « Combien de points de fidélité ont été accordés en août 2026 ? » <br> « Affichez le chiffre d’affaires total du programme de fidélité ventilé par jour au cours du mois d’août 2026. » |
+| [Créer, modifier et gérer des défis de fidélité](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | Simplifier et accélérer la gestion des programmes de fidélité | `loyalty` | Adobe Journey Optimizer (AJO) | « Créez un défi pour encourager vos membres à essayer une nouvelle boisson saisonnière » <br> « Montrez-moi les défis de fidélité avec les taux de décrochage les plus élevés. » |
+| [Analyser les performances du programme de fidélité](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | Interrogez et analysez les points de fidélité, les niveaux de membre, les remboursements et les mesures de chiffre d’affaires en langage naturel | `loyalty-insights` | Adobe Journey Optimizer (AJO) | « Combien de points de fidélité ont été accordés en août 2026 ? » <br> « Affichez le chiffre d’affaires total du programme de fidélité ventilé par jour au cours du mois d’août 2026. » |
 
-Pour plus d’informations sur les compétences CX Coworker en matière de fidélité, consultez la [documentation sur la fidélité à Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
+**Informations connexes**
+
+* [Utiliser l’IA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} donne un aperçu de Coworker et des compétences disponibles dans Adobe Journey Optimizer.
 
 ## Optimisation
 
@@ -219,7 +244,7 @@ Utilisez le Module de conversation des collègues pour parcourir, analyser et pl
 | Résolution d’entité et liaison | Utilisez la recherche sémantique et lexicale pour résoudre les mentions d’entité sur les entités Experience Platform réelles et découvrir les champs XDM. | `entity-linking` | Adobe Experience Platform | « Résoudre les « Acheteurs de vacances » en une audience réelle » <br> « Me trouver des champs liés à l’historique des achats » |
 | Gestion des compétences personnalisées | Enregistrer, modifier ou supprimer les compétences réutilisables détenues par l’utilisateur qui persistent entre les sessions | `manage-skill` | Toutes les applications éligibles | « Enregistrer ce workflow en tant que compétence » <br> « Supprimer ma compétence de rapport hebdomadaire » <br> « Transformer ceci en une compétence réutilisable » |
 | Surveillance de la capacité de diffusion en continu et des violations | Vérifiez l’utilisation, la capacité et le statut de violation du streaming actuel et historique sur les sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | « Quelle est ma capacité de diffusion en continu actuelle dans mon sandbox actuel ? » <br> « Mon sandbox actuel a-t-il dépassé les limites de capacité la semaine dernière ? » |
-| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
+| [Afficher les résultats de l’évaluation du contrôle de l’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Affichez la dernière évaluation du contrôle de l’intégrité de votre sandbox, explorez un contrôle ayant échoué et consultez les entités affectées | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | « Quel est le problème dans mon sandbox ? » <br> « Me parler de ma dernière évaluation du contrôle de l’intégrité » <br> « Quels sont les problèmes liés à la vérification de la description de l’espace de noms personnalisé ? » |
 | Résoudre les problèmes de contrôle de l’intégrité | Correction des problèmes d’espace de noms d’identité, de politique de fusion et de schéma signalés directement dans le chat, avec votre approbation avant toute modification | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | « Correction des descriptions des espaces de noms d’identité » <br> « Correction des noms de politiques de fusion en double » <br> « Correction des schémas sans le groupe de champs d’audit » <br> « Correction de la dénomination des politiques de fusion par défaut » |
 
 ## Gestion des données
