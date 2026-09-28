@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 27%
+source-wordcount: '781'
+ht-degree: 23%
 ---
 # Bonnes pratiques en matière de promotion {#best-practices}
 
@@ -18,9 +18,9 @@ Pour tirer le meilleur parti des campagnes Coworker, commencez par afficher l’
 
 >[!NOTE]
 >
->Actuellement, vous pouvez uniquement vous connecter aux intégrations prises en charge par Campaign.  Si vous disposez déjà d&#39;applications d&#39;entreprise Adobe, dans lesquelles vous stockez des audiences ou créez des parcours, nous vous encourageons à utiliser [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) à la place.
+>Actuellement, vous pouvez uniquement vous connecter aux intégrations prises en charge par les campagnes Coworker. Si vous disposez déjà d&#39;applications d&#39;entreprise Adobe, dans lesquelles vous stockez des audiences ou créez des parcours, nous vous encourageons à utiliser [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) à la place.
 
-## Utiliser le framework CO-STAR {#costar-framework}
+## Utiliser le framework CO-STAR
 
 Pour de meilleurs résultats, organisez vos invites à l&#39;aide du framework CO-STAR. Cette approche structurée garantit que l’IA comprend exactement ce dont vous avez besoin.
 
@@ -33,7 +33,7 @@ Pour de meilleurs résultats, organisez vos invites à l&#39;aide du framework C
 | **A - Audience** | Audience ciblée | Garantit que le message trouve un écho auprès des personnes appropriées. |
 | **R - Exigences** | Contraintes spécifiques ou exigences | Définit les limites et les éléments critiques. |
 
-## Les bases des prompts d’IA {#key-takeaways}
+## Concepts de base des invites d&#39;IA
 
 ### Conseils et erreurs à éviter
 
@@ -106,7 +106,7 @@ Ces requêtes ne sont **pas** prises en charge et doivent être traitées par d�
 <ul>
 <li>Modifications d’arrière-plan</li>
 <li>Ajout de superpositions de texte ou de logos</li>
-<li>Recadrage ou redimensionnement d’images</li>
+<li>Recadrage ou redimensionnement d’image</li>
 <li>Réglages des couleurs</li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ Ces requêtes ne sont **pas** prises en charge et doivent être traitées par d�
 </tbody>
 </table>
 
-### Liste de contrôle de qualité {#quality-checklist}
+### Liste de contrôle de qualité
 
 Avant de générer du contenu, vérifiez les points suivants :
 
@@ -122,7 +122,7 @@ Avant de générer du contenu, vérifiez les points suivants :
 
 ✓ **Audience cible définie** : indique la population, le rôle ou le segment.
 
-✓ **Marque correcte affectée par défaut** : des directives appropriées concernant la marque sont sélectionnées.
+✓ **Marque correcte affectée par défaut** : des instructions de marque appropriées sont sélectionnées.
 
 ✓ **Portée réaliste** : évitez les demandes de modifications de disposition, de style ou de modification structurelle.
 
@@ -160,6 +160,22 @@ Fournissez toujours du contexte et la proposition de valeur afin que l’IA puis
 </tr>
 </tbody>
 </table>
+
+## Idées générales d’invite marketing
+
+### Marketing de contenu
+
+- « Générez 20 sujets de blogue qui répondent aux questions courantes des acheteurs d&#39;une première propriété. »
+- « Brainstorm LinkedIn propose des idées pour une start-up de cybersécurité B2B. »
+- « Créez un calendrier de contenu de trois mois axé sur l’éducation des nouveaux clients. »
+- « Suggérez des thèmes de contenu qui peuvent être réutilisés dans des blogs, des vidéos, des newsletters et des publications sur les réseaux sociaux. »
+
+### Marketing par e-mail
+
+- « Générez une séquence d’e-mails de bienvenue pour les nouveaux abonnés intéressés par la mode durable. »
+- « Réfléchissez à des lignes d&#39;objets qui créent de la curiosité sans sonner comme un piège à clics. »
+- « Suggérez des idées de campagne de réengagement pour les clients inactifs. »
+- « Créez des idées d’e-mail de cycle de vie pour les utilisateurs qui ont terminé l’intégration. »
 
 >[!MORELIKETHIS]
 >
