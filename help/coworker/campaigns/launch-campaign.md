@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -24,11 +24,11 @@ Une fois votre campagne créée et planifiée, apprenez à la lancer.
 
 1. Dans la campagne terminée, cliquez sur **Vérifier et lancer**.
 
-CAPTURE D’ÉCRAN
+   CAPTURE D’ÉCRAN
 
->[!NOTE]
->
->S’il manque des éléments, une boîte de dialogue s’affiche, répertoriant les éléments à compléter. Apportez les correctifs nécessaires et sélectionnez à nouveau **Vérifier et lancer**.
+   >[!NOTE]
+   >
+   >S’il manque des éléments, une boîte de dialogue s’affiche, répertoriant les éléments à compléter. Apportez les correctifs nécessaires et sélectionnez à nouveau **Vérifier et lancer**.
 
 1. Une fois que la campagne a passé le contrôle de préparation, la boîte de dialogue de lancement s’ouvre, affichant un aperçu de l’e-mail et de l’audience.
 
@@ -42,9 +42,7 @@ CAPTURE D’ÉCRAN
 
 CAPTURE D’ÉCRAN
 
-&#x200B;>>
->
->Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des brouillons d’e-mails qui n’ont pas été vérifiés ou des paramètres d’envoi non configurés
+Elle ne permet pas de lancer une campagne avec un exemple d’audience (non réelle), des brouillons d’e-mails qui n’ont pas été vérifiés ou des paramètres d’envoi non configurés
 
 ### Éléments à noter
 
