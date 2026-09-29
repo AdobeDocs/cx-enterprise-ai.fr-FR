@@ -1,22 +1,47 @@
 ---
-description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes de collaborateurs d’entreprise Adobe CX.
-title: Notes de mise à jour des campagnes des collaborateurs de l’entreprise CX
+description: Découvrez les améliorations et correctifs apportés aux fonctionnalités dans les notes de mise à jour des campagnes Adobe CX Enterprise Coworker .
+title: Notes de mise à jour des campagnes CX Enterprise Coworker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
-# Notes de mise à jour des campagnes des collaborateurs d’entreprise Adobe CX {#release-notes}
+# Notes de mise à jour des campagnes Adobe CX Enterprise Coworker {#release-notes}
 
 Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 
-## Septembre 2026 {#sep-2026}
+## Septembre 2026 {#sep-2026}
+
+**Date de publication : 17 septembre 2026**
+
+* Connecter un espace de travail des briques de données hébergé sur Azure, GCP ou un domaine personnalisé
+* Les campagnes ne peuvent plus être lancées tant que leur workflow n’est pas entièrement configuré
+* Les modèles de campagne ont été actualisés avec du contenu mis à jour
+* Choisir un connecteur directement lors du chargement de votre liste de contacts au format CSV
+* Correction d’un crash qui pouvait se produire après un défilement d’une longue liste d’inscriptions à des essais
+* Correction d’un problème en raison duquel le chargement d’un fichier CSV d’audience avec des en-têtes vides ou dupliqués pouvait bloquer la page
+* Correction d’un texte d’espace réservé dans une invite de campagne qui s’affichait vide après résolution
+* Correction d’un blocage de la page Compétences dû à un gradient de couleur manquant
+* Correction du blocage d&#39;une conversation qui répétait la même question après que vous y ayez déjà répondu
+* Les réponses de conversation n’affichent plus de préfixe d’ID errant devant votre réponse sélectionnée
+* La discussion suggère désormais des réponses rapides à l’étape suivante, que vous pouvez appuyer pour remplir la zone de composition
+* Les modèles de campagne s’ouvrent désormais dans une vue intégrée rationalisée à la page, au lieu d’une boîte de dialogue distincte
+* La barre de progression étendue de la conversation défile désormais en interne au lieu de pousser votre conversation hors de vue
+* Les paramètres de Campaign reflètent désormais plus précisément les derniers détails du panorama
+* La boîte de dialogue du plan de mise à niveau adopte désormais une apparence plus cohérente
+* Suppression d&#39;un indicateur de statut redondant de l&#39;en-tête du plan de campagne pour un aspect plus épuré
+* Les modifications rapides d’e-mails sont désormais enregistrées ensemble en tant qu’entrée historique de version unique au lieu d’en nombreuses
+* Correction de titres de kits de marque qui disparaissaient parfois lors de la génération d’un brouillon
+* Modification d’une image avec Adobe Express directement depuis la barre d’outils image
+* Les données d’audience de base de l’agent restent désormais synchronisées sur le tableau de campagne sans actualisation manuelle
+* Les logos des marques sur le tableau de la campagne sont recadrés plus précisément pour s’adapter à leur espace
+* Transfert visuel plus fluide lorsque votre plan de campagne passe sur le tableau de campagne
 
 **Date de publication : 3 septembre 2026**
 
@@ -345,7 +370,7 @@ Les versions des campagnes Coworker fonctionnent sur un modèle de diffusion con
 
 * Les tableaux et listes de Campaign restent alignés sur les derniers détails pendant que vous travaillez
 * Une clause de non-responsabilité générée par l’IA apparaît dans le chat de campagne et le créateur d’agents
-* Les coordonnées de contact de l’assistance utilisent désormais l’adresse e-mail dédiée aux campagnes CX Coworker
+* Les coordonnées de l’assistance utilisent désormais l’adresse e-mail dédiée aux campagnes CX Coworker
 * La page d’accueil marketing supprime la section de liste d’attente et affiche plus clairement la vidéo principale
 * Davantage d’écrans respectent automatiquement votre langue et les formats de date locaux
 * Diverses améliorations des performances et de la fiabilité dans
