@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
 workflow-type: tm+mt
-source-wordcount: '6113'
+source-wordcount: '7039'
 ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue {#use-cases}
@@ -195,6 +195,41 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 **Informations connexes**
 
 * [Utiliser l’IA](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} donne un aperçu de Coworker et des compétences disponibles dans Adobe Journey Optimizer.
+
+## Création de contenu dans Journey Optimizer
+
+Utilisez le Module de conversation des collègues pour planifier, générer, évaluer et affiner la copie des messages de campagne et l’envoi d’e-mails à HTML, puis enregistrez ou transmettez le contenu approuvé directement à Journey Optimizer.
+
+### Copie du message
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| [Capturer le résumé marketing](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Capture la stratégie de campagne et amorce le briefing de création. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | « Créer un résumé marketing pour notre lancement de produit saisonnier » <br> « Transformer cette stratégie de campagne en résumé marketing » |
+| [Capturer le briefing de création](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Structure la spécification d’exécution de la copie et crée la matrice du plan de contenu. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | « Créez un briefing de création à partir de ce brief marketing approuvé » <br> « Créez une matrice de plan de contenu pour votre campagne par e-mail et SMS » |
+| [Planifier la stratégie de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Réfléchissez aux cartes des messages, aux arcs narratifs et aux rôles des canaux avant la génération de la copie. | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | « Planifier une stratégie de message pour le lancement de notre produit par e-mail et notification push » <br> « Suggérer un arc narratif pour notre campagne de bienvenue » |
+| [Générer une copie](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Génère une nouvelle copie sur la marque pour les e-mails, SMS, notifications push, WhatsApp, réseaux sociaux et bannières. | `generate-copy` | Adobe Journey Optimizer (AJO) | « Rédiger un e-mail de marque annonçant notre nouvelle collection saisonnière » <br> « Rédiger un rappel par SMS pour les clients dont le panier est abandonné » |
+| [Générer des images](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Génère, recadre, recouvre, varie et signe des images de campagne à l’aide de Firefly. | `generate-image` | Adobe Journey Optimizer (AJO) | « Générer une image principale pour notre e-mail de campagne saisonnière » <br> « Créer des variations de bannière à partir de cette image de campagne approuvée » |
+| [Évaluer la copie](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Évalue et note la copie existante par rapport aux normes de la marque et des canaux. | `evaluate-copy` | Adobe Journey Optimizer (AJO) | « Évaluer cette copie d’e-mail par rapport à nos directives de marque » <br> « Vérifier si ce message push répond à nos normes de canal » |
+| [Modifier la copie](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Apporte des modifications statiques à une copie existante (correctifs d’évaluation, reformulation, traduction et révisions dirigées). | `edit-copy` | Adobe Journey Optimizer (AJO) | « Réviser cette copie d’e-mail pour tenir compte des commentaires de l’évaluation » <br> « Traduire cette copie de SMS approuvée en français » |
+| [Développer le contenu de la campagne](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Les fans d’une matrice de plan de contenu approuvée se présentent sous forme de copie par unité sur l’ensemble des canaux, paramètres régionaux, audiences et variantes. | `expand-campaign` | Adobe Journey Optimizer (AJO) | « Générer une copie pour chaque canal de ce plan de contenu approuvé » <br> « Étendre cette campagne aux variantes anglaise et française pour chaque audience » |
+| [Analyse de l’HTML visuelle](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Effectue le rendu d’une copie d’HTML sur une capture d’écran pour inspection visuelle. | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | « Rendre cet e-mail HTML pour que je puisse inspecter la mise en page » <br> « Me montrer une capture d’écran de cette campagne HTML » |
+| [Enregistrer le contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Enregistre le contenu approuvé dans Adobe Journey Optimizer, Adobe Campaign v8 ou Marketo. | `save-content` | Adobe Journey Optimizer (AJO) | « Enregistrer ce contenu d’e-mail approuvé dans Journey Optimizer » <br> « Enregistrer la copie du SMS approuvé dans Journey Optimizer » |
+
+### Conception d’e-mails
+
+| Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
+| --- | --- | --- | --- | --- |
+| [Composer un e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Les plans bloquent la structure et le style d’un objectif marketing et des entrées de marque. | `compose-email` | Adobe Journey Optimizer (AJO) | « Planifiez une mise en page d’e-mail pour le lancement de notre produit à l’aide de nos directives de marque » <br> « Composez un e-mail de bienvenue avec une section principale, les points forts du produit et un call to action » |
+| [Créer un e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Crée, adapte, modifie et affine un e-mail HTML à partir d’un plan de mise en page, d’une capture d’écran ou d’un lien de conception Figma. | `build-email` | Adobe Journey Optimizer (AJO) | « Créer une HTML d’e-mail à partir de ce plan de mise en page approuvé » <br> « Créer un e-mail à partir de ce lien de conception Figma » |
+| [Tenir à jour le système de conception](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Conserve le système de conception d’e-mails réutilisables d’une marque : jetons, modèles de disposition et langue de la marque. | `maintain-design-system` | Adobe Journey Optimizer (AJO) | « Mettre à jour notre système de conception d’e-mail avec ces couleurs de marque approuvées » <br> « Ajouter cette disposition de produit réutilisable à notre système de conception d’e-mail » |
+| [Vérifier la conformité](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Effectue l’audit d’un e-mail assemblé en fonction des directives de marque et de canal et des normes de délivrabilité. | `review-compliance` | Adobe Journey Optimizer (AJO) | « Examiner cet e-mail en fonction de nos directives en matière de marque et de canal » <br> « Rechercher les problèmes de délivrabilité éventuels dans cet e-mail avant la remise » |
+| [Vérifier la conception](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Fournit des commentaires de conception subjectifs sur la hiérarchie, l’espacement, le flux narratif et l’adéquation de la marque. | `review-design` | Adobe Journey Optimizer (AJO) | « Examiner la hiérarchie visuelle et l’espacement de cet e-mail » <br> « Évaluer si cette conception d’e-mail correspond à notre marque » |
+| [Vérifier l’accessibilité](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Exécute un audit d’accessibilité WCAG 2.1 AA. | `review-accessibility` | Adobe Journey Optimizer (AJO) | « Contrôler cet e-mail à la recherche de problèmes d’accessibilité de WCAG 2.1 AA » <br> « Vérifier le contraste des couleurs et le texte secondaire de l’image de cet e-mail » |
+| [Remettre l’e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Exporte et diffuse les HTML approuvées dans Adobe Journey Optimizer ou Adobe Campaign. | `handoff-email` | Adobe Journey Optimizer (AJO) | « Exporter cet e-mail approuvé HTML vers Journey Optimizer » <br> « Transmettre l’e-mail approuvé à Journey Optimizer » |
+
+**Informations connexes**
+
+* [Collègue pour la gestion de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} fournit des détails sur les outils de gestion de contenu et les compétences disponibles dans Adobe Journey Optimizer.
 
 ## Optimisation
 
