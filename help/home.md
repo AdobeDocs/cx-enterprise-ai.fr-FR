@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Les clients éligibles passent progressivement de l’assistant AI et des agents
 
 Pour voir le Module de conversation des collègues en action, [Module de conversation des collègues dans Playground](./coworker/playground-coworker-chat.md) ou lisez des cas d’utilisation réels tels que [Valider des données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [valider vos données Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md) et [Analyser des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
-Pour consulter la documentation complète du produit sur les conversations avec les collègues, les collègues pour les équipes (campagnes des collègues) et les projets, voir [Collègue](./coworker/overview.md). Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](./agents/sandbox-tooling.md).
+Pour consulter la documentation complète du produit sur les conversations avec les collègues, les collègues pour les équipes (campagnes des collègues) et les projets, voir [Collègue](./coworker/overview.md). Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
 
 ## Assistant IA
 

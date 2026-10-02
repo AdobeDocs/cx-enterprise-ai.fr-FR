@@ -1,7 +1,7 @@
 ---
 title: Compétences en alertes client
 description: Découvrez comment utiliser les compétences en alertes client dans CX Coworker pour examiner, analyser et classer par priorité les activités d’alerte au moyen de conversations en langage naturel.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
@@ -139,7 +139,7 @@ Par exemple :
 - « Abonne-moi à cette alerte. »
 - « Supprimer mon abonnement à cette alerte. »
 
-## Exemples d’invites {#example-prompts}
+## Exemples de prompts {#example-prompts}
 
 Utilisez les invites suivantes comme exemples lors de l&#39;interaction avec les compétences en alertes client.
 

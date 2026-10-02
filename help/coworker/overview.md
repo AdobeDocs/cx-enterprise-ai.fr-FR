@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 18%
+source-wordcount: '658'
+ht-degree: 6%
 ---
 # Présentation de CX Enterprise Coworker {#overview}
 
@@ -20,85 +20,105 @@ Coworker est un coéquipier optimisé par l’IA qui réimagine la nature du tra
 
 La discussion entre collègues permet aux équipes d’automatiser les tâches des produits Adobe en langage naturel, transformant rapidement les idées en actions grâce à une planification flexible, des compétences personnalisables et une exécution intelligente.
 
-<!--
-CARDS
+## Curated Coworker Chat Learning
 
-* https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
-  {title = UI guide}
-  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
-  {cta = Watch}
-
-* https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate Customer Journey Analytics data}
-  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
-  {cta = Watch}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="UI guide">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+        <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" title="Guide de l’interface utilisateur du" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498569?captions=fre_fr&format=jpeg&nocache=1790258761614" alt="Guide de l’interface utilisateur du"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498569?captions=fre_fr&format=jpeg" alt="Experience League LIVE : Audience et Parcours des fonctionnalités B2C dans Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" title="Guide de l’interface utilisateur du"> Guide de l’interface utilisateur </a>
+                        <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Prise en main du chat CX Enterprise Coworker">Prise en main du chat CX Enterprise Coworker</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’interface de conversation des collègues, notamment la navigation, la zone de saisie, les réponses, l’historique de conversation, ainsi que la configuration des compétences, des serveurs MCP et de la mémoire.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder</span>
+                <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Liste de lecture</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate Customer Journey Analytics data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Customize CX Enterprise Coworker Chat">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="Validation des données Customer Journey Analytics" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496850/?captions=fre_fr&format=jpeg&nocache=1790258762238" alt="Validation des données Customer Journey Analytics"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502325?captions=fre_fr&format=jpeg" alt="Experience League LIVE : Audience et Parcours des fonctionnalités B2C dans Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" title="Validation des données Customer Journey Analytics">Valider les données Customer Journey Analytics</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Personnaliser la conversation CX Enterprise Coworker">Personnaliser la conversation CX Enterprise Coworker</a>
                     </p>
-                    <p class="is-size-6">Découvrez comment les administrateurs et administratrices d’Analytics utilisent les compétences de validation des données de CX Enterprise Coworker pour comparer les données d’Adobe Analytics et de Customer Journey Analytics pendant la mise à niveau.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder</span>
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Liste de lecture</span>
                 </a>
             </div>
         </div>
     </div>
 </div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Personnalisations
+## Experience League LIVE : série déverrouillée Coworker
 
-Les personnalisations vous permettent d’étendre et de personnaliser les compétences, les intégrations, les modules externes et la mémoire de vos collaborateurs.
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Transformation des workflows CX avec Adobe CX Enterprise Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Experience League LIVE : transformation des workflows CX avec Adobe CX Enterprise Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" title="Transformation des workflows CX avec Adobe CX Enterprise Coworker">Transformation des workflows CX avec Adobe CX Enterprise Coworker</a>
+                    </p>
+                    <p class="is-size-6">Explorez des cas d’utilisation réels qui montrent comment les entreprises peuvent mettre Coworker au service de la découverte d’informations, de la création d’audiences, de l’optimisation des parcours et de la diffusion plus rapide et plus efficace des expériences client.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop" aria-label="Audience and Journey B2C capabilities in Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Fonctionnalités B2C d’audience et de Parcours dans Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Experience League LIVE : Audience et Parcours des fonctionnalités B2C dans Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Fonctionnalités B2C d’audience et de Parcours dans Coworker">Fonctionnalités B2C d’audience et de Parcours dans Coworker</a>
+                    </p>
+                    <p class="is-size-6">Découvrez comment Coworker peut exécuter des workflows de bout en bout pour l’orchestration de l’expérience client, ce qui augmente la productivité et simplifie les tâches autrement techniques ou complexes.</p>
+                </div>
+                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">S’inscrire</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
-* [Que sont les compétences ?](./customizations/skills/what-are-skills.md)
-* [Créer votre première compétence](./customizations/skills/create-your-first-skill.md)
-* [Créer et exécuter une compétence de point de contrôle qualité](./customizations/skills/run-a-quality-gate-skill.md)
-* [Gestion et itération sur les compétences](./customizations/skills/manage-and-iterate-on-skills.md)
-* [Que sont les intégrations ?](./customizations/integrations/understanding-integrations-in-coworker.md)
-* [Que sont les plug-ins ?](./customizations/plugins/what-are-plugins.md)
-* [Qu&#39;est-ce que la mémoire ?](./customizations/memory/what-is-memory.md)
+## Équipes de collègues (anciennement Campagnes)
 
-## Campagnes
-
-Campagnes collaboratrices est une fonctionnalité modélisée pour que les petites équipes agiles puissent se mettre en place et exécuter des campagnes.
+Coworker Teams est une fonctionnalité modélisée pour que les petites équipes agiles puissent se mettre en place et exécuter des campagnes.
 
 * [Vue d’ensemble](./campaigns/overview.md)
 * [Créer une campagne par e-mail](./campaigns/create-an-email-campaign.md)

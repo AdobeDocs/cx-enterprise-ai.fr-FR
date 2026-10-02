@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '7039'
 ht-degree: 6%
@@ -293,7 +293,7 @@ Utilisez le Module de conversation des collègues pour parcourir, analyser et pl
 
 | Exemple d’utilisation | Description | Compétences | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
-| [Déplacement d’objets dans des sandbox](/help/agents/sandbox-tooling.md) | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » <br> « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |
+| [Déplacement d’objets dans des sandbox](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Migrez facilement les schémas, les audiences et d’autres configurations d’objet dans les sandbox, avec des dépendances résolues automatiquement | `sandbox-tooling-workflow` | Adobe Experience Platform | « Déplacer le schéma Luma Loyalty Members Platinum du sandbox actuel vers le sandbox de production » <br> « Promouvoir l’audience des membres du programme de fidélité Gold des États-Unis vers l’étape » |
 
 ## Alertes clients
 

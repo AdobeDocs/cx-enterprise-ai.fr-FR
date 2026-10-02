@@ -1,7 +1,7 @@
 ---
 title: Compétences de l’agent d’outils Sandbox
 description: Découvrez comment utiliser les compétences d’agent des outils Sandbox pour répliquer des métadonnées d’objet dans les environnements Sandbox.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Par exemple :
 
 Les compétences Agentic (outils pour sandbox) identifient l’audience spécifiée, valident ses dépendances et migrent tous les objets requis vers la sandbox cible.
 
-## Exemples d’invites {#example-prompts}
+## Exemples de prompts {#example-prompts}
 
 Utilisez les invites suivantes comme exemples lors de l’interaction avec les compétences Agentic d’outil Sandbox.
 
