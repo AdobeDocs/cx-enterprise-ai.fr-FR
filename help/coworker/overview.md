@@ -29,7 +29,7 @@ Que vous débutiez ou que vous souhaitiez approfondir votre expertise, ces liste
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Prise en main du chat des collègues" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -37,10 +37,10 @@ Que vous débutiez ou que vous souhaitiez approfondir votre expertise, ces liste
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Prise en main du chat CX Enterprise Coworker">Prise en main du chat CX Enterprise Coworker</a>
+                        <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Prise en main du chat CX Enterprise Coworker">Prise en main du chat CX Enterprise Coworker</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/fr/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Liste de lecture</span>
                 </a>
             </div>
@@ -51,17 +51,17 @@ Que vous débutiez ou que vous souhaitiez approfondir votre expertise, ces liste
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/fr/playlists/coworker-customize-chat" title="Prise en main du chat CX Enterprise Coworker" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Personnaliser la conversation CX Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Personnaliser la conversation CX Enterprise Coworker">Personnaliser la conversation CX Enterprise Coworker</a>
+                        <a href="https://experienceleague.adobe.com/fr/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Personnaliser la conversation CX Enterprise Coworker">Personnaliser la conversation CX Enterprise Coworker</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/fr/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Liste de lecture</span>
                 </a>
             </div>
