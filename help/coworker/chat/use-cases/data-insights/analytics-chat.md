@@ -1,37 +1,37 @@
 ---
 title: Analyse des données Customer Journey Analytics avec la conversation des collègues
-description: Découvrez comment utiliser le Module de conversation avec les collaborateurs de l’entreprise Adobe CX pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
+description: Découvrez comment utiliser le Module de conversation Adobe CX Enterprise Coworker pour analyser les données de Customer Journey Analytics, créer des entonnoirs et déterminer où les clients chutent dans le parcours.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a235d262125070fd8655543d0ae35c6b2465e8cc
 workflow-type: tm+mt
-source-wordcount: 3210
-ht-degree: 4%
-
+source-wordcount: '3338'
+ht-degree: 3%
 ---
+# Analyse des données Adobe CX Analytics avec la conversation des collègues
 
-# Analyse des données Customer Journey Analytics avec la conversation des collègues
-
-Le Module de conversation des collaborateurs de l’entreprise Adobe CX peut effectuer une analyse avancée des données, auparavant uniquement possible dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données à partir de vos vues de données Customer Journey Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
+Le Module de conversation Adobe CX Enterprise Coworker peut effectuer une analyse avancée des données, ce qui était auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec un collègue accède aux données de vos vues de données Customer Journey Analytics ou suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.
 
 Vous pouvez utiliser le Module de conversation des collègues de deux manières, selon le niveau d’analyse dont vous avez besoin :
 
 * **Réponses rapides** - Posez une question directe en langage simple et obtenez une réponse immédiate. Les utilisateurs professionnels utilisent souvent le Module de conversation des collaborateurs de cette manière, et les analystes l’utilisent également lorsqu’ils ont besoin d’une réponse rapide pour une partie prenante.
 * **Travail de réflexion approfondi** - Discutez longuement et à plusieurs reprises avec le Module de conversation des collègues pour examiner un problème d’entreprise, en exclure les causes et formuler une recommandation. Les analystes utilisent généralement cette approche pour explorer les données en profondeur avant de formuler une recommandation.
 
-Avant de commencer, découvrez l’interface et les options de configuration de la conversation avec un collègue, puis assurez-vous que ce dernier est connecté à Customer Journey Analytics et à la vue de données appropriée.
+Avant de commencer, découvrez l’interface et les options de configuration de la conversation avec un collègue, puis assurez-vous que ce dernier est connecté à Customer Journey Analytics ou Adobe Analytics et aux vues de données ou suites de rapports appropriées.
 
 ## Prise en main du chat des collègues
 
 ### Accès aux données et autorisations
 
-La conversation avec un collègue hérite des autorisations de Customer Journey Analytics. Vous pouvez accéder uniquement aux vues de données, dimensions, mesures et segments disponibles dans Analysis Workspace.
+La discussion avec les collègues hérite des autorisations de Customer Journey Analytics ou d’Adobe Analytics. Vous pouvez accéder uniquement aux vues de données, suites de rapports, dimensions, mesures et segments disponibles dans Analysis Workspace.
 
 ### Options d’interface et de configuration
 
-Avant d’utiliser la discussion avec des collègues avec vos données Customer Journey Analytics, apprenez à vous connecter et à gérer les options de configuration pour les fonctionnalités suivantes :
+Avant d’utiliser la discussion avec des collègues avec vos données Customer Journey Analytics ou Adobe Analytics, apprenez à vous connecter et à gérer les options de configuration pour les fonctionnalités suivantes :
 
 * Entrées de conversation
 * Conversations
@@ -65,7 +65,7 @@ Pour plus d’informations, consultez le [Guide de l’interface utilisateur de 
 * Lors de la création d’une invite, soyez aussi précis que possible :
 
   * Nommez les dimensions, mesures et périodes à analyser.
-  * Référencez les composants de la vue de données en fonction de leur nom exact.
+  * Référencez les composants en fonction de leur nom exact.
   * Spécifiez les segments, audiences, canaux ou appareils que vous souhaitez inclure, exclure ou comparer.
   * Indiquez si vous souhaitez un type de visualisation spécifique, tel qu’un funnel, un tableau de tendance ou un tableau de cohortes.
   * Demandez les étapes suivantes recommandées si vous souhaitez que le Chat des collègues vous suggère des questions de suivi.
@@ -76,7 +76,7 @@ Pour plus d’informations, consultez le [Guide de l’interface utilisateur de 
   * Nommez la suite de rapports et la vue de données spécifiques que vous souhaitez comparer lors de la validation des données.
   * Commencez par effectuer une analyse, puis demandez à Chat de vos collègues de l’enregistrer en tant que compétence, en lui donnant un nom clair et descriptif et en notant la fréquence à laquelle vous prévoyez de le réutiliser.
 
-* Ajoutez des instructions standard à la mémoire du Chat de vos collègues. Par exemple, si vous utilisez toujours les données des mêmes vues de données, ajoutez-les à la mémoire.
+* Ajoutez des instructions standard à la mémoire du Chat de vos collègues. Par exemple, si vous utilisez toujours des données provenant des mêmes vues de données ou suites de rapports, ajoutez-les à la mémoire.
 
 ## Vérifier que la conversation avec un collègue est connectée à Customer Journey Analytics
 
@@ -88,15 +88,15 @@ Dans la conversation avec un collègue, vérifiez que celui-ci est connecté à 
 
 1. (Conditionnel) Si [!UICONTROL **cja-mcp**] n’est pas encore connecté, sélectionnez [!UICONTROL **Ajouter le serveur MCP**], spécifiez cja dans le champ [!UICONTROL **Nom du serveur**] et sélectionnez-le lorsqu’il apparaît, puis sélectionnez [!UICONTROL **Ajouter le serveur**].
 
-## Se connecter à la vue de données appropriée
+## Se connecter à la vue de données ou à la suite de rapports appropriée
 
-Une vue de données est un conteneur dans Customer Journey Analytics qui détermine la manière dont les données sont interprétées.
+Une vue de données est un conteneur dans Customer Journey Analytics qui détermine la manière dont les données sont interprétées. Une suite de rapports est un conteneur d’Adobe Analytics qui contient les données collectées sur vos sites et applications.
 
-Vous pouvez avoir accès à différentes vues de données dans Customer Journey Analytics, chacune contenant des dimensions et des mesures différentes que Coworker peut utiliser lors de l’analyse des données.
+Vous pouvez avoir accès à différentes vues de données dans Customer Journey Analytics ou suites de rapports dans Adobe Analytics. Chaque peut contenir différentes dimensions et mesures que Coworker peut utiliser lors de l’analyse des données.
 
-### Choix des vues de données à utiliser
+### Choix des vues de données ou des suites de rapports à utiliser
 
-Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui à quelles vues de données vous avez accès pour obtenir ces informations. Vous pouvez également [définir votre vue de données comme préférence en mémoire](#add-a-data-view-preference-in-memory).
+Indiquez à votre collègue les types de questions auxquelles vous souhaitez obtenir une réponse et demandez-lui quelles vues de données ou suites de rapports auxquelles vous avez accès et qui fournissent ces informations. Vous pouvez également [définir votre vue de données ou votre suite de rapports comme préférence en mémoire](#add-a-data-view-or-report-suite-preference-in-memory).
 
 **Vous:**
 
@@ -130,13 +130,13 @@ D’accord, j’utiliserai la vue de données `Customer lifecycle` pour répondr
 
 >[!ENDSHADEBOX]
 
-### Ajout d’une préférence de vue de données en mémoire
+### Ajout d’une préférence de vue de données ou de suite de rapports en mémoire
 
-Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui donner accès à des informations qui s’étendent sur toutes les conversations. Il est recommandé d’ajouter vos vues de données préférées en tant que préférences dans la mémoire du collègue.
+Le Chat Coworker contient une fonctionnalité de mémoire qui vous permet de lui donner accès à des informations qui s’étendent sur toutes les conversations. Il est recommandé d’ajouter vos vues de données ou suites de rapports préférées en tant que préférences dans la mémoire de votre collègue.
 
 1. Dans le volet de navigation de gauche de la discussion entre collègues, sélectionnez l’icône Mémoire .
 
-1. Sur la page Mémoire, dans la section [!UICONTROL **Préférences stockées**], spécifiez une ou plusieurs vues de données que vous souhaitez que Chat des collaborateurs utilise dans vos conversations.
+1. Sur la page Mémoire, dans la section [!UICONTROL **Préférences stockées**], spécifiez une ou plusieurs vues de données ou suites de rapports que vous souhaitez que le Module de conversation des collaborateurs utilise dans vos conversations.
 
    ![Section Mémoire du rail de gauche](../../assets/coworker-memory.png)
 
@@ -154,51 +154,57 @@ Pour ouvrir une visualisation dans un nouveau projet Analysis Workspace :
 
 ### Cas d’utilisation de Customer Journey Analytics
 
-Vous pouvez consulter les cas d’utilisation de Customer Journey Analytics et les exemples d’invites que les utilisateurs utilisent dans le chat des collaborateurs en entreprise d’Adobe CX, des réponses rapides aux investigations approfondies du travail. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
+Vous pouvez consulter les cas d’utilisation de Customer Journey Analytics et les exemples d’invites que les utilisateurs et utilisatrices utilisent dans le chat Adobe CX Enterprise Coworker, des réponses rapides aux enquêtes approfondies. Chaque invite est créée pour être copiée, adaptée à vos propres données et contexte et affinée par la conversation.
 
 Pour plus d’informations, voir [Cas d’utilisation](/help/coworker/chat/use-cases/overview.md).
 
 ## Compétences Analytics
 
-Les compétences suivantes sont disponibles pour analyser les données Customer Journey Analytics.
+Les compétences suivantes sont disponibles pour analyser les données Customer Journey Analytics ou Adobe Analytics.
 
 ### Interroger et analyser des données
 
-Cette compétence (`cja`) vous permet d’interroger Customer Journey Analytics en temps réel et d’analyser les résultats sans créer vous-même la requête dans Analysis Workspace.
+Ces compétences vous permettent d’interroger vos données en temps réel et d’analyser les résultats sans créer la requête vous-même dans Analysis Workspace :
+
+* `cja` - Vues de données Query Customer Journey Analytics
+* `aa` - Suites de rapports Query Adobe Analytics
 
 #### Autorisations nécessaires
 
-* Accès en affichage à la vue de données sur laquelle vous souhaitez effectuer une requête
+* Accès en affichage à la vue de données ou à la suite de rapports sur laquelle vous souhaitez effectuer une requête
 
 #### Cas d’utilisation clés
 
 | Cas d’utilisation | Fonction | Exemples d’invites |
 |---------|----------|---------|
-| **Extraction de rapports et de mesures** | Query Customer Journey Analytics en temps réel pour extraire des mesures, des dimensions, des segments et des vues de données. | <ul><li>« Afficher les pages vues au cours des 30 derniers jours »</li><li>« Répertorier les segments principaux dans la vue de données principale »</li></ul> |
+| **Extraction de rapports et de mesures** | Exécutez des requêtes dans Customer Journey Analytics ou Adobe Analytics en temps réel pour extraire des mesures, des dimensions, des segments, des vues de données et des suites de rapports. | <ul><li>« Afficher les pages vues au cours des 30 derniers jours »</li><li>« Répertorier les segments principaux dans la vue de données principale »</li></ul> |
 | **Analyse comparative** | Comparez les mesures entre les canaux, les périodes ou les segments côte à côte. | <ul><li>« Comparer les revenus par canal, mois après mois »</li><li>« À quoi ressemble la conversion entre appareils mobiles et ordinateurs de bureau ce trimestre ? »</li></ul> |
 | **Analyse** | Parcourez les entonnoirs de conversion à plusieurs étapes avec une restitution à chaque étape. | <ul><li>« Me guider dans le funnel de passage en caisse »</li><li>« Afficher le funnel de conversion du PDP à l’achat »</li></ul> |
 | **Prévision** | Prévoyez les valeurs des mesures futures en fonction des données historiques. | <ul><li>« Prévision des sessions pour les 30 prochains jours »</li><li>« Sommes-nous sur la bonne voie pour atteindre notre objectif de revenus ? »</li></ul> |
 
 #### Dans la portée
 
-* Requête en temps réel des mesures, dimensions, segments et vues de données
+* Requête en temps réel des mesures, dimensions, segments, vues de données et suites de rapports
 * Comparaison côte à côte entre les canaux, les périodes ou les segments
 * Funnel à plusieurs étapes et analyse des abandons
 * Prévision des mesures basée sur les tendances historiques
 
 #### Hors de portée
 
-* Création ou modification de composants de vue de données
-* Données en dehors des vues de données auxquelles vous avez accès
+* Créer ou modifier des composants de vue de données ou de suite de rapports
+* Données en dehors des vues de données ou des suites de rapports auxquelles vous avez accès
 * Modélisation prédictive au-delà des prévisions métriques
 
 ### Analyse des causes premières
 
-Cette compétence (`cja-root-cause-analysis`) permet de déterminer pourquoi une mesure a été modifiée au lieu de simplement signaler qu’elle a été modifiée.
+Ces compétences étudient les raisons pour lesquelles une mesure a été modifiée au lieu de simplement signaler qu’elle a été modifiée :
+
+* `cja-root-cause-analysis` - Analyse des modifications apportées aux mesures dans les vues de données Customer Journey Analytics
+* `aa-root-cause-analysis` - Analyse des modifications apportées aux mesures dans les suites de rapports Adobe Analytics
 
 #### Autorisations nécessaires
 
-* Accès en affichage à la vue de données en cours d’analyse
+* Accès en affichage à la vue de données ou à la suite de rapports en cours d’analyse
 
 #### Cas d’utilisation clés
 
@@ -214,15 +220,15 @@ Cette compétence (`cja-root-cause-analysis`) permet de déterminer pourquoi une
 #### Hors de portée
 
 * Détection des anomalies dont vous n’avez pas parlé (aucune alerte automatisée ou en temps réel)
-* Analyse de la cause première pour les mesures en dehors d’une vue de données à laquelle vous avez accès
+* Analyse de la cause première pour les mesures en dehors d’une vue de données ou d’une suite de rapports à laquelle vous avez accès
 
 ### Résumés de gestion et résumés des performances
 
-Cette compétence (`cja-executive-summary`) produit des résumés prêts à l’emploi de vos données Customer Journey Analytics.
+Cette compétence (`cja-executive-summary`) produit des résumés prêts à l’emploi de vos données Customer Journey Analytics ou Adobe Analytics.
 
 #### Autorisations nécessaires
 
-* Afficher l’accès à la ou aux vues de données couvertes par le résumé
+* Accès en affichage aux vues de données ou aux suites de rapports couvertes par le résumé
 
 #### Cas d’utilisation clés
 
@@ -239,7 +245,7 @@ Cette compétence (`cja-executive-summary`) produit des résumés prêts à l’
 #### Hors de portée
 
 * Création de la présentation ou du fichier de présentation final
-* Résumés qui couvrent des vues de données auxquelles vous n’avez pas accès
+* Résumés qui couvrent des vues de données ou des suites de rapports auxquelles vous n’avez pas accès
 
 ### Validation des données avec Adobe Analytics
 
@@ -287,7 +293,7 @@ Cette compétence (`cja-skill-creator`) transforme une analyse que vous avez dé
 #### Hors de portée
 
 * Partager automatiquement une compétence enregistrée avec d’autres utilisateurs (les bibliothèques de compétences au niveau de l’organisation nécessitent une configuration administrateur)
-* Modifier les références de compétence des composants de la vue de données
+* La modification de la vue de données ou des composants de suite de rapports comme référence de compétence
 
 ## Exemple : Rechercher l’endroit où les clients repartent
 
@@ -389,7 +395,7 @@ C&#39;est une découverte très révélatrice. Voici la répartition funnel par 
 | Recherche payante | 43,958 | 45.1% | 54.6% | 16.6% | 4.09% | $499.58 |
 | Recherche organique | 31,492 | 44.9% | 54.9% | 16.9% | 4.17% | $494.76 |
 | Direct | 25,245 | 43.6% | 55.4% | 15.8% | 3.82% | $497.29 |
-| E-mail | 17,586 | 45.3% | 55.4% | 16.2% | 4.07% | $501.13 |
+| Email | 17,586 | 45.3% | 55.4% | 16.2% | 4.07% | $501.13 |
 | Rémunération sociale | 12,684 | 45.4% | 55.7% | 16.0% | 4.03% | $512.17 |
 | Affichage | 6,511 | 45.3% | 55.7% | 16.2% | 4.09% | $501.45 |
 
