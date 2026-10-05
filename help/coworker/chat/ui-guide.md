@@ -4,20 +4,20 @@ title: Guide de l’interface utilisateur de la conversation avec un collègue
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # Guide de l’interface utilisateur du {#ui-guide}
 
 Familiarisez-vous avec l’interface de conversation des collègues. Ce guide couvre tous les aspects, de l’accès à l’application à la navigation dans l’espace de travail, en passant par la manière de tirer le meilleur parti des conversations, de gérer votre historique et de personnaliser votre configuration.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498569?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accéder au chat des collègues
 
@@ -27,23 +27,23 @@ Lorsque votre entreprise obtient l’accès à Coworker, vous pouvez utiliser se
 >
 >L’expérience intégrée au produit est accessible via l’icône Coworker ![icône Coworker](./assets/icon-coworker.png) en haut à droite. Les détails de l’expérience immersive sont [décrits ci-dessous](#immersive).
 
-Le tableau suivant indique quand ces expériences seront disponibles pour chaque application CX Enterprise.
+Le tableau suivant capture la date à laquelle ces expériences seront disponibles pour chaque application CX Enterprise.
 
-| Application d’entreprise CX | Expérience immersive | Expérience intégrée au produit |
+| Application CX Enterprise | Expérience immersive | Expérience intégrée au produit |
 |---|---|---|
 | RTCDP | Disponible maintenant | Bientôt disponible |
 | AJO | Disponible maintenant | Bientôt disponible |
 | CJA | Disponible maintenant | Bientôt disponible |
 | Workfront | Disponible maintenant | Prochainement : <br><br>* début septembre 2026 dans l’instance d’aperçu pour certains administrateurs système Workfront éligibles <br><br>* mi-septembre 2026 dans l’instance de production pour les clients Workfront à version rapide éligibles <br><br>* mi-octobre 2026 dans l’instance de production pour les clients Workfront à version trimestrielle éligibles |
 | Cible | Disponible maintenant | Disponible maintenant |
-| AEM | Disponible maintenant | Bientôt disponible |
+| AEM | Disponible maintenant | Disponible maintenant |
 | Marketo Engage | Disponible maintenant | Bientôt disponible |
 
 ### Expérience immersive {#immersive}
 
-Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
+Accédez au Chat des collaborateurs en accédant à [](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
-Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de l’expérience client.
+Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de CX Enterprise.
 
 ![Accès à Coworker à partir du sélecteur d’applications CX Enterprise](./assets/ui-guide-1.png)
 
@@ -59,7 +59,7 @@ Sélectionnez votre nom pour ouvrir le menu du compte, où vous pouvez changer d
 | Paramètres | Ouvrez les paramètres de l’espace de travail pour afficher les détails de votre compte et d’autres paramètres. |
 | Sélecteur d’organisation | Changer l’organisation IMS sur laquelle le collaborateur s’exécute. |
 | Sélecteur de sandbox | Basculez vers le sandbox AEP actif. |
-| Applications CX | Passez à une autre application CX Enterprise connectée à votre compte. |
+| Applications CX | Accédez à une autre application CX Enterprise connectée à votre compte . |
 | Se déconnecter | Déconnectez-vous de votre compte Adobe. |
 
 ![Le menu Compte avec le sélecteur d’organisation ouvert](./assets/ui-guide-2.png)
@@ -68,7 +68,7 @@ Sélectionnez votre nom pour ouvrir le menu du compte, où vous pouvez changer d
 
 ## Navigation dans l’interface
 
-L’interface CX Coworker comporte deux zones principales : le rail de navigation à gauche et la zone de travail de conversation qui remplit le reste de la fenêtre.
+L’interface de CX Coworker comporte deux zones principales : le rail de navigation à gauche et la zone de travail de conversation qui remplit le reste de la fenêtre.
 
 ![Écran d’accueil](./assets/ui-guide-4.png)
 
@@ -91,7 +91,7 @@ L’écran d’accueil est l’endroit où vous commencez. Elle affiche un messa
 
 ### Invites suggérées
 
-Sous Suggéré pour vous, CX Coworker répertorie des exemples de tâches. Sélectionnez une suggestion pour la charger dans la zone de saisie, puis modifiez-la avant de l’envoyer ou envoyez-la en l’état. Les suggestions sont un moyen rapide de voir les types de travail pris en charge par le Module de conversation des collaborateurs : déplacement de schémas entre des sandbox, recherche d’anomalies dans un parcours, validation d’un jeu de données, etc.
+Sous Suggérées pour vous, CX Coworker répertorie les exemples de tâches. Sélectionnez une suggestion pour la charger dans la zone de saisie, puis modifiez-la avant de l’envoyer ou envoyez-la en l’état. Les suggestions sont un moyen rapide de voir les types de travail pris en charge par le Module de conversation des collaborateurs : déplacement de schémas entre des sandbox, recherche d’anomalies dans un parcours, validation d’un jeu de données, etc.
 
 ### Mentions des entités
 

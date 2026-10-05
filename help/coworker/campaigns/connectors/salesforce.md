@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 1%
 ---
 # Connexion à Salesforce {#salesforce}
 
-Les campagnes Adobe Coworker vous permettent de connecter votre compte Salesforce à...
+Les campagnes Adobe Coworker vous permettent de connecter votre compte Salesforce pour accéder à vos prospects et contacts.
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Les campagnes Adobe Coworker vous permettent de connecter votre compte Salesforc
 
    ![](./assets/salesforce-4.png)
 
-Après la connexion, Salesforce apparaît dans la liste Connecteurs ET QUOI ENCORE ?
+Après la connexion, Salesforce apparaît dans la liste Connecteurs et peut être sélectionné lors de la liaison d’un prospect ou d’une liste de contacts à synchroniser à partir de Salesforce.
 
 **Pour vous déconnecter :**
 
