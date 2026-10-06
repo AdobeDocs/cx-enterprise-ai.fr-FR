@@ -6,17 +6,17 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 19%
+source-wordcount: '391'
+ht-degree: 21%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
 
 - [IA dans CX Enterprise](home.md)
-- À propos de l’IA dans CX Enterprise {#overview}
-  - [À propos de l’IA dans CX Enterprise](./overview/overview-ai-cxe.md)
+- À propos de l’IA dans CX Enterprise {#overview}
+  - [À propos de l’IA dans CX Enterprise](./overview/overview-ai-cxe.md)
   - [À propos de l’IA générative](./overview/generative-ai.md)
   - [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md)
   - [À propos de la consommation des crédits AI](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 19%
       - Alertes {#alerts}
         - [Compétences en alerte client](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilité de la marque {#brand-visibility}
-        - [Générer des ressources marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Vérification de la conformité de la marque](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Créer des pages AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [Intégration d’AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Générer des ressources marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Workflow et planification {#workflow-and-planning}
         - [Planifier le lancement d’une campagne numérique](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personnalisations {#customizations}
@@ -101,19 +102,19 @@ ht-degree: 19%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
-  - Commencer {#mcp-get-started}
+  - Prise en main {#mcp-get-started}
     - {hide-from-toc}[Accéder aux outils de la passerelle CX Coworker](./mcp/access.md)
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
