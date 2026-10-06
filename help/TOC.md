@@ -6,9 +6,9 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 19%
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 19%
   - [Agent de découverte de champ](./agents/field-discovery-agent.md)
   - [Agent Journey](./agents/ajo-agent.md)
   - [Agent du support technique du produit](./agents/product-support.md)
+  - [Préparation des données SQL](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agent de notifications](./agents/notifications.md)
   - [Essai des collègues](./agents/trial.md)
