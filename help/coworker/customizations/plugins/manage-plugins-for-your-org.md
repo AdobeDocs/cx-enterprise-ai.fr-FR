@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 285
 last-substantial-update: 2026-10-06T00:00:00.000Z
 jira: KT-22450
-autotag-review: '2026-10-06T19:34:49.657Z'
+autotag-review: '2026-10-06T19:34:50.127Z'
 TQID: 'https://experienceleague.adobe.com/docSb6NXSCCw15BOSM8A2Zi8h-wGFuCyoNRzAvHvDYQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -44,13 +44,13 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: 9bedb36df415d93548f213555705345ed97940e6
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 0%
 ---
 
-# Gestion des plug-ins et des places de marché dans [!DNL CX Enterprise Coworker Chat]
+# Gestion des plug-ins et des places de marché
 
 Découvrez comment les administrateurs peuvent étendre le Chat des collaborateurs Adobe avec des plug-ins approuvés, gérer les places de marché et régir l’accès aux compétences et aux outils connectés tout en conservant l’alignement avec les autorisations Adobe existantes.
 
