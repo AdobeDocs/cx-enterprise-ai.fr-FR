@@ -6,17 +6,17 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 19%
+source-wordcount: '396'
+ht-degree: 21%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
 
 - [IA dans CX Enterprise](home.md)
-- À propos de l’IA dans CX Enterprise {#overview}
-  - [À propos de l’IA dans CX Enterprise](./overview/overview-ai-cxe.md)
+- À propos de l’IA dans CX Enterprise {#overview}
+  - [À propos de l’IA dans CX Enterprise](./overview/overview-ai-cxe.md)
   - [À propos de l’IA générative](./overview/generative-ai.md)
   - [À propos de l’IA dédiée aux agents](./overview/agentic-ai.md)
   - [À propos de la consommation des crédits AI](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 19%
       - Alertes {#alerts}
         - [Compétences en alerte client](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilité de la marque {#brand-visibility}
-        - [Générer des ressources marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Vérification de la conformité de la marque](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Créer des pages AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [Intégration d’AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Générer des ressources marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Workflow et planification {#workflow-and-planning}
         - [Planifier le lancement d’une campagne numérique](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personnalisations {#customizations}
@@ -68,6 +69,7 @@ ht-degree: 19%
       - [Que sont les intégrations ?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-ins {#plugins}
       - [Que sont les plug-ins ?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Gestion des modules externes pour votre organisation](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Mémoire {#memory}
       - [Qu&#39;est-ce que la mémoire ?](./coworker/customizations/memory/what-is-memory.md)
   - Campagnes {#campaigns}
@@ -105,7 +107,7 @@ ht-degree: 19%
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
-  - Commencer {#mcp-get-started}
+  - Prise en main {#mcp-get-started}
     - {hide-from-toc}[Accéder aux outils de la passerelle CX Coworker](./mcp/access.md)
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
