@@ -2,17 +2,15 @@
 title: Générer une liste de contrôle d’implémentation dans les projets de collègues
 description: Découvrez comment les projets de collègues génèrent une liste de contrôle d’implémentation préremplie à partir de votre plan des guides d’implémentation, avec des étapes que vous pouvez affecter et suivre.
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
-
+source-wordcount: '703'
+ht-degree: 0%
 ---
-
 
 # Générer une liste de contrôle d’implémentation avec les projets de collègues
 
-Les projets collaborateurs peuvent générer une liste de contrôle d’implémentation, pré-remplie avec les étapes ordonnées de votre plan de guide d’implémentation pour Customer Journey Analytics, une mise à niveau d’Adobe Analytics vers Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) ou Streaming Media. Coworker automatise ou aide avec autant d’étapes que techniquement possible, afin que vous et votre équipe disposiez d’un emplacement unique et traçable pour travailler sur votre implémentation.
+Adobe CX Enterprise Coworker peut générer un projet de liste de contrôle d’implémentation dans les projets de collègues, pré-renseigné avec les étapes ordonnées de votre plan de guide d’implémentation pour Customer Journey Analytics, une mise à niveau d’Adobe Analytics vers Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) ou Streaming Media. Coworker automatise ou aide avec autant d’étapes que techniquement possible, afin que vous et votre équipe disposiez d’un emplacement unique et traçable pour travailler sur votre implémentation.
 
 Si vous dirigez une implémentation, exécutez des étapes techniques ou avez simplement besoin de visibilité sur la progression, vous pouvez utiliser cette liste de contrôle pour affecter du travail, suivre le statut et collaborer avec votre équipe, sans quitter Coworker.
 

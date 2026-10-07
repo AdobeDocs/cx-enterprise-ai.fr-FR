@@ -6,10 +6,10 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: 76cf3aae7e2749c3d1318625c4938cc8fc2eeec6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 21%
+source-wordcount: '398'
+ht-degree: 22%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -32,6 +32,8 @@ ht-degree: 21%
     - Cas d’utilisation {#use-cases}
       - [Cas d’utilisation de la conversation avec un collègue](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
+        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview.md)
         - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
@@ -103,7 +105,7 @@ ht-degree: 21%
   - [Essai des collègues](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -112,10 +114,10 @@ ht-degree: 21%
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
