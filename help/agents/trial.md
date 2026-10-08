@@ -77,7 +77,7 @@ Les utilisateurs des clients éligibles auront un accès par défaut à l’assi
 
 Une fois que vous y avez accès, accédez à la page d’accueil de Adobe CX Enterprise pour commencer à utiliser l’assistant AI. Vous pouvez utiliser les [invites de découverte](../ai-assistant/ai-assistant-ui.md#discovery-prompts) pour afficher les suggestions des invites et des workflows courants. Utilisez cette fonctionnalité pour accélérer votre intégration à l’aide de l’assistant AI. Lisez également la section [bibliothèque d’invites](../ai-assistant/prompt-library.md) pour découvrir un grand nombre d’invites que vous pouvez utiliser avec différents agents. Pour obtenir des informations plus complètes, consultez le guide de l’interface utilisateur de l’assistant [AI](../ai-assistant/ai-assistant-ui.md).
 
-Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [](mailto:cx-coworker-questions@adobe.com).
+Si le client souhaite se désabonner de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [&#128279;](mailto:cx-coworker-questions@adobe.com).
 
 ## Ressources supplémentaires
 

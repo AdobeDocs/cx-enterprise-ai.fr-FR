@@ -123,7 +123,7 @@ Cependant, le cas échéant, toutes les applications Adobe CX Enterprise continu
 
 **Quelles applications Adobe appliquent des métadonnées C2PA au contenu généré modifié ou créé par l’IA ?**
 
-Les applications Adobe CX Enterprise prises en charge joignent automatiquement des métadonnées C2PA au contenu généré et modifié par GenAI éligible. Pour plus d’informations sur les applications ](#supported-applications) consultez la section [ Applications prises en charge .
+Les applications Adobe CX Enterprise prises en charge joignent automatiquement des métadonnées C2PA au contenu généré et modifié par GenAI éligible. Pour plus d’informations sur les applications [&#128279;](#supported-applications) consultez la section  Applications prises en charge .
 
 **À quels types de contenu Adobe ajoute-t-il des métadonnées C2PA ?**
 
