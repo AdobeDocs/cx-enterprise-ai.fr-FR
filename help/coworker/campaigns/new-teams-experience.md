@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# Nouvelle expérience Équipes {#new-teams-experience}
+# Prochainement : espaces de travail par défaut avec visibilité de campagne entre équipes {#new-teams-experience}
 
-## Une action peut s’avérer nécessaire : une nouvelle expérience Équipes est prévue pour le 15 octobre
+## Une action peut être requise : une nouvelle expérience Équipes est prévue pour le 15 octobre 2026
 
 ### Qu&#39;est-ce qui change et quelles en seront les conséquences ?
 
@@ -32,4 +32,10 @@ Pour conserver tout ce que vous souhaitez dans vos dossiers, enregistrez-le loca
 * **Campagnes** : exportez chaque campagne sous la forme d’un fichier PDF ou Word à l’aide de l’icône de téléchargement située dans le coin supérieur droit de la campagne.
 * **E-mails** : téléchargez un e-mail sous HTML à l’aide de l’icône d’exportation dans l’éditeur d’e-mail.
 
-Questions ? Contactez-nous à coworkerca@adobe.com.
+**Regardez la vidéo ci-dessous pour une présentation détaillée**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### Vous avez des questions ?
+
+Contactez-nous à coworkerca@adobe.com.
