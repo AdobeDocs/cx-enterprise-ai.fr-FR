@@ -6,10 +6,10 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 23%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -23,70 +23,6 @@ ht-degree: 22%
   - [Tableau de bord de surveillance de l’IA dédiée aux agences](./overview/monitoring.md)
   - [Outils agentiques](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparence du contenu d’IA générative](content-transparency.md)
-- Guide de CX Enterprise Coworker {#coworker}
-  - [Présentation des collègues](./coworker/overview.md)
-  - Chat {#chat}
-    - [Vue d’ensemble](./coworker/chat/overview.md)
-    - [Guide de l’interface utilisateur du](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[Conversation avec un collègue dans un terrain de jeu](./coworker/playground-coworker-chat.md)
-    - Cas d’utilisation {#use-cases}
-      - [Cas d’utilisation de la conversation avec un collègue](./coworker/chat/use-cases/overview.md)
-      - Data Insights {#data-insights}
-        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [Prise en main](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Validation des données Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - Data Management {#data-management}
-        - [Gestion de la rétention du lac de données](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - Audiences {#audiences}
-        - [Évaluation de l’intégrité de la plateforme et création d’audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - Parcours {#journeys}
-        - [Création de parcours à l’aide du langage naturel](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - Fidélité {#loyalty}
-        - [Créez un défi de fidélité et obtenez des informations](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - Optimisation {#optimization}
-        - [Activités de Launch Target](./coworker/chat/use-cases/optimization/target.md)
-        - [Accélérer l’expérimentation](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
-      - Outil Sandbox {#sandbox-tooling}
-        - [Compétences en agent pour l’outil Sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - Alertes {#alerts}
-        - [Compétences en alerte client](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - Visibilité de la marque {#brand-visibility}
-        - [Vérification de la conformité de la marque](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [Créer des pages AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [Intégration d’AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [Générer des ressources marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - Workflow et planification {#workflow-and-planning}
-        - [Planifier le lancement d’une campagne numérique](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - Personnalisations {#customizations}
-    - [Vue d’ensemble](./coworker/customizations/overview.md)
-    - Compétences {#skills}
-      - [Que sont les compétences ?](./coworker/customizations/skills/what-are-skills.md)
-      - [Créer votre première compétence](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Créer et exécuter une compétence de point de contrôle qualité](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Gestion et itération sur les compétences](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - Intégrations {#integrations}
-      - [Que sont les intégrations ?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - Plug-ins {#plugins}
-      - [Que sont les plug-ins ?](./coworker/customizations/plugins/what-are-plugins.md)
-      - [Gestion des modules externes pour votre organisation](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - Mémoire {#memory}
-      - [Qu&#39;est-ce que la mémoire ?](./coworker/customizations/memory/what-is-memory.md)
-  - Campagnes {#campaigns}
-    - {hide-from-toc}[Nouvelle expérience Équipes](./coworker/campaigns/new-teams-experience.md)
-    - [Vue d’ensemble](./coworker/campaigns/overview.md)
-    - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
-    - [Lancement et gestion d’une campagne](./coworker/campaigns/launch-manage-campaign.md)
-    - [Cas d’utilisation](./coworker/campaigns/use-cases.md)
-    - [Bonnes pratiques en matière de promotion](./coworker/campaigns/prompting-best-practices.md)
-    - [Métadonnées C2PA](./coworker/campaigns/c2pa-metadata.md)
-    - Connecteurs {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Point De Raccordement](./coworker/campaigns/connectors/hubspot.md)
-    - [Notes de mise à jour](./coworker/campaigns/release-notes.md)
 - Guide de l’assistant AI {#ai-assistant}
   - [Guide de l’interface utilisateur de l’assistant AI](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothèque d&#39;invites](./ai-assistant/prompt-library.md)
@@ -104,10 +40,10 @@ ht-degree: 22%
   - [Préparation des données SQL](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agent de notifications](./agents/notifications.md)
-  - [Essai des collègues](./agents/trial.md)
+  - [Essai avec un collègue](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
@@ -116,10 +52,10 @@ ht-degree: 22%
     - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Outils ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Cible](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)

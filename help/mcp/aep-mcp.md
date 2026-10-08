@@ -2,15 +2,15 @@
 title: Outils Experience Platform dans la passerelle CX Coworker
 description: Découvrez les outils Adobe Experience Platform disponibles via la passerelle CX Coworker.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
 # Outils Adobe Experience Platform dans la passerelle Adobe CX Coworker {#aep-mcp}
 
-Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [&#128279;](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
+Vous pouvez utiliser les outils du produit Adobe Experience Platform pour inspecter les schémas, les jeux de données, la configuration de la gouvernance des données, les ressources de Query Service et les événements d’audit d’un client compatible avec MCP. Ces outils sont disponibles via la passerelle Adobe CX Coworker [](overview.md) lorsque votre organisation est activée et que votre compte utilisateur dispose des autorisations Experience Platform requises.
 
 >[!AVAILABILITY]
 >
@@ -57,7 +57,7 @@ Répertorier les enregistrements horodatés des activités utilisateur dans les 
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `action` | Non | Filtrez par type d’action. Valeurs courantes (séparées par des virgules pour OR) : `Create`, `Delete`, `Update`, `Enable`, `Disable` |
 | `asset_type` | Non | Filtrez par type de ressource. Doit être l’un des éléments suivants : `Dataset`, `Schema`, `Segment`, `Destination`, `Source Data Flow`, `Merge Policy`, `Identity Namespace`, `Identity Graph`, `Sandbox`, `Role`, `Query`, `Scheduled Query`, `Datastream`, `Computed Attribute`, `Field Group`, `Class`, `Data Types`, `Account`, `Product Profile`, `Query Template`, `Work Order`, `Audit Logs`, `Access Control Policy`,,, |
@@ -81,7 +81,7 @@ Outil de répartition unifié pour le service de catalogue Experience Platform. 
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `entity_type` | Oui | `dataset` ou `batch`. |
 | `operation` | Oui | `list`, `get`, `list_last`, `list_files`, `get_meta_files`. Combinaisons valides : liste des → de jeux de données, get ; lot → les cinq |
@@ -112,7 +112,7 @@ Recherchez des relations de classe commerciale Experience Platform par nom à l�
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `query` | Oui | Nom de la classe professionnelle ou type d’objet à rechercher. Prend en charge les correspondances de jeton partielles (`dat` correspond à `dataset`, `data_type`, etc.). Transmettez plusieurs termes séparés par des virgules pour rechercher plusieurs classes à la fois (par exemple, `dataset, schema`) |
 | `n` | Non | Nombre maximal de résultats correspondants à renvoyer (5 par défaut, min 1) |
@@ -128,7 +128,7 @@ Accédez aux fichiers des lots d’ingestion de données Experience Platform aya
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `entity_type` | Oui | `failed_batch` — répertorie les fichiers d&#39;un lot d&#39;ingestion ayant échoué |
 | `operation` | Oui | `list_failed` : la seule opération prise en charge |
@@ -149,7 +149,7 @@ Inspectez les métadonnées du jeu de données et du lot à partir de la couche 
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `entity_type` | Oui | `dataset` ou `batch`. |
 | `operation` | Oui | `get`, `get_size`, `list_failed`. `list_failed` ne prend en charge que le type d’entité `batch` |
@@ -170,7 +170,7 @@ Recherchez des libellés d’utilisation des données, des politiques et des act
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `entity_type` | Oui | `label`, `policy` ou `marketing_action` |
 | `operation` | Oui | `list`, `get`, `list_enabled` (politique uniquement), `evaluate` (marketing_action uniquement). `list_enabled` ne nécessite pas de portée |
@@ -195,7 +195,7 @@ Outil unifié pour les ressources de Query Service. Répertoriez et récupérez 
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `entity_type` | Oui | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Oui | `list`, `get`, `get_connection_params`, `list_by_u...` |
@@ -211,7 +211,7 @@ Requête [!DNL Observability Insights] mesures pour le sandbox actuel ou pour to
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `metrics` | Oui | Tableau de spécifications de mesure. Chacun comprend `name` (nom de mesure complet), `aggregator` (`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, variantes d’histogramme ou `absent`), `filters` facultatif et `downsample` facultatif |
 | `start` | Oui | Démarrage de la fenêtre, ISO 8601, par exemple `2026-01-15T00:00:00.000Z`. Doit être antérieur à `end`. Fenêtre maximale : 31 jours |
@@ -232,7 +232,7 @@ Détecter les intervalles de violation de [!DNL Observability Insights], les fen
 
 **Paramètres:**
 
-| Paramètre | Obligatoire | Description |
+| Paramètre | Requis | Description |
 | --- | --- | --- |
 | `metrics` | Oui | Tableau des spécifications de violation. Chaque inclut des `name` (nom de mesure complet) et des `filters` facultatifs |
 | `start` | Oui | Démarrage de la fenêtre, ISO 8601. Doit être antérieur à `end`. Fenêtre maximale : 31 jours |
@@ -255,7 +255,7 @@ Récupérez les derniers résultats de l’évaluation du contrôle d’intégri
 
 >[!NOTE]
 >
->Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/health-checks). Des conseils de correction automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans la conversation [&#128279;](../coworker/chat/overview.md).
+>Cet outil récupère uniquement les résultats de l’évaluation. Pour résoudre un problème signalé, utilisez le panneau des détails du contrôle de l’intégrité dans l’interface utilisateur de [!DNL Experience Platform]. Voir [Contrôles d’intégrité](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Des conseils de correction automatique pour les contrôles d’intégrité pris en charge sont disponibles en tant que compétence dans la conversation [](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 **Fonctionnalités :** répertorier tous les résultats des contrôles d’intégrité pour le sandbox actuel et obtenir les résultats d’un contrôle nommé.
 
