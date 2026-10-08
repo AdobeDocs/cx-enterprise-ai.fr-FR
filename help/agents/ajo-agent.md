@@ -66,7 +66,7 @@ Journey Agent se compose de quatre tâches principales :
 - **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
 - **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
 
-En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, une fonctionnalité d’IA non conversationnelle intégrée au produit avec trois sous-fonctionnalités :
+En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, une fonctionnalité d’IA non conversationnelle intégrée au produit avec trois sous-fonctionnalités :
 
 - Génération d’utilisateurs simulés
 - Génération de valeurs d’événement
@@ -310,7 +310,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 L’analyse des parcours permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Grâce à l’analyse de Parcours, les utilisateurs et les utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et d’audience, détecter les points d’abandon d’utilisateurs et d’utilisatrices dans un parcours et afficher des informations ou des recommandations pour améliorer les performances.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
 
 Pour plus d’informations, voir [Analyse de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
@@ -500,7 +500,7 @@ La simulation de parcours est disponible pour tous les clients Journey Optimizer
 
 Pour utiliser l’IA dans **[!UICONTROL Simulation]** (**[!UICONTROL Simulation rapide]**, génération d’utilisateurs simulés avec l’IA **[!UICONTROL Générer des valeurs d’événement]**), les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Générer le contenu]** de la fonctionnalité **[!UICONTROL Assistant IA]**.
 
-[En savoir plus sur les autorisations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
+[En savoir plus sur les autorisations](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,11 +562,11 @@ En outre, les fonctionnalités suivantes sont prises en charge par la fonctionna
 
 La simulation peut ne pas prendre en charge toutes les activités, tous les canaux ou toutes les intégrations pris en charge par le mode Test ou un parcours en direct. Le comportement peut changer à mesure que la fonctionnalité se développe.
 
-➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} dans la documentation de Journey Optimizer.
+➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} dans la documentation de Journey Optimizer.
 
 ## Voir également
 
 - [&#128279;](./agent-orchestrator.md), la couche d’agent qui alimente Journey Agent et d’autres agents Experience Platform.
 - [Outils Journey Optimizer dans la passerelle CX Coworker](../mcp/ajo-mcp.md), une surface MCP en lecture seule pour la révision de la configuration des campagnes et des canaux.
-- [Créer des parcours en langage naturel](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) et [Créer, modifier et gérer des défis de fidélité](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), les cas d’utilisation du Chat des collègues qui s’appuient sur la création de Parcours.
+- [Créer des parcours en langage naturel](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) et [Créer, modifier et gérer des défis de fidélité](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), les cas d’utilisation du Chat des collègues qui s’appuient sur la création de Parcours.
 - [Agent du support produit](./product-support.md), pour le dépannage des problèmes Journey Optimizer, a été présenté via l’assistant AI.

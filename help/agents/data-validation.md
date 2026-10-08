@@ -24,7 +24,7 @@ Lisez cette documentation pour savoir comment valider vos données dans l’assi
 
 >[!NOTE]
 >
->La validation des données est également disponible en tant que compétence Collègue. Voir [Valider vos données Experience Platform avec un collègue](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
+>La validation des données est également disponible en tant que compétence Collègue. Voir [Valider vos données Experience Platform avec un collègue](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Cas d’utilisation
 

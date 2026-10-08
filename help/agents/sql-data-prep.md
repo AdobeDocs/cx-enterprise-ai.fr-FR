@@ -29,7 +29,7 @@ Vous pouvez identifier les jeux de données à utiliser dans votre requête. Si 
 
 Une fois que Coworker a généré ou mis à jour le code SQL, vous pouvez continuer la conversation pour prévisualiser les résultats, affiner la requête, l’enregistrer ou la planifier pour une exécution récurrente.
 
-Pour obtenir des conseils sur l’utilisation de l’interface Coworker, voir le [Guide de l’interface utilisateur Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
+Pour obtenir des conseils sur l’utilisation de l’interface Coworker, voir le [Guide de l’interface utilisateur Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/ui-guide).
 
 ## Fonctionnalités prises en charge {#supported-capabilities}
 
@@ -56,7 +56,7 @@ Par exemple, vous pouvez effectuer les opérations suivantes :
 
 Un collègue peut poser des questions de suivi lorsque des informations supplémentaires sont nécessaires, par exemple pour identifier le jeu de données approprié ou confirmer le fuseau horaire d’un planning.
 
-Un aperçu de requête renvoie jusqu’à cinq lignes. Pour exécuter et utiliser des requêtes directement dans Experience Platform, consultez le guide de l’interface utilisateur de [Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Un aperçu de requête renvoie jusqu’à cinq lignes. Pour exécuter et utiliser des requêtes directement dans Experience Platform, consultez le guide de l’interface utilisateur de [Query Editor](https://experienceleague.adobe.com/fr/docs/experience-platform/query/ui/user-guide).
 
 ![Réponse d’un collègue présentant un aperçu de cinq lignes des résultats de la requête SQL et des options permettant d’enregistrer la requête en tant que modèle ou de la planifier pour une exécution récurrente.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Coworker renvoie le code SQL généré et peut exécuter la requête pour fourni
 
 ![Réponse du collaborateur affichant le code SQL généré pour résumer l’engagement des clients par type d’événement, suivie d’un aperçu sous forme de tableau du nombre total d’événements et de clients uniques et d’une analyse des résultats.](./assets/sql-data-prep/authoring-result.png)
 
-Pour plus d’informations sur la création et l’exécution de requêtes directement dans Experience Platform, consultez le [Guide de l’interface utilisateur de Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Pour plus d’informations sur la création et l’exécution de requêtes directement dans Experience Platform, consultez le [Guide de l’interface utilisateur de Query Editor](https://experienceleague.adobe.com/fr/docs/experience-platform/query/ui/user-guide).
 
 ### Optimiser le SQL existant {#optimize-sql}
 
@@ -113,7 +113,7 @@ Si la requête fournie est déjà optimisée, Coworker peut déterminer qu’auc
 
 Le code SQL généré par la fonctionnalité de création SQL est déjà optimisé. Vous n’avez pas besoin d’envoyer le code SQL nouvellement généré séparément pour l’optimisation.
 
-Pour connaître la syntaxe SQL et les commandes prises en charge, voir [Référence SQL de Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
+Pour connaître la syntaxe SQL et les commandes prises en charge, voir [Référence SQL de Query Service](https://experienceleague.adobe.com/fr/docs/experience-platform/query/sql/overview).
 
 ### Diagnostic et correction des erreurs SQL {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Après avoir confirmé les détails de planification requis, Coworker renvoie un
 
 ![Réponse d’un collègue confirmant une requête SQL planifiée, y compris le modèle enregistré, le planning, le fuseau horaire, la date de fin, le statut du planning et l’alerte d’échec.](./assets/sql-data-prep/schedule-query.png)
 
-Pour plus d’informations sur les plannings de requête, les paramètres de périodicité, les jeux de données de sortie et les alertes, voir [Plannings de requête](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
+Pour plus d’informations sur les plannings de requête, les paramètres de périodicité, les jeux de données de sortie et les alertes, voir [Plannings de requête](https://experienceleague.adobe.com/fr/docs/experience-platform/query/ui/query-schedules).
 
 ## Étapes suivantes {#next-steps}
 
 Pour plus d’informations sur les fonctionnalités de Distiller de données et de Query Service utilisées par la préparation des données SQL, consultez la documentation suivante :
 
 - [Présentation de Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview)
-- [Guide de l’interface utilisateur de Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [Plannings de requête](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [Référence SQL de Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [Guide de l’interface utilisateur de Query Editor](https://experienceleague.adobe.com/fr/docs/experience-platform/query/ui/user-guide)
+- [Plannings de requête](https://experienceleague.adobe.com/fr/docs/experience-platform/query/ui/query-schedules)
+- [Référence SQL de Query Service](https://experienceleague.adobe.com/fr/docs/experience-platform/query/sql/overview)
