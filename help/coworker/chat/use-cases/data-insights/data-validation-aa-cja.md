@@ -1,31 +1,31 @@
 ---
 title: Validation d’Adobe Analytics en données Customer Journey Analytics
-description: Découvrez comment les administrateurs et administratrices d’Analytics utilisent la compétence de validation des données CX Enterprise Coworker pour comparer les données Adobe Analytics et Customer Journey Analytics pendant la mise à niveau.
+description: Découvrez comment les administrateurs et administratrices d’Analytics utilisent les compétences de validation des données de CX Enterprise Coworker pour comparer les données d’Adobe Analytics et de Customer Journey Analytics pendant la mise à niveau.
 feature: AI Tools
 role: User
 level: Intermediate
 doc-type: Feature Video
-duration: 
+duration:
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: 1527
+source-wordcount: '1530'
 ht-degree: 0%
-
 ---
-
 # Valider les données avec un collègue lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics
 
 >[!NOTE]
 > 
 >Suivez les étapes de cette page uniquement après avoir effectué toutes les étapes de mise à niveau précédentes. Vous pouvez suivre les étapes de mise à niveau recommandées (recommandées pour la plupart des organisations) ou suivre les étapes générées dynamiquement pour votre organisation à l’aide du Guide de mise à niveau de Customer Journey Analytics. <ul><li>**Étapes de mise à niveau recommandées** (recommandée pour la plupart des entreprises)<p>Un ensemble d’étapes qui conduisent à une implémentation Customer Journey Analytics idéale.</p><p>Pour plus d’informations, voir [&#x200B; Mise à niveau d’Adobe Analytics vers Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guide de mise à niveau de Customer Journey Analytics** (étapes personnalisées adaptées aux besoins spécifiques de votre entreprise)<p>Un nouveau guide de mise à niveau est disponible pour générer dynamiquement des étapes de mise à niveau adaptées à votre entreprise et à vos circonstances uniques.</p><p>Pour accéder au guide à partir de Customer Journey Analytics, sélectionnez l’onglet **[!UICONTROL Workspace]**, puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans le panneau de gauche. Suivez les instructions à l’écran.</p></li></ul>
 
-Collègue dispose d’une compétence de validation qui vous permet de valider les données lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. La validation des données s’effectue dans une seule conversation.
+Adobe CX Enterprise Coworker comprend des compétences de validation qui vous permettent de valider les données lors de la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. La validation des données s’effectue dans une seule conversation.
 
 Cette compétence compare automatiquement :
 
@@ -156,7 +156,7 @@ Vous pouvez valider des mesures ou des dimensions individuelles, ou valider tout
 
    Les colonnes Variance et Statut utilisent l&#39;échelle suivante :
 
-   | Variance | État | Signification |
+   | Variance | Statut | Signification |
    |---------|----------|----------|
    | Moins de 3 % | ![Coche verte](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Réussite] | Les données sont bien alignées. Aucune action requise. |
    | 3 %-10 % | ![Triangle d’avertissement jaune](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicateur] | Surveillez la différence et déterminez si elle persiste ou s’aggrave. |

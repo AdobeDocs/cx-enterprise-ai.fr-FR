@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Valider vos données Experience Platform avec un collègue
 
-Collègue inclut la compétence Validation des données qui vérifie la qualité des données de vos jeux de données Experience Platform. Utilisez-le pour exécuter des validations statistiques et sémantiques sur les jeux de données, analyser les champs du jeu de données et identifier les problèmes de qualité des données, le tout via une seule conversation avec vos collègues.
+Adobe CX Enterprise Coworker inclut la compétence Validation des données qui vérifie la qualité des données de vos jeux de données Experience Platform. Utilisez-le pour exécuter des validations statistiques et sémantiques sur les jeux de données, analyser les champs du jeu de données et identifier les problèmes de qualité des données, le tout via une seule conversation avec vos collègues.
 
 Les ingénieurs de données, les administrateurs de données et les ingénieurs d’implémentation l’utilisent pour des contrôles qualité rapides, sans requêtes SQL ni hiérarchies de schémas complexes.
 
@@ -157,4 +157,4 @@ Si vos besoins de validation sont plus exhaustifs ou nécessitent une logique co
 * [Validation des données Adobe Analytics en données Customer Journey Analytics lors de la mise à niveau](./data-validation-aa-cja.md)
 * [Valider les données Customer Journey Analytics avec les compétences de validation des données dans Coworker](./validate-dataset-quality-for-cja.md)
 * [Valider vos données (assistant d’IA)](/help/agents/data-validation.md)
-* [Rapports Trust Your Customer Journey Analytics : compétences en validation des données dans Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vidéo)
+* [Rapports Trust Your Customer Journey Analytics : compétences en validation des données dans Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vidéo)

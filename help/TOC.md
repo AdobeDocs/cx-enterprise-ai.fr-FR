@@ -6,10 +6,10 @@ description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez v
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 21%
+source-wordcount: '400'
+ht-degree: 22%
 ---
 
 # IA dans CX Enterprise {#experience-cloud-ai}
@@ -32,7 +32,9 @@ ht-degree: 21%
     - Cas d’utilisation {#use-cases}
       - [Cas d’utilisation de la conversation avec un collègue](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
-        - [Analyse des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[Vue d’ensemble](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [Prise en main](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorer les tendances et les causes profondes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Valider les données AA vers CJA lors de la mise à niveau](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Valider la qualité du jeu de données pour la création de rapports CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -73,6 +75,7 @@ ht-degree: 21%
     - Mémoire {#memory}
       - [Qu&#39;est-ce que la mémoire ?](./coworker/customizations/memory/what-is-memory.md)
   - Campagnes {#campaigns}
+    - {hide-from-toc}[Nouvelle expérience Équipes](./coworker/campaigns/new-teams-experience.md)
     - [Vue d’ensemble](./coworker/campaigns/overview.md)
     - [Créer une campagne par e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Lancement et gestion d’une campagne](./coworker/campaigns/launch-manage-campaign.md)
