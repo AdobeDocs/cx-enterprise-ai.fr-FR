@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7168'
 ht-degree: 6%
 ---
 # Cas d’utilisation de la conversation avec un collègue {#use-cases}
@@ -52,6 +52,7 @@ Le Module de conversation des collègues vous permet d’interroger, d’analyse
 | Exemple d’utilisation | Description | Compétence(s) | Application | Exemples d’invites |
 | --- | --- | --- | --- | --- |
 | Gestion des pipelines Cloud Manager | Créer, exécuter et surveiller les pipelines AEM Cloud Manager, y compris les journaux, les artefacts, les variables et les paramètres | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | « Répertorier les pipelines pour les 12345 de programme »<br><br>« Quel est l’état de mon dernier pipeline ? » |
+| Résolution des problèmes liés aux pipelines Cloud Manager ayant échoué | Analysez l’échec d’exécution d’un pipeline AEM Cloud Manager et expliquez en langage clair pourquoi elle a échoué. Prend en charge les pipelines de pile complète (déploiement et qualité du code), de configuration de niveau web et de configuration, tels que les échecs de déploiement causés par une configuration de réseau CDN non valide | Implémenté en tant qu’agent spécialisé dans le dépannage du pipeline Cloud Manager. | Adobe Experience Manager (AEM) | « Dépannage de mon pipeline en échec »<br><br>« Répertoriez mes pipelines en échec pour le programme &lt;nom du programme>« <br><br>« Analysez la dernière exécution en échec de &lt;nom du pipeline> dans le programme &lt;nom du programme> » |
 | Gestion des environnements Cloud Manager | Création, configuration et maintenance des environnements AEM Cloud Manager, y compris les RDE, les variables d’environnement, les journaux et les sauvegardes | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | « Répertorier mes environnements pour les 12345 de programme »<br><br>« Réinitialiser mon RDE » |
 | Gestion des programmes Cloud Manager | Répertorier, inspecter et supprimer des programmes AEM Cloud Manager, y compris leurs pipelines et environnements | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | « Répertorier mes programmes Cloud Manager« <br><br>« Obtenir des détails sur les 12345 du programme » |
 | Gestion des plannings de mise à jour des versions d’AEM | Configurez des heures creuses quotidiennes et des périodes sans mise à jour pour une maintenance automatisée et affichez les fenêtres de gel de code globales d’Adobe. | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | « Quelle est ma fenêtre d’heures creuses actuelle ? »<br><br>« Planifiez une période sans mise à jour du 20 décembre au 2 janvier » |

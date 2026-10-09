@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3848'
 ht-degree: 10%
 ---
 
@@ -78,7 +78,7 @@ En outre, la **simulation de Parcours** est une fonctionnalité de Journey Optim
 
 Parcours Create permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec la fonction Création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
 
-Pour plus d’informations, consultez [Création de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, consultez [Création de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 
 La création de contenu de canal permet aux utilisateurs de Journey Optimizer de générer, modifier et gérer du contenu spécifique au canal pour les parcours à l’aide de la génération de contenu optimisée par l’IA.
 
-Pour plus d’informations, voir [Création de contenu de canal](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Création de contenu de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 ## Cas d’utilisation
 
@@ -312,7 +312,7 @@ L’analyse des parcours permet aux utilisateurs de Journey Optimizer d’analys
 
 Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
 
-Pour plus d’informations, voir [Analyse de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+Pour plus d’informations, voir [Analyse de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -568,5 +568,5 @@ La simulation peut ne pas prendre en charge toutes les activités, tous les cana
 
 - [&#128279;](./agent-orchestrator.md), la couche d’agent qui alimente Journey Agent et d’autres agents Experience Platform.
 - [Outils Journey Optimizer dans la passerelle CX Coworker](../mcp/ajo-mcp.md), une surface MCP en lecture seule pour la révision de la configuration des campagnes et des canaux.
-- [Créer des parcours en langage naturel](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) et [Créer, modifier et gérer des défis de fidélité](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), les cas d’utilisation du Chat des collègues qui s’appuient sur la création de Parcours.
+- [Créer des parcours en langage naturel](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) et [Créer, modifier et gérer des défis de fidélité](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), les cas d’utilisation du Chat des collègues qui s’appuient sur la création de Parcours.
 - [Agent du support produit](./product-support.md), pour le dépannage des problèmes Journey Optimizer, a été présenté via l’assistant AI.

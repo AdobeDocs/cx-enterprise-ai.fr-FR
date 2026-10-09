@@ -1,9 +1,9 @@
 ---
 title: Préparation des données SQL dans Coworker
 description: Découvrez comment utiliser la préparation des données SQL dans Coworker pour générer, optimiser, résoudre les problèmes et planifier des requêtes SQL.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 3%
 ---
 # Préparation des données SQL dans Coworker
@@ -21,7 +21,7 @@ Avant d’utiliser la préparation des données SQL dans Coworker, vérifiez que
 - Un droit Data Distiller.
 - Accès à Coworker.
 
-## Commencer {#get-started}
+## Prise en main {#get-started}
 
 Pour commencer, ouvrez Collègue et saisissez une demande en langage naturel qui décrit la tâche SQL ou le résultat que vous souhaitez obtenir.
 
@@ -29,7 +29,7 @@ Vous pouvez identifier les jeux de données à utiliser dans votre requête. Si 
 
 Une fois que Coworker a généré ou mis à jour le code SQL, vous pouvez continuer la conversation pour prévisualiser les résultats, affiner la requête, l’enregistrer ou la planifier pour une exécution récurrente.
 
-Pour obtenir des conseils sur l’utilisation de l’interface Coworker, voir le [Guide de l’interface utilisateur Coworker](../coworker/chat/ui-guide.md).
+Pour obtenir des conseils sur l’utilisation de l’interface Coworker, voir le [Guide de l’interface utilisateur Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/ui-guide).
 
 ## Fonctionnalités prises en charge {#supported-capabilities}
 

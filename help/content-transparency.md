@@ -1,26 +1,26 @@
 ---
 title: Transparence du contenu d’IA générative
-description: Découvrez comment Adobe joint automatiquement les métadonnées C2PA au contenu généré et modifié par GenAI dans les applications d’entreprise Adobe CX.
+description: Découvrez comment Adobe joint automatiquement les métadonnées C2PA au contenu généré et modifié par GenAI dans les applications Adobe CX Enterprise.
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
-
 
 # Transparence du contenu d’IA générative
 
-Tout au long du mois d’août 2026, Adobe déploie progressivement la prise en charge des métadonnées C2PA sur les applications Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly et Adobe CX Enterprise.
+Tout au long du mois d’août 2026, Adobe déploie progressivement la prise en charge des métadonnées C2PA dans les applications Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly et Adobe CX Enterprise.
 
 >[!NOTE]
 >
 >Suite au déploiement, les futurs workflows dont le contenu est créé ou modifié à l’aide de l’IA disposeront automatiquement de la prise en charge des métadonnées C2PA.
 
-Cette page présente en détail la façon dont Adobe gère la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise.
+Cette page détaille la manière dont Adobe gère la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise.
 
 Les nouvelles réglementations exigent des fournisseurs de technologies d’IA génératives qu’ils prennent en charge les divulgations durables et lisibles par machine associées aux workflows de contenu générés et modifiés par GenAI, pour plus de transparence.
 
@@ -90,9 +90,9 @@ Adobe fournit [documentation](https://helpx.adobe.com/fr/creative-cloud/apps/gen
 
 ## Applications prises en charge dans Adobe CX Enterprise {#supported-applications}
 
-Les applications et services Adobe ci-après fournissent des informations supplémentaires sur la manière et le moment où les métadonnées C2PA sont jointes au contenu éligible dans certaines applications d’entreprise CX.
+Les applications et services Adobe suivants fournissent des informations supplémentaires sur la manière et le moment où les métadonnées C2PA sont jointes au contenu éligible dans certaines applications CX Enterprise.
 
-Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX continuent à conserver les métadonnées C2PA existantes au fur et à mesure que les ressources prises en charge passent par les workflows Adobe. Cela permet de préserver l’intégrité des informations de provenance dans l’ensemble du supply chain de contenu.
+Cependant, le cas échéant, toutes les applications Adobe CX Enterprise continuent de conserver les métadonnées C2PA existantes, car les ressources prises en charge passent par les workflows Adobe. Cela permet de préserver l’intégrité des informations de provenance dans l’ensemble du supply chain de contenu.
 
 >[!NOTE]
 >
@@ -104,14 +104,14 @@ Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX con
 | Adobe Experience Manager (AEM) | [Documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | Générer du contenu (fonctionnalité dans Adobe Journey Optimizer/Adobe Campaign) | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Prime B2B Adobe Journey Optimizer (ou Adobe Marketo Optimizer) | [Documentation](https://experienceleague.adobe.com/fr/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Prime B2B de Adobe Journey Optimizer (ou Adobe Marketo Optimizer) | [Documentation](https://experienceleague.adobe.com/fr/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [Documentation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Campaign | [Documentation](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [Documentation](https://experienceleague.adobe.com/fr/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [Documentation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentation](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [Documentation](https://experienceleague.adobe.com/fr/docs/workfront/using/documents/c2pa-metadata-overview) |
-| Campagnes des collaborateurs des entreprises CX (anciennement HALO) | [Documentation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Campagnes CX Enterprise Coworker (anciennement HALO) | [Documentation](https://experienceleague.adobe.com/fr/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## Liens connexes
 
@@ -123,7 +123,7 @@ Cependant, le cas échéant, toutes les applications d’entreprise Adobe CX con
 
 **Quelles applications Adobe appliquent des métadonnées C2PA au contenu généré modifié ou créé par l’IA ?**
 
-Les applications Adobe CX Enterprise prises en charge joignent automatiquement des métadonnées C2PA au contenu généré et modifié par GenAI éligible. Reportez-vous à la section [Applications prises en charge](#supported-applications) pour plus d’informations sur les applications Adobe CX Enterprise.
+Les applications Adobe CX Enterprise prises en charge joignent automatiquement des métadonnées C2PA au contenu généré et modifié par GenAI éligible. Pour plus d’informations sur les applications [&#128279;](#supported-applications) consultez la section  Applications prises en charge .
 
 **À quels types de contenu Adobe ajoute-t-il des métadonnées C2PA ?**
 

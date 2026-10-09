@@ -1,9 +1,9 @@
 ---
 title: Agent de gestion des données pour Adobe Experience Platform
 description: Découvrez comment utiliser l’agent de gestion des données dans CX Coworker pour rechercher et analyser les jeux de données Adobe Experience Platform et gérer les politiques de conservation du lac de données.
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # Agent de gestion des données
@@ -50,7 +50,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 - Les autorisations Adobe Experience Platform requises pour les jeux de données et les actions de conservation que vous souhaitez utiliser. L’agent de gestion des données utilise vos autorisations Experience Platform existantes et n’accorde pas d’accès supplémentaire. Consultez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) pour en savoir plus sur le fonctionnement des autorisations et des rôles Adobe Experience Platform.
 - Plug-in Adobe CXO installé dans CX Coworker.
 
-Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Pour obtenir des instructions sur l’installation de modules externes, consultez le [Guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/ui-guide).
 
 ## Utilisation de l’agent Data Management {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Interagissez avec l’agent de gestion des données via CX Coworker à l’aide 
 
 Pour utiliser l’agent de gestion des données :
 
-1. Accédez à **&#x200B;**. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Accédez à **&#x200B;**. Pour plus d’informations sur l’accès, consultez le [guide de l’interface utilisateur de Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/ui-guide).
 1. Saisissez une demande qui décrit ce que vous souhaitez accomplir.
 1. Passez en revue les résultats et utilisez les questions de suivi pour poursuivre votre enquête.
 
 Si une requête modifie une politique de rétention du lac de données, l’agent de gestion des données indique l’impact proposé et nécessite votre confirmation avant d’appliquer la modification.
 
-Pour obtenir un workflow de bout en bout permettant d’identifier les jeux de données, d’analyser l’utilisation et l’impact de la rétention, ainsi que de gérer les politiques de rétention du lac de données, consultez [Gérer la rétention du lac de données](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Pour obtenir un workflow de bout en bout permettant d’identifier les jeux de données, d’analyser l’utilisation et l’impact de la rétention, ainsi que de gérer les politiques de rétention du lac de données, consultez [Gérer la rétention du lac de données](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 ## Fonctionnement de Data Management Agent {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ L’agent de gestion des données peut identifier les jeux de données qui peuve
 
 ## Étapes suivantes {#next-steps}
 
-Pour obtenir des conseils sur l’utilisation de chaque compétence pour rechercher, analyser et gérer la rétention du lac de données sur vos jeux de données d’événements d’expérience, voir [&#x200B; Gérer la rétention du lac de données &#x200B;](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Pour obtenir des conseils sur l’utilisation de chaque compétence pour rechercher, analyser et gérer la rétention du lac de données sur vos jeux de données d’événements d’expérience, voir [&#x200B; Gérer la rétention du lac de données &#x200B;](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 Pour plus d’informations sur le fonctionnement des politiques de rétention du lac de données dans Adobe Experience Platform, notamment le comportement et la configuration de la rétention, consultez le guide [Conservation des jeux de données d’événements d’expérience (TTL)](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).

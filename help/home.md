@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '962'
 ht-degree: 3%
 ---
 # L’IA dans les applications CX Enterprise
@@ -38,6 +38,7 @@ Ce guide couvre les fonctionnalités de l’IA dans Adobe CX Enterprise : l’IA
 
 Commencez ici pour une introduction sur l’endroit et la manière dont l’IA est utilisée dans CX Enterprise :
 
+- [Collègue](https://experienceleague.adobe.com/fr/docs/coworker/content/home) est un coéquipier agent-first qui planifie, exécute, valide et renvoie pour approbation l’expérience client et le travail marketing terminés.
 - [&#x200B; À propos de l’IA générative &#x200B;](./overview/generative-ai.md) décrit les applications CX Enterprise qui prennent en charge l’IA générative et l’assistant d’IA, et compare.
 - [À propos de l’IA dédiée à l’agentic](./overview/agentic-ai.md) explique le fonctionnement de l’IA dédiée à l’agentic dans les applications CX Enterprise existantes et les applications dédiées à l’IA, et répertorie les agents disponibles dans chacun d’eux.
 - [&#x200B; Surveillance de l’IA &#x200B;](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
@@ -51,15 +52,17 @@ Coworker est une évolution de l’IA Assistant orientée agent-first qui automa
 
 Le collaborateur comprend :
 
-- **[Conversation avec un collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)** : une interface de conversation permettant d’explorer vos données, de valider les audiences et les parcours, et d’effectuer des tâches en plusieurs étapes dans les applications CX Enterprise.
-- **[Campagnes des collègues](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes. En savoir plus sur [&#128279;](https://business.adobe.com/fr/products/cx-enterprise-coworker/teams.html).
+- **[Conversation avec un collègue](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview)** : une interface de conversation permettant d’explorer vos données, de valider les audiences et les parcours, et d’effectuer des tâches en plusieurs étapes dans les applications CX Enterprise.
+- **[Campagnes des collègues](https://experienceleague.adobe.com/fr/docs/coworker/content/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes. En savoir plus sur [&#128279;](https://business.adobe.com/fr/products/cx-enterprise-coworker/teams.html).
 - **Projets de collègues** (bientôt disponible) : espace de travail unifié pour automatiser les workflows d’orchestration de l’expérience client de bout en bout, ce qui permet aux équipes de coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion. La documentation des projets sera bientôt disponible.
 
-Les clients éligibles passent progressivement de l’assistant AI et des agents Experience Platform au chat des collègues. Lisez [Version d’évaluation des collaborateurs](./agents/trial.md) pour en savoir plus sur l’éligibilité des versions d’évaluation, l’utilisation du crédit AI et comment y accéder.
+Les clients éligibles passent progressivement de l’assistant AI et des agents Experience Platform au chat des collègues.
 
-Pour voir le Module de conversation des collègues en action, [Module de conversation des collègues dans Playground](./coworker/playground-coworker-chat.md) ou lisez des cas d’utilisation réels tels que [Valider des données de migration d’AA vers CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [valider vos données Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md) et [Analyser des données CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
+### Ressources du collègue
 
-Pour consulter la documentation complète du produit sur les conversations avec les collègues, les collègues pour les équipes (campagnes des collègues) et les projets, voir [Collègue](./coworker/overview.md). Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
+- Lisez la [Version d’évaluation de Coworker](./agents/trial.md) pour en savoir plus sur l’éligibilité de la version d’évaluation, l’utilisation du crédit AI et comment y accéder.
+- Voir [Aide de Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/home) pour tout le contenu Coworker.
+- Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## Assistant IA
 

@@ -1,6 +1,6 @@
 ---
-title: IA générative dans les applications d’entreprise CX
-description: Obtenez un aperçu général des endroits où vous pouvez tirer parti des fonctionnalités genAI optimisées par l’IA dans les applications d’entreprise CX.
+title: IA générative dans les applications CX Enterprise
+description: Obtenez un aperçu général des endroits où vous pouvez tirer parti des fonctionnalités de genAI optimisées par l’IA dans les applications CX Enterprise.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -13,48 +13,70 @@ autotag-review: '2026-05-11T23:21:25.443Z'
 TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+    internal-label: Content production
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
+    internal-label: Privacy
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 3388
-ht-degree: 13%
-
+source-wordcount: '3412'
+ht-degree: 12%
 ---
-
 # À propos de l’IA générative dans CX Enterprise
 
 L’IA générative (genAI) dans CX Enterprise vous permet d’automatiser les tâches créatives et cognitives et d’améliorer la productivité. Cette page vous aide à comprendre où les applications [!DNL CX Enterprise] prennent en charge genAI. Elle fournit des liens pour en savoir plus sur ces fonctionnalités.
 
 >[!IMPORTANT]
 >
->Avant d’utiliser les fonctionnalités d’IA générative pour les entreprises CX, vous devez comprendre et suivre les [instructions d’utilisation de l’IA générative pour les entreprises Adobe CX](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Avant d’utiliser les fonctionnalités d’IA générative CX Enterprise, vous devez comprendre et suivre les [instructions d’utilisation de l’IA générative Adobe CX Enterprise](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 **Qu’est-ce que genAI ?**
 
@@ -68,31 +90,31 @@ GenAI peut _créer_ du contenu original ou _générer une réponse_ à l’invit
 
 ## Qu’est-ce que l’[!UICONTROL assistant IA] ?
 
-[!UICONTROL AI Assistant] est un outil genAI conversationnel pris en charge dans de nombreuses applications d’entreprise CX. Utilisez-le pour acquérir _des connaissances sur les produits_ et _des informations opérationnelles_ rapidement, en fonction de l’application que vous utilisez.
+[!UICONTROL AI Assistant] est un outil genAI conversationnel pris en charge dans de nombreuses applications CX Enterprise. Utilisez-le pour acquérir _des connaissances sur les produits_ et _des informations opérationnelles_ rapidement, en fonction de l’application que vous utilisez.
 
-* **Connaissances des produits :** les connaissances des produits se rapportent à des concepts et à des sujets fondés sur la documentation des produits CX Enterprise sur Experience League. Par exemple, utilisez les [invites basées sur les objectifs](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) pour en savoir plus rapidement sur Experience Platform. Toutes les réponses d’Experience League sont vérifiables et citées avec des liens.
+* **Connaissances des produits :** les connaissances des produits font référence à des concepts et à des sujets reposant sur la documentation du produit CX Enterprise sur Experience League. Par exemple, utilisez les [invites basées sur les objectifs](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) pour en savoir plus rapidement sur Experience Platform. Toutes les réponses d’Experience League sont vérifiables et citées avec des liens.
 
 * **Informations opérationnelles** par exemple, les [informations opérationnelles](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/questions#objects-questions) dans Experience Platform se rapportent aux réponses générées concernant vos objets de métadonnées (attributs, audiences, flux de données, jeux de données, etc.). Avec l’[!UICONTROL assistant AI], vous réalisez en quelques secondes ce qui prend autrement des heures ou des jours.
 
 >[!NOTE]
 >
->De nombreuses applications CX Enterprise utilisent _AI Assistant_ comme nom de fonctionnalité (comme décrit ci-dessous). Cependant, cette fonctionnalité extrait les informations uniquement pour l’application spécifique que vous utilisez. Par exemple, l’assistant AI dans AEM fournit des informations pertinentes et utiles relatives à AEM.
+>De nombreuses applications CX Enterprise utilisent _assistant AI_ comme nom de fonctionnalité (comme décrit ci-dessous). Cependant, cette fonctionnalité extrait les informations uniquement pour l’application spécifique que vous utilisez. Par exemple, l’assistant AI dans AEM fournit des informations pertinentes et utiles relatives à AEM.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/landing" tooltip="Accéder à l’assistant AI"}
 
 [!BADGE &#x200B; Confidentialité, sécurité et gouvernance &#x200B;]{type=Informative url="https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI sur Adobe"}
 
-## Qu’est-ce qu’un collaborateur d’entreprise CX ?
+## Qu’est-ce que CX Enterprise Coworker ?
 
 [!DNL CX Enterprise Coworker] est un coéquipier optimisé par l’IA qui automatise l’expérience client et les workflows marketing. En tant que moteur agentique, Coworker rassemble les données, l’intelligence, la collaboration et l’exécution des compétences agentiques avec le contexte de l’entreprise, la gouvernance et la supervision humaine intégrés, afin que vous puissiez vous concentrer sur les résultats plutôt que sur la coordination des tâches.
 
 Coworker est disponible via :
 
-* **[Chat](../coworker/chat/overview.md)** : interface conversationnelle dans laquelle vous décrivez un objectif en langage naturel, et où un collègue planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et renvoie le travail terminé pour votre approbation.
+* **[Chat](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview)** : interface conversationnelle dans laquelle vous décrivez un objectif en langage naturel, et où un collègue planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et renvoie le travail terminé pour votre approbation.
 
-* **[Campagnes](../coworker/campaigns/overview.md)** : une application native IA qui regroupe les informations sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation.
+* **[Campagnes](https://experienceleague.adobe.com/fr/docs/coworker/content/campaigns/overview)** : une application native IA qui regroupe les informations sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation.
 
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview" tooltip="Accéder à un collègue d’entreprise CX"}
+[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/coworker/content/home" tooltip="Accéder à CX Enterprise Coworker"}
 
 ## Quelles fonctionnalités genAI sont prises en charge ?
 
@@ -102,7 +124,7 @@ Voici un résumé des applications [!DNL CX Enterprise] qui utilisent des foncti
 
 | **Nom du produit** | **Fonctionnalités clés de GenAI** | **Compatibilité** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](../coworker/overview.md) | GenAI est disponible dans : <ul><li>**[Chat](../coworker/chat/overview.md)** : interface conversationnelle dans laquelle vous décrivez un objectif en langage naturel, et où genAI planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et renvoie le travail terminé pour votre approbation.</li><li>**[Campagnes](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/campaigns/overview)** : une application native IA qui regroupe les informations sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. GenAI génère un plan de campagne, crée un parcours et rédige du contenu personnalisé que vous pouvez affiner de manière itérative.</li></ul> | Non |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/home) | GenAI est disponible dans : <ul><li>**[Chat](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview)** : interface conversationnelle dans laquelle vous décrivez un objectif en langage naturel, et où genAI planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et renvoie le travail terminé pour votre approbation.</li><li>**[Campagnes](https://experienceleague.adobe.com/fr/docs/coworker/content/campaigns/overview)** : une application native IA qui regroupe les informations sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. GenAI génère un plan de campagne, crée un parcours et rédige du contenu personnalisé que vous pouvez affiner de manière itérative.</li></ul> | Non |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) | Créez du contenu personnalisé de marque avec genAI. | Oui |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI est disponible dans : <ul><li>Générer des variations dans **&#x200B;**&#x200B;([En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>GenAI dans **&#x200B;**&#x200B;([En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) et [Balises intelligentes](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) dans **AEM Assets**</li></ul> Assistant AI pour : <ul><li>Page d’aperçu d’Experience Hub</li><li>Edge Delivery Services</li><li>Sites</li><li>Ressources</li><li>Formulaires</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | Oui |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | Assistant AI pour : <ul><li>Page d’aperçu d’Experience Hub</li><li>Edge Delivery Services</li><li>Sites</li><li>Ressources</li><li>Formulaires</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | Oui |
@@ -111,7 +133,7 @@ Voici un résumé des applications [!DNL CX Enterprise] qui utilisent des foncti
 | [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/landing) | Assistant IA pour la connaissance des produits et les informations opérationnelles. | Non |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/ai-assistant) | [!DNL AI Assistant] de connaissances sur les produits et d’informations opérationnelles. | Non |
 | | _AJO Prime_ et _Ultimate_ proposent des [génération de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) pour apporter des suggestions proactives de variation de contenu pour le texte et les images. | Oui |
-| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistant IA pour la connaissance des produits. | Non |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistant IA pour la connaissance des produits. | Non |
 | [[!DNL Campaign]  Managed Cloud Services &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/ai-assistant/generative-gs) | L’assistant AI pour l’accélérateur de contenu génère automatiquement du contenu personnalisé, attrayant et efficace en fonction des objectifs marketing sur des canaux tels que les e-mails, les SMS et les notifications push. | Oui |
 | **[!DNL Customer Journey Analytics]** | GenAI est utilisé avec :<ul><li> [Légendes intelligentes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) : pour obtenir des informations sur les visualisations Workspace les plus utilisées.</li><li>[&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/content-analytics/report/report?lang=en#template) : pour affecter automatiquement des métadonnées de ressource.</li></ul> Assistant AI pour :<ul><li>[Connaissance des produits](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agent du support produit](agentic-ai.md) </li><li>[&#128279;](agentic-ai.md)</li></ul> | Non |
 | [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) | [!DNL AI Assistant] de connaissances sur les produits Experience League. Il offre également des informations opérationnelles. | Non |
@@ -119,9 +141,9 @@ Voici un résumé des applications [!DNL CX Enterprise] qui utilisent des foncti
 | [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/introduction/assistant-ai/ai-assistant) | Assistant IA pour la connaissance des produits. | Non |
 | [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | Assistant AI pour des informations et des suggestions in-app. | Oui |
 
-**Remarque :** les [!DNL Experience Platform Agents] sont décrites dans [Agents AI dans l’expérience client Entreprise](agentic-ai.md).
+**Remarque :** les [!DNL Experience Platform Agents] sont décrites dans la section Agents [AI dans CX Enterprise](agentic-ai.md).
 
-## Comment puis-je utiliser l’IA générative dans CX Enterprise ?
+## Comment utiliser l’IA générative dans CX Enterprise ?
 
 Les sections suivantes expliquent de manière plus détaillée comment utiliser genAI ou l’assistant d’IA dans des applications spécifiques. Des liens pour en savoir plus sont fournis.
 
@@ -275,7 +297,7 @@ Cette fonctionnalité est disponible pour les canaux e-mail, notification push, 
 
 +++Détails
 
-Journey Optimizer B2B edition utilise l’[!UICONTROL assistant AI] pour vous aider à mieux connaître les produits.
+Journey Optimizer B2B Edition utilise l’[!UICONTROL assistant AI] pour vous aider à mieux connaître les produits.
 
 Exemple d’entrée :
 
@@ -390,7 +412,7 @@ Marketo s’intègre à GenStudio for Performance Marketing
 
 +++Détails
 
-[!UICONTROL Assistant AI] dans [!DNL Workfront] vous aide à accomplir votre travail en offrant des informations et des suggestions in-app. Vous pouvez ainsi :
+[!UICONTROL Assistant AI] dans [!DNL Workfront] vous aide à accomplir votre travail en offrant des informations et des suggestions in-app. Vous pouvez :
 
 * Obtenez des résumés de certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
 * Posez des questions et laissez [!UICONTROL AI Assistant] trouver des réponses sur Experience League.
