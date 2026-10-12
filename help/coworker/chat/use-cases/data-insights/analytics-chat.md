@@ -4,10 +4,7 @@ description: Découvrez comment utiliser le Module de conversation Adobe CX Ente
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 5%

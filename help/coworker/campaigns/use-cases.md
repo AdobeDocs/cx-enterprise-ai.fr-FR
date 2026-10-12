@@ -1,20 +1,17 @@
 ---
-description: Parcourez les modèles d’invite réels pour les campagnes des collaborateurs d’entreprise d’Adobe CX, organisés par cas d’utilisation dans les campagnes d’acquisition, d’engagement, d’événements, de conversion et de rétention.
+description: Parcourez les modèles d’invites réels pour les campagnes Adobe CX Enterprise Coworker, organisés par cas d’utilisation dans les campagnes d’acquisition, d’engagement, d’événements, de conversion et de rétention.
 title: Cas D’Utilisation Des Campagnes De Collègues
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # Cas d’utilisation {#use-cases}
 
-Vous trouverez ci-dessous des modèles d’invites réels que les spécialistes du marketing du cycle de vie et de la croissance utilisent dans les campagnes des collaborateurs Grands comptes Adobe CX. Chacune est conçue pour être copiée, échangée avec vos propres détails d’audience et de marque, et affinée dans la conversation.
+Vous trouverez ci-dessous des modèles d’invites réels que les spécialistes du marketing du cycle de vie et de la croissance utilisent dans les campagnes Adobe CX Enterprise Coworker. Chacune est conçue pour être copiée, échangée avec vos propres détails d’audience et de marque, et affinée dans la conversation.
 
 ## Utilisation
 
@@ -162,4 +159,4 @@ Idéal pour : toute audience qui s’est arrêtée.
 
 ## Prêt pour la création ?
 
-Sélectionnez un cas d’utilisation ci-dessus, consultez [Création d’une campagne par e-mail] (./) pour obtenir une présentation détaillée et essayez-la.
+Sélectionnez un cas d’utilisation ci-dessus, consultez [Création d’une campagne par e-mail](./) pour obtenir une présentation détaillée et essayez-la.

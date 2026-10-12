@@ -7,10 +7,10 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: PLAT-302857
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Pour chaque champ validé, les résultats apparaissent sous la forme d&#39;une l
 | [!UICONTROL Valeurs nulles] | Pourcentage de valeurs échantillonnées nulles. |
 | [!UICONTROL Les 5 premières valeurs distinctes] | Les cinq valeurs les plus courantes et leurs fréquences. |
 | [!UICONTROL 5 premières valeurs non valides] | Les cinq valeurs non valides les plus courantes, avec une explication pour chacune, par exemple « format d’e-mail non valide ». |
-| insight supplémentaire | Une courte note en langage naturel sur la qualité du terrain. |
+| insight supplémentaire][!UICONTROL  | Une courte note en langage naturel sur la qualité du terrain. |
 
 Sous les résultats, Coworker ajoute une liste **Étapes suivantes** suggérant des invites de relance, telles que la validation d’un autre champ ou la réexécution du jeu de données.
 

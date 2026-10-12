@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -17,7 +14,7 @@ ht-degree: 4%
 
 Familiarisez-vous avec l’interface de conversation des collègues. Ce guide couvre tous les aspects, de l’accès à l’application à la navigation dans l’espace de travail, en passant par la manière de tirer le meilleur parti des conversations, de gérer votre historique et de personnaliser votre configuration.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498569?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accéder au chat des collègues
 
@@ -41,7 +38,7 @@ Le tableau suivant capture la date à laquelle ces expériences seront disponibl
 
 ### Expérience immersive {#immersive}
 
-Accédez au Chat des collaborateurs en accédant à [&#128279;](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
+Accédez au Chat des collaborateurs en accédant à [](https://experience.adobe.com/#/coworker) et en vous connectant avec vos informations d’identification Adobe.
 
 Vous pouvez également y accéder en sélectionnant **Collègue** dans le sélecteur d’applications situé dans l’en-tête supérieur de CX Enterprise.
 
@@ -66,7 +63,7 @@ Sélectionnez votre nom pour ouvrir le menu du compte, où vous pouvez changer d
 
 ![Le menu Compte avec le sélecteur de sandbox ouvert](./assets/ui-guide-3.png)
 
-## Navigation dans l’interface
+## Naviguer dans l’interface
 
 L’interface de CX Coworker comporte deux zones principales : le rail de navigation à gauche et la zone de travail de conversation qui remplit le reste de la fenêtre.
 

@@ -3,15 +3,12 @@ description: Découvrez comment connecter votre compte Marketo Engage à des cam
 title: Connexion à Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Connexion à Marketo Engage {#marketo}
 
 Les campagnes Adobe Coworker vous permettent de connecter votre compte Marketo Engage pour extraire des listes dynamiques et statiques.
@@ -22,7 +19,7 @@ Les campagnes Adobe Coworker vous permettent de connecter votre compte Marketo E
 >
 >* Un compte Marketo Engage actif
 >* Votre Marketo **URL d’instance**
->* Un [service personnalisé](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) créé pour les campagnes de collègues dans Marketo, avec son [identifiant client et secret client](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) disponible
+>* Un [service personnalisé](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) créé pour les campagnes de collègues dans Marketo, avec son [identifiant client et secret client](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) disponible
 
 ## Comment se connecter
 

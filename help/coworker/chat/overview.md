@@ -1,18 +1,15 @@
 ---
-description: Découvrez comment la discussion entre collègues utilise une interface conversationnelle pour planifier, exécuter et terminer le travail sur l’expérience client sur Adobe et les systèmes connectés en quelques minutes.
-title: Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX
+description: Découvrez comment Coworker Chat utilise une interface conversationnelle pour planifier, exécuter et terminer le travail d’expérience client sur Adobe et les systèmes connectés en quelques minutes.
+title: Présentation du chat Adobe CX Enterprise Coworker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 1%
-
+source-wordcount: '741'
+ht-degree: 4%
 ---
-
-# Présentation de la conversation avec les collaborateurs d’entreprise d’Adobe CX {#overview}
+# Présentation du chat Adobe CX Enterprise Coworker {#overview}
 
 Le Module de conversation des collègues est une interface conversationnelle permettant d’améliorer l’expérience client. Vous décrivez un objectif en langage simple (par exemple, « créer une audience pour la promotion de yoga du printemps » ou « dites-moi pourquoi cette audience a diminué la semaine dernière ») et le Chat des collaborateurs planifie le travail, l’exécute sur vos systèmes Adobe et connectés, valide les résultats et vous ramène le travail terminé pour approbation.
 
@@ -24,7 +21,7 @@ La valeur : le travail qui s’étendait sur plusieurs écrans, équipes et jour
 
 >[!NOTE]
 >
->La conversation avec un collègue est un module d’Adobe CX Enterprise Coworker. Deux autres modules étendent la même base : Campagnes des collègues (lancez une campagne complète à partir d’une seule conversation) et Projets des collègues (espace de travail permanent pour des workflows multi-équipes de bout en bout). Cette page couvre le Module de conversation des collègues.
+>La discussion avec les collègues est un module d’Adobe CX Enterprise Coworker. Deux autres modules étendent la même base : Campagnes des collègues (lancez une campagne complète à partir d’une seule conversation) et Projets des collègues (espace de travail permanent pour des workflows multi-équipes de bout en bout). Cette page couvre le Module de conversation des collègues.
 
 ## Une évolution de l’assistant d’IA
 
@@ -45,7 +42,7 @@ Si vous avez utilisé AI Assistant et Adobe Experience Platform Agent Orchestrat
 
 ## Applications CX Enterprise compatibles
 
-Les applications CX Enterprise suivantes sont compatibles avec Coworker Chat :
+Les applications CX Enterprise ci-dessous sont compatibles avec le Module de conversation Coworker :
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
@@ -55,7 +52,7 @@ Les applications CX Enterprise suivantes sont compatibles avec Coworker Chat :
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition (bientôt disponible)_
-* _Adobe Journey Optimizer B2B edition (bientôt disponible)_
+* _Adobe Journey Optimizer B2B Edition (bientôt disponible)_
 * _Customer Journey Analytics B2B edition (bientôt disponible)_
 
 ## Blocs de création
@@ -70,4 +67,4 @@ Le Chat Coworker est optimisé par les blocs de création Coworker. Les blocs de
 
 ## Vue d’ensemble des vidéos
 
->[!VIDEO](https://video.tv.adobe.com/v/3495969?captions=fre_fr&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
