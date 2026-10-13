@@ -10,10 +10,7 @@ jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 1%
@@ -30,5 +27,5 @@ La vidéo présente le plug-in de fidélité et ses compétences de gestion des 
 ## Voir également
 
 - [&#128279;](../../../../agents/ajo-agent.md), pour d’autres fonctionnalités de l’IA d’AJO disponibles via le Module de conversation des collègues, telles que la création, l’analyse et la simulation de parcours.
-- [Loyalty Challenge Management](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
+- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} dans la documentation de Adobe Journey Optimizer.
 - [Plus de cas d’utilisation de la conversation avec un collègue](../overview.md#journeys)

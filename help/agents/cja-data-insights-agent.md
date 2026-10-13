@@ -3,32 +3,43 @@ description: Découvrez comment visualiser des données avec le Data Insights Ag
 title: Visualisation des données avec le Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # Visualisation des données avec Data Insights Agent
 
 >[!AVAILABILITY]
@@ -123,7 +134,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com/) et connectez-vous avec votre Adobe ID.
 
-2. Sélectionnez **&#x200B;**&#x200B;sur la page d&#39;accueil de l&#39;entreprise CX.
+2. Sélectionnez **&#x200B;**&#x200B;sur la page de départ CX Enterprise.
 
 3. Sélectionnez **[!UICONTROL Projet vierge]** dans la bannière en haut de la page des projets pour ouvrir un nouveau projet vierge.
 
@@ -189,7 +200,7 @@ Enfin, examinons les recettes par catégorie de produits.
 
 ![Anneau](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## Accès à Data Insights Agent dans toutes les applications d’entreprise CX
+## Accès à Data Insights Agent dans toutes les applications CX Enterprise
 
 Adobe Experience Platform Agent Orchestrator vous permet d’accéder aux fonctionnalités de Data Insights Agent dans plusieurs applications Adobe CX Enterprise, telles que Adobe Journey Optimizer et Real-Time CDP.
 
@@ -201,7 +212,7 @@ Pour plus d&#39;informations, voir [&#128279;](https://business.adobe.com/fr/pro
 
 Vous trouverez ci-dessous quelques exemples d’invites courantes et des visualisations utilisées par Data Insights Agent pour répondre à ces invites.
 
-| Exemple d’invite | Visualisation attendue |
+| Exemple de prompt | Visualisation attendue |
 | --- | --- |
 | Afficher les bénéfices en [mois] | Ligne<p>Demander une tendance ou une mesure au cours d’une certaine période par défaut renvoie une visualisation en lignes. |
 | Tendance des commandes en [mois] | Ligne |

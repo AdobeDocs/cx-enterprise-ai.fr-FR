@@ -4,10 +4,7 @@ title: Bonnes pratiques en matière de prompt
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 23%
@@ -52,7 +49,7 @@ Pour de meilleurs résultats, organisez vos invites à l&#39;aide du framework C
 <p>Rédigez vos invites pour générer l'intention souhaitée</p>
 </td>
 <td>
-<p>Demander des modifications structurelles, de style ou de modification d’image dans les prompts</p>
+<p>Demander des modifications structurelles, de style ou d’édition d’images dans les prompts</p>
 <p>Utiliser des instructions vagues comme « promouvoir notre produit »</p>
 <p>S’attendre à des modifications de la disposition via des prompts</p>
 </td>
@@ -137,7 +134,7 @@ Fournissez toujours du contexte et la proposition de valeur afin que l’IA puis
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
-<th>Secteur industriel</th>
+<th>Secteur</th>
 <th>Exemple de prompt</th>
 </tr>
 </thead>

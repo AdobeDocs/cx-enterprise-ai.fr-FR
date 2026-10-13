@@ -3,15 +3,12 @@ description: Découvrez comment connecter votre compte Marketo Engage à des cam
 title: Connexion à Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Connexion à Marketo Engage {#marketo}
 
 Les campagnes Adobe Coworker vous permettent de connecter votre compte Marketo Engage pour extraire des listes dynamiques et statiques.

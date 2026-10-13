@@ -3,15 +3,12 @@ description: description.
 title: Comprendre l’éditeur d’e-mail
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Comprendre l’éditeur d’e-mail {#email-editor}
 
 L’éditeur d’email permet d’affiner un email généré par l’IA directement sur le tableau de campagne. Modifiez l’objet et le pré-titre, mettez en forme le texte et les images sur la ligne ou remplacez-les dans un autre modèle.
