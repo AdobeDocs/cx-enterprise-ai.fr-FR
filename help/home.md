@@ -25,35 +25,35 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 5%
 ---
 # L’IA dans les applications CX Enterprise
 
-Ce guide couvre les fonctionnalités de l’IA dans Adobe CX Enterprise : l’IA générative, CX Enterprise Coworker, l’assistant d’IA, Agent Orchestrator et MCP.
+Ce guide couvre les fonctionnalités de l’IA dans Adobe CX Enterprise : l’IA générative, CX Enterprise Coworker, l’assistant d’IA et Agent Orchestrator.
 
 ## Présentation des fonctionnalités de l’IA
 
 Commencez ici pour une introduction sur l’endroit et la manière dont l’IA est utilisée dans CX Enterprise :
 
 - [Collègue](https://experienceleague.adobe.com/fr/docs/coworker/content/home) est un coéquipier agent-first qui planifie, exécute, valide et renvoie pour approbation l’expérience client et le travail marketing terminés.
-- [&#x200B; À propos de l’IA générative &#x200B;](./overview/generative-ai.md) décrit les applications CX Enterprise qui prennent en charge l’IA générative et l’assistant d’IA, et compare.
+- [ À propos de l’IA générative ](./overview/generative-ai.md) décrit les applications CX Enterprise qui prennent en charge l’IA générative et l’assistant d’IA, et compare.
 - [À propos de l’IA dédiée à l’agentic](./overview/agentic-ai.md) explique le fonctionnement de l’IA dédiée à l’agentic dans les applications CX Enterprise existantes et les applications dédiées à l’IA, et répertorie les agents disponibles dans chacun d’eux.
-- [&#x200B; Surveillance de l’IA &#x200B;](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
+- [ Surveillance de l’IA ](./overview/monitoring.md) couvre les tableaux de bord qui suivent l’adoption, l’utilisation, les commentaires et la consommation de crédit de l’IA.
 - [Consommation des crédits AI](./overview/ai-credit-consumption.md) explique comment les tâches de l’agent consomment les crédits AI, avec des taux de consommation estimés par agent et par type de tâche.
 - [Transparence du contenu Generative AI](./content-transparency.md) explique comment Adobe joint automatiquement les métadonnées C2PA au contenu généré et modifié par GenAI dans les applications CX Enterprise.
 - [CX Enterprise agentic tools](https://experienceleague.adobe.com/fr/docs/cx-enterprise-agentic-tools/using/overview) couvre les compétences et outils agentiques supplémentaires qui étendent les agents CX Enterprise (tutoriels vidéo).
 
 ## Coworker
 
-Coworker est une évolution de l’IA Assistant orientée agent-first qui automatise l’expérience client et les workflows marketing, de sorte que votre équipe puisse se concentrer sur les objectifs commerciaux plutôt que sur l’exécution de routine. Au lieu de poser une question à la fois, vous décrivez un objectif. Un collègue planifie, exécute, valide et renvoie le travail terminé pour approbation. En savoir plus sur [&#128279;](https://business.adobe.com/fr/products/cx-enterprise-coworker.html).
+Coworker est une évolution de l’IA Assistant orientée agent-first qui automatise l’expérience client et les workflows marketing, de sorte que votre équipe puisse se concentrer sur les objectifs commerciaux plutôt que sur l’exécution de routine. Au lieu de poser une question à la fois, vous décrivez un objectif. Un collègue planifie, exécute, valide et renvoie le travail terminé pour approbation. En savoir plus sur [](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Le collaborateur comprend :
 
-- **[Conversation avec un collègue](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview)** : une interface de conversation permettant d’explorer vos données, de valider les audiences et les parcours, et d’effectuer des tâches en plusieurs étapes dans les applications CX Enterprise.
-- **[Campagnes des collègues](https://experienceleague.adobe.com/fr/docs/coworker/content/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes. En savoir plus sur [&#128279;](https://business.adobe.com/fr/products/cx-enterprise-coworker/teams.html).
+- **[Conversation avec un collègue](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)** : une interface de conversation permettant d’explorer vos données, de valider les audiences et les parcours, et d’effectuer des tâches en plusieurs étapes dans les applications CX Enterprise.
+- **[Campagnes des collègues](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)** : une application native à l’IA qui regroupe l’information sur la campagne, la création d’audiences, la génération de contenu, la conception de parcours et la relecture dans une seule expérience de conversation. Il utilise des modèles intégrés, des bonnes pratiques et des conseils pour aider les petites équipes agiles à lancer rapidement des campagnes. En savoir plus sur [](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Projets de collègues** (bientôt disponible) : espace de travail unifié pour automatiser les workflows d’orchestration de l’expérience client de bout en bout, ce qui permet aux équipes de coordonner les tâches, les approbations et l’exécution afin d’obtenir des résultats de la stratégie à la diffusion. La documentation des projets sera bientôt disponible.
 
 Les clients éligibles passent progressivement de l’assistant AI et des agents Experience Platform au chat des collègues.
@@ -62,7 +62,7 @@ Les clients éligibles passent progressivement de l’assistant AI et des agents
 
 - Lisez la [Version d’évaluation de Coworker](./agents/trial.md) pour en savoir plus sur l’éligibilité de la version d’évaluation, l’utilisation du crédit AI et comment y accéder.
 - Voir [Aide de Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/home) pour tout le contenu Coworker.
-- Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Pour la réplication d’objet de sandbox à sandbox, voir [Compétences de l’agent d’outils Sandbox](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## Assistant IA
 
@@ -72,7 +72,7 @@ Pour savoir comment naviguer dans l’interface, lisez le guide de l’interface
 
 ## Agents Agent Orchestrator et Experience Platform
 
-[&#128279;](./agents/agent-orchestrator.md) est la couche d’agent qui alimente les agents Experience Platform. Lorsque vous posez une question à l’assistant d’IA, Agent Orchestrator planifie le travail, fait appel aux agents spécialisés nécessaires pour y répondre et renvoie une réponse unifiée, le tout avec une supervision humaine.
+[](./agents/agent-orchestrator.md) est la couche d’agent qui alimente les agents Experience Platform. Lorsque vous posez une question à l’assistant d’IA, Agent Orchestrator planifie le travail, fait appel aux agents spécialisés nécessaires pour y répondre et renvoie une réponse unifiée, le tout avec une supervision humaine.
 
 Les agents Experience Platform suivants sont documentés dans ce guide :
 
@@ -88,21 +88,23 @@ Les agents Experience Platform suivants sont documentés dans ce guide :
 
 Pour obtenir la liste complète des agents, les applications prises en charge par chacun et les conditions d’éligibilité, voir [IA dédiée aux agents dans CX Enterprise](./overview/agentic-ai.md).
 
+<!--
 ## MCP
 
-[La passerelle Adobe CX Coworker](./mcp/overview.md) est le point d’entrée MCP (Unified Model Context Protocol) pour CX Enterprise. Il offre aux clients compatibles avec MCP, tels que [!DNL Claude], [!DNL ChatGPT] et [!DNL Cursor], une connexion unique régie aux outils de produit que votre entreprise est autorisée à utiliser :
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
-- [Outils Experience Platform](./mcp/aep-mcp.md)
-- [Outils Journey Optimizer](./mcp/ajo-mcp.md)
-- [Outils Customer Journey Analytics](./mcp/cja-mcp.md)
-- [Outils Adobe Analytics](./mcp/analytics-mcp.md)
-- Outils [!DNL Workfront], documentés dans le guide du serveur MCP [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Outils [!DNL Target], présentés dans le guide [Guide du serveur MCP Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
-Vous découvrez CX Coworker Gateway ? Voir [Accéder aux outils de la passerelle CX Coworker](./mcp/access.md) et [Installer la passerelle CX Coworker](./mcp/install.md) pour vous connecter. Une fois connecté, utilisez les [outils de contexte de session](./mcp/context-tools.md) pour définir l’organisation active, le sandbox et la vue de données avant d’appeler les outils du produit.
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-Avant d’utiliser ces outils, consultez [Avant de commencer](./overview/overview-ai-cxe.md#before-you-begin) pour en savoir plus sur les exigences d’accès, la confidentialité et la sécurité.
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## Bonnes pratiques
 
