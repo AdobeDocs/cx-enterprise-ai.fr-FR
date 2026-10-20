@@ -427,7 +427,7 @@ Marketo s’intègre à GenStudio for Performance Marketing
 
 +++Détails
 
-* [Ressources d’IA responsables sur le Centre de gestion de la confidentialité](https://www.adobe.com/trust/responsible-ai.html?lang=fr)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [Ressources d’IA responsables sur le Centre de gestion de la confidentialité](https://www.adobe.com/fr/trust/responsible-ai.html?lang=fr)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 +++
 
