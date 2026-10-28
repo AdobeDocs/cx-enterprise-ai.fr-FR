@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 13d4b6e0c41f434786c7e293a4ccbda0c367d7f4
 workflow-type: tm+mt
-source-wordcount: '3412'
-ht-degree: 12%
+source-wordcount: '3411'
+ht-degree: 13%
 ---
 # À propos de l’IA générative dans CX Enterprise
 
@@ -76,7 +76,7 @@ L’IA générative (genAI) dans CX Enterprise vous permet d’automatiser les t
 
 >[!IMPORTANT]
 >
->Avant d’utiliser les fonctionnalités d’IA générative CX Enterprise, vous devez comprendre et suivre les [instructions d’utilisation de l’IA générative Adobe CX Enterprise](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Avant d’utiliser les fonctionnalités d’IA générative CX Enterprise, vous devez comprendre et suivre les [instructions d’utilisation de l’IA générative Adobe CX Enterprise](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 **Qu’est-ce que genAI ?**
 
@@ -135,7 +135,7 @@ Voici un résumé des applications [!DNL CX Enterprise] qui utilisent des foncti
 | | _AJO Prime_ et _Ultimate_ proposent des [génération de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) pour apporter des suggestions proactives de variation de contenu pour le texte et les images. | Oui |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistant IA pour la connaissance des produits. | Non |
 | [[!DNL Campaign]  Managed Cloud Services &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/content/ai-assistant/generative-gs) | L’assistant AI pour l’accélérateur de contenu génère automatiquement du contenu personnalisé, attrayant et efficace en fonction des objectifs marketing sur des canaux tels que les e-mails, les SMS et les notifications push. | Oui |
-| **[!DNL Customer Journey Analytics]** | GenAI est utilisé avec :<ul><li> [Légendes intelligentes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) : pour obtenir des informations sur les visualisations Workspace les plus utilisées.</li><li>[&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/content-analytics/report/report?lang=en#template) : pour affecter automatiquement des métadonnées de ressource.</li></ul> Assistant AI pour :<ul><li>[Connaissance des produits](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agent du support produit](agentic-ai.md) </li><li>[&#128279;](agentic-ai.md)</li></ul> | Non |
+| **[!DNL Customer Journey Analytics]** | GenAI est utilisé avec :<ul><li> [Légendes intelligentes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en) : pour obtenir des informations sur les visualisations Workspace les plus utilisées.</li><li>[&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/content-analytics/report/report?lang=en#template) : pour affecter automatiquement des métadonnées de ressource.</li></ul> Assistant AI pour :<ul><li>[Connaissance des produits](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agent du support produit](agentic-ai.md) </li><li>[&#128279;](agentic-ai.md)</li></ul> | Non |
 | [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home) | [!DNL AI Assistant] de connaissances sur les produits Experience League. Il offre également des informations opérationnelles. | Non |
 | **[!DNL Marketo]** | GenAI est disponible dans Email Designer (avec Firefly), [Dynamic Chat](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) et [Webinaires interactifs](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). <br> Assistant AI pour Marketo Engage [Email Designer](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Oui |
 | [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/introduction/assistant-ai/ai-assistant) | Assistant IA pour la connaissance des produits. | Non |
@@ -315,7 +315,7 @@ Exemple d’entrée :
 
 Customer Journey Analytics permet d’utiliser l’IA générative ou l’assistant d’IA comme suit :
 
-* [Assistant IA](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) pour la connaissance des produits.
+* [Assistant IA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) pour la connaissance des produits.
 * [Légendes intelligentes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) pour fournir des informations essentielles sur les visualisations Workspace les plus utilisées en langage naturel.
 * [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/content-analytics/report/report#template) pour affecter automatiquement chaque métadonnée de ressource.
 
@@ -327,7 +327,7 @@ Découvrez les connaissances sur les produits Experience League. Si vous êtes u
 
 Les utilisateurs expérimentés bénéficient de cas d’utilisation avancés ou apprennent des stratégies pour effectuer des tâches à un rythme rapide. Vous pouvez rapidement comprendre les concepts, résoudre les problèmes ou rechercher des informations.
 
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="En savoir plus sur l’assistant AI dans CJA"}
+[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="En savoir plus sur l’assistant AI dans CJA"}
 
 **Légendes intelligentes**
 
