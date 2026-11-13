@@ -29,7 +29,7 @@ ht-degree: 2%
 ---
 # Tableau de bord de surveillance de l’IA dédiée aux agences
 
-Le tableau de bord de l&#39;IA dédiée aux agences [!UICONTROL Monitoring] donne aux membres du Centre d&#39;excellence (CDE) et aux autres parties prenantes de la gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
+Le tableau de bord de l&#39;IA dédiée aux agences [!UICONTROL Monitoring] donne aux membres du Centre d&#39;excellence (CDE) et aux autres parties prenantes de la gouvernance une visibilité sur l&#39;utilisation et l&#39;adoption de l&#39;IA dédiée aux agences. Affichez les tendances sur 7 ou 30 jours pour voir qui utilise [!DNL AI Assistant] ou d’autres surfaces (telles que [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) pour interagir avec [!DNL Experience Platform Agents] et la valeur qu’elles reçoivent. Ensemble, ces vues vous aident à guider l’adoption des agents à l’aide de données plutôt que d’hypothèses.
 
 >[!IMPORTANT]
 >
@@ -163,7 +163,7 @@ Le tableau de bord des crédits AI montre comment l&#39;utilisation de [!DNL Exp
 
 ## Plus d’aide sur cette rubrique
 
-* [Tableau de bord d’utilisation de la licence](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
+* [Tableau de bord d’utilisation de la licence](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) dans [!DNL Experience Platform]
 * [L’IA dédiée aux agences dans Adobe CX Enterprise](agentic-ai.md)
 * [Tâches de l’agent et consommation du crédit de l’IA](ai-credit-consumption.md)
-* [Tableau de bord d’utilisation de la licence](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Tableau de bord d’utilisation de la licence](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
