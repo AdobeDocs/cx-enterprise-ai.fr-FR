@@ -38,7 +38,7 @@ Pendant une période d’introduction limitée, les entrées de collègues conso
 
 | Fonctionnalité | Description | Applications prises en charge | Crédit IA |
 | --- | --- | --- | --- |
-| [Métadonnées Prenant En Compte La Marque](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Génération de métadonnées personnalisées sur la marque | Adobe Experience Manager [!DNL Assets] | 1 crédit IA (pour 10 générations de métadonnées) |
+| [Métadonnées Prenant En Compte La Marque](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Génération de métadonnées personnalisées sur la marque | Adobe Experience Manager [!DNL Assets] | 1 crédit IA (pour 10 générations de métadonnées) |
 | Digital Rights Management | Extraction et gestion des droits d’utilisation | Adobe Experience Manager [!DNL Assets] | 6 crédits AI (par document traité) |
 
 ### Taux de crédit des agents AEP
