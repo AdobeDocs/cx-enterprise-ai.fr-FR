@@ -3,10 +3,9 @@ audience: user
 user-guide-title: IA dans CX Enterprise
 user-guide-description: Découvrez comment créer, configurer, intégrer et étendre l’IA pour les assistants, les collègues, les agents et les points de contact grâce à une documentation pratique, des conseils d’implémentation et des documents de référence.
 description: En savoir plus sur les outils d’IA de CX Enterprise. Améliorez vos connaissances sur les produits et obtenez des informations opérationnelles à l’aide de l’IA dans CX Enterprise.
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 23%
@@ -43,19 +42,19 @@ ht-degree: 23%
   - [Essai avec un collègue](./agents/trial.md)
   - [Valider vos données](./agents/data-validation.md)
   - Ingénierie des données {#data-engineering}
-    - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
+    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
   - {hide-from-toc}[Passerelle Adobe CX Coworker](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP Beta](./mcp/beta/rtcdp-mcp.md)
   - Prise en main {#mcp-get-started}
     - {hide-from-toc}[Accéder aux outils de la passerelle CX Coworker](./mcp/access.md)
-    - {hide-from-toc}[Installation de la passerelle CX Coworker](./mcp/install.md)
+    - {hide-from-toc}[Installer La Passerelle CX Coworker](./mcp/install.md)
     - {hide-from-toc}[Outils de contexte de session dans la passerelle CX Coworker](./mcp/context-tools.md)
   - Outils de produit {#mcp-product-tools}
-    - {hide-from-toc}[Outils &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Outils &#x200B;](./mcp/analytics-mcp.md)
+    - {hide-from-toc}[Outils Real-Time CDP](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Outils Experience Platform](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Outils Journey Optimizer](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Outils Customer Journey Analytics](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Outils Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Cible](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp)
